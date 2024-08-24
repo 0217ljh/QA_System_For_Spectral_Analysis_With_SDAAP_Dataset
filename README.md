@@ -7,11 +7,11 @@ This repository contains the code for the paper "A Quick, trustworthy spectral d
 
 ## SDAAP Dataset
 
-![SDAAP](Picture\SDAAP.png 'SDAAP')
+![SDAAP](Picture/SDAAP.png 'SDAAP')
 
 ## Framework
 
-![Framework](Picture\Framework.png 'Basic Q&A Framework')
+![Framework](Picture/Framework.png 'Basic Q&A Framework')
 
 ## Repository Structure
 
