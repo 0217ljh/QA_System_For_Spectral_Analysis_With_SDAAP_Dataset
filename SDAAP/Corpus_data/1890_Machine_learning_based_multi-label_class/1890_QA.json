@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used in the study that aimed to identify the compositions of urinary stones in vivo using parameters from spectral CT and machine learning?",
+        "input": "",
+        "Output": "The study used parameters from an energy spectrum analysis (ESA) of the spectral CT."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the study that aimed to identify the compositions of urinary stones in vivo using parameters from spectral CT and machine learning?",
+        "input": "",
+        "Output": "Energy spectrum analysis (ESA) was used in the study to extract parameters from spectral CT for identifying the compositions of urinary stones."
+    },
+    {
+        "instruction": "What metric was chosen in the study that aimed to identify the compositions of urinary stones in vivo using parameters from spectral CT and machine learning, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen in the study was the example-based metric Accexam (Acce_exam). This metric was used for global accuracy evaluation. The study achieved an overall Accexam of 81.2% on the independent testing cohort 1 and 76.4% on the independent testing cohort 2. Therefore, the metric was able to achieve a relatively high accuracy in identifying the compositions of urinary stones in vivo using the proposed methodology."
+    },
+    {
+        "instruction": "What is the multi-criterion weighted fusion approach used in the study that aimed to identify the compositions of urinary stones in vivo using parameters from spectral CT and machine learning?",
+        "input": "",
+        "Output": "The multi-criterion weighted fusion approach used in the study is a method of integrating the classification decisions from the top performance models. It involves building 250 multi-label models and combining their predictions using a weighted fusion approach. The weights assigned to each model's prediction are determined based on its performance, and the fusion process aims to reach a consensus prediction."
+    },
+    {
+        "instruction": "Can the parameters extracted from the ESA on spectral CT be used to accurately identify the compositions of urinary stones in vivo, based on the multi-label classification fusion framework used in the study?",
+        "input": "",
+        "Output": "Yes, the parameters extracted from the energy spectrum analysis (ESA) on spectral CT can be used to accurately identify the compositions of urinary stones in vivo. The study utilized a multi-label classification fusion framework, which achieved high accuracy in identifying the compositions of urinary stones. The overall accuracy (Accexam) was 81.2%, and the label-wise accuracy (Acclabel) ranged from 80.6% to 95.0% for different stone compositions on the independent testing cohort 1. On the independent testing cohort 2, the overall accuracy was 76.4%, and the label-wise accuracy ranged from 74.9% to 98.5%. These results indicate that the parameters from the ESA on spectral CT can effectively characterize the compositions of urinary stones."
+    }
+]

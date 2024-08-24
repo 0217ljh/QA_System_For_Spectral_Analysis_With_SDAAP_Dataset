@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used for automated flooded area mapping?",
+        "input": "",
+        "Output": "For automated flooded area mapping,the researchers used visible remote sensing spectrum."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used for automated flooded area mapping?",
+        "input": "",
+        "Output": "Normalized Difference Water Index (NDWI), Modified NDWI (MNDWI), Normalized Difference Flooding Index (NDFI), Soil-Adjusted Vegetation Index (SAVI), Automated Water Extraction Index (AWEI), AWEISH, and Water Ratio Index (WRI) were used for automated flooded area mapping."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the effectiveness of the proposed approach for automated flooded area mapping, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the effectiveness of the proposed approach for automated flooded area mapping is Overall Accuracy (OA). This metric can show the superiority of the proposed approach in flood mapping performance."
+    },
+    {
+        "instruction": "What is the role of the Generalized Regression Neural Network (GRNN) in the proposed approach for automated flooded area mapping from bi-temporal Sentinel-2 multispectral images?",
+        "input": "",
+        "Output": "The Generalized Regression Neural Network (GRNN) serves as the core classifier in the proposed approach for automated flooded area mapping from bi-temporal Sentinel-2 multispectral images. It is used to generate the initial flood map. The GRNN is trained using samples that are automatically generated through uncertainty analysis on the change magnitude image (CMI). These samples consist of certain flood pixels and non-flood pixels, which are considered reliable classification samples. By using GRNN as the classifier, the proposed approach is able to automate the mapping process and does not require manual supervision."
+    },
+    {
+        "instruction": "How does the proposed approach using bi-temporal Sentinel-2 multispectral images compare to traditional methods in terms of accuracy and effectiveness for automated flooded area mapping?",
+        "input": "",
+        "Output": "The proposed approach using bi-temporal Sentinel-2 multispectral images is shown to be effective and superior compared to traditional methods for automated flooded area mapping. The approach utilizes an unsupervised approach, where spatial-spectral features of the images before and after the flood are extracted to construct the change magnitude image (CMI). Uncertainty analysis is then performed on the CMI to obtain certain flood pixels and non-flood pixels, which are considered reliable classification samples.\n\nThe Generalized Regression Neural Network (GRNN) is used as the core classifier to generate the initial flood map. This differs from other methods based on machine learning, as GRNN is used as the classifier. However, the proposed approach is still considered automated and unsupervised because it uses samples automatically generated in uncertainty analysis for model training.\n\nFurthermore, the proposed approach includes a two-stage post-processing technique to reduce the mapping error of the initial flood map and generate the final flood map. Comparative experiments conducted in the three sub-regions of the Poyang Lake Basin demonstrate the effectiveness and superiority of the proposed approach."
+    }
+]

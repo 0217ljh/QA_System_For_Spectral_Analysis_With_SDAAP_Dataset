@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used for rapidly measuring the integrated absorbance of the engine flow field?",
+        "input": "",
+        "Output": "For rapidly measuring the integrated absorbance of the engine flow field,the research used laser absorption spectroscopy."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used for rapidly measuring the integrated absorbance of the engine flow field?",
+        "input": "",
+        "Output": "The spectral feature processing methods used for rapidly measuring the integrated absorbance of the engine flow field was the absorption spectroscopy wavelength modulation technique (WMS)."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the accuracy of the predicted integrated absorbance and how far can this metric go in the research on the measurement of the integrated absorbance of the engine flow field?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the accuracy of the predicted integrated absorbance for rapidly measuring the integrated absorbance of the engine flow field is the average relative error. In the method validation, the average relative error of the predicted integrated absorbance of the test set was found to be 1.058%."
+    },
+    {
+        "instruction": "How were machine learning algorithms, specifically the extreme learning machine algorithm (ELM), used to model the harmonic signal and the integrated absorbance in the research aiming to rapidly measure the integrated absorbance of the engine flow field?",
+        "input": "",
+        "Output": "In the research, machine learning algorithms, specifically the extreme learning machine algorithm (ELM), were used to model the harmonic signal (S2f/1f) and the integrated absorbance (A) in order to rapidly measure the integrated absorbance of the engine flow field. The ELM algorithm was selected due to its short training time and fast prediction results. \n\nTo train the model, data sets were constructed by simulating different flow field models under light layout. The neural network was used to approximate the true values of S2f/1f and A based on the spectral parameters of the flow field evolving and the fixed information of light distribution. \n\nIn the method validation, 2,000 data sets were simulated, out of which 1,800 sets were used as the training set to train the model. The remaining 200 sets were used as the prediction set. The average relative error of the predicted integrated absorbance of the test set was 1.058%, and the coefficient of determination was 0.999, which confirmed the reliability of the training model. \n\nFurthermore, random noise of 3% and 5% was added to the input S2f/1f data set to test the noise resistance of the ELM algorithm."
+    },
+    {
+        "instruction": "Can the ELM method for predicting the integrated absorbance of the engine flow field be considered superior to traditional methods in terms of accuracy and noise resistance, based on the findings of the related research?",
+        "input": "",
+        "Output": "Yes, based on the findings of the related research, the ELM method for predicting the integrated absorbance of the engine flow field can be considered superior to traditional methods in terms of accuracy and noise resistance. The average relative error of the predicted integrated absorbance using the ELM method was found to be 1.058% with a coefficient of determination of 0.999, indicating high accuracy. Additionally, when random noise of 3% and 5% was added to the input data set, the ELM method showed better noise resistance with average relative errors of 1.89% and 3.2% respectively. This suggests that the ELM method is more reliable and efficient in predicting the integrated absorbance compared to traditional methods such as the WMS method."
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used in the radiomic model for identifying infection stones in patients with urolithiasis?",
+        "input": "",
+        "Output": "Fourier transform infrared spectroscopy was used to determine the stone composition in the radiomic model for identifying infection stones in patients with urolithiasis."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the radiomic model for identifying infection stones in patients with urolithiasis?",
+        "input": "",
+        "Output": "High-dimensional radiomics features were extracted from 3-dimensional volume of interests of the entire lesion for processing in the radiomic model for identifying infection stones in patients with urolithiasis."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of the radiomic model and how far can this metric go in identifying infection stones in the radiomic model for identifying infection stones in patients with urolithiasis?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the radiomic model is the area under the curve (AUC). The AUC is a common metric used in diagnostic tests to assess the model's ability to discriminate between two classes, in this case, infection stones and non-infection stones. The AUC ranges from 0 to 1, with a value of 1 indicating perfect discrimination and a value of 0.5 indicating no discrimination (random chance). \n\nThe AUC values reported for the radiomic model in this study were 0.898 [0.840-0.956] in the training set, 0.832 [0.742-0.923] in the internal validation set, 0.825 [0.783-0.866] in the first external validation set, and 0.812 [0.710-0.914] in the second external validation set. \n\nBased on these AUC values, the radiomic model demonstrated favorable discrimination in all the sets, indicating its ability to accurately identify infection stones. However, it is important to note that the AUC alone does not provide information on the sensitivity and specificity of the model. Further analysis and evaluation of the model's performance in clinical practice would be necessary to determine"
+    },
+    {
+        "instruction": "What machine learning algorithm was used to develop the radiomic model for identifying infection stones in patients with urolithiasis?",
+        "input": "",
+        "Output": "The machine learning algorithm used to develop the radiomic model for identifying infection stones in patients with urolithiasis was the least absolute shrinkage and selection operator (LASSO) algorithm."
+    },
+    {
+        "instruction": "Can the radiomic model developed in the related study using spectral features be considered superior to traditional methods for identifying infection stones in patients with urolithiasis?",
+        "input": "",
+        "Output": "Yes, the radiomic model developed in the related study using spectral features can be considered superior to traditional methods for identifying infection stones in patients with urolithiasis. The study found that the radiomic model achieved favorable discrimination in both the training and validation sets, indicating its accuracy in identifying infection stones. Additionally, the radiomic model was able to incorporate other factors such as urease-producing bacteria in urine and urine pH, further enhancing its ability to identify infection stones. The nomogram developed based on the radiomic model showed favorable calibration and discrimination in multiple validation sets. The decision curve analysis also demonstrated the clinical utility of the radiomic model. Therefore, the radiomic model can be considered a non-invasive tool that improves the identification of urinary infection stones in patients with urolithiasis, potentially optimizing disease management and improving patient prognosis."
+    }
+]

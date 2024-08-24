@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What spectrum can be used to distinguish between spelt and wheat?",
+        "input": "",
+        "Output": "To distinguish between spelt and wheat,the researchers used liquid chromatography coupled high-resolution mass spectrometry (LC-HRMS)."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to distinguish between spelt and wheat?",
+        "input": "",
+        "Output": "Marker peptide profiles were used to distinguish between spelt and wheat cultivars."
+    },
+    {
+        "instruction": "What metric was chosen to distinguish between spelt and wheat and how far can this metric go?",
+        "input": "",
+        "Output": "The marker peptide profiles were chosen as the metric to distinguish between spelt and wheat. This metric can successfully differentiate between the two types of grains, as indicated by the correct classification of spelt and wheat cultivars in the study."
+    },
+    {
+        "instruction": "How were the convolutional neural network (CNN) models trained and validated in the research on developing a non-targeted method (NTM) for distinguishing between spelt and wheat?",
+        "input": "",
+        "Output": "The convolutional neural network (CNN) models in the research were trained and validated using a nested cross validation (NCV) approach. The training process involved using a calibration set that consisted of duplicate measurements of eleven cultivars of wheat and spelt each. The CNN models were appropriately trained on this calibration set to learn patterns and representations that would best discriminate between spelt and wheat samples.\n\nTo validate the trained models, an external validation set was used. This validation set included artificially mixed spectra, samples of processed goods such as spelt bread and flour, as well as eleven untypical spelt and six old wheat cultivars. These cultivars were not part of the model building process.\n\nTo quantitatively evaluate and compare the classification decisions made by the CNN models, a metric called the D score was introduced. The results of the validation demonstrated that the non-targeted method (NTM) based on the nested cross validation (NCV) and CNNs trained with appropriately chosen spectral data could be reliable enough to be applied to a wider range of cultivars and their mixes."
+    },
+    {
+        "instruction": "Can the non-targeted method (NTM) developed in this research using liquid chromatography coupled high-resolution mass spectrometry (LC-HRMS) and convolutional neural network (CNN) models be applied to other cultivars and their mixes for food fraud detection and authenticity testing?",
+        "input": "",
+        "Output": "Yes, the non-targeted method (NTM) developed in this research using liquid chromatography coupled high-resolution mass spectrometry (LC-HRMS) and convolutional neural network (CNN) models can be applied to other cultivars and their mixes for food fraud detection and authenticity testing. The results of the study demonstrate that the CNNs trained using appropriately chosen spectral data can automatically learn patterns and representations to effectively discriminate between spelt and wheat samples. This suggests that the method can be reliable enough to be used on a wider range of cultivars and their mixes, making it a valuable tool for detecting food fraud and ensuring the authenticity of food products."
+    }
+]

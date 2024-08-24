@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the study to predict the fat content in salmon fillets?",
+        "input": "",
+        "Output": "The related study used nir spectrum to predict the fat content in salmon fillets."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to predict the fat content in salmon fillets?",
+        "input": "",
+        "Output": "The spectral feature processing methods used to predict the fat content in salmon fillets were hyperspectral imaging (HSI) and residual attention convolutional neural network (RACNN)."
+    },
+    {
+        "instruction": "What metric was chosen to predict the fat content in salmon fillets, and how well does this metric perform?",
+        "input": "",
+        "Output": "The metric chosen to predict the fat content in salmon fillets is the coefficient of determination of prediction (R2p), root mean square error of prediction (RMSEP), and residual predictive deviation (RPD). \n\nThe R2p value for the optimal PLSR model is 0.8781, indicating that 87.81% of the variation in the fat content of salmon fillets can be explained by this model. \n\nThe LSSVM model achieved an R2p value of 0.8952, indicating that it can explain 89.52% of the variation in the fat content.\n\nThe RACNN model, based on the full spectrum, achieved the highest prediction accuracy with an R2p value of 0.9033. This means that the RACNN model can explain 90.33% of the variation in the fat content of salmon fillets.\n\nIn terms of RMSEP, the RACNN model achieved a value of 1.5143, indicating that, on average, the predicted fat content deviates from the actual fat content by 1.5143 units."
+    },
+    {
+        "instruction": "What other machine learning models were compared to the proposed RACNN model in the study to predict the fat content in salmon fillets using NIR-HSI?",
+        "input": "",
+        "Output": "In the study, the other machine learning models that were compared to the proposed RACNN model to predict the fat content in salmon fillets using NIR-HSI were Partial Least Squares Regression (PLSR) and Least Squares Support Vector Machine (LSSVM)."
+    },
+    {
+        "instruction": "Can the RACNN model based on the full spectrum be used as a superior method compared to traditional methods for accurately predicting the fat content in salmon fillets using near-infrared hyperspectral imaging (NIR-HSI)?",
+        "input": "",
+        "Output": "Yes, the RACNN model based on the full spectrum can be considered a superior method compared to traditional methods for accurately predicting the fat content in salmon fillets using near-infrared hyperspectral imaging (NIR-HSI). The experimental results showed that the RACNN model achieved the highest prediction accuracies with a coefficient of determination of prediction (R2p) value of 0.9033, root mean square error of prediction (RMSEP) of 1.5143, and residual predictive deviation (RPD) of 3.2707. These results indicate that the RACNN model outperformed the traditional methods such as partial least squares regression (PLSR) and least squares support vector machine (LSSVM), which obtained R2p values of 0.8781 and 0.8952, respectively. Additionally, the RACNN model does not require any additional processing on raw spectra, making it a rapid and non-destructive method for predicting the fat content in salmon fillets."
+    }
+]

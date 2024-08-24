@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used in measuring the frontotemporal activity in patients with first-episode schizophrenia (FES) and healthy controls (HCs)?",
+        "input": "",
+        "Output": "Near infrared spectroscopy (NIRS) was used to measure the frontotemporal activity in patients with first-episode schizophrenia (FES) and healthy controls (HCs)."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in measuring the frontotemporal activity in patients with first-episode schizophrenia (FES) and healthy controls (HCs)?",
+        "input": "",
+        "Output": "Support vector machine (SVM) and deep neural network (DNN) classifier were used to process the spectral features in measuring the frontotemporal activity in patients with first-episode schizophrenia (FES) and healthy controls (HCs)."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of the SVM and DNN classifiers in classifying FES patients and HCs, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the SVM and DNN classifiers in classifying FES patients and HCs is accuracy. The accuracy measures the percentage of correctly classified instances out of the total instances. \n\nIn the related study, the SVM classifier achieved an accuracy of 68.6%, while the DNN classifier achieved a higher accuracy of 79.7%. "
+    },
+    {
+        "instruction": "How were the integral and centroid values of brain cortical activity in the bilateral frontotemporal regions during the verbal fluency tests (VFTs) used as features in the support vector machine (SVM) and deep neural network (DNN) classifier for differentiating between FES patients and HCs?",
+        "input": "",
+        "Output": "The integral and centroid values of brain cortical activity in the bilateral frontotemporal regions during the verbal fluency tests (VFTs) were used as features in the support vector machine (SVM) and deep neural network (DNN) classifier for differentiating between FES patients and healthy controls (HCs). These values were measured using near infrared spectroscopy (NIRS) while the participants performed the VFTs. The SVM and DNN classifiers utilized these features to analyze and classify the brain cortical activity patterns of the FES patients and HCs."
+    },
+    {
+        "instruction": "Can near infrared spectroscopy (NIRS) be considered a superior method compared to traditional methods for measuring frontotemporal activity in patients with first-episode schizophrenia (FES) and healthy controls (HCs)?",
+        "input": "",
+        "Output": "Yes. Based on the information provided in the related work, near infrared spectroscopy (NIRS) appears to be a promising method for measuring frontotemporal activity in patients with first-episode schizophrenia (FES) and healthy controls (HCs). The related study found that reduced brain cortical activity over the frontotemporal regions was observed in FES patients compared to HCs during verbal fluency tests (VFTs). \n\nIn terms of classification accuracy, the study compared the performance of a support vector machine (SVM) and a deep neural network (DNN) classifier. The DNN classifier achieved a higher accuracy (79.7%) compared to the SVM classifier (68.6%) in differentiating between FES patients and HCs based on the NIRS signals during the VFTs. This suggests that NIRS, when combined with DNN, may be a superior method for distinguishing FES patients from HCs compared to traditional methods. "
+    }
+]

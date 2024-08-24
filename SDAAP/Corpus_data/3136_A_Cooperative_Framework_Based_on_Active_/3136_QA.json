@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "In the classification of remote-sensing sea ice images, what kinds of spectrum were used?",
+        "input": "",
+        "Output": "The related study used visible remote sensing spectrum in the classification of remote-sensing sea ice images."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the classification of remote-sensing sea ice images?",
+        "input": "",
+        "Output": "The spectral feature processing methods used in the classification of remote-sensing sea ice images were normalization of pixel values to [0, 1] and reduction of bands based on signal-to-noise ratio and water absorption."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the classification accuracy in the classification of remote-sensing sea ice images, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the classification accuracy in the classification of remote-sensing sea ice images is the F1 score. The F1 score can range from 0 to 1, with 1 indicating perfect precision and recall."
+    },
+    {
+        "instruction": "What is the purpose of utilizing the cooperative framework that integrates active learning (AL) and semi-supervised learning (SSL) techniques in the classification of sea ice images?",
+        "input": "",
+        "Output": "The purpose of utilizing the cooperative framework that integrates active learning (AL) and semi-supervised learning (SSL) techniques in the classification of sea ice images is to effectively utilize the massive number of unlabeled samples and improve the accuracy of the classification. \n\nAL is used to acquire the most valuable samples for labeling by integrating uncertainty and diversity criteria. This helps in selecting the samples that are most informative and representative of the different classes of sea ice.\n\nSSL is employed to make full use of the abundant information contained in the unlabeled samples. It selects the unlabeled samples with the most information and little redundancy using a sampling strategy. The transductive support vector machine (TSVM) is used as the classification model in SSL.\n\nThe cooperation between AL and SSL ensures the accuracy of the pseudo-labeled samples obtained through the framework. A label consistency verification procedure is conducted to further ensure the quality of the pseudo-labeled samples. This cooperative approach improves the classification accuracy of sea ice images by effectively utilizing both labeled and unlabeled samples."
+    },
+    {
+        "instruction": "Can the proposed cooperative framework that combines active learning (AL) and semi-supervised learning (SSL) techniques be applied to other types of image classification, beyond sea ice images?",
+        "input": "",
+        "Output": "Yes, the proposed cooperative framework that combines active learning (AL) and semi-supervised learning (SSL) techniques can be applied to other types of image classification beyond sea ice images. The framework is designed to utilize the massive number of unlabeled samples and make full use of the abundant information contained in them. By acquiring valuable samples using AL and leveraging SSL to utilize unlabeled samples, the framework can effectively classify images in various domains. The label consistency verification procedure further ensures the quality of the pseudo-labeled samples obtained through the cooperation between AL and SSL. Therefore, this cooperative framework can be adapted and applied to other types of image classification tasks."
+    }
+]

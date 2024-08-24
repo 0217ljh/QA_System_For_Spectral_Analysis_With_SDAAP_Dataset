@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used for near real-time urban flood mapping ?",
+        "input": "",
+        "Output": "The related study used remote sensing spectrum for near real-time urban flood mapping ."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used for near real-time urban flood mapping ?",
+        "input": "",
+        "Output": "The spectral feature processing method used for near real-time urban flood mapping was multispectral surface reflectance imagery."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance for near real-time urban flood mapping , and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the PSNet model is a combination of precision, recall, F1 score, and overall accuracy. These metrics provide a comprehensive assessment of the model's ability to accurately identify flooded areas in urban environments. The related study states that the PSNet model consistently achieves high precision, recall, F1 score, and overall accuracy compared to other baseline classification models."
+    },
+    {
+        "instruction": "What were the limitations of traditional flood mapping methods that the researchers aimed for near real-time urban flood mapping ?",
+        "input": "",
+        "Output": "The limitations of traditional flood mapping methods that the researchers aimed for near real-time urban flood mapping  were:\n\n1) Nonhomogeneous background: Traditional flood mapping methods struggled to model the spatial relationship between sample pixels in the flooding area due to the presence of different types of objects such as buildings, moving vehicles, and road networks in high-resolution satellite imagery over urban areas.\n\n2) Handcrafted features: Conventional flood mapping models required handcrafted features associated with the data as input, which may not fully utilize the underlying patterns present in the large amount of available data.\n\n3) Inconsistent illumination conditions: High-resolution optical imagery often had varied pixel digital numbers (DNs) for the same ground objects due to highly inconsistent illumination conditions during a flood. This inconsistency posed challenges for traditional flood mapping methods in terms of generalization based on testing data."
+    },
+    {
+        "instruction": "Can the developed PSNet model using satellite multispectral surface reflectance imagery be applied to other types of natural hazards such as wildfires and earthquakes for near real-time precision damage mapping?",
+        "input": "",
+        "Output": "Yes, according to the related study, the study suggests that the developed PSNet model using satellite multispectral surface reflectance imagery can be applied to other types of natural hazards, such as wildfires and earthquakes, for near real-time precision damage mapping. The researchers  states that the study paves the way to fuse bi-temporal remote sensing images for near real-time precision damage mapping associated with other types of natural hazards."
+    }
+]

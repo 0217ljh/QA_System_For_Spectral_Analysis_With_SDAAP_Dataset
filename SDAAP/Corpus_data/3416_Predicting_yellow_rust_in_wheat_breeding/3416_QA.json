@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to predict yellow rust scores in a large winter wheat field trial?",
+        "input": "",
+        "Output": "The related study used visible spectral to predict yellow rust scores in a large winter wheat field trial."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to predict yellow rust scores in a large winter wheat field trial?",
+        "input": "",
+        "Output": "Ten widely-used spectral vegetation indices (SVI) were investigated to discriminate between rust-infected and healthy wheat leaves. Additionally, novel three-band SVIs based on the Anthocyanin Reflectance Index (ARI) and Photochemical Reflectance Index (PRI) were developed and compared against previously published SVIs. Prediction of yellow rust under field conditions was achieved using a hyperspectral imaging sensor on an unmanned aerial vehicle (UAV) and a ground-based phenotyping platform."
+    },
+    {
+        "instruction": "What metric was chosen to predict yellow rust scores in a large winter wheat field trial and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to measure the prediction accuracy in the related study is the correlation coefficient, specifically denoted as r(s). The correlation coefficient measures the strength and direction of the linear relationship between the predicted yellow rust scores and the observed scores. The related study reports that the prediction accuracy ranged from r(s) = 0.50 to 0.61, indicating a moderate to moderately strong correlation between the predicted and observed scores."
+    },
+    {
+        "instruction": "How were machine learning models utilized in the study on using high-throughput plant phenotyping (HTPP) data obtained through proximal phenotyping to predict yellow rust scores in a large winter wheat field trial?",
+        "input": "",
+        "Output": "In the study, machine learning models, specifically Random Forest (RF) modeling, were utilized to predict yellow rust scores in a large winter wheat field trial using high-throughput plant phenotyping (HTPP) data obtained through proximal phenotyping. The researchers used 40-42 spectral vegetation indices (SVIs) derived from spectroradiometer data as input features for the RF models. The SVIs were selected through RF-based recursive feature elimination (RFE). The predicted scores in the resulting models had a prediction accuracy of r(s) = 0.50-0.61, indicating a moderate correlation between the predicted and observed scores. The important spectral features for prediction included the Plant Senescence Reflectance Index (PSRI), Photochemical Reflectance Index (PRI), Red-Green Pigment Index (RGI), and Greenness Index (GI). Overall, the study demonstrated that combining SVI data from spectral sensors in RF models has the potential to be deployed in wheat breeding trials for scoring yellow rust."
+    },
+    {
+        "instruction": "Can the proposed HTPP method of combining SVI data from spectral sensors in RF models be used to predict yellow rust scores in wheat breeding trials?",
+        "input": "",
+        "Output": "Yes, the proposed HTPP method of combining SVI data from spectral sensors in RF models can be used to predict yellow rust scores in wheat breeding trials. The study found that 40-42 spectral vegetation indices (SVIs) derived from spectroradiometer data were sufficient to predict yellow rust scores using Random Forest (RF) modeling. The SVIs were selected through RF-based recursive feature elimination (RFE), and the resulting models had a prediction accuracy of r(s) = 0.50-0.61 when measuring the correlation between predicted and observed scores. This suggests that the HTPP method has the potential to be deployed in wheat breeding trials to score yellow rust."
+    }
+]

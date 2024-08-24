@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectral feature processing methods were used to estimate aboveground dry matter yield, nitrogen concentration, and nitrogen uptake of temperate grasslands?",
+        "input": "",
+        "Output": "The spectral feature processing methods used to estimate aboveground dry matter yield, nitrogen concentration, and nitrogen uptake of temperate grasslands included combining UAV-based sward height metrics and vegetation indices, as well as utilizing machine learning models such as PLS, RF, and SVM."
+    },
+    {
+        "instruction": "What metric was chosen to estimate aboveground dry matter yield, nitrogen concentration, and nitrogen uptake of temperate grasslands quantify the prediction accuracy?",
+        "input": "",
+        "Output": "Root mean square error (RMSE) was chosen to estimate aboveground dry matter yield, nitrogen concentration, and nitrogen uptake of temperate grasslands to quantify the prediction accuracy."
+    },
+    {
+        "instruction": "What kinds of spectrum can be used to estimate aboveground dry matter yield, nitrogen concentration, and nitrogen uptake of temperate grasslands?",
+        "input": "",
+        "Output": "The related study used remote sensing spectrum to estimate aboveground dry matter yield, nitrogen concentration, and nitrogen uptake of temperate grasslands."
+    },
+    {
+        "instruction": "What were the results of comparing the linear regression models with the three machine learning algorithms in terms of prediction accuracy for aboveground dry matter yield, nitrogen concentration, and nitrogen uptake?",
+        "input": "",
+        "Output": "The results of comparing the linear regression models with the three machine learning algorithms (random forest, support vector machine, and partial least squares regression) in terms of prediction accuracy for aboveground dry matter yield (DMY), nitrogen concentration (N%), and nitrogen uptake (Nup) showed that the prediction accuracy significantly improved when all structural and spectral features were combined, regardless of the algorithm used. The partial least squares (PLS) models were outperformed by their respective random forest (RF) and support vector machine (SVM) counterparts. The median root mean square error of cross-validation (RMSECV) for predicting DMY was 197 kg ha(-1), for N% it was 0.32%, and for Nup it was 7 kg ha(-1). Additionally, computationally less expensive models that incorporated only the single multispectral camera bands and sward height metrics, or selected features based on variable importance, achieved comparable results to the overall best models."
+    },
+    {
+        "instruction": "How did the combination of structural and spectral features improve the prediction accuracy for aboveground dry matter yield, nitrogen concentration, and nitrogen uptake in the related study?",
+        "input": "",
+        "Output": "The combination of structural and spectral features improved the prediction accuracy for aboveground dry matter yield, nitrogen concentration, and nitrogen uptake in the related study. Regardless of the algorithm used (random forest, support vector machine, or partial least squares regression), the results showed a significant improvement in prediction accuracy when both structural features (such as sward height) and spectral features (such as vegetation indices and single bands) were combined. The models that incorporated both types of features outperformed the models that only used one type of feature. This suggests that the combination of structural and spectral information provided a more comprehensive and accurate representation of the biomass and nitrogen status of the grasslands."
+    }
+]

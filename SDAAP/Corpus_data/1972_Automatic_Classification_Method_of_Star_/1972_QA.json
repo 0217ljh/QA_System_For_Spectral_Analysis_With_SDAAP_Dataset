@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the related research to develop an automatic star spectrum classification method that can handle large-scale spectral surveys and address the imbalance in the data set?",
+        "input": "",
+        "Output": "In the related research, the visible spetrum was used to develop an automatic star spectrum classification method that can handle large-scale spectral surveys and address the imbalance in the data set."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the related research to develop an automatic star spectrum classification method that can handle large-scale spectral surveys and address the imbalance in the data set?",
+        "input": "",
+        "Output": "In the related research, the spectral feature processing methods used include tailoring and denoising of each spectrum, uniform sampling and normalization, and applying dropout between the full connection layer and the pooling layer to avoid overfitting."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the classification accuracy and how far can this metric go in the related research to develop an automatic star spectrum classification method that can handle large-scale spectral surveys and address the imbalance in the data set?",
+        "input": "",
+        "Output": "The specific metric chosen to develop an automatic star spectrum classification method that can handle large-scale spectral surveys and address the imbalance in the data set was classification accuracy. The best classification accuracy achieved in the related research was 97.92%."
+    },
+    {
+        "instruction": "How were the spectra tailored, denoised, and normalized before being used in the training of the convolutional neural network (CNN) and generative adversarial network (GAN) in the related research to develop an automatic star spectrum classification method that can handle large-scale spectral surveys and address the imbalance in the data set?",
+        "input": "",
+        "Output": "In the research, the spectra were tailored and denoised before being used in the training of the CNN and GAN. The wavelength range of the spectrum was adjusted to be between 370.00 nm and 867.16 nm. This tailoring process helps to focus on the relevant spectral information within this specific range.\n\nAfter tailoring, the spectra were denoised to remove any unwanted noise. The specific denoising technique used in this research is not mentioned in the given text.\n\nFollowing denoising, the spectra were normalized. Normalization is a process that scales the data to a standard range, typically between 0 and 1, to ensure consistency and comparability. The normalization step ensures that the spectral data is in a suitable format for further analysis and training of the CNN and GAN models."
+    },
+    {
+        "instruction": "How does the developed automatic star spectrum classification method compare to traditional methods in terms of handling large-scale spectral surveys and addressing data set imbalance?",
+        "input": "",
+        "Output": "The developed automatic star spectrum classification method, based on a semi-supervised mode of one-dimensional convolutional neural network (CNN) and one-dimensional generative adversarial network (GAN), offers several advantages compared to traditional methods in handling large-scale spectral surveys and addressing data set imbalance.\n\n1. Handling large-scale spectral surveys: With the implementation of more and more large-scale spectral surveys, a significant amount of star spectral data is generated. The traditional spectral classification and processing methods face challenges in dealing with such a large amount of data. The automatic star spectrum classification method utilizes one-dimensional CNN to classify the spectra of six types of stars (excluding O-type) with an average classification accuracy of 98.08%. This approach enables efficient and accurate classification of a large number of star spectra.\n\n2. Addressing data set imbalance: The LAMOST DR7 (v2.0 version) spectral data set released in 2021 contains millions of star spectra, but the number of O-type spectra is only 129, resulting in a serious data set imbalance. Traditional machine learning classification methods struggle to achieve good results with such imbalanced data sets. The developed method employs a one-dimensional GAN network to address this issue."
+    }
+]

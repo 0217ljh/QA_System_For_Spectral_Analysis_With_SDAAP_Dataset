@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to predict soil properties in digital soil mapping?",
+        "input": "",
+        "Output": "The related study used remote sensing spectrum to predict soil properties in digital soil mapping."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to predict soil properties in digital soil mapping?",
+        "input": "",
+        "Output": "Mono-temporal, bi-temporal, multi-temporal, and hyper-temporal spectral feature processing methods were used to predict soil properties in digital soil mapping."
+    },
+    {
+        "instruction": "What metric was chosen to predict soil properties in digital soil mapping, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the effectiveness of the hyper-temporal RS approach in predicting soil properties was classification accuracy. In the case study conducted in southeastern Arizona, USA, the SVM classification using hyper-temporal RS imagery achieved classification accuracies of 67% for soil texture and 62% for coarse fragment classes. This metric measures the percentage of correctly classified pixels or areas based on the predicted soil properties. However, the question of how far this metric can go is not addressed in the provided related study."
+    },
+    {
+        "instruction": "What machine learning model was used to predict surface soil texture and coarse fragment classes in the case study using hyper-temporal RS imagery?",
+        "input": "",
+        "Output": "In the case study, the machine learning model used to predict surface soil texture and coarse fragment classes using hyper-temporal RS imagery was the support vector machine (SVM) classification."
+    },
+    {
+        "instruction": "How does the use of hyper-temporal RS imagery compare to traditional RS approaches in predicting soil properties?",
+        "input": "",
+        "Output": "The use of hyper-temporal RS imagery is more effective in predicting soil properties compared to traditional RS approaches. In a case study conducted in a semiarid landscape of southeastern Arizona, USA, SVM classification using hyper-temporal RS imagery resulted in higher classification accuracies for predicting both soil texture and coarse fragment classes. The accuracies were reported to be 67% and 62% respectively. This indicates that the hyper-temporal RS approach, which involves analyzing a 28-year time series of Landsat TM derived normalized difference vegetation index (NDVI), outperformed mono-, bi-, and multi-temporal RS approaches. The study also found that short-term transitions between wet and dry periods were the main drivers of vegetation spectral variability, which corresponded to the timing of significant RS scenes within the SVM models. This confirms the importance of spectral variability in predicting soil properties and highlights how hyper-temporal RS can improve current methods of soil mapping by capturing subtle changes in RS spectra related to variations in soil properties."
+    }
+]

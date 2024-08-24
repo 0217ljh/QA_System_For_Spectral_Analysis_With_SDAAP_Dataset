@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the study on finding an objective, simple, and non-invasive diagnosis method for ADHD in children?",
+        "input": "",
+        "Output": "The study used functional near-infrared spectroscopy (fNIRS) signals to identify ADHD children."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the study on finding an objective, simple, and non-invasive diagnosis method for ADHD in children?",
+        "input": "",
+        "Output": "DCA was used to find a joint subspace to obtain a fusion feature set in the study on finding an objective, simple, and non-invasive diagnosis method for ADHD in children."
+    },
+    {
+        "instruction": "What metric was chosen and how far can this metric go in the study on finding an objective, simple, and non-invasive diagnosis method for ADHD in children?",
+        "input": "",
+        "Output": "The metric chosen was the hemodynamic response of oxygenated hemoglobin (HbO), deoxygenated hemoglobin (HbR), and total hemoglobin (HbT) for the 0-back and 1-back conditions. This metric can go as far as training a support vector machine (SVM) classifier to identify ADHD children from others and deriving a discriminative power map to show the contribution of each brain region in identifying ADHD children."
+    },
+    {
+        "instruction": "How did the researchers use the DCA method and SVM model to identify ADHD children in the study on finding an objective, simple, and non-invasive diagnosis method for ADHD in children?",
+        "input": "",
+        "Output": "In the study, the researchers used a discriminant correlation analysis (DCA) method combined with a support vector machine (SVM) model to identify ADHD children. They recorded functional near-infrared spectroscopy signals from both ADHD children and typically developing children during an n-back task. \n\nFirst, the DCA method was applied to fuse the features extracted from the 1-back condition and the 0-back condition, resulting in a joint feature. This joint feature represented a combination of relevant information from both conditions.\n\nNext, the SVM model was trained using the joint feature to classify the children as either ADHD or typically developing. The SVM model is a machine learning algorithm that can classify data into different categories based on the features provided.\n\nThe results of the study showed that the DCA-SVM method achieved a classification accuracy of 88.0% in identifying ADHD children. This suggests that the combination of the DCA method and SVM model has potential as a promising clinical diagnosis method for ADHD in children."
+    },
+    {
+        "instruction": "Can the DCA-SVM method using a discriminant correlation analysis (DCA) based multi-view feature fusion method combined with support vector machine (SVM) be considered as a superior alternative to traditional methods for identifying ADHD children?",
+        "input": "",
+        "Output": "Yes,based on the information provided in the text, the DCA-SVM method using a discriminant correlation analysis (DCA) based multi-view feature fusion method combined with support vector machine (SVM) shows promise as a clinical diagnosis method for identifying ADHD children. The method achieved a classification accuracy of 88.0% in identifying ADHD children. Additionally, specific brain regions, such as the left dorsolateral prefrontal cortex, left medial prefrontal cortex, posterior superior frontal cortex, and bilateral temporal cortex, were found to be more discriminative in different task conditions. However, without comparing the DCA-SVM method to traditional methods directly, it is not possible to determine if it is a superior alternative. Further research and comparison studies would be needed to make such a determination."
+    }
+]

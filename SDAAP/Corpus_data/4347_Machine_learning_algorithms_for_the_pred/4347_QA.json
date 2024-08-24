@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used to predict the likelihood of conception success to a given insemination?",
+        "input": "",
+        "Output": "The related study used mir spectrum to predict the likelihood of conception success to a given insemination."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to predict the likelihood of conception success to a given insemination?",
+        "input": "",
+        "Output": "Feature selection and feature translation methods were used to process spectral features in order to predict the likelihood of conception success to a given insemination."
+    },
+    {
+        "instruction": "What metric was chosen to predict the likelihood of conception success to a given insemination and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the prediction model was the area under curve (AUC) for the receiver operating curve. This metric measures the ability of the model to distinguish between positive and negative outcomes. The AUC values varied from 0.487 to 0.675 across different algorithms and scenarios investigated. \n\nAs for how far this metric can go, it indicates the overall performance of the prediction model in terms of its ability to correctly classify instances. A higher AUC value suggests a better predictive performance, while a lower value indicates a weaker performance."
+    },
+    {
+        "instruction": "How were the machine learning algorithms used in the study to predict the likelihood of conception success to a given insemination?",
+        "input": "",
+        "Output": "The machine learning algorithms were used in the study to develop the prediction models for conception success by utilizing a calibration data set and a validation data set. The calibration data set contained insemination records from either all 7 farms for the years 2009 to 2011 or records from 5 farms for all 6 years. The validation data set included data from the remaining farms for the years 2012 to 2014 or information from the other 2 farms for all 6 years.\n\nThe prediction models were developed using 8 different machine learning algorithms. These algorithms were evaluated and compared using standard 10-times 10-fold cross-validation in the calibration data set. This process involves dividing the data into 10 subsets, training the model on 9 subsets, and testing it on the remaining subset. This is repeated 10 times, with each subset serving as the test set once. The performance of the algorithms was assessed based on the area under the curve (AUC) for the receiver operating curve.\n\nAfter developing the models in the calibration data set, their performance was evaluated in the validation data set. The AUC values were compared across different algorithms and scenarios investigated. Logistic regression was found to be the best-performing algorithm in general.\n\nOverall, the machine learning algorithms were"
+    },
+    {
+        "instruction": "Can the milk mid-infrared (MIR) spectral data be considered superior to traditional methods in predicting the likelihood of conception success in the related study?",
+        "input": "",
+        "Output": "No. Based on the information provided in the related study, the milk mid-infrared (MIR) spectral data did not improve the accuracy of prediction in the study. The inclusion of milk MIR in the prediction model generally did not improve the accuracy of prediction. Therefore, it can be concluded that traditional methods were not considered superior to the milk MIR spectral data in predicting the likelihood of conception success in this study."
+    }
+]

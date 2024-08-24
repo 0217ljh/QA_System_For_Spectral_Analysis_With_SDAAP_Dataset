@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used for detecting pedestrians in challenging real-world environments?",
+        "input": "",
+        "Output": "For detecting pedestrians in challenging real-world environments,the researchers used long infrared spectrum."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used for detecting pedestrians in challenging real-world environments?",
+        "input": "",
+        "Output": "Channel weighting fusion (CWF) and accumulated probability fusion (APF) layers were used for processing spectral features in challenging real-world environments for detecting pedestrians."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of the proposed method for detecting pedestrians in challenging real-world environments and how far can this metric go?",
+        "input": "",
+        "Output": "The miss rate was chosen as the metric to evaluate the performance of the proposed method for detecting pedestrians in challenging real-world environments. The miss rate achieved was 26.29% at all-day detection with all scales, which outperformed the best available competitor's miss rate of 31.99%."
+    },
+    {
+        "instruction": "How does the proposed sensor fusion framework utilize the convolutional neural network (CNN) architecture to detect pedestrians in challenging real-world environments using multi-spectral sensors?",
+        "input": "",
+        "Output": "The proposed sensor fusion framework utilizes a convolutional neural network (CNN) architecture to detect pedestrians in challenging real-world environments using multi-spectral sensors by designing a three-branch detection model. Each branch of the CNN takes different modalities as inputs, such as color and thermal sensors. Unlike existing methods, the framework considers all detection probabilities from each modality in a unified CNN framework and selectively uses them through a channel weighting fusion (CWF) layer to maximize the detection performance. Additionally, an accumulated probability fusion (APF) layer is introduced to combine probabilities from different modalities at the proposal-level. By formulating these sub-networks into a unified network, the entire network can be trained in an end-to-end manner. This approach allows for improved pedestrian detection in challenging real-world environments by leveraging the complementary information provided by multi-spectral sensors."
+    },
+    {
+        "instruction": "How does the proposed sensor fusion framework compare to traditional methods in terms of detecting pedestrians in challenging real-world environments using multi-spectral sensors?",
+        "input": "",
+        "Output": "The proposed sensor fusion framework outperforms traditional methods in terms of detecting pedestrians in challenging real-world environments using multi-spectral sensors. The framework utilizes a convolutional neural network (CNN) architecture with three-branch detection models that take different modalities as inputs. Unlike existing methods, the framework considers all detection probabilities from each modality in a unified CNN framework and selectively uses them through a channel weighting fusion (CWF) layer to maximize detection performance. Additionally, an accumulated probability fusion (APF) layer combines probabilities from different modalities at the proposal-level. By formulating these sub-networks into a unified network, the whole network can be trained in an end-to-end manner. Extensive evaluation shows that the proposed method outperforms state-of-the-art methods on challenging multi-spectral pedestrian datasets such as KAIST, CVC-14, and DIML."
+    }
+]

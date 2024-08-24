@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the study for calorific value determination of coal?",
+        "input": "",
+        "Output": "The study used broadband LIBS spectra for calorific value determination of coal."
+    },
+    {
+        "instruction": "What spectral feature processing methods were employed to determinate the calorific value of coal?",
+        "input": "",
+        "Output": "Wavelet transform and mean impact value were employed as spectral feature processing methods to determine the calorific value of coal."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the model performance in the study for calorific value determination of coal and how much improvement was achieved using this metric?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the model performance in the study was the root mean square error of prediction (RMSEP). Using the hybrid variable selection method of WT-MIV-KELM, the RMSEP was reduced from 1.2584 MJ/kg to 0.6151 MJ/kg. This indicates a significant improvement in the model's performance."
+    },
+    {
+        "instruction": "How were the wavelet transform (WT) and mean impact value (MIV) used in the hybrid variable selection method for extracting useful information from LIBS spectra in the related study on calorific value determination of coal?",
+        "input": "",
+        "Output": "In the related study on calorific value determination of coal, the hybrid variable selection method based on wavelet transform (WT) and mean impact value (MIV) was used to extract useful information from LIBS spectra. \n\nFirstly, the WT method was employed to filter out the useless or irrelevant information from the broadband LIBS spectra. This was done by applying the WT to the spectra and obtaining 881 wavelet coefficients through global thresholding. \n\nThen, the MIV method was used to further eliminate wavelet coefficients that had less impact on the determination of calorific value. This was done by calculating the mean impact value of each wavelet coefficient and removing those with lower impact. \n\nFinally, the WT-MIV method resulted in obtaining 142 wavelet coefficients that were considered as the most relevant and useful variables for the determination of calorific value. These retained wavelet coefficients were then used directly as input variables to establish a nonlinear KELM model for the determination of calorific value of coal."
+    },
+    {
+        "instruction": "Can the proposed hybrid variable selection method based on wavelet transform (WT) and mean impact value (MIV) be used to extract useful information from laser-induced breakdown spectroscopy (LIBS) spectra for calorific value determination of coal?",
+        "input": "",
+        "Output": "Yes. The proposed hybrid variable selection method based on wavelet transform (WT) and mean impact value (MIV) can be used to extract useful information from laser-induced breakdown spectroscopy (LIBS) spectra for calorific value determination of coal. The method filters out useless or irrelevant information from the broadband LIBS spectra using WT, resulting in 881 wavelet coefficients. These coefficients are further refined using the MIV method, resulting in 142 wavelet coefficients. These retained coefficients are then used as input variables to establish a nonlinear KELM model for calorific value determination of coal. The results of the related study showed a significant improvement in the model's performance compared to using the full spectra, indicating that the hybrid variable selection method is efficient in reducing calculation time and improving model accuracy."
+    }
+]

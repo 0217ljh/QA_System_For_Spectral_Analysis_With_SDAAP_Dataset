@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used on soil organic matter (SOM) prediction?",
+        "input": "",
+        "Output": "The related study used remote sensing spectrum on soil organic matter (SOM) prediction."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used on soil organic matter (SOM) prediction?",
+        "input": "",
+        "Output": "Visible, near infrared, mid infrared, and combined diffuse reflectance spectroscopy were used for soil organic matter prediction."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the predictive performances on soil organic matter (SOM) prediction, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the predictive performances of the algorithms on soil organic matter (SOM) prediction was the mean relative improvement (RI). The mean RI was used to compare the performance of different algorithms and datasets. It measures the improvement in prediction accuracy achieved by using a specific algorithm or dataset compared to a baseline. \n\nThe study found that the application of Sentinel-2A data resulted in mean RIs of 7.67% and 5.87% compared to the common-band variable datasets of Sentinel-2A and MODIS images, respectively. This indicates that using the full-band Sentinel-2A dataset improved the predictive performance of the algorithms by 7.67% and 5.87% in the respective scenarios.\n\nThe metric of mean RI provides a quantitative measure of the improvement in prediction accuracy, allowing for a comparison between different algorithms and datasets."
+    },
+    {
+        "instruction": "What were the results of the comparative experiments on the influence of different remotely sensed images and machine learning algorithms on soil organic matter (SOM) prediction?",
+        "input": "",
+        "Output": "The results of the comparative experiments showed that the model based on the full-band Sentinel-2A dataset achieved the best performance in predicting soil organic matter (SOM). The use of Sentinel-2A data resulted in mean relative improvements (RIs) of 7.67% and 5.87% compared to the common-band variable datasets of Sentinel-2A and MODIS images, respectively. \n\nAmong the machine learning algorithms evaluated, the random forest (RF) algorithm performed the best. It achieved a lower root mean squared error (RMSE) of 0.68% and a higher coefficient of determination (R-2) of 0.67 in all of the predicted scenarios compared to the artificial neural network (ANN) and support vector regression (SVR) algorithms. \n\nOverall, the combination of the full-band Sentinel-2A dataset and the RF algorithm proved to be the most effective approach for mapping soil organic matter using the Google Earth Engine (GEE). The resultant SOM map accurately characterized the spatial distribution of SOM in the Songnen Plain."
+    },
+    {
+        "instruction": "Can the use of full-band Sentinel-2A dataset and the RF algorithm be considered as a superior spectroscopic method for predicting soil organic matter (SOM) compared to traditional methods, based on the findings of the study on the influence of different remotely sensed images and machine learning algorithms on SOM prediction?",
+        "input": "",
+        "Output": "Yes, based on the findings of the study, the use of the full-band Sentinel-2A dataset and the random forest (RF) algorithm can be considered as a superior spectroscopic method for predicting soil organic matter (SOM) compared to traditional methods. The study showed that the model based on the full-band Sentinel-2A dataset achieved the best performance, resulting in mean relative improvements (RIs) of 7.67% and 5.87% compared to other datasets. Additionally, the RF algorithm achieved a lower root mean squared error (RMSE = 0.68%) and a higher coefficient of determination (R-2 = 0.67) in all predicted scenarios compared to artificial neural network (ANN) and support vector regression (SVR) algorithms. Therefore, the combination of the full-band Sentinel-2A dataset and the RF algorithm can be considered as an effective and superior method for predicting SOM compared to traditional methods."
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in predicting sugar concentration in chickpeas?",
+        "input": "",
+        "Output": "Past study used preprocessed spectra obtained from Near-Infrared (NIR) spectroscopy."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in predicting sugar concentration in chickpeas?",
+        "input": "",
+        "Output": "PCA was used for dimensionality reduction and to decompose the preprocessed spectra into latent vectors in order to rank them based on the amount of spectral variance explained."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of the prediction models in predicting sugar concentration in chickpeas, and how far can this metric go in assessing accuracy?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the prediction models in this study is the Root Mean Square Error (RMSE). RMSE measures the average magnitude of the residuals or prediction errors, indicating how close the predicted values are to the actual values. \n\nRMSE alone can provide a good assessment of accuracy as it gives an overall measure of the model's performance. However, it is important to consider other metrics as well to have a comprehensive evaluation. In this study, other metrics such as Residual Standard Error (RSE), Coefficient of Determination (R2), and Adjusted Coefficient of Determination (adjusted R2) were also used to assess the models' performance. These additional metrics provide further insights into the model's ability to explain the variance in the data and adjust for the number of predictors in the model."
+    },
+    {
+        "instruction": "What machine learning algorithms were used to predict sugar concentration in chickpeas using spectral data obtained from NIR spectroscopy?",
+        "input": "",
+        "Output": "The machine learning algorithms used to predict sugar concentration in chickpeas using spectral data obtained from NIR spectroscopy are Linear Regression (LR), Artificial Neural Network (ANN), Random Forest (RF), Support Vector Regression (SVR), and Decision Tree Regression (DTR)."
+    },
+    {
+        "instruction": "How do the accuracy values of the Random Forest (RF) and Artificial Neural Network (ANN) models in predicting sugar concentration in chickpeas using spectral data obtained from NIR spectroscopy compare to traditional methods?",
+        "input": "",
+        "Output": "The accuracy values of the Random Forest (RF) and Artificial Neural Network (ANN) models in predicting sugar concentration in chickpeas using spectral data obtained from NIR spectroscopy are comparable to traditional methods such as Linear Regression (LR) and Partial Least Square Regression (PLSR)."
+    }
+]

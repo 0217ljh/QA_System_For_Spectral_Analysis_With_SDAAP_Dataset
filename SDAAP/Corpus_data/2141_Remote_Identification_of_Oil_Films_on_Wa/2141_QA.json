@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the measurement of oil spills on the water surface using the self-developed LIF-LiDAR system?",
+        "input": "",
+        "Output": "The self-developed LIF-LiDAR system used laser-induced spectra in the measurement of oil spills on the water surface."
+    },
+    {
+        "instruction": "What spectral feature processing methods were employed in the identification of oil types based on the measured spectra?",
+        "input": "",
+        "Output": "The spectral feature processing methods employed in the identification of oil types based on the measured spectra included background deduction, interpolation, smoothing, and normalization."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the matching accuracy of the traditional algorithms, and how far can this metric go in terms of accuracy in the identification of oil types based on the measured spectra?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the matching accuracy of the traditional algorithms is the similarity degree of matching spectra. The average matching accuracy achieved using this metric is 65% (min = 33.68%) when the pure oil spectra (infinite thickness) are used as the database, and 85% (max = 98.66%) when the average oil spectra (different thickness) are used as the database."
+    },
+    {
+        "instruction": "What machine learning models were employed in the classification of oil types based on the measured spectra using the self-developed LIF-LiDAR system?",
+        "input": "",
+        "Output": "The machine learning models employed in the classification of oil types based on the measured spectra using the self-developed LIF-LiDAR system are fine tree, linear discriminant analysis (LDA), support vector machine (SVM), k-nearest neighbor (KNN), and neural network (NN)."
+    },
+    {
+        "instruction": "How does the identifying accuracy of the machine learning (ML) model compare to the average matching accuracy of traditional algorithms in classifying oil types based on the measured spectra using the self-developed LIF-LiDAR system?",
+        "input": "",
+        "Output": "The identifying accuracy of the machine learning (ML) model is nearly 100%, which is significantly higher than the average matching accuracy of traditional algorithms. The traditional algorithms achieved an average matching accuracy of 65% (min = 33.68%) when using pure oil spectra as the database and 85% (max = 98.66%) when using average oil spectra with different thicknesses as the database. Therefore, the ML model outperforms the traditional algorithms in accurately classifying oil types based on the measured spectra using the self-developed LIF-LiDAR system."
+    }
+]

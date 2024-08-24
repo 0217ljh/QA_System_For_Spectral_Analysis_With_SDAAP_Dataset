@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the related study on the rapid and non-invasive detection and classification of Bacillus subtilis and Escherichia coli cell suspensions dried onto metallic substrates?",
+        "input": "",
+        "Output": "The related study used reflectance Fourier transform infrared (FTIR) spectra."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the related study on the rapid and non-invasive detection and classification of Bacillus subtilis and Escherichia coli cell suspensions dried onto metallic substrates?",
+        "input": "",
+        "Output": "Savitsky Golay filter, SNV, background removal, PCA, segmentation, PLSDA, SVM, Venetian blinds cross-validation, Savitzky\u2013Golay second derivative transformation."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate model performance and how far can this metric go in the related study on the rapid and non-invasive detection and classification of Bacillus subtilis and Escherichia coli cell suspensions dried onto metallic substrates?",
+        "input": "",
+        "Output": "The metric chosen to evaluate model performance in the related study was the Matthews correlation coefficient (MCC). The MCC is a measure of the quality of binary (two-class) classifications, taking into account true positives, true negatives, false positives, and false negatives. It ranges from -1 to +1, with +1 indicating a perfect classification, 0 indicating a random classification, and -1 indicating a completely incorrect classification.\n\nThe text does not provide information on how far the MCC can go in the related study."
+    },
+    {
+        "instruction": "How did the researchers evaluate the model performance and consistency among different concentration levels in their study on the rapid and non-invasive detection and classification of Bacillus subtilis and Escherichia coli cell suspensions dried onto metallic substrates using reflectance FTIR?",
+        "input": "",
+        "Output": "The researchers evaluated the model performance and consistency among different concentration levels using two modelling strategies. \n\nIn the first strategy, they trained the model with half of the sample set, which included all concentrations, and then applied it to the remaining half. For the stainless steel (STS) substrate, the best model was achieved using support vector machine (SVM) classification, with an accuracy of 96% and a Matthews correlation coefficient (MCC) of 0.93 for the independent test set. For the aluminum (Al) substrate, the best SVM model had an accuracy of 91% and an MCC of 0.82.\n\nIn the second strategy, models were developed using one concentration level and tested on the other concentrations for each substrate. The results showed that models built from samples with moderate (1 OD) concentration could be adapted to other concentrations with good model generalization.\n\nOverall, the researchers used these strategies to assess the model's performance, transferability, and consistency among different concentration levels in their study."
+    },
+    {
+        "instruction": "How effective was reflectance FTIR for samples with OD lower than 0.1 in the study on the rapid and non-invasive detection and classification of Bacillus subtilis and Escherichia coli cell suspensions dried onto metallic substrates using reflectance FTIR?",
+        "input": "",
+        "Output": "Reflectance FTIR was not effective for samples with OD lower than 0.1 in the study. The text states that samples with OD lower than 0.1 did not present an acceptable spectral signal to enable classification."
+    }
+]

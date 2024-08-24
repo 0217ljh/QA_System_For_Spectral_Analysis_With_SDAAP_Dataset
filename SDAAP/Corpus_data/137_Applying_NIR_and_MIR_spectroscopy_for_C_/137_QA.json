@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to predict eight commonly measured soil properties in northern cold-region soils?",
+        "input": "",
+        "Output": "Both NIR (near-infrared) and MIR (mid-infrared) spectra were used to predict eight commonly measured soil properties in northern cold-region soils."
+    },
+    {
+        "instruction": "What machine learning models were used to predict eight commonly measured soil properties in northern cold-region soils?",
+        "input": "",
+        "Output": "Partial least squares (PLS), support vector machine (SVM), random forest (RF), and artificial neural networks (ANN) were used to predict eight commonly measured soil properties in northern cold-region soils."
+    },
+    {
+        "instruction": "What metric (R-squared) was chosen to evaluate the performance of the models to predict eight commonly measured soil properties in northern cold-region soils, and how well did the models perform?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the models was the R-squared value. The R-squared value measures the proportion of the variance in the dependent variable that can be explained by the independent variables in the model. \n\nThe models performed relatively well, with the R-squared values ranging from 0.68 to 0.9. The PLS model coupled with MIR spectroscopy achieved the highest R-squared values for soil parameters such as total organic carbon (TOC), total nitrogen (TN), cation exchange capacity (CEC), and clay. For example, the R-squared values for TOC, TN, CEC, and clay were 0.9, 0.81, 0.80, and 0.84, respectively. \n\nOn the other hand, the predictions for bulk density (BD) and sand content using either MIR or NIR spectroscopy with the PLS model were not accurate, indicating lower R-squared values for these parameters."
+    },
+    {
+        "instruction": "What were the most accurate calibration techniques for predicting soil properties using near-infrared (NIR) and mid-infrared (MIR) spectroscopy in northern cold-region soils?",
+        "input": "",
+        "Output": "The most accurate calibration technique for predicting soil properties using near-infrared (NIR) spectroscopy in northern cold-region soils was the partial least squares (PLS) model. However, for mid-infrared (MIR) spectroscopy, the PLS model coupled with MIR showed the best performance for soil parameters such as total organic carbon (TOC), total nitrogen (TN), cation exchange capacity (CEC), and clay."
+    },
+    {
+        "instruction": "Can the calibration models developed using near-infrared (NIR) and mid-infrared (MIR) spectroscopy be considered superior to traditional methods for predicting soil properties in northern cold-region soils?",
+        "input": "",
+        "Output": "BThe calibration models developed using near-infrared (NIR) and mid-infrared (MIR) spectroscopy can be considered superior to traditional methods for predicting soil properties in northern cold-region soils. Past study compared the performance of linear and non-linear calibration techniques, including lasso regression (Lasso), support vector machine (SVM), random forest (RF), and classic partial least squares (PLS) models. The results showed that both NIR and MIR spectroscopy achieved good prediction results, but NIR spectroscopy with a PLS model performed better for the dataset. However, PLS coupled with MIR spectroscopy showed better performance for certain soil parameters such as total organic carbon (TOC), total nitrogen (TN), cation exchange capacity (CEC), and clay. The variable importance analysis based on the PLS model also successfully estimated the relative contribution of wavelengths influencing soil property predictions most. Therefore, the use of NIR and MIR spectroscopy, particularly with PLS models, can be considered superior to traditional methods for predicting soil properties in northern cold-region soils."
+    }
+]

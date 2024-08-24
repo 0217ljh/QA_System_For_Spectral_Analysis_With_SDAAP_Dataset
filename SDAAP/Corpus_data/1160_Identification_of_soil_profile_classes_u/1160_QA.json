@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum (wavelength range) were used in the related study to identify soil profile classes at different taxonomic levels in the Chinese Soil Taxonomy (CST) system?",
+        "input": "",
+        "Output": "The study used the visible-near-infrared (Vis-NIR) spectrum, specifically in the wavelength range of 350-2500 nm."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to extract predictors for soil classification in the related study to identify soil profile classes at different taxonomic levels in the Chinese Soil Taxonomy (CST) system?",
+        "input": "",
+        "Output": "The spectral feature processing method used in the related study to identify soil profile classes at different taxonomic levels in the Chinese Soil Taxonomy (CST) system was Random Forest (RF)."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of soil identification in the related study to identify soil profile classes at different taxonomic levels in the Chinese Soil Taxonomy (CST) system and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of soil identification in the related study was overall validation accuracy. This metric measures the proportion of correctly classified soil profiles out of the total number of profiles in the validation dataset. \n\nThe overall validation accuracy was reported for different taxonomic levels, including soil orders, suborders, groups, and subgroups of the Chinese Soil Taxonomy (CST). \n\nThe study found that the overall validation accuracy was acceptable for identifying soil orders and suborders, with accuracies of 0.63 and 0.62, respectively. However, the overall performance was lower at the group and subgroup levels, with accuracies of 0.40 and 0.28, respectively. \n\nTherefore, the overall validation accuracy metric can provide an indication of the performance of soil identification using Vis-NIR spectroscopy, but it has limitations in accurately identifying soil classes at the group and subgroup levels."
+    },
+    {
+        "instruction": "What machine learning model was used in the related study to classify the soil profiles based on the extracted spectral predictors?",
+        "input": "",
+        "Output": "The machine learning model used in the related study to classify the soil profiles based on the extracted spectral predictors was random forest (RF) modeling."
+    },
+    {
+        "instruction": "How does the overall performance of Vis-NIR spectral reflectance compare to traditional methods in identifying soil profile classes at different taxonomic levels in the Chinese Soil Taxonomy (CST) system?",
+        "input": "",
+        "Output": "The overall performance of Vis-NIR spectral reflectance in identifying soil profile classes at different taxonomic levels in the Chinese Soil Taxonomy (CST) system is compared to traditional methods in the provided text. According to the study, Vis-NIR spectroscopy exhibited acceptable overall performance for identifying soil orders and suborders, with overall validation accuracies of 0.63 and 0.62, respectively. However, it had low overall performance at the group and subgroup levels, with overall validation accuracies of 0.40 and 0.28, respectively.\n\nThis suggests that Vis-NIR spectral reflectance is more effective in identifying higher taxonomic levels such as orders and suborders, but less accurate in identifying lower taxonomic levels such as groups and subgroups. The performance at different taxonomic levels is influenced by the number of soil classes and the distribution of soil profiles within those classes.\n\nIn comparison to traditional methods, the text does not provide specific information about how Vis-NIR spectral reflectance compares. However, it does highlight the potential of Vis-NIR spectroscopy as an efficient and cost-effective tool for soil taxonomic diagnosis, particularly when combined with machine-learning techniques. It suggests that the Vis-NIR spectral library can be used for digital soil survey mapping and updating,"
+    }
+]

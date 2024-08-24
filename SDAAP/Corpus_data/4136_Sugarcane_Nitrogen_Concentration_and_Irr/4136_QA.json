@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in predicting canopy nitrogen concentration (CNC) and irrigation levels for sugarcane?",
+        "input": "",
+        "Output": "The related study used remote sensing spectrum in predicting canopy nitrogen concentration (CNC) and irrigation levels for sugarcane."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in predicting canopy nitrogen concentration (CNC) and irrigation levels for sugarcane?",
+        "input": "",
+        "Output": "Partial least squares (PLS), backpropagation neural networks (BPNN), and extreme learning machines (ELM) were used as spectral feature processing methods in predicting canopy nitrogen concentration (CNC) and irrigation levels for sugarcane."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the accuracy of CNC prediction models in predicting canopy nitrogen concentration (CNC) and irrigation levels for sugarcane?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the accuracy of CNC prediction models in the related study was the coefficient of determination (R-v) and the root mean square error (RMSEv). The R-v value indicates the proportion of the variance in the CNC that can be explained by the prediction model, with a higher value indicating a better fit. The RMSEv measures the average difference between the predicted CNC values and the actual CNC values, with a lower value indicating a more accurate prediction."
+    },
+    {
+        "instruction": "How were the machine learning models utilized in predicting canopy nitrogen concentration (CNC) and irrigation levels using drone multispectral images in the study?",
+        "input": "",
+        "Output": "In the study, three machine learning models were utilized to predict canopy nitrogen concentration (CNC) and irrigation levels using drone multispectral images. The models used were Partial Least Square (PLS), Backpropagation Neural Network (BPNN), and Extreme Learning Machine (ELM).\n\nFor predicting CNC, the models were established based on various combinations of band reflectance and vegetation indices. The selected vegetation indices were the simple ratio pigment index (SRPI), normalized pigment chlorophyll index (NPCI), and normalized green-blue difference index (NGBDI). These indices were chosen due to their higher grey relational degree with CNC and lower correlation between each other. The PLS model, which used five-band reflectance and the three vegetation indices, achieved the best accuracy with an R-v value of 0.79 and an RMSEv value of 0.11.\n\nTo classify the irrigation levels, five spectral features that had high correlations with irrigation levels were used. Support Vector Machine (SVM) and BPNN were employed for this task. SVM achieved a higher accuracy of 80.6% in classifying the irrigation levels."
+    },
+    {
+        "instruction": "Can the PLS model based on five-band reflectance and three vegetation indices be used to predict canopy nitrogen concentration (CNC) and irrigation levels for sugarcane crops using drone multispectral images?",
+        "input": "",
+        "Output": "Yes, the PLS model based on five-band reflectance and three vegetation indices can be used to predict canopy nitrogen concentration (CNC) for sugarcane crops using drone multispectral images. The study found that this model achieved the best accuracy (R-v = 0.79, RMSEv = 0.11) in predicting CNC."
+    }
+]

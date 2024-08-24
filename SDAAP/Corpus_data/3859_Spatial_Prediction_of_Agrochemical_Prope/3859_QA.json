@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What spectrum can be used to create accurate digital maps of the agrochemical properties of soils on a field scale?",
+        "input": "",
+        "Output": "The related study used remote sensing spectrum to create accurate digital maps of the agrochemical properties of soils on a field scale."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to create accurate digital maps of the agrochemical properties of soils on a field scale?",
+        "input": "",
+        "Output": "Remote sensing data obtained from Landsat 8 OLI and Sentinel 2 satellites were used as predictors for spatial prediction of agrochemical properties of soil on a field scale when using machine learning methods."
+    },
+    {
+        "instruction": "What metric was chosen to create accurate digital maps of the agrochemical properties of soils on a field scale and how far can this metric go?",
+        "input": "",
+        "Output": "The machine learning methods based on support vectors (SVMr) and random forest (RF) are similarly accurate in spatial prediction. The coefficient of determination (R-2) values for the best models are as follows:\n\n- For nitrogen: R-SVMr(2) = 0.90 (Landsat 8 OLI) and R-SVMr(2) = 0.79 (Sentinel 2)\n- For potassium: R-SVMr(2) = 0.82 (Landsat 8 OLI) and R-SVMr(2) = 0.77 (Sentinel 2)\n- For phosphorus: R-SVMr(2) = 0.68 (Landsat 8 OLI) and R-SVMr(2) = 0.64 (Sentinel 2)\n\nThese values indicate a good level of accuracy in predicting the spatial changes in the agrochemical properties of soils using both SVMr and RF methods."
+    },
+    {
+        "instruction": "How were the machine learning models based on support vectors (SVMr) and random forest (RF) used to create accurate digital maps of agrochemical properties of soils on a field scale?",
+        "input": "",
+        "Output": "The machine learning models based on support vectors (SVMr) and random forest (RF) were used to create accurate digital maps of agrochemical properties of soils on a field scale by utilizing spectral reflectance data obtained from remote sensing. These models used direct and indirect predictors of spatial changes in the agrochemical properties of soils, including spectral indicators of open soil and soil properties. The models were trained using the available forms of nitrogen, phosphorus, and potassium as target variables. \n\nThe accuracy of the models was evaluated using the coefficient of determination (R-2). It was found that both SVMr and RF models using spectral reflectance data were similarly accurate in spatial prediction. The best models achieved acceptable predictions for available nitrogen and available potassium, while the variability of available phosphorus was modeled less accurately.\n\nTo improve the accuracy of the models, additional predictors such as soil organic matter (SOC) and fractions of texture (Silt, Clay) were included. The SVMr models were found to be the most accurate. The inclusion of SOC and texture in the models further refined the spatial prediction of nitrogen, phosphorus, and potassium availability of soils.\n\nThe final models were validated using an independent sample of soils from a chernozem zone."
+    },
+    {
+        "instruction": "Can machine learning methods based on support vectors (SVMr) and random forest (RF) using spectral reflectance data be used to create accurate digital maps of the agrochemical properties of soils on a field scale, as demonstrated in the related study?",
+        "input": "",
+        "Output": "Yes, machine learning methods based on support vectors (SVMr) and random forest (RF) using spectral reflectance data can be used to create accurate digital maps of the agrochemical properties of soils on a field scale, as demonstrated in the related study. The study showed that both SVMr and RF methods were similarly accurate in spatial prediction of the available forms of nitrogen and potassium. The coefficient of determination (R-2) values for the best models ranged from 0.79 to 0.90 for nitrogen and from 0.77 to 0.82 for potassium."
+    }
+]

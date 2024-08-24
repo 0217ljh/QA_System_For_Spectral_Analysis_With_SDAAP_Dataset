@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used for winter wheat leaf nitrogen content (LNC) monitoring?",
+        "input": "",
+        "Output": "For winter wheat leaf nitrogen content (LNC) monitoring,the researchers used visible remote sensing spectrum."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used for winter wheat leaf nitrogen content (LNC) monitoring?",
+        "input": "",
+        "Output": "The spectral feature processing methods used for winter wheat leaf nitrogen content (LNC) monitoring included constructing vegetation indexes (VIs) such as NDVI, DVI, and RVI, as well as selecting texture features (TFs) based on spectral bands for fusion indicators."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance for winter wheat leaf nitrogen content (LNC) monitoring and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the model developed for winter wheat leaf nitrogen content (LNC) monitoring is the coefficient of determination (R-2), root mean square error (RMSE), and relative percent deviation (RPD). The R-2 value indicates the proportion of the variance in the LNC that can be explained by the model. The RMSE measures the average difference between the predicted LNC values and the actual LNC values, with lower values indicating better accuracy. The RPD is a measure of the prediction precision, with higher values indicating better precision. \n\nThe R-2 value obtained for the calibration set was 0.84, indicating that 84% of the variance in the LNC can be explained by the model. The RMSE value was 0.25, indicating an average difference of 0.25 between the predicted and actual LNC values. The RPD value was 2.50, indicating a relatively good prediction precision.\n\nFor the validation set, the R-2 value was 0.87, indicating that 87% of the variance in the LNC can be explained by the model."
+    },
+    {
+        "instruction": "What machine learning methods were used to construct quantitative winter wheat LNC estimation models in the research on the fusion of UAV image spectral information and texture feature (TF) information for winter wheat leaf nitrogen content (LNC) monitoring?",
+        "input": "",
+        "Output": "The machine learning methods used to construct quantitative winter wheat LNC estimation models in the research were ridge regression (RR), partial least squares regression (PLSR), support vector machine regression (SVR), and random forest (RF)."
+    },
+    {
+        "instruction": "Can the model constructed using the 'graph-spectrum' information be considered superior to traditional methods in estimating winter wheat leaf nitrogen content (LNC) using UAV image spectral information and texture feature (TF) information?",
+        "input": "",
+        "Output": "Yes, the model constructed using the 'graph-spectrum' information can be considered superior to traditional methods in estimating winter wheat leaf nitrogen content (LNC) using UAV image spectral information and texture feature (TF) information. The results of the study showed that this model outperformed the models developed by using vegetation indexes (VIs) and TFs as input. The coefficient of determination (R-2), root mean square error (RMSE), and relative percent deviation (RPD) of the calibration set and validation set were higher and lower, respectively, indicating better prediction accuracy. Therefore, the fusion of spectral and TF information in the 'graph-spectrum' model considerably improved the estimation of winter wheat LNC."
+    }
+]

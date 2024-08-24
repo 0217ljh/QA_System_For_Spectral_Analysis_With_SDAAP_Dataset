@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to map the age of tropical dry forests at the Santa Rosa National Park?",
+        "input": "",
+        "Output": "The related study used visible remote sensing spectrum to map the age of tropical dry forests at the Santa Rosa National Park."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to map the age of tropical dry forests at the Santa Rosa National Park?",
+        "input": "",
+        "Output": "Supervised classification and artificial visual interpretation were used to classify the land cover into forest and non-forest pixels, and then forest age classes were determined based on the forest cover maps from different years."
+    },
+    {
+        "instruction": "What metric was chosen to map the age of tropical dry forests at the Santa Rosa National Park?",
+        "input": "",
+        "Output": "The metric chosen to map the age of tropical dry forests at the Santa Rosa National Park was Multiple Comparison Analysis (MCA). MCA was used to assess the abilities of nine LVIS metrics (describing the vertical structure of the forests) and eleven HyMap indices (reflectance derived from the HyMap) in differentiating the age groups. MCA allowed for a comparison of the different metrics and indices to determine their effectiveness in distinguishing between the age groups."
+    },
+    {
+        "instruction": "What machine learning models were used to map the age of tropical dry forests at the Santa Rosa National Park in Costa Rica?",
+        "input": "",
+        "Output": "The machine learning models used to map the age of tropical dry forests at the Santa Rosa National Park in Costa Rica were Support Vector Machine, Artificial Neural Network, and Random Forest."
+    },
+    {
+        "instruction": "How did the study evaluate the abilities of different LiDAR and hyperspectral metrics to differentiate between different age groups of tropical dry forests at the Santa Rosa National Park in Costa Rica?",
+        "input": "",
+        "Output": "The study evaluated the abilities of different LiDAR and hyperspectral metrics to differentiate between different age groups of tropical dry forests at the Santa Rosa National Park in Costa Rica by analyzing their effective LiDAR waveforms and cumulative return energy curves derived from the airborne full-waveform LiDAR (LVIS) data, as well as their reflectance derived from the hyperspectral dataset (HyMap). \n\nNine LVIS metrics and eleven HyMap indices were calculated based on the historical forest cover maps, and their abilities to differentiate the age groups were evaluated using Multiple Comparison Analysis (MCA). The study found that six of the LVIS metrics, which describe the vertical structure of the forests, were able to significantly differentiate all age groups. \n\nOn the other hand, none of the HyMap metrics were able to differentiate all age groups, but some of them were able to identify certain age groups. \n\nSelected LVIS metrics and HyMap indices were then used in conjunction with Support Vector Machine, Artificial Neural Network, and Random Forest classifiers to map the age of the tropical dry forests. The study found that the combination of LVIS metrics and HyMap indices generally produced more accurate forest age maps compared to using either LVIS metrics or HyMap indices alone."
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What spectrum can be used in forecasting corn grain yield before harvest?",
+        "input": "",
+        "Output": "The related study used visible remote sensing spectrum in forecasting corn grain yield before harvest."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in forecasting corn grain yield before harvest?",
+        "input": "",
+        "Output": "The spectral feature processing method used in forecasting corn grain yield before harvest was the 'SequentialFeatureSelector' (SFS) algorithm from the Python 3.6 scikit-learn library."
+    },
+    {
+        "instruction": "What metric was chosen in forecasting corn grain yield before harvest and how far can this metric go?",
+        "input": "",
+        "Output": "The R2 metric was chosen in forecasting corn grain yield before harvest, and it can reach a maximum value of 0.89."
+    },
+    {
+        "instruction": "How did the related study evaluate the performance of the six machine-learning models in forecasting corn grain yield using vegetation indices (VIs) and spectral bands as input variables?",
+        "input": "",
+        "Output": "The study evaluated the performance of six machine-learning models in forecasting corn grain yield by using vegetation indices (VIs) and spectral bands as input variables. The models used in the study were artificial neural networks (ANN), k-nearest neighbors (KNN), random forest (RF), and support vector machine (SVM). The evaluation was based on metrics such as R-2 (coefficient of determination), mean absolute error (MAE), and root mean square error (RMSE). The RF algorithm using all input variables achieved the maximum R-2 value of 0.89 and the minimum values of MAE and RMSE, which were 0.33 and 0.42 t ha(-1) respectively. The study also tested various combinations of spectral bands and VIs, and found that the GREEN band and the VI global environment monitoring index (GEMI) were the best predictor variables. Additionally, the study examined the impact of using different sum of degree days (SDD) values on model performance, but found that using more than one SDD did not improve the models' performance. The models developed using data at 980 SDD achieved the best precision and accuracy performance in both scenarios with all input variables and with the two best predictors."
+    },
+    {
+        "instruction": "How did the study assess the superiority of spectroscopic methods compared to traditional methods in forecasting corn grain yield using vegetation indices and spectral bands as input variables?",
+        "input": "",
+        "Output": "The study assessed the superiority of spectroscopic methods compared to traditional methods in forecasting corn grain yield by evaluating the performance of six machine-learning models. These models used vegetation indices (VIs) and spectral bands as input variables. The study compared the performance of artificial neural networks (ANN), k-nearest neighbors (KNN), random forest (RF), and support vector machine (SVM) models.\n\nThe evaluation was based on several metrics, including the maximum R-2 value, mean absolute error (MAE), and root mean square error (RMSE). The RF algorithm using all input variables achieved the highest R-2 value of 0.89, indicating a strong correlation between the predicted and actual corn grain yield. Additionally, the RF algorithm had the lowest values of MAE (0.33 t ha(-1)) and RMSE (0.42 t ha(-1)), indicating high accuracy in predicting corn grain yield.\n\nThe study also tested various combinations of spectral bands and VIs to identify the best predictor variables. The GREEN band and the VI global environment monitoring index (GEMI) were found to be the best predictor variables for corn grain yield. This suggests that using spectroscopic methods, specifically these VIs, can provide accurate predictions of corn grain yield."
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the related study to differentiate between live and necrotic/apoptotic cells?",
+        "input": "",
+        "Output": "In the related study, spectral data from healthy/traumatised cell samples were collected using hyperspectral imaging between 2500-3500 nm."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the related study to differentiate between live and necrotic/apoptotic cells?",
+        "input": "",
+        "Output": "The spectral feature processing methods used in the related study to differentiate between live and necrotic/apoptotic cells were spectral derivative data types, including smoothed data and background subtracted data."
+    },
+    {
+        "instruction": "What metric was chosen to assess the accuracy of clustering analysis in the related study to differentiate between live and necrotic/apoptotic cells?",
+        "input": "",
+        "Output": "The metric chosen to assess the accuracy of clustering analysis in the related study was both sensitivity and specificity."
+    },
+    {
+        "instruction": "How were the machine learning algorithms used to differentiate between live and necrotic/apoptotic cells in the related study?",
+        "input": "",
+        "Output": "In the related study, machine learning algorithms were used to differentiate between live and necrotic/apoptotic cells by performing clustering on spectral data collected from healthy/traumatised cell samples using hyperspectral imaging. The spectral data was collected between 2500-3500 nm using a portable prototype device. \n\nSeveral pre-processing data types were used for analysis, including 'raw' unprocessed data, smoothed resampling data, background subtracted data, and spectral derivative data. \n\nThe resulting clusters obtained from the machine learning algorithms were utilized as a diagnostic tool for assessing cellular health. The accuracy of the clustering was quantified using both sensitivity and specificity measures. \n\nThe study found that the raw data exhibited differences for one of the three different trauma types applied, but it was unable to accurately cluster all the traumatised samples due to signal contamination from the chemical insult. \n\nThe background subtracted and smoothed data sets further reduced the accuracy, as they appeared to remove key spectral features that are indicative of cellular health. \n\nHowever, the spectral derivative data types significantly improved the accuracy of clustering compared to other data types. The background subtracted data set, in particular, showed sensitivity and specificity values of over 94%, highlighting its utility in accounting for unknown signal contamination while still maintaining important"
+    },
+    {
+        "instruction": "How did the spectral derivative data types improve clustering accuracy in differentiating between live and necrotic/apoptotic cells in the related study?",
+        "input": "",
+        "Output": "The spectral derivative data types significantly improved the accuracy of clustering in differentiating between live and necrotic/apoptotic cells in the related study. The raw data showed some differences for one of the three trauma types applied, but it was unable to accurately cluster all the traumatised samples due to signal contamination from the chemical insult. The background subtracted and smoothed data sets further reduced the accuracy, as they appeared to remove key spectral features that indicate cellular health. However, the spectral derivative data types greatly improved the accuracy of clustering compared to other data types. The background subtracted data set, in particular, had both sensitivity and specificity greater than 94%, highlighting its utility in accounting for unknown signal contamination while still maintaining important cellular spectral features."
+    }
+]

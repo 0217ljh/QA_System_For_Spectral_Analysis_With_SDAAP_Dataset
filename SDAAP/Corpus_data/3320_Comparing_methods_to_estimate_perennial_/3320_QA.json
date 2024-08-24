@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to estimate pasture biomass?",
+        "input": "",
+        "Output": "The related study used visible spectrum and nir spectrum to estimate pasture biomass."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to estimate pasture biomass?",
+        "input": "",
+        "Output": "Non-parametric methods were used in combination with a small feature set of Vegetation Indices (VIs) located in the red-edge and NIR-shoulder regions to enhance the accuracy and precision of pasture biomass estimation."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the accuracy and precision of biomass estimation, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the accuracy and precision of biomass estimation in this study was the root mean square error (RMSE). The RMSE measures the average difference between the predicted biomass values and the actual biomass values. \n\nThe related study states that the standard normalized difference vegetation index (NDVI) had an RMSE of 115.1 kg DM ha(-1), while the best performing normalized ratio index had an RMSE equivalent to the NDVI. "
+    },
+    {
+        "instruction": "What machine learning techniques were used to compare the performance of the canopy-based technique and different vegetation indices in estimating pasture biomass?",
+        "input": "",
+        "Output": "The machine learning techniques used to compare the performance of the canopy-based technique and different vegetation indices in estimating pasture biomass were random forests, support vector machines, multivariate adaptive regression splines, and linear regression."
+    },
+    {
+        "instruction": "Can the spectral vegetation indices be considered superior to the canopy-based technique in estimating pasture biomass, based on the findings of the related study?",
+        "input": "",
+        "Output": "No. Based on the findings of the related study, the spectral vegetation indices cannot be considered superior to the canopy-based technique in estimating pasture biomass. The study compared 97 vegetation indices and 11,026 combinations of normalized ratio indices with different regression techniques. It was found that the canopy-based technique was superior to the standard normalized difference vegetation index and equivalent to the best performing normalized ratio index. Additionally, four selected vegetation indices deployed with different regression techniques were found to be more accurate than the canopy-based technique. Therefore, the study suggests that the canopy-based technique is superior to the spectral vegetation indices in estimating pasture biomass."
+    }
+]

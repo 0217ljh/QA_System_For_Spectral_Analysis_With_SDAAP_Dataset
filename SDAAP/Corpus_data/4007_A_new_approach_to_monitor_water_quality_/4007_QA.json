@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectral indices were used to estimate chlorophyll-a (chl-a) content in the Menor sea, a coastal lagoon?",
+        "input": "",
+        "Output": "The related study used remote sensing spectrum to estimate chlorophyll-a (chl-a) content in the Menor sea, a coastal lagoon."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to estimate chlorophyll-a (chl-a) content in the Menor sea, a coastal lagoon?",
+        "input": "",
+        "Output": "The spectral feature processing methods used to estimate chlorophyll-a (chl-a) content in the Menor sea were the generation of two ratios: B3/B8 and B3/B8A using the S2 bands covering the green and NIR parts of the spectrum."
+    },
+    {
+        "instruction": "What metric was chosen to estimate chlorophyll-a (chl-a) content in the Menor sea, a coastal lagoon and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to estimate chlorophyll-a (chl-a) content in the Menor sea was the ratio B3/B8. This metric can go as far as estimating water quality parameters and is very sensitive to estimating chl-a concentrations."
+    },
+    {
+        "instruction": "What feature selection scenarios were considered in the machine learning approach to estimate chlorophyll-a content using Sentinel-2 data in the Menor sea?",
+        "input": "",
+        "Output": "Three feature selection scenarios were considered in the machine learning approach to estimate chlorophyll-a content using Sentinel-2 data in the Menor sea."
+    },
+    {
+        "instruction": "How do the performance results of the machine learning algorithms using all available predictors compare to those using principal components in estimating chl-a concentration in the Menor sea using Sentinel-2 data?",
+        "input": "",
+        "Output": "The performance results of the machine learning algorithms using all available predictors (Random Forest, Support Vector Machine, and Deep Neural Network) in estimating chl-a concentration in the Menor sea using Sentinel-2 data were better compared to those using principal components. The Root Mean Square Error (RMSE) for Random Forest and Support Vector Machine algorithms using all predictors was 0.82 mg/m3, while the RMSE for Deep Neural Network was 1.76 mg/m3. On the other hand, the Artificial Neural Network algorithm achieved better results when using principal components."
+    }
+]

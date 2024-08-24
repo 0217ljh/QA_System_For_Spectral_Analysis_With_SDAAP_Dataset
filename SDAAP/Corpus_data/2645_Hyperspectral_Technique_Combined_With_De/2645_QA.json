@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to predict plant phenotyping traits?",
+        "input": "",
+        "Output": "The related study used visible spectrum and nir spectrum to predict plant phenotyping traits."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to predict plant phenotyping traits?",
+        "input": "",
+        "Output": "Two end-to-end deep learning models based on 2D convolutional neural networks (2DCNN) and fully connected neural networks (FCNN) were used to predict plant phenotyping traits from spectral reflectance."
+    },
+    {
+        "instruction": "What metric was chosen to predict plant phenotyping traits and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to predict plant phenotyping traits was the determination coefficient of prediction (R-p(2)). This metric measures the proportion of the variance in the predicted phenotyping traits that can be explained by the models. \n\nThe R-p(2) values obtained for the deep learning models were 0.9030 for soluble solids content and 0.8490 for pH. These values indicate that the models were able to accurately predict the phenotyping traits to a high degree."
+    },
+    {
+        "instruction": "What is the main objective of comparing the performance of deep learning models with traditional multivariate analysis methods in the study?",
+        "input": "",
+        "Output": "The main objective of comparing the performance of deep learning models with traditional multivariate analysis methods in this study is to determine which approach is more effective in predicting plant phenotyping traits using spectral reflectance. The study aims to evaluate whether the deep learning models, specifically the 2D convolutional neural networks (2DCNN) and fully connected neural networks (FCNN), outperform the traditional multivariate analysis methods in terms of accuracy and efficiency. By comparing the determination coefficient of prediction (R-p(2)) of the deep learning models with that of the multivariate analysis methods, the researchers can assess which approach yields better results and is more suitable for high-throughput plant phenotyping platforms."
+    },
+    {
+        "instruction": "How does the performance of deep learning models compare to traditional multivariate analysis methods in predicting plant phenotyping traits using spectral reflectance?",
+        "input": "",
+        "Output": "The performance of deep learning models was compared to traditional multivariate analysis methods in predicting plant phenotyping traits using spectral reflectance. The deep learning models achieved higher determination coefficients of prediction (R-p(2)) compared to all the multivariate analysis methods, indicating better performance. The deep learning models had a determination coefficient of prediction of 0.9030 for soluble solids content using Deep2D and 0.8490 for pH using DeepFC. In contrast, the multivariate analysis methods required manual feature extractions, such as pretreatment and wavelength selection, which increased time and computational cost. The deep learning models did not require any pretreatment or dimensionality reduction, making them more suitable for high-throughput plant phenotyping platforms. These results suggest that deep learning models can better predict plant phenotyping traits using spectral reflectance compared to traditional multivariate analysis methods."
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used for extracting compound heavy metals detection deep features of lettuce leaves?",
+        "input": "",
+        "Output": "For extracting compound heavy metals detection deep features of lettuce leaves,the researchers used visible spectrum and nir spectrum."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used for extracting compound heavy metals detection deep features of lettuce leaves?",
+        "input": "",
+        "Output": "Wavelet transform (WT) and stack convolution auto encoder (SCAE) were used for extracting compound heavy metals detection deep features of lettuce leaves."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance for extracting compound heavy metals detection deep features of lettuce leaves, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the models for extracting compound heavy metals detection deep features of lettuce leaves was the coefficient of determination for prediction (R-p(2)). This metric measures the proportion of the variance in the predicted compound heavy metals content that can be explained by the model. \n\nThe R-p(2) values obtained for the models developed using the WT-SCAE method were 0.9319 for cadmium (Cd) content and 0.9418 for lead (Pb) content. \n\nThe R-p(2) metric can range from 0 to 1, with a higher value indicating a better fit of the model to the data. In this research, the R-p(2) values obtained indicate that the models developed using the WT-SCAE method have a strong ability to predict the compound heavy metals content in lettuce leaves."
+    },
+    {
+        "instruction": "How were support vector machine regression models utilized in the research aiming to develop a deep learning method involving wavelet transform (WT) and stack convolution autoencoder (SCAE) for extracting compound heavy metals detection deep features of lettuce leaves?",
+        "input": "",
+        "Output": "In the research, support vector machine regression (SVR) models were utilized to establish models for predicting the content of compound heavy metals in lettuce leaves. These models were built using the deep features obtained from the combination of wavelet transform (WT) and stack convolution autoencoder (SCAE). The deep features were learned from the spectral data of lettuce leaves under the optimal wavelet decomposition layer, which was determined using the multi-scale transform of the visible-near infrared hyperspectral image. The SVR models achieved reasonable performance in predicting the cadmium (Cd) and lead (Pb) content, with coefficient of determination for prediction (R-p(2)) values of 0.9319 and 0.9418, root mean square error for prediction (RMSEP) values of 0.04988 mg/kg and 0.04123 mg/kg, and relative percent difference (RPD) values of 3.187 and 3.214, respectively."
+    },
+    {
+        "instruction": "How did the results of the support vector machine regression models in predicting the cadmium and lead content in lettuce leaves using the hyperspectral technique and deep learning algorithm compare to traditional methods?",
+        "input": "",
+        "Output": "The results of the support vector machine regression models in predicting the cadmium and lead content in lettuce leaves using the hyperspectral technique and deep learning algorithm showed improved performance compared to traditional methods."
+    }
+]

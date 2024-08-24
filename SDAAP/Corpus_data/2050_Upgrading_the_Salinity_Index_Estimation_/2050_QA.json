@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the related study for estimation and mapping of soil salinity?",
+        "input": "",
+        "Output": "Reflectance spectra was used in the study."
+    },
+    {
+        "instruction": "How many soil samples were used in the related study for estimation and mapping of soil salinity?",
+        "input": "",
+        "Output": "The related study used a total of 150 soil samples for the estimation and mapping of soil salinity."
+    },
+    {
+        "instruction": "What were the input neurons used in the ANN model in the related study for estimation and mapping of soil salinity?",
+        "input": "",
+        "Output": "The input neurons used in the ANN model were the reflectance values of three bands: green (B3), red (B4), and near-infrared (B5)."
+    },
+    {
+        "instruction": "How were the reflectance values from three bands used as input neurons in the ANN model to estimate and map soil salinity?",
+        "input": "",
+        "Output": "The reflectance values from three bands (green, red, and near-infrared) were used as input neurons in the Artificial Neural Network (ANN) model to estimate and map soil salinity. These reflectance values were obtained from Landsat-8 OLI satellite data. The ANN model was trained using 80% of the total dataset, which included both the spectral parameters data and the corresponding Electrical Conductivity (EC) measurements of soil samples. The reflectance values from the three bands were used as learning input neurons in the ANN model. By analyzing and processing these input values, the ANN model was able to estimate the EC values, which are indicative of soil salinity. The accuracy of the ANN model in estimating EC values was found to be higher (R-2 = 0.80) compared to the results obtained using only the Salinity Index (SI) method (R-2 = 0.42)."
+    },
+    {
+        "instruction": "How did the estimation and mapping of soil salinity using the SI method compare to the ANN model in this study?",
+        "input": "",
+        "Output": "In this study, the estimation and mapping of soil salinity using the SI method was found to have a moderate precision, with a determination coefficient (R-2) of 0.42. However, when the ANN model was used, the estimation of soil salinity showed a higher level of accuracy, with a determination coefficient (R-2) of 0.80. This indicates that the ANN model provided a more reliable estimation of soil salinity compared to the SI method. Additionally, the mapping results from the two methods differed significantly. The SI method estimated that 68.5% of the total area was affected by salinity, while the ANN model estimated a higher percentage of 78.8%. Therefore, the involvement of the ANN model in the estimation and mapping of soil salinity using the SI method significantly improved the accuracy and reliability of the results."
+    }
+]

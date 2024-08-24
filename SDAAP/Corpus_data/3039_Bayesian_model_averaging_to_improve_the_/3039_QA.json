@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the novel wheat yield prediction framework based on canopy hyperspectral reflectance and the ensemble Bayesian model averaging (EBMA) method?",
+        "input": "",
+        "Output": "The related study used visible and nir hyperspectral in the novel wheat yield prediction framework based on canopy hyperspectral reflectance and the ensemble Bayesian model averaging (EBMA) method, in the spectrum range of 350-2500 nm."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the novel wheat yield prediction framework based on canopy hyperspectral reflectance and the ensemble Bayesian model averaging (EBMA) method?",
+        "input": "",
+        "Output": "Savitzky-Golay filtering was applied to reduce noise spectral in the novel wheat yield prediction framework based on canopy hyperspectral reflectance and the ensemble Bayesian model averaging (EBMA) method."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the model performance in the novel wheat yield prediction framework based on canopy hyperspectral reflectance and the ensemble Bayesian model averaging (EBMA) method and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the model performance in the novel wheat yield prediction framework was the Boruta feature selection method. The performance of this metric can go as far as providing higher prediction accuracy in most models compared to using full bands."
+    },
+    {
+        "instruction": "How were the machine learning models selected and combined in the novel wheat yield prediction framework based on canopy hyperspectral reflectance and the ensemble Bayesian model averaging (EBMA) method?",
+        "input": "",
+        "Output": "In the novel wheat yield prediction framework, the machine learning models were selected and combined using the ensemble Bayesian model averaging (EBMA) method. To develop the yield prediction models, important bands extracted by the Boruta feature selection method were fed into four linear ML models and four nonlinear ML models. These ML models were chosen based on their suitability for predicting wheat yield using canopy hyperspectral reflectance data.\n\nAfter training the individual ML models, Bayesian model averaging (BMA) weights were obtained based on the model cross-validation performance. These weights were used to combine the predictions of the individual ML models. The EBMA method integrates the predictions from multiple ML models by assigning weights to each model based on its performance.\n\nThe study compared the performance of the EBMA models with the best-performing individual model. It was found that the EBMA models achieved a weak accuracy improvement by integrating either the linear models or the nonlinear models alone."
+    },
+    {
+        "instruction": "Can the integration of canopy hyperspectral reflectance and the ensemble Bayesian model averaging (EBMA) method be considered as a superior alternative to traditional methods for predicting grain yield in plant breeding trials, based on the findings of the related study?",
+        "input": "",
+        "Output": "Yes.Based on the findings of the related study, the integration of canopy hyperspectral reflectance and the ensemble Bayesian model averaging (EBMA) method can be considered as a superior alternative to traditional methods for predicting grain yield in plant breeding trials. The study showed that the EBMA models, which combined the predictions of multiple linear and nonlinear machine learning models, achieved higher prediction accuracy compared to the best-performing individual model. The advantage of the EBMA method is that it considers the model diversity of ensemble members and produces a prediction distribution that reflects the uncertainty associated with deterministic predictions. Therefore, the integration of canopy hyperspectral reflectance and the EBMA method provides an alternative and improved approach for accurately predicting grain yield in plant breeding trials."
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to detect the prostate cancer?",
+        "input": "",
+        "Output": "The multimodal PCa detection used biomolecular features from in-situ Raman spectroscopy (RS) combined with image-based (radiomics) features from multiparametric magnetic resonance images (mpMRI) to detect the prostate cancer."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to detect the prostate cancer?",
+        "input": "",
+        "Output": "Raman spectroscopy and radiomics features were combined to detect prostate cancer."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of prostate cancer detection and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of prostate cancer detection in the related study was accuracy. The accuracy of the multimodal PCa detection using biomolecular features from in-situ Raman spectroscopy (RS) combined with image-based (radiomics) features from multiparametric magnetic resonance images (mpMRI) was reported to be 83%. "
+    },
+    {
+        "instruction": "How were the support vector machine classifiers trained for prostate cancer detection in the multimodal approach using biomolecular features from in-situ Raman spectroscopy (RS) combined with image-based features from multiparametric magnetic resonance images (mpMRI)?",
+        "input": "",
+        "Output": "The support vector machine (SVM) classifiers were trained for prostate cancer detection in the multimodal approach using biomolecular features from in-situ Raman spectroscopy (RS) combined with image-based features from multiparametric magnetic resonance images (mpMRI) through a leave-one-patient-out cross-validation approach. This means that for each iteration of the cross-validation, one patient's data was left out as the test set, while the remaining data from the other patients were used as the training set. The feature selection process was performed, ensuring that no more than 10 features were retained overall from a combination of inelastic scattering spectra and radiomics. These selected features were then used to train the SVM classifiers, which were used for PCa detection."
+    },
+    {
+        "instruction": "Can the combination of in-situ Raman spectroscopy and mpMRI radiomics features be considered superior to traditional methods for prostate cancer detection in the multimodal approach?",
+        "input": "",
+        "Output": "Yes. The combination of in-situ Raman spectroscopy and mpMRI radiomics features can be considered superior to traditional methods for prostate cancer detection in the multimodal approach. The related study showed that the combination of these two techniques resulted in an accuracy of 83%, outperforming models trained with either spectroscopic or mpMRI data alone by more than 9%. Additionally, an optimal number of features was identified between 6 and 8, which had good potential for discriminating different grade groups of prostate cancer. This suggests that the multimodal approach using in-situ Raman spectroscopy and mpMRI radiomics features can lead to highly accurate prostate cancer detection, improving the targeting of biopsy sample collection and radiotherapy seed placement."
+    }
+]

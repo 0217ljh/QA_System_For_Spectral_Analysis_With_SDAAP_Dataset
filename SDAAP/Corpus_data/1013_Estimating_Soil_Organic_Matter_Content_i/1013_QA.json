@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the related study to estimate soil organic matter (SOM) in desert soils?",
+        "input": "",
+        "Output": "In the related study, visible and near-infrared (Vis-NIR) in situ spectral data were used to estimate soil organic matter (SOM) in desert soils."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the related study to estimate soil organic matter (SOM) in desert soils?",
+        "input": "",
+        "Output": "Particle swarm optimization (PSO), competitive adaptive reweighted sampling (CARS), and ant colony algorithm (ACO) were used as spectral feature processing methods in the related study to estimate soil organic matter (SOM) in desert soils."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the accuracy of the estimation models in the related study to estimate soil organic matter (SOM) in desert soils and how far can this metric go in estimating SOM?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the accuracy of the estimation models in the related study is the coefficient of determination (R-2), the ratio of prediction to deviation (RPD), and the root mean square error (RMSE). These metrics provide a measure of how well the models are able to estimate the soil organic matter (SOM) content.\n\nThe R-2 value ranges from 0 to 1, with a higher value indicating a better fit between the predicted and actual values of SOM. It represents the proportion of the variance in the SOM content that can be explained by the model.\n\nThe RPD is a measure of the ratio between the standard deviation of the reference values and the RMSE. It provides an indication of the reliability and precision of the model predictions. A higher RPD value indicates a more accurate estimation of SOM.\n\nThe RMSE represents the average difference between the predicted and actual values of SOM. A lower RMSE value indicates a smaller average error in the estimation.\n\nBased on the results of the study, the optimal hybrid model (SNV-PSO-CNN) achieved an R-2 value of 0.71, an RPD value of 1.88, and an RMSE value of 1.67 g kg(-1). These metrics"
+    },
+    {
+        "instruction": "What machine learning models were used to construct the estimation models of soil organic matter (SOM) in desert soils using in situ spectroscopy?",
+        "input": "",
+        "Output": "The machine learning models used to construct the estimation models of soil organic matter (SOM) in desert soils using in situ spectroscopy were partial least squares regression (PLSR), a back propagation neural network (BPNN), and a convolutional neural network (CNN)."
+    },
+    {
+        "instruction": "How does the SNV spectral pre-processing method improve the accuracy of the estimation model for soil organic matter (SOM) content in desert soil using in situ spectroscopy?",
+        "input": "",
+        "Output": "The SNV (standard normal transform) spectral pre-processing method enhances the spectral information related to soil organic matter (SOM) and improves the accuracy of the estimation model for SOM content in desert soil using in situ spectroscopy. By applying the SNV method, the spectral data is normalized and transformed to have a mean of zero and a standard deviation of one. This normalization process helps to reduce the influence of external environmental factors, such as surface roughness of soil, changes in weather conditions, and atmospheric water vapor, which can interfere with the accuracy of in situ spectroscopy. \n\nThe SNV method effectively enhances the spectral information related to SOM by reducing the variability caused by these external factors. This improved spectral information allows for a more accurate estimation of SOM content in desert soil. The study found that the SNV method was one of the most effective spectral pre-treatment methods in improving the accuracy of the estimation model."
+    }
+]

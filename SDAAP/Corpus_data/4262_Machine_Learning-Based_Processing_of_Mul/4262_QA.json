@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used for determining plant water status and irrigation management in a vineyard in south-eastern Spain?",
+        "input": "",
+        "Output": "For determining plant water status and irrigation management in a vineyard in south-eastern Spain,the researchers used remote sensing spectrum."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used for determining plant water status and irrigation management in a vineyard in south-eastern Spain?",
+        "input": "",
+        "Output": "Spectral vegetation indices (VIs) and infrared thermometry were used for determining plant water status and irrigation management in a vineyard in south-eastern Spain."
+    },
+    {
+        "instruction": "What metric was chosen for determining plant water status and irrigation management in a vineyard in south-eastern Spain?",
+        "input": "",
+        "Output": "The metric chosen to simulate the water stress integral (S-psi) was the green canopy cover (GCC). This metric was calculated by segmenting the orthoimages generated from the flights with RGB and multispectral cameras mounted on a UAV. The green canopy cover represents the proportion of the vineyard area covered by vegetation.\n\nIn terms of predicting the water status, the results showed that the information in the visible domain (RGB bands) was highly related to the S-psi in the 2018 season."
+    },
+    {
+        "instruction": "How were the multiple linear regression techniques and artificial neural networks (ANNs) models trained and tested in the related study?",
+        "input": "",
+        "Output": "In the related study, the multiple linear regression techniques and artificial neural networks (ANNs) models were trained and tested using multispectral and RGB bands, as well as green canopy cover (GCC), as inputs. The flights with RGB and multispectral cameras mounted on a UAV were performed throughout the growth cycle, and orthoimages were generated. These orthoimages were segmented to include only vegetation and calculate the GCC. The stem water potential was measured, and the water stress integral (S-psi) was obtained during each irrigation season. The data from these measurements and orthoimages were used to train and test the regression techniques and ANNs models."
+    },
+    {
+        "instruction": "How did the study assess the potential uses of high-resolution remote sensing techniques using UAVs equipped with RGB and multispectral cameras for determining plant water status and irrigation management in a vineyard in south-eastern Spain?",
+        "input": "",
+        "Output": "The study in the vineyard in south-eastern Spain assessed the potential uses of high-resolution remote sensing techniques using UAVs equipped with RGB and multispectral cameras for determining plant water status and irrigation management. Flights were conducted throughout the growth cycle with both RGB and multispectral cameras mounted on the UAV. Orthoimages were generated from the acquired data, and these orthoimages were segmented to include only vegetation. The green canopy cover (GCC) was calculated from the segmented images. The stem water potential was measured, and the water stress integral (S-psi) was obtained during each irrigation season. Multiple linear regression techniques and artificial neural networks (ANNs) models were trained and tested using the multispectral and RGB bands, as well as GCC, as inputs to simulate the S-psi. The results showed that the information in the visible domain (RGB) was highly related to the S-psi in the 2018 season. However, for all the other years and combinations of years, the multispectral ANNs performed slightly better. The differences in spatial resolution and radiometric quality between the RGB and multispectral geomatic products explained the varying model performances with each type of data."
+    }
+]

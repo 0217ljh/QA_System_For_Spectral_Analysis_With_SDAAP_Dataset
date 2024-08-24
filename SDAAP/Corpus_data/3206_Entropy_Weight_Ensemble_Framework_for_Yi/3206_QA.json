@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used for in-season grain yield prediction in winter wheat genotypes?",
+        "input": "",
+        "Output": "For in-season grain yield prediction in winter wheat genotypes,the researchers used visible remote sensing spectrum."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used for in-season grain yield prediction in winter wheat genotypes?",
+        "input": "",
+        "Output": "The spectral feature processing methods used for in-season grain yield prediction in winter wheat genotypes were the entropy weight method and the ensemble framework."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the prediction accuracy for in-season grain yield prediction in winter wheat genotypes, and how well did it perform?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the prediction accuracy in the related study was the coefficient of determination (R-2). The study found that the fusion of dual-sensor data showed high yield prediction accuracy, with R-2 values ranging from 0.527 to 0.667. Using a single multispectral sensor resulted in lower prediction accuracy, with R-2 values ranging from 0.130 to 0.461. The grain filling stage was identified as the optimal stage for predicting yield, with an R-2 value of 0.667. The entropy weight fusion (EWF) model outperformed at all individual growth stages, with R-2 values ranging from 0.677 to 0.729. The best prediction result, with an R-2 value of 0.729, was achieved by combining the predicted values from all growth stages."
+    },
+    {
+        "instruction": "How were the predicted grain yield values from multiple growth stages combined in the study on UAV-based multispectral and thermal images for in-season grain yield prediction in winter wheat genotypes?",
+        "input": "",
+        "Output": "In the related study, the predicted grain yield values from multiple growth stages were combined using the entropy weight fusion (EWF) method. The EWF method was used to combine the predicted grain yield (GY) values obtained at each growth stage, including jointing, booting, heading, flowering, grain filling, and maturity. By combining the predicted values from all growth stages, the EWF model achieved the best prediction result with a coefficient of determination (R-2) of 0.729, root mean square error (RMSE) of 0.831 t ha(-1), relative root-mean-square error (RRMSE) of 14.3%, and mean absolute error (MAE) of 0.684 t ha(-1). This fusion of predicted values from multiple growth stages provided a more precise and robust prediction of wheat yield."
+    },
+    {
+        "instruction": "Can the fusion of UAV-based multispectral and thermal images within an ENR-EWF framework be used to predict grain yield in winter wheat genotypes under different water treatments?",
+        "input": "",
+        "Output": "Yes, the fusion of UAV-based multispectral and thermal images within an ENR-EWF framework can be used to predict grain yield in winter wheat genotypes under different water treatments. The related study evaluated the use of these technologies for in-season grain yield prediction in 30 winter wheat genotypes under 3 water treatments. The results showed that the fusion of dual-sensor data (multispectral and thermal) had higher yield prediction accuracy compared to using a single multispectral sensor. The best prediction result was achieved by combining the predicted values from all growth stages using the ENR-EWF framework. Therefore, this study suggests that this approach can provide a precise and robust prediction of wheat yield."
+    }
+]

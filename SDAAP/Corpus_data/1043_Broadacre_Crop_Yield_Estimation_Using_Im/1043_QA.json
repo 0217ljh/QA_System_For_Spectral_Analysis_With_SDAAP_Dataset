@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum (wavelength range) were used in the related study of investigating snap bean crop yield via unmanned aerial systems (UAS)?",
+        "input": "",
+        "Output": "The spectrum (wavelength range) used in the imaging spectroscopy for investigating snap bean crop yield via unmanned aerial systems (UAS) was in the visible to near-infrared (VNIR) region, specifically ranging from 400 to 1000 nm."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to identify features explaining snap bean crop yield in the related study of investigating snap bean crop yield via unmanned aerial systems (UAS)?",
+        "input": "",
+        "Output": "The spectral feature processing methods used to identify features explaining snap bean crop yield in the related study were RF, support vector regression (SVR), and K-nearest neighbors (KNN) models, along with the recursive feature elimination (RFE) feature selection method."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the accuracy of yield prediction in the related study of investigating snap bean crop yield via unmanned aerial systems (UAS), and how far can this metric go in explaining the snap bean crop yield?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the accuracy of yield prediction for the snap bean crop was the coefficient of determination (R2) and the root-mean-square error (RMSE). The coefficient of determination (R2) measures the proportion of the variance in the yield that can be explained by the spectral features and regression model used. The root-mean-square error (RMSE) measures the average difference between the predicted yield and the actual yield in kilograms per hectare (kg/ha) for pod weight and in millimeters (mm) for seed length.\n\nThe R2 values obtained for pod weight ranged from 0.78 to 0.93, indicating that the selected spectral features and regression model can explain 78% to 93% of the variance in pod weight yield. The RMSE values ranged from 940 to 1369 kg/ha, indicating that the average difference between the predicted and actual pod weight yield was within this range.\n\nFor seed length, the R2 values ranged from 0.83 to 0.98, indicating that the selected spectral features and regression model can explain 83% to 98% of the variance in seed length yield. The RMSE values ranged from 4.245 to 6.018 mm, indicating that the average"
+    },
+    {
+        "instruction": "What denoising algorithm was implemented for the spectral data in the study investigating snap bean crop yield estimation via imaging spectroscopy?",
+        "input": "",
+        "Output": "The denoising algorithm implemented for the spectral data in the study investigating snap bean crop yield estimation via imaging spectroscopy was not specified in the given text."
+    },
+    {
+        "instruction": "Can imaging spectroscopy via unmanned aerial systems (UAS) be considered a superior method compared to traditional methods for estimating snap bean crop yield?",
+        "input": "",
+        "Output": "Yes.Based on the information provided in the text, imaging spectroscopy via unmanned aerial systems (UAS) can be considered a superior method compared to traditional methods for estimating snap bean crop yield. The study investigated the use of UAS and hyperspectral imaging in the visible to near-infrared (VNIR) region to predict crop yield. The findings showed that pod weight and seed length could be accurately explained using spectral features, with high coefficients of determination (R2) and low root-mean-square errors (RMSE) for two years of data. The use of UAS and imaging spectroscopy allows for timely and precise estimation of crop yield, providing growers with the ability to proactively manage crop growth and predict harvest logistics."
+    }
+]

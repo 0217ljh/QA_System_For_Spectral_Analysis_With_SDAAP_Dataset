@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the related study on estimating the net photosynthetic rate (Pn) of rice plants at different growth stages?",
+        "input": "",
+        "Output": "In the related study, the researchers used visible remote sensing spectrum on estimating the net photosynthetic rate (Pn) of rice plants at different growth stages."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the related study on estimating the net photosynthetic rate (Pn) of rice plants at different growth stages?",
+        "input": "",
+        "Output": "Texture features extracted from different spectral bands were used in the related study on estimating the net photosynthetic rate (Pn) of rice plants at different growth stages."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the modeling accuracy of Pn estimation in the related study on estimating the net photosynthetic rate (Pn) of rice plants at different growth stages, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the modeling accuracy of Pn estimation is the coefficient of determination (R-2). The R-2 value ranges from 0 to 1, with 1 indicating a perfect fit between the predicted and actual values. In the related study, the R-2 values ranged from 0.383 to 0.938, indicating a moderate to high level of accuracy in estimating Pn. "
+    },
+    {
+        "instruction": "What were the results of comparing the accuracy of different machine learning models for estimating the net photosynthetic rate (Pn) in rice crops at different growth stages based on different input conditions?",
+        "input": "",
+        "Output": "The results of comparing the accuracy of different machine learning models for estimating the net photosynthetic rate (Pn) in rice crops at different growth stages based on different input conditions are as follows:\n\n1. VIs and TIs generally had the best correlation with Pn at the jointing-booting stage, with the largest number of VIs showing significant correlation (p< 0.05).\n\n2. The employed models achieved the highest overall accuracy (coefficient of determination, R-2, of 0.383-0.938) when using VIs and TIs as input at the jointing-booting stage.\n\n3. As the growth stage progressed, the correlation between VIs, TIs, and Pn gradually weakened, resulting in a decrease in accuracy. The R-2 values ranged from 0.258-0.928 at the heading-flowering stage and 0.125-0.863 at the ripening stage."
+    },
+    {
+        "instruction": "Can the use of UAV multispectral images and analysis of vegetation indices (VIs) and textural indices (TIs) provide a more accurate estimation of the net photosynthetic rate (Pn) in rice crops at different growth stages compared to traditional methods?",
+        "input": "",
+        "Output": "Yes, the use of UAV multispectral images and analysis of vegetation indices (VIs) and textural indices (TIs) can provide a more accurate estimation of the net photosynthetic rate (Pn) in rice crops at different growth stages compared to traditional methods. The related study employed various models, including linear regression (LR), support vector regression (SVR), gradient boosting decision tree (GBDT), random forest (RF), and multilayer perceptron neural network (MLP), to estimate Pn. The models were tested using input conditions of VIs, VIs combined with TIs, and fusion of VIs and TIs with plant height (PH) and SPAD. The results showed that VIs and TIs had the best correlation with Pn at the jointing-booting stage, and the number of VIs with significant correlation was the largest. The models achieved high overall accuracy (coefficient of determination, R-2, of 0.383-0.938) using VIs as input. As the growth stage progressed, the correlation weakened, resulting in a decrease in accuracy. "
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used in estimating Above-ground Biomass (AGB) in a sub-tropical forest of Nepal?",
+        "input": "",
+        "Output": "The related study used visible remote sensing spectrum in estimating Above-ground Biomass (AGB) in a sub-tropical forest of Nepal."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in estimating Above-ground Biomass (AGB) in a sub-tropical forest of Nepal?",
+        "input": "",
+        "Output": "The dark object subtraction (DOS) method was used to transform the Sentinel-2 MSI image from radiance to surface reflectance in estimating Above-ground Biomass (AGB) in a sub-tropical forest of Nepal."
+    },
+    {
+        "instruction": "What metric was chosen in estimating Above-ground Biomass (AGB) in a sub-tropical forest of Nepal and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen for estimating Above-ground Biomass (AGB) in a sub-tropical forest of Nepal was texture parameters instead of spectral vegetation indices. The effectiveness of this metric in AGB estimation is still being explored."
+    },
+    {
+        "instruction": "How was the Random Forest machine learning algorithm used in the study to estimate Above-ground Biomass (AGB) in a sub-tropical forest of Nepal using improved resolution Sentinel-2 MSI data?",
+        "input": "",
+        "Output": "In the study, the Random Forest (RF) machine learning algorithm was used to estimate Above-ground Biomass (AGB) in a sub-tropical forest of Nepal using improved resolution Sentinel-2 MSI data. The algorithm was applied to different sets of data to compare the results.\n\nFirst, texture metrics were derived from the Sentinel-2 MSI data based on different working window sizes (3 x 3, 5 x 5, 7 x 7, and 9 x 9). These texture metrics were used as input features for the RF algorithm.\n\nNext, vegetation indices (VIs) were calculated from the Sentinel-2 MSI data. These VIs, such as the Soil Adjusted Vegetation Index (SAVI), were also used as input features for the RF algorithm.\n\nThe RF algorithm was then trained using the different sets of data. The sets included raw traditional bands (Analysis set 1: 2, 3, 4, 8, 11, and 12), raw traditional and red edge bands (Analysis set 2: Set 1 + Band 5, 6, 7, and 8A), and red edge bands only (Analysis set 3)."
+    },
+    {
+        "instruction": "How does the use of pooled data (texture and VIs) compare to the use of raw traditional bands or red edge bands alone in estimating Above-ground Biomass (AGB) in a sub-tropical forest of Nepal using improved resolution Sentinel-2 MSI data?",
+        "input": "",
+        "Output": "The use of pooled data, which includes both texture metrics and vegetation indices (VIs), yielded higher estimates of Above-ground Biomass (AGB) compared to the use of raw traditional bands or red edge bands alone. The results showed that models based on pooled data had better model fitting parameters, with an R-2 value of 0.99 and a RMSE of 4.51 t ha(-1) (relRMSE = 2.82). This indicates a strong correlation between the pooled data and the actual AGB values in the sub-tropical forest of Nepal. \n\nFurthermore, the Random Forest (RF) machine learning algorithm identified dissimilarity, variance, and mean from Band 2 and the Soil Adjusted Vegetation Index (SAVI) as the most important predictor variables for AGB estimation. This suggests that both the traditional bands and the red-edge bands were equally important in estimating AGB using the improved resolution Sentinel-2 MSI data."
+    }
+]

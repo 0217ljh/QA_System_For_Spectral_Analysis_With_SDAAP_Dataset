@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the hybrid retrieval workflow for crop trait mapping?",
+        "input": "",
+        "Output": "The hybrid retrieval workflow for crop trait mapping used hyperspectral data cubes collected by the PRISMA satellite. The satellite provided contiguous visible-to-shortwave infrared spectral information."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the hybrid retrieval workflow for crop trait mapping?",
+        "input": "",
+        "Output": "Principal Component Analysis (PCA) was used to extract spectral features, and the information was normalized by the inverse of the sigma values rescaled between 0 and 1. The normalized eigenvectors were then summed for each wavelength and averaged across three spectral domains: VIS (400\u2013750 nm), NIR (750\u20131300 nm), and SWIR (1300\u20132500 nm)."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the accuracy of the retrieval scheme and how far can this metric go in the hybrid retrieval workflow for crop trait mapping?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the accuracy of the retrieval scheme is the coefficient of determination (r^2) and the normalized root mean square error (nRMSE). The coefficient of determination measures the proportion of the variance in the observed data that can be explained by the model, with values ranging from 0 to 1. The normalized root mean square error provides a measure of the average difference between the predicted and observed values, expressed as a percentage of the observed values. \n\nThe text does not specify how far this metric can go in terms of its range or limitations."
+    },
+    {
+        "instruction": "What machine learning algorithms were used in the hybrid retrieval workflow for crop trait mapping?",
+        "input": "",
+        "Output": "The machine learning algorithm used in the hybrid retrieval workflow for crop trait mapping is Gaussian processes regression."
+    },
+    {
+        "instruction": "Can the hybrid retrieval workflow using hyperspectral data collected by the PRISMA satellite be considered superior to traditional methods for mapping crop traits?",
+        "input": "",
+        "Output": "Yes, the hybrid retrieval workflow using hyperspectral data collected by the PRISMA satellite can be considered superior to traditional methods for mapping crop traits. The text states that the accuracy of the proposed retrieval scheme was evaluated against a broad ground dataset and the results obtained were positive for all the investigated variables. The highest accuracy was achieved for leaf nitrogen content (LNC) at the leaf level, and a significantly higher accuracy was observed for nitrogen content (CNC) and chlorophyll content (CCC) at the canopy level. Additionally, the developed models were tested against an independent dataset and showed good robustness and exportability. The high accuracy and consistency of the results demonstrate the potential of spaceborne imaging spectroscopy for crop monitoring, indicating that the hybrid retrieval workflow using hyperspectral data from the PRISMA satellite is superior to traditional methods for mapping crop traits."
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the related study to predict and map six iron (Fe) parameters indicative of soil development and pedogenic processes?",
+        "input": "",
+        "Output": "Ground-based hyperspectral imaging spectroscopy was used in the related study."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the related study to predict and map six iron (Fe) parameters indicative of soil development and pedogenic processes?",
+        "input": "",
+        "Output": "The related study used ground-based hyperspectral imaging (HSI) spectroscopy in the 400-1010 nm range to predict and map six iron (Fe) parameters indicative of soil development and pedogenic processes."
+    },
+    {
+        "instruction": "What metric was chosen in the related study to predict and map six iron (Fe) parameters indicative of soil development and pedogenic processes?",
+        "input": "",
+        "Output": "Root mean square error (RMSE) and Lin's concordance correlation coefficient (LCCC) values were chosen as metrics in the related study to predict and map six iron (Fe) parameters indicative of soil development and pedogenic processes."
+    },
+    {
+        "instruction": "How did the non-linear machine learning techniques compare to linear partial least squares in predicting the soil Fe parameters in the related study to predict and map six iron (Fe) parameters indicative of soil development and pedogenic processes?",
+        "input": "",
+        "Output": "The non-linear machine learning techniques (random forest, XGBoost, CatBoost, and support vector machine regression) outperformed the linear partial least squares (PLS) model in predicting most of the soil Fe parameters in the related study. The non-linear models showed lower root mean square error (RMSE) and higher Lin's concordance correlation coefficient (LCCC) values compared to PLS. Specifically, support vector machine regression (SVMR) demonstrated better performance than the other tested models for all six soil Fe parameters: Fe-t, Fe-d, Fe-o, Fe-W, Fe-A, and Fe-C. SVMR had lower RMSE values and higher LCCC values for each parameter. According to the LCCC values, soil Fe-t was predicted to be in substantial agreement by SVMR, while the other soil Fe predictions were considered to be in near perfect agreement. Additionally, SVMR required lower computational costs. Therefore, the combination of hyperspectral imaging spectroscopy and SVMR is recommended for more reliable estimation and profile mapping of the selected soil Fe parameters compared to PLS, RF, XGBoost, and CatBoost."
+    },
+    {
+        "instruction": "How does the performance of ground-based hyperspectral imaging spectroscopy compare to traditional methods in predicting and mapping the six iron (Fe) parameters in the related study?",
+        "input": "",
+        "Output": "The performance of ground-based hyperspectral imaging spectroscopy was compared to traditional methods in predicting and mapping the six iron (Fe) parameters in the related study. The study found that the four non-linear machine learning models (random forest, XGBoost, CatBoost, and support vector machine regression) outperformed the traditional linear partial least squares (PLS) model for most of the soil Fe parameters. The non-linear models showed lower root mean square error (RMSE) and higher Lin's concordance correlation coefficient (LCCC) values, indicating better performance.\n\nSpecifically, support vector machine regression (SVMR) showed the best performance among the tested models for all six Fe parameters: total Fe (Fe-t), dithionite-citrate-bicarbonate-extracted Fe (Fe-d), oxalate-extracted Fe (Fe-o), weathering index (Fe-W), active ratio (Fe-A), and crystallinity ratio (Fe-C). SVMR had lower RMSE values and higher LCCC values compared to the other models. According to the LCCC values, the predictions of Fe-t and the other Fe parameters were considered to be in substantial or near-perfect agreement, respectively.\n\nIn addition to better performance, SVMR also required lower computational costs compared"
+    }
+]

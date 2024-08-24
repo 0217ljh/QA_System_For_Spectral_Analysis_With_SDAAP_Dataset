@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What spectrum can be used to develop a canopy spectral decomposition method to reduce the interference of other traits on leaf nitrogen concentration (LNC) and leaf nitrogen density (LND) estimation?",
+        "input": "",
+        "Output": "To develop a canopy spectral decomposition method to reduce the interference of other traits on leaf nitrogen concentration (LNC) and leaf nitrogen density (LND) estimation,the researchers used remote sensing spectrum."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to develop a canopy spectral decomposition method to reduce the interference of other traits on leaf nitrogen concentration (LNC) and leaf nitrogen density (LND) estimation?",
+        "input": "",
+        "Output": "Competitive adaptive reweighted sampling (CARS) and successive projections algorithm (SPA) were used as spectral feature processing methods to develop a canopy spectral decomposition method to reduce the interference of other traits on leaf nitrogen concentration (LNC) and leaf nitrogen density (LND) estimation."
+    },
+    {
+        "instruction": "What metric was chosen to develop a canopy spectral decomposition method to reduce the interference of other traits on leaf nitrogen concentration (LNC) and leaf nitrogen density (LND) estimation and how far can this metric go?",
+        "input": "",
+        "Output": "The contribution rates of LAI, AGB, and leaf nitrogen status were chosen as the metric to develop a canopy spectral decomposition method to reduce interference on LNC and LND estimation. This metric effectively improved the accuracy of leaf nitrogen traits estimation."
+    },
+    {
+        "instruction": "How were the machine learning models, such as PLSR, GPR, SVR, and RFR, utilized to to develop a canopy spectral decomposition method to reduce the interference of other traits on leaf nitrogen concentration (LNC) and leaf nitrogen density (LND) estimation?",
+        "input": "",
+        "Output": "To develop a canopy spectral decomposition method to reduce the interference of other traits on leaf nitrogen concentration (LNC) and leaf nitrogen density (LND) estimation, the machine learning models, including partial least squares regression (PLSR), Gaussian process regression (GPR), support vector regression (SVR), and random forest regression (RFR), were utilized to estimate maize leaf nitrogen concentration (LNC) and leaf nitrogen density (LND) after spectral decomposition.\n\nFirst, the weights of the leaf nitrogen status, aboveground biomass (AGB), and leaf area index (LAI) contributing to the canopy spectrum were calculated using the entropy weight method. Then, the sensitive bands of LNC and LND before and after spectral decomposition were selected using the successive projections algorithm (SPA) and competitive adaptive reweighted sampling (CARS) algorithm.\n\nFinally, the reflectance of all bands and sensitive bands was compared to estimate maize LNC and LND using the machine learning models. The models were trained and tested using independent samples. The performance of the models was evaluated based on the correlation coefficient (r) between LNC and each band, as well as the accuracy of the estimation.\n\nThe results showed that regardless of using the reflectance of all bands or sensitive bands, the machine learning models performed better after spectral decomposition compared to before spectral decomposition."
+    },
+    {
+        "instruction": "How does the developed canopy spectral decomposition method contribute to reducing the interference of other traits on leaf nitrogen concentration (LNC) and leaf nitrogen density (LND) estimation using UAV-based hyperspectral images?",
+        "input": "",
+        "Output": "The developed canopy spectral decomposition method contributes to reducing the interference of other traits on leaf nitrogen concentration (LNC) and leaf nitrogen density (LND) estimation using UAV-based hyperspectral images by separating the spectral information sensitive to leaf nitrogen status from the overall canopy spectrum. This separation is achieved by calculating the weights of leaf nitrogen status, aboveground biomass (AGB), and leaf area index (LAI) contributing to the canopy spectrum using the entropy weight method. \n\nBy implementing the successive projections algorithm (SPA) and competitive adaptive reweighted sampling (CARS) algorithm, the sensitive bands of LNC and LND before and after spectral decomposition are identified. These sensitive bands are then used to estimate LNC and LND using regression models such as partial least squares regression (PLSR), Gaussian process regression (GPR), support vector regression (SVR), and random forest regression (RFR).\n\nThe results show that after spectral decomposition, the correlation coefficient (r) between LNC and each band increases compared to before spectral decomposition. The reflectance of the sensitive bands in the near infrared region shows a significantly higher correlation with LNC and LND after spectral decomposition."
+    }
+]

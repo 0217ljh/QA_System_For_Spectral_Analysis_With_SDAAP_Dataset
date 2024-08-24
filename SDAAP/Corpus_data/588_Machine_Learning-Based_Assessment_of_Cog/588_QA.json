@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the study on predicting cognitive function in aged people?",
+        "input": "",
+        "Output": "The related study used near-infrared spectroscopy (NIRS) data and basic blood test data to predict cognitive function in aged people."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used on predicting cognitive function in aged people?",
+        "input": "",
+        "Output": "Machine learning techniques were used for predicting cognitive function in aged people using time-resolved near-infrared spectroscopy (TNIRS) data and basic blood test data."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate prediction accuracies on predicting cognitive function in aged people?",
+        "input": "",
+        "Output": "The metric chosen to evaluate prediction accuracies in the related study was the mean absolute percentage error (MAPE). MAPE measures the average percentage difference between the predicted MMSE scores and the ground truth MMSE scores. \n\nAs for how far this metric can go, it provides a measure of the average accuracy of the predictions."
+    },
+    {
+        "instruction": "What was the impact of adding both near-infrared spectroscopy (NIRS) data and basic blood test data to the input layer in predicting cognitive function?",
+        "input": "",
+        "Output": "The impact of adding both near-infrared spectroscopy (NIRS) data and basic blood test data to the input layer in predicting cognitive function was an improvement of 1.0% in mean absolute percentage error (MAPE) compared to using blood test data alone. However, it is important to note that the use of blood test data alone already exhibited a high prediction accuracy with 81.8% sensitivity and 91.3% specificity. Therefore, while the addition of NIRS data provided a slight improvement in prediction accuracy, the benefits of using blood test data, such as low cost and large-scale screening feasibility, make it still the most suitable option for mass screening."
+    },
+    {
+        "instruction": "How does the prediction accuracy of cognitive function using near-infrared spectroscopy (NIRS) data compare to basic blood test data in the related study?",
+        "input": "",
+        "Output": "In the related study, the prediction accuracy of cognitive function using near-infrared spectroscopy (NIRS) data was compared to basic blood test data. The related study found that the deep neural network (DNN)-based prediction using NIRS data exhibited lower mean absolute error (MAE) and mean absolute percentage error (MAPE) compared to those using blood test data. However, the difference in MAPE between NIRS and blood test data was only 0.3%. Therefore, while NIRS data showed slightly better prediction accuracy, the difference was minimal."
+    }
+]

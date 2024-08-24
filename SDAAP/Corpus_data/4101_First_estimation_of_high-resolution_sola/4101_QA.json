@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to estimate the global horizontal irradiance (GHI) over China?",
+        "input": "",
+        "Output": "The related study used remote sensing spectrum to estimate the global horizontal irradiance (GHI) over China."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to estimate the global horizontal irradiance (GHI) over China?",
+        "input": "",
+        "Output": "The spectral feature processing methods used to estimate the global horizontal irradiance (GHI) over China included spectral bands of 0.55\u20130.75, 3.5\u20134, 6.9\u20137.3, and 11.5\u201312.5 \u03bcm."
+    },
+    {
+        "instruction": "What metric was chosen to estimate the global horizontal irradiance (GHI) over China?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the accuracy of the GHI (global horizontal irradiance) estimates is the root mean square error (RMSE) and the mean bias error (MBE). The RMSE measures the average difference between the measured and retrieved values, while the MBE measures the average difference in the mean values. \n\nThe RMSE can provide information about the overall accuracy of the estimates, indicating how close the retrieved values are to the measured values on average."
+    },
+    {
+        "instruction": "How was the accuracy of the GHI estimates using the Fengyun-4A satellite and the random forest model evaluated in the related study?",
+        "input": "",
+        "Output": "In the related study, the accuracy of the Global Horizontal Irradiance (GHI) estimates using the Fengyun-4A satellite and the random forest model was evaluated by comparing the hourly measured values with the retrieved values. The evaluation was done by calculating the root mean square error and mean bias error between the measured and retrieved values. The root mean square error was found to be 147.02 (35.2%), indicating the average difference between the measured and retrieved values, while the mean bias error was -5.64 W/m2 (-1.4%), indicating the average deviation from the measured values. Additionally, the accuracy of the daily estimates was also evaluated, with a root mean square error of 29.20 (18.0%) and a mean bias error of -2.97 W/m2 (-1.3%). The study found that the retrieval accuracy was higher for instances with solar zenith angles smaller than 60 degrees. However, relatively larger errors were observed in locations in the Sichuan Basin and northeastern China, which could be attributed to bright surfaces and/or strong cloud transients."
+    },
+    {
+        "instruction": "Can the spectral feature processing methods used in the random forest model for GHI estimation be considered superior to traditional methods in terms of accuracy and reliability, based on the findings of the related study?",
+        "input": "",
+        "Output": "Yes. Based on the findings of the related study, the spectral feature processing methods used in the random forest model for GHI estimation can be considered superior to traditional methods in terms of accuracy and reliability. The study reports a root mean square error of 147.02 (35.2%) and a mean bias error of -5.64 W/m2 (-1.4%) for hourly GHI estimates, and a root mean square error of 29.20 (18.0%) and a mean bias error of -2.97 W/m2 (-1.3%) for daily estimates. These values indicate a relatively low level of error in the estimation of GHI using the random forest model. Additionally, the study found that the retrieval accuracy was better for instances with solar zenith angles smaller than 60 degrees."
+    }
+]

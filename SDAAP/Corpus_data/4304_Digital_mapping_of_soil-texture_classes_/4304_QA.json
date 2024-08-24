@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectral bands were used to estimate soil-texture classes?",
+        "input": "",
+        "Output": "The related study used remote sensing spectrum to estimate soil-texture classes."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to estimate soil-texture classes?",
+        "input": "",
+        "Output": "The spectral feature processing methods used to estimate soil-texture classes were Bands 1\u20137 from satellite data, Simple Soil Ratio Clay Index (SRCI), and Bareness Index Landsat (BIL)."
+    },
+    {
+        "instruction": "What metric was chosen to estimate soil-texture classes?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the machine-learning models in estimating soil-texture fractions was the coefficient of determination (R-2), root mean square error (RMSE), and mean absolute error (MAE) values."
+    },
+    {
+        "instruction": "What were the results of comparing the performance of the three machine-learning models in estimating soil-texture fractions using coefficient of determination (R-2), root mean square error (RMSE), and mean absolute error (MAE) values?",
+        "input": "",
+        "Output": "The results of comparing the performance of the three machine-learning models in estimating soil-texture fractions using coefficient of determination (R-2), root mean square error (RMSE), and mean absolute error (MAE) values are as follows:\n\n- The XGBoost model had the highest R-2 values for all soil-texture fractions, with values of 90% for clay, 85% for silt, and 91% for sand.\n- The RF model had lower R-2 values compared to XGBoost, with values of 86% for clay, 66% for silt, and 86% for sand.\n- The SVR model had the lowest R-2 values among the three models, with values of 72% for clay, 56% for silt, and 86% for sand.\n\nBased on these results, the XGBoost model performed the best in estimating soil-texture fractions, followed by the RF model, and then the SVR model."
+    },
+    {
+        "instruction": "Can the spectral bands used in the related study for estimating soil-texture classes using machine-learning models be considered superior to traditional methods?",
+        "input": "",
+        "Output": "Based on the information provided in the text, it is not explicitly stated whether the spectral bands used in this study for estimating soil-texture classes using machine-learning models are superior to traditional methods. The related study focuses on evaluating the performance of three different machine-learning models (RF, SVR, and XGBoost) in estimating soil-texture fractions using Landsat 8 spectral bands and a digital elevation model (DEM). The results show that the XGBoost model performed better than the RF and SVR models in estimating soil-texture fractions."
+    }
+]

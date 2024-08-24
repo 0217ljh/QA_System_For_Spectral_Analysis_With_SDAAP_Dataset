@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the study for estimating Cab and Cw in terms of accuracy and robustness?",
+        "input": "",
+        "Output": "The study used leaf VIS-NIR-SWIR reflectance data, which covers the wavelength range of 400-2500 nm."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the study for estimating Cab and Cw in terms of accuracy and robustness?",
+        "input": "",
+        "Output": "Empirical methods, inversion of mechanistic models, and hybrid methods combining mechanistic and machine learning models were used in the study for estimating Cab and Cw in terms of accuracy and robustness."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of the proposed method in the study for estimating Cab and Cw in terms of accuracy and robustness?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the proposed method in the study for estimating Cab and Cw was the Root Mean Square Error (RRMSE), R-squared (R2), and bias."
+    },
+    {
+        "instruction": "What other common methods were compared with the proposed Spiking-Hybrid method in the study for estimating Cab and Cw in terms of accuracy and robustness?",
+        "input": "",
+        "Output": "The other common methods that were compared with the proposed Spiking-Hybrid method in the study were:\n1. PROCOSINE inversion with numerical optimization\n2. Conventional hybrid method\n3. Empirical machine learning method"
+    },
+    {
+        "instruction": "How does the proposed Spiking-Hybrid method compare to the empirical machine learning method in estimating Cab and Cw in terms of accuracy and robustness?",
+        "input": "",
+        "Output": "The proposed Spiking-Hybrid method outperforms the empirical machine learning method in estimating Cab and Cw in terms of accuracy and robustness. The study found that both the proposed method and the empirical method performed better than the other two common methods for estimating Cab and Cw. However, the proposed Spiking-Hybrid method consistently achieved higher accuracy and better robustness than the empirical machine learning method, especially when the number of available in-situ samples was limited (less than 5% of the total training samples). This suggests that the Spiking-Hybrid method, which combines mechanistic model simulation with machine learning and leverages a spiking technique, can achieve accurate and robust estimations for Cab and Cw even with a significantly reduced number of in-situ samples."
+    }
+]

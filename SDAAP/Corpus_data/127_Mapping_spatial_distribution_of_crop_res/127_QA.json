@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used on mapping non-photosynthetic vegetation (NPV)?",
+        "input": "",
+        "Output": "The PRISMA hyperspectral satellite was used on mapping non-photosynthetic vegetation (NPV)"
+    },
+    {
+        "instruction": "What spectral feature processing methods were used on mapping non-photosynthetic vegetation (NPV)?",
+        "input": "",
+        "Output": "Spectroscopic approaches and modelled absorption features, as well as machine-learning techniques, were used on mapping non-photosynthetic vegetation (NPV)."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the mapping results and how far can this metric go in assessing the accuracy?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the mapping results in this study is Overall Accuracy (O.A.) and Kappa (K) coefficient. The Overall Accuracy measures the percentage of correctly classified pixels or parcels, while the Kappa coefficient assesses the agreement between the observed and predicted classifications, taking into account the agreement that could occur by chance alone.\n\nThe text states that the mapping results are accurate both at pixel and parcel level, with an Overall Accuracy (O.A.) greater than 90% and a Kappa (K) coefficient greater than 0.9. This indicates a high level of accuracy in the mapping results.\n\nHowever, it is important to note that the text does not provide information on how far this metric can go in assessing the accuracy. It does not mention any specific limitations or potential sources of error in the evaluation process. Therefore, it is not possible to determine the full extent of the metric's capability in assessing accuracy based on the given information."
+    },
+    {
+        "instruction": "How were machine-learning techniques utilized to map non-photosynthetic vegetation (NPV) and field conditions using PRISMA hyperspectral satellite data?",
+        "input": "",
+        "Output": "Machine-learning techniques were utilized to map non-photosynthetic vegetation (NPV) and field conditions using PRISMA hyperspectral satellite data. Specifically, Exponential Gaussian Optimization was used to model known absorption bands related to cellulose-lignin, pigments, water content, and clays. This modeling process helped reduce the feature space and identify key spectral signatures associated with different field conditions, such as emerging, green and standing dead vegetation, crop residue, and bare soil.\n\nOnce the feature space was reduced, a decision tree (DT) algorithm was employed to classify and map the different field conditions. The DT algorithm used the reduced feature space as input and made decisions based on the spectral information to assign each pixel or parcel to a specific field condition category.\n\nTo train and validate the DT algorithm, reference data collected during PRISMA overpasses on a large farmland were utilized. These reference data provided ground truth information about the field conditions, which were then used to assess the accuracy of the mapping results.\n\nOverall, the combination of machine-learning techniques, such as Exponential Gaussian Optimization and decision tree classification, along with PRISMA hyperspectral satellite data, allowed for accurate mapping of NPV and field conditions at both pixel and parcel levels."
+    },
+    {
+        "instruction": "Can the accuracy of mapping field conditions using PRISMA hyperspectral satellite data be attributed solely to the spectral features processed, or were other factors involved?",
+        "input": "",
+        "Output": "The accuracy of mapping field conditions using PRISMA hyperspectral satellite data cannot be solely attributed to the spectral features processed. Other factors were involved in achieving accurate mapping results. Past study mentions that machine-learning techniques, specifically Exponential Gaussian Optimization and a decision tree, were used in conjunction with spectroscopy to map different field conditions. Additionally, reference data collected during PRISMA overpasses on a large farmland were utilized for training and validation. These factors, along with the proper spectral resolution provided by PRISMA, contributed to the high accuracy of the mapping results."
+    }
+]

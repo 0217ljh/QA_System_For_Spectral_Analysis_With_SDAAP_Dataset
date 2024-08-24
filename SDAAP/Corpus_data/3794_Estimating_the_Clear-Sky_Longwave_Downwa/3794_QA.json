@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the estimation of clear-sky longwave downward radiation (LWDR)?",
+        "input": "",
+        "Output": "In the estimation of clear-sky longwave downward radiation (LWDR),the researchers used remote sensing spectrum."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the estimation of clear-sky longwave downward radiation (LWDR)?",
+        "input": "",
+        "Output": "Machine learning algorithms, including random forests (RF), extremely randomized trees (ERT), and categorical boosting (CatBoost), were used in the estimation of clear-sky longwave downward radiation (LWDR)."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the retrieval accuracy in the estimation of clear-sky longwave downward radiation (LWDR), and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the retrieval accuracy of clear-sky LWDR from FY-3D MERSI-2 observations is the root mean square error (RMSE) and bias. The RMSE value is reported as 14.14 W/m(2) and the bias value is reported as 4.36 W/m(2). These values indicate the level of deviation between the retrieved LWDR values and the in situ measurements from the Baseline Surface Radiation Network (BSRN).\n\nIn terms of how far this metric can go, the study further analyzes the scale effect in retrieval accuracy evaluation. By aggregating the data to a spatial resolution of 9 km, the RMSE and bias of the MERSI-2 retrievals can be reduced to 9.43 W/m(2) and -0.14 W/m(2) respectively. Additionally, at the CERES SSF FOV spatial scale (approximately 20 km), the retrieval accuracy of MERSI-2 clear-sky LWDR can be further reduced to 8.64 W/m(2). This indicates that the metric can be improved by considering different spatial resolutions and scales."
+    },
+    {
+        "instruction": "What machine learning algorithm was used in the study to estimate clear-sky LWDR from FY-3D MERSI-2 observations in the Arctic?",
+        "input": "",
+        "Output": "The machine learning algorithm used in the study to estimate clear-sky LWDR from FY-3D MERSI-2 observations in the Arctic is the extremely randomized trees (ERT) algorithm."
+    },
+    {
+        "instruction": "How does the proposed method for estimating clear-sky LWDR from FY-3D MERSI-2 observations compare to traditional methods in terms of retrieval accuracy and understanding the physical mechanisms of rapid changes in the Arctic climate?",
+        "input": "",
+        "Output": "The proposed method for estimating clear-sky LWDR from FY-3D MERSI-2 observations using the extremely randomized trees (ERT) machine learning algorithm shows comparable and even better retrieval accuracy compared to previous studies. The root mean square error (RMSE) and bias of the retrieval accuracy, validated with in situ measurements from the Baseline Surface Radiation Network (BSRN), are 14.14 W/m(2) and 4.36 W/m(2), respectively. \n\nIn terms of understanding the physical mechanisms of rapid changes in the Arctic climate, the reliable estimation of clear-sky LWDR is essential. By using the proposed method, researchers can obtain accurate LWDR datasets from FY-3D MERSI-2 observations. This allows for a better understanding of the intrinsic physical mechanisms driving the rapid changes in the Arctic climate. \n\nOverall, the proposed method not only provides a reliable LWDR product but also contributes to the understanding of the physical mechanisms behind the Arctic climate changes."
+    }
+]

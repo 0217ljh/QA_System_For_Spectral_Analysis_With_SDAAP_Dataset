@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to estimate N status indicators in the Crop Circle Phenom sensing system?",
+        "input": "",
+        "Output": "The related study used visible and nir remote sensing spectrum to estimate N status indicators in the Crop Circle Phenom sensing system"
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to estimate N status indicators in the Crop Circle Phenom sensing system?",
+        "input": "",
+        "Output": "The spectral feature processing methods used to estimate N status indicators in the Crop Circle Phenom sensing system included eLAI, eCCC, \u2206Temp, and fPAR."
+    },
+    {
+        "instruction": "What metric was chosen to estimate N status indicators in the Crop Circle Phenom sensing system?",
+        "input": "",
+        "Output": "The metric chosen to estimate N status indicators in the Crop Circle Phenom sensing system was the normalized difference vegetation index (NDVI)."
+    },
+    {
+        "instruction": "How were the machine learning models utilized in the evaluation of the multi-parameter Crop Circle Phenom sensing system for corn N status diagnosis?",
+        "input": "",
+        "Output": "The machine learning models, specifically simple regression (SR) and eXtreme Gradient Boosting (XGB), were used in the evaluation of the multi-parameter Crop Circle Phenom sensing system for corn N status diagnosis. The sensor-derived indices, such as normalized difference vegetation index (NDVI), normalized difference red edge (NDRE), estimated canopy chlorophyll content (eCCC), estimated leaf area index (eLAI), ratio vegetation index (RVI), canopy chlorophyll content index (CCCI), fractional photosynthetically active radiation (fPAR), and canopy and air temperature difference (Delta Temp), were used as inputs for the models. \n\nThe evaluation focused on four plant metrics used to approximate in-season N status: aboveground biomass (AGB), plant N concentration (PNC), plant N uptake (PNU), and N nutrition index (NNI). The SR modeling using NDVI was found to be sufficient for estimating AGB. On the other hand, PNC, PNU, and NNI benefitted from XGB modeling based on multiple inputs. \n\nAdditionally, the models were evaluated by combining management information, such as soil drainage, tillage, and pre-plant N (PPN) rate, with the Crop Circle Phenom measurements."
+    },
+    {
+        "instruction": "How did combining management information and Crop Circle Phenom measurements improve the model performance for predicting plant N metrics compared to using sensing data alone in the study evaluating the multi-parameter Crop Circle Phenom sensing system for in-season diagnosis of corn N status?",
+        "input": "",
+        "Output": "Combining management information and Crop Circle Phenom measurements improved the model performance for predicting plant N metrics compared to using sensing data alone in the study. The results showed that when management information, such as drainage, tillage, and pre-plant N rate, was included along with the sensor parameters, the model performance for estimating plant N concentration (PNC), plant N uptake (PNU), and N nutrition index (NNI) was enhanced. This suggests that incorporating management practices into the model allowed for a more accurate and comprehensive assessment of the corn N status. Additionally, the study found that pre-plant N rate was the most important management metric for all models compared to drainage and tillage information, indicating its significant influence on the prediction of plant N metrics."
+    }
+]

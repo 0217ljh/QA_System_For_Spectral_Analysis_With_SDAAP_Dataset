@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the coal gangue detection model based on the framework of YOLO v4?",
+        "input": "",
+        "Output": "In the coal gangue detection model based on the framework of YOLO v4, the near infrared(nir) was used."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the coal gangue detection model based on the framework of YOLO v4?",
+        "input": "",
+        "Output": "The spectral feature processing method used in the coal gangue detection model based on the framework of YOLO v4 is the optimal index factor (OIF) theory. This method is used to select three optimal combination bands from the 25 bands of multispectral images. The OIF theory helps to effectively reduce redundant multispectral information and improve the detection speed of coal gangue."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of the coal gangue detection model based on the framework of YOLO v4 and how far can this metric go?",
+        "input": "",
+        "Output": "The specific metric chosen to evaluate the performance of the coal gangue detection model based on the framework of YOLO v4 was detection accuracy. The best result can reach 91.91%."
+    },
+    {
+        "instruction": "How was the YOLO mg model trained in the coal gangue detection study based on the framework of YOLO v4?",
+        "input": "",
+        "Output": "The YOLO mg model was trained in the coal gangue detection study based on the framework of YOLO v4 using the following steps:\n\n1. Multispectral data of coal and gangue, along with three selected bands from the 25 bands of multispectral images, were collected in the laboratory. These three bands were chosen using the best index factor theory to form pseudo RGB images.\n\n2. The training data consisted of 460 spectral images, the validation data had 65 spectral images, and the test data included 115 spectral images.\n\n3. A lightweight coal gangue detection model, named YOLO mg, was designed based on multispectral imaging. The backbone network of YOLO mg had a maximum depth of 23 convolution layers.\n\n4. To achieve stable and fast training without using pre-training weights, three learning rates were used: 0.00025, 0.0005, and 0.0001.\n\n5. The YOLO mg model was then applied to the coal gangue detection study using the pseudo RGB images. The non-maximum suppression combined with confidence threshold was used to filter out redundant bounding boxes.\n\n6. The model was trained for 100 epochs, and the convergence speed was fast."
+    },
+    {
+        "instruction": "Can the coal gangue detection model based on multispectral imaging be applied to other fields for lightweight model design?",
+        "input": "",
+        "Output": "Yes, the coal gangue detection model based on multispectral imaging can potentially be applied to other fields for lightweight model design. The model, YOLO mg, designed for coal gangue detection is a fast and stable detection model that can be trained quickly without using pre-training weights. This model can be adapted and applied to other fields that require lightweight model design for localization problems based on multispectral imaging. The success of the YOLO mg model in coal gangue detection provides guidance and inspiration for developing similar lightweight models in other industries or applications."
+    }
+]

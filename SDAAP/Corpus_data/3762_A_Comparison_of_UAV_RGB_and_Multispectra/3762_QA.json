@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to extract color indices (CIs) and spectral indices (SIs) in stay green (SG) phenotyping of diversified wheat germplasm?",
+        "input": "",
+        "Output": "The related study used visible remote sensing spectrum to extract color indices (CIs) and spectral indices (SIs) in stay green (SG) phenotyping of diversified wheat germplasm."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to extract color indices (CIs) and spectral indices (SIs) in stay green (SG) phenotyping of diversified wheat germplasm?",
+        "input": "",
+        "Output": "RGB_CIs, MSI_CIs, MSI_SIs, and MSI_CIs + SIs were used as spectral feature processing methods to extract color indices (CIs) and spectral indices (SIs) in stay green (SG) phenotyping of diversified wheat germplasm."
+    },
+    {
+        "instruction": "What metric was chosen to extract color indices (CIs) and spectral indices (SIs) in stay green (SG) phenotyping of diversified wheat germplasm?",
+        "input": "",
+        "Output": "The metric chosen to quantify the stay green (SG) in diverse wheat genotypes was the wheat temporal stay green rates (SGR). This metric measures the changes in SG on a population level."
+    },
+    {
+        "instruction": "How were machine learning classifiers utilized in the related study to detect different stages of stay green (SG) using color indices (CIs) and spectral indices (SIs) extracted from UAV RGB and multispectral images?",
+        "input": "",
+        "Output": "In the related study, machine learning classifiers were used to detect different stages of stay green (SG) using color indices (CIs) and spectral indices (SIs) extracted from UAV RGB and multispectral images. The researchers obtained multi-temporal images of 450 samples (406 wheat genotypes) and extracted the CIs from RGB and MSI, as well as the SIs from MSI. Four indices were considered: CIs in RGB, CIs in MSI, SIs in MSI, and CIs + SIs in MSI. \n\nThe machine learning classifiers were trained using these indices to detect the four SG stages. The classifiers achieved an average accuracy of 93.20-98.60% in the training set and 93.80-98.80% in the test set. The SIs that included the red edge or near-infrared band were found to be more effective in detecting SG stages compared to the CIs calculated only by visible bands. \n\nOverall, the machine learning classifiers were utilized to analyze the dynamics of the indices and detect SG stages based on the RGB and multispectral images."
+    },
+    {
+        "instruction": "Can the spectral indices extracted from UAV RGB and multispectral images be used to accurately detect different stages of stay green in diversified wheat genotypes, as compared to traditional methods?",
+        "input": "",
+        "Output": "Yes, the spectral indices extracted from UAV RGB and multispectral images can be used to accurately detect different stages of stay green in diversified wheat genotypes. The study found that machine learning classifiers using the color indices (CIs) from RGB and multispectral images (MSI) and the spectral indices (SIs) from MSI achieved high average accuracy in detecting the four stages of stay green. The classifiers had an average accuracy of 93.20-98.60% in the training set and 93.80-98.80% in the test set. The SIs containing red edge or near-infrared band were found to be more effective than the CIs calculated only by visible bands. This suggests that the spectral indices derived from UAV RGB and multispectral images can provide reliable and accurate information for detecting different stages of stay green in wheat genotypes."
+    }
+]

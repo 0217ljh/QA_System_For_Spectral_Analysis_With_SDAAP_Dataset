@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the related study for predicting the contents of salt and major soluble ions in the topsoil at Hetao Irrigation District in Inner Mongolia, China?",
+        "input": "",
+        "Output": "In the related study, fractional-order derivatives (FODs) of the soil spectral data were used for soil spectral pretreatment. The FODs had intervals of 0.05 and a range of 0-2."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to estimate the contents of soil salt and soluble ions?",
+        "input": "",
+        "Output": "The spectral feature processing methods used to estimate the contents of soil salt and soluble ions included removing marginal bands, reducing noise using the Savitzky-Golay algorithm, resampling spectrum at 10 nm intervals, and keeping 201 bands between 400 and 2400 nm for subsequent analysis and modeling."
+    },
+    {
+        "instruction": "What metric was chosen to determine the optimal fractional-order derivative (FOD) spectrums of the soil salt and major soluble ions?",
+        "input": "",
+        "Output": "The metric chosen to determine the optimal fractional-order derivative (FOD) spectrums of the soil salt and major soluble ions was the coefficient of determination (R-2)."
+    },
+    {
+        "instruction": "What machine learning models were used to calibrate the ELM models for estimating the contents of salt and major soluble ions in the topsoil at Hetao Irrigation District in Inner Mongolia, China?",
+        "input": "",
+        "Output": "The machine learning models used to calibrate the ELM models for estimating the contents of salt and major soluble ions in the topsoil at Hetao Irrigation District in Inner Mongolia, China were Monte Carlo uninformative variable elimination (MCUVE), iteratively retaining informative variables (IRIV), and bootstrapping soft shrinkage (BOSS)."
+    },
+    {
+        "instruction": "Can the FOD algorithm and the optimal combination of spectral indices be used to accurately estimate the contents of salt and major soluble ions in the topsoil at Hetao Irrigation District in Inner Mongolia, China, based on the findings of this study aimed at improving the potential of visible-near infrared (VIS-NIR) spectroscopy?",
+        "input": "",
+        "Output": "Yes, based on the findings of this study, the FOD algorithm and the optimal combination of spectral indices can be used to accurately estimate the contents of salt and major soluble ions in the topsoil at Hetao Irrigation District in Inner Mongolia, China. The study found that the correlation between the contents of soil salt and soluble ions and FOD spectra increased as the derivative order increased. The optimal FOD spectra for different ions were determined, and newly proposed three-band indices showed a better correlation with ion content. The study also compared different variable selection algorithms and found that the IRIV-ELM models outperformed MCUVE-ELM and BOSS-ELM models in estimating the contents of soil salt and soluble ions. Overall, the models reached and even exceeded the quantitative prediction level, indicating that the FOD algorithm and optimal combination of spectral indices can accurately estimate the contents of salt and major soluble ions in the topsoil at Hetao Irrigation District."
+    }
+]

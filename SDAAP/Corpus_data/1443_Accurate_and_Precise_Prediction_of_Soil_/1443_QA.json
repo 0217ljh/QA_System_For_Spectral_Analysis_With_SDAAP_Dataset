@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used in the related research for predicting soil properties relevant to carbon cycling?",
+        "input": "",
+        "Output": "The research utilized mid-infrared spectra from the USDA National Soil Survey Center mid-infrared spectral library."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the related research for predicting soil properties relevant to carbon cycling?",
+        "input": "",
+        "Output": "Machine learning algorithms such as artificial neural networks (ANN), support vector machines (SVM), Cubist, random forest (RF), and memory-based learning (MBL) were used in the related research for predicting soil properties relevant to carbon cycling."
+    },
+    {
+        "instruction": "What metric was chosen to assess the prediction uncertainty in the related research for predicting soil properties relevant to carbon cycling?",
+        "input": "",
+        "Output": "The infinitesimal jackknife approach was chosen to assess the prediction uncertainty in the related research for predicting soil properties relevant to carbon cycling."
+    },
+    {
+        "instruction": "How did the researchers assess the prediction uncertainty and flag unreliable predictions in their study on the use of diffuse reflectance spectroscopy for predicting soil properties relevant to carbon cycling at a continental scale in the United States?",
+        "input": "",
+        "Output": "In their study, the researchers assessed the prediction uncertainty by developing routines to assess the uncertainty for all models except Cubist. They found that the use of root-mean-square error (RMSE) was misleading for understanding the actual uncertainty about any particular prediction. Additionally, the researchers presented several techniques that can be used to flag predictions of new samples that may not be reliable because their spectra fall outside of the calibration set."
+    },
+    {
+        "instruction": "How did the researchers compare the performance of machine learning algorithms Cubist and MBL with traditional methods in predicting soil properties using diffuse reflectance spectroscopy at a continental scale in the United States?",
+        "input": "",
+        "Output": "The researchers compared the performance of machine learning algorithms Cubist and memory-based learner (MBL) with traditional methods, such as random forest (RF) and partial least squares regressions (PLSR), in predicting soil properties using diffuse reflectance spectroscopy at a continental scale in the United States. They utilized the large USDA National Soil Survey Center mid-infrared spectral library and associated soil characterization database, which consisted of over 50,000 samples. \n\nOn independent validation sets, both Cubist and MBL outperformed RF and PLSR. The researchers found that Cubist and MBL produced excellent overall models with a mean R-2 of 0.92 (mean ratio of performance to deviation = 6.5) across all 10 soil properties. They also noted that the use of root-mean-square error (RMSE) was misleading for understanding the actual uncertainty about any particular prediction. Therefore, the researchers developed routines to assess the prediction uncertainty for all models except Cubist. \n\nIn terms of precision, the MBL models produced much more precise predictions compared to global PLSR and RF. Additionally, the researchers presented several techniques that can be used to flag predictions of new samples that may not be reliable because their spectra fall outside of the calibration set."
+    }
+]

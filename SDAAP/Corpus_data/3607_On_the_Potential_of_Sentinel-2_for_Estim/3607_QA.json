@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to predict daily gross primary production (GPP) derived from 58 eddy covariance sites?",
+        "input": "",
+        "Output": "To predict daily gross primary production (GPP) derived from 58 eddy covariance sites,the researchers used visible spectrum and nir remote sensing spectrum."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to predict daily gross primary production (GPP) derived from 58 eddy covariance sites?",
+        "input": "",
+        "Output": "Red-edge-based and near infrared-based vegetation indices (VIs) and machine learning techniques that consider VIs, all spectral bands, and their nonlinear interactions were used to predict daily GPP derived from 58 eddy covariance sites."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the prediction power of GPP estimation using remote sensing data?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the prediction power of GPP estimation using remote sensing data is R-10-fold(2) (R-squared) and RMSE10-fold (Root Mean Square Error)."
+    },
+    {
+        "instruction": "How did the researchers evaluate the predictions made using machine learning techniques in estimating GPP using remote sensing data?",
+        "input": "",
+        "Output": "The researchers evaluated the predictions made using machine learning techniques in estimating GPP using remote sensing data by using linear regressions based on classic vegetation indices (VIs) and comparing the prediction powers and root mean square errors (RMSE) of different models. They compared the prediction powers and RMSE of models using classic VIs, such as near-infrared reflectance of vegetation (NIRv), with models using red-edge-based and near-infrared-based VIs, such as Chlorophyll index red (CIR) and kernel NDVI (kNVDI). They also compared the prediction powers and RMSE of models using all spectral bands and VIs jointly in a machine learning prediction framework. Additionally, they noted that optical information alone is not enough to predict GPP properly under water-stress scenarios or heat waves."
+    },
+    {
+        "instruction": "Can red-edge-based and near-infrared-based vegetation indices (VIs) or machine learning techniques that consider VIs, all spectral bands, and their nonlinear interactions accurately predict daily gross primary production (GPP) derived from 58 eddy covariance sites in the related study?",
+        "input": "",
+        "Output": "Yes, red-edge-based and near-infrared-based vegetation indices (VIs) as well as machine learning techniques that consider VIs, all spectral bands, and their nonlinear interactions can accurately predict daily gross primary production (GPP) derived from 58 eddy covariance sites in this study. The study found that using linear regressions based on classic VIs, such as near-infrared reflectance of vegetation (NIRv), achieved a prediction power of R-10-fold(2) = 0.51 and an RMSE10-fold = 2.95 [mu mol CO2 m(-2)s(-1)] in a 10-fold cross-validation."
+    }
+]

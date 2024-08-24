@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used to develop a high spatial resolution cropland extent product of South Asia?",
+        "input": "",
+        "Output": "The related study used remote sensing spectrum to develop a high spatial resolution cropland extent product of South Asia."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to develop a high spatial resolution cropland extent product of South Asia?",
+        "input": "",
+        "Output": "Pixel-based supervised random forest (RF) machine learning algorithm was used to establish croplands versus non-croplands for entire South Asia."
+    },
+    {
+        "instruction": "What metric was chosen to develop a high spatial resolution cropland extent product of South Asia?",
+        "input": "",
+        "Output": "The metric chosen to measure map accuracies in the related study was the producer's accuracy and the user's accuracy. The producer's accuracy measures the proportion of correctly classified pixels in relation to the total number of reference pixels in a specific class. The user's accuracy measures the proportion of correctly classified pixels in relation to the total number of pixels classified as a specific class."
+    },
+    {
+        "instruction": "How were the Landsat satellite time-series big-data and machine learning algorithms used to improve the precision and accuracy of cropland mapping in South Asia?",
+        "input": "",
+        "Output": "The Landsat satellite time-series big-data and machine learning algorithms (MLAs) were used to improve the precision and accuracy of cropland mapping in South Asia by utilizing the Google Earth Engine (GEE) cloud computing platform. \n\nTo eliminate the impact of clouds, 10 time-composited Landsat bands were derived for each of the three time-periods over 12 months. This included data from Landsat-8 and 7 for the years 2013-2015, resulting in a total of 30 bands. Additionally, a global digital elevation model (GDEM) derived slope band was included, making it a 31-band mega-file big data-cube.\n\nThis data-cube was composed for each of the five agro-ecological zones (AEZ's) of South Asia and served as the baseline data for image classification and analysis. Spatially well spread-out reference training data (N = 2179) were used to develop the knowledge-base for the Random Forest (RF) MLAs.\n\nThe classification process was performed on the GEE platform using the established knowledge-base and RF MLAs for each of the five AEZs. Independent validation data (N = 1185) were used to measure the map accuracies."
+    },
+    {
+        "instruction": "How does the accuracy of the cropland product developed in the related study compare to traditional methods of cropland mapping in South Asia?",
+        "input": "",
+        "Output": "The accuracy of the cropland product developed in the related study is higher compared to traditional methods of cropland mapping in South Asia. The study achieved a producer's accuracy of 89.9% (errors of omissions of 10.1%), user's accuracy of 95.3% (errors of commission of 4.7%), and an overall accuracy of 88.7%. This indicates that the developed cropland product has a high level of precision in identifying and classifying cropland areas in South Asia. In comparison, traditional methods of cropland mapping using coarse-resolution maps have lower accuracies and lack precision in geo-location of individual farms. The study's use of high spatial resolution (30-m or better) satellite imagery and machine learning algorithms on the Google Earth Engine platform has significantly improved the accuracy and reliability of cropland mapping in South Asia."
+    }
+]

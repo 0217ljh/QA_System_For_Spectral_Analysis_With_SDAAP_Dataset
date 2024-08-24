@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to estimate selected plant functional traits?",
+        "input": "",
+        "Output": "To estimate selected plant functional traits,the researchers used remote sensing spectrum."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to estimate selected plant functional traits?",
+        "input": "",
+        "Output": "Partial least square regression (PLSR), support vector machines (SVM) kernel ridge regression (KRR), decision tree methods, and Gaussian process regression (GPR) were used to estimate selected plant functional traits."
+    },
+    {
+        "instruction": "What metric was chosen to estimate selected plant functional traits and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the models in the related study was the coefficient of determination (R-2). The R-2 value measures the proportion of the variance in the observed data that is explained by the model. In this case, it was used to assess how well the machine learning models trained with Sentinel-2 and HLS predictors were able to estimate selected plant functional traits.\n\nThe R-2 values obtained for chlorophyll and carotenoid content were 0.78 and 0.65, respectively. These values indicate that the models were able to explain 78% and 65% of the variance in the observed data for these traits. \n\nAs for how far this metric can go, the R-2 value ranges from 0 to 1, with 1 indicating a perfect fit between the model and the observed data. Therefore, the higher the R-2 value, the better the model's performance in explaining the variability in the data."
+    },
+    {
+        "instruction": "What machine learning algorithm was used to train the empirical models for estimating plant functional traits in the related study?",
+        "input": "",
+        "Output": "The machine learning algorithm used to train the empirical models for estimating plant functional traits in the related study was the canonical correlation forest."
+    },
+    {
+        "instruction": "How do the remote sensing-based methods used in the related study compare to traditional methods in estimating plant functional traits?",
+        "input": "",
+        "Output": "Remote sensing-based methods used in the related study offer advantages such as time and labor cost savings, the ability to retrieve traits on a global scale, and the potential for continual time series analysis compared to traditional methods like laboratory analyses of sampled foliage."
+    }
+]

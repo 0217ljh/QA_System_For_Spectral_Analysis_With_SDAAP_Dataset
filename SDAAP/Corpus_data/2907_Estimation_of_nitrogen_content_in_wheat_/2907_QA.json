@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectral pre-processing techniques were used to predict the N status of wheat?",
+        "input": "",
+        "Output": "The related study used visible spectrum and nir spectrum to predict the N status of wheat."
+    },
+    {
+        "instruction": "Which machine learning regression models were used in the related study to predict the N status of wheat?",
+        "input": "",
+        "Output": "Support Vector Regression, Random Forest, k-nearest neighbours, Multilayer Perceptron, Gradient Boosting Regression, and Partial Least Square Regression."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of the spectral pre-processing and machine learning models in predicting the N status of wheat?",
+        "input": "",
+        "Output": "The R-squared (R2) metric was chosen to evaluate the performance of the spectral pre-processing and machine learning models in predicting the N status of wheat."
+    },
+    {
+        "instruction": "How were SHapley Additive explanations (SHAP) values used in the related study to provide local and global explanations of the model decisions in predicting the N status of wheat using hyperspectral data and machine learning techniques?",
+        "input": "",
+        "Output": "In the related study, SHapley Additive explanations (SHAP) values were used in conjunction with the eXplainable Artificial Intelligence (XAI) tool to provide both local and global explanations of the model decisions in predicting the nitrogen (N) status of wheat using hyperspectral data and machine learning techniques.\n\nThe SHAP values were used to identify the important wavelengths that contributed to the prediction of N status. These values were calculated for each wavelength in the hyperspectral data and represented the contribution of that wavelength to the overall prediction. By analyzing the SHAP values, the researchers were able to determine which wavelengths were most influential in predicting the N status of wheat.\n\nThe global model used the SHAP values to identify the important wavelengths across all growth stages of wheat. In this case, the wavelengths between 790 and 862 nm were found to be the most important for the Random Forest model.\n\nAdditionally, the local model used the SHAP values to identify the important wavelengths at specific growth stages of wheat. For example, during the first six days of wheat growth, the most important wavelengths were 672, 794, 804, 806, 816, and 820 nm."
+    },
+    {
+        "instruction": "Can the deresolve plus first derivative spectral pre-processing technique, along with Random Forest and Gradient Boosting Regression models, be considered superior to traditional methods in predicting the nitrogen (N) status of wheat using hyperspectral data and machine learning techniques?",
+        "input": "",
+        "Output": "Yes, the deresolve plus first derivative spectral pre-processing technique, along with Random Forest and Gradient Boosting Regression models, can be considered superior to traditional methods in predicting the nitrogen (N) status of wheat using hyperspectral data and machine learning techniques. The study found that this combination of pre-processing technique and machine learning models (Random Forest and Gradient Boosting Regression) had an R-2 value greater than 0.85, indicating a strong predictive performance. Additionally, the eXplainable Artificial Intelligence (XAI) tool was used to provide local and global explanations of the model decisions, further enhancing the understanding of the predictions. These results suggest that this combination of techniques is effective for remote monitoring of N status in wheat."
+    }
+]

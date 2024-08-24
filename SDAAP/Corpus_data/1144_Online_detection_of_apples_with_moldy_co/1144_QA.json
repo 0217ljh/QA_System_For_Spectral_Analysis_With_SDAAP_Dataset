@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the related study to detect moldy core in apples and determine the optimal spectral measurement orientation for detection?",
+        "input": "",
+        "Output": "The related study used full-transmittance spectra of apples."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the related study to detect moldy core in apples and determine the optimal spectral measurement orientation for detection?",
+        "input": "",
+        "Output": "Savitzky Golay smoothing, multiplicative scatter correction, standard normal variate, and the first derivative were used as spectral feature processing methods in the study. The optimal spectral measurement orientation for detection was determined to be perpendicular to the transmission direction."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the detection performance in the related study to detect moldy core in apples and determine the optimal spectral measurement orientation for detection, and how far can this metric go?",
+        "input": "",
+        "Output": "The text does not explicitly mention the specific metric that was chosen to evaluate the detection performance of moldy core in apples. Therefore, it is not possible to determine the exact metric used in the related study. Additionally, the text does not provide information on how far this metric can go in terms of evaluating the detection performance."
+    },
+    {
+        "instruction": "How did the researchers evaluate the performance of the classification models used to detect moldy core in apples using full-transmittance spectra?",
+        "input": "",
+        "Output": "The researchers evaluated the performance of the classification models by measuring the success rate of the models in detecting moldy core in apples using full-transmittance spectra. They compared the results of four different classification models (naive bayes, linear discriminant analysis, extreme learning machine, and support vector machine) and determined the best classification model based on its success rate. The success rates were reported for the total samples, as well as separately for healthy and diseased samples in the validation set."
+    },
+    {
+        "instruction": "How does the use of full-transmittance spectroscopy compare to traditional methods in detecting moldy core in apples?",
+        "input": "",
+        "Output": "The use of full-transmittance spectroscopy in detecting moldy core in apples is more effective compared to traditional methods. Traditional methods rely on visual inspection, which can be difficult as there is no obvious difference in appearance between healthy and diseased fruit. However, full-transmittance spectroscopy allows for the collection of spectral data from apples, which provides more accurate and reliable information for detection.\n\nIn this study, the full-transmittance spectra of apples were collected online using a short-integration-time mode. The spectral intensity of healthy fruit was found to be higher than diseased fruit due to the stronger absorption of damaged tissues. This difference in spectral intensity allowed for the development of classification models, such as naive bayes, linear discriminant analysis, extreme learning machine, and support vector machine, to detect apples with moldy core.\n\nThe results showed that the spectra extracted from the medial zone of the apples resulted in better detection performance compared to intact fruit. Additionally, the T2 orientation was found to be more suitable for moldy core detection. The best classification model was built based on the medial zone spectra collected by T2 orientation, achieving a high success rate of 90.4% for total samples, 86.9% for healthy samples, and 93.9%"
+    }
+]

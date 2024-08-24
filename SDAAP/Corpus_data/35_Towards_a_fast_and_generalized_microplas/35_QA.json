@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used for rapid and accurate quantification of microplastics in soil?",
+        "input": "",
+        "Output": "Both terahertz (0.6-1.67 THz) and NIR (950-1660 nm) spectra were used for rapid and accurate quantification of microplastics in soil."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used for rapid and accurate quantification of microplastics in soil?",
+        "input": "",
+        "Output": "Nine commonly used preprocessing methods were investigated to denoise the spectrum for rapid and accurate quantification of microplastics in soil."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of rapid microplastic quantification method in soil, and how far can this metric go in terms of detection limit?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the terahertz and NIR methods for rapid and accurate quantification of microplastics in soil is the prediction error, specifically the root mean square error (RMSE). The RMSE is used to measure the difference between the predicted values and the actual values in the sample sets.\n\nIn terms of the detection limit, the terahertz method presented a detection limit of around 1.12%, while the NIR method showed a detection limit of around 3.24%. This means that the terahertz method is able to accurately detect microplastic concentrations as low as 1.12%, while the NIR method can detect concentrations as low as 3.24%."
+    },
+    {
+        "instruction": "What machine learning algorithms were used in the development of the terahertz and NIR methods for quantifying microplastics in soil?",
+        "input": "",
+        "Output": "LSSVM model and SVM classification models were used in the development of the terahertz method for quantifying microplastics in soil."
+    },
+    {
+        "instruction": "How does the terahertz method compare to the NIR method in terms of accuracy and generalizability for quantifying microplastics in soil?",
+        "input": "",
+        "Output": "The terahertz method is more accurate and demonstrates stronger generalizability compared to the NIR method for quantifying microplastics in soil. When the models developed using the terahertz method were transferred to household samples, the prediction error (RMSE) only increased by 0.4% for PVC and 0.19% for PS. In contrast, the prediction error for the NIR method increased by 1.49% for PVC and 1.16% for PS when transferred to household samples. This indicates that the terahertz method provides more accurate predictions for both standard polymers and household microplastics. Additionally, the terahertz method has a lower detection limit of around 1.12%, while the NIR method has a higher detection limit of around 3.24%. Therefore, the terahertz method not only offers higher accuracy but also demonstrates stronger generalizability in bridging the gaps between standard PVC/PS polymers and household PVC/PS microplastics in soil quantification."
+    }
+]

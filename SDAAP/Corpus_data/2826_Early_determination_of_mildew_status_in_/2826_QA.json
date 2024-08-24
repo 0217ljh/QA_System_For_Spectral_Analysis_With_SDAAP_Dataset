@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used for recognizing the early mildewed degree of maize kernels caused by fungal infection during storage?",
+        "input": "",
+        "Output": "For recognizing the early mildewed degree of maize kernels caused by fungal infection during storage,the researchers used visible spectrum and nir spectrum."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used for recognizing the early mildewed degree of maize kernels caused by fungal infection during storage?",
+        "input": "",
+        "Output": "The spectral feature processing methods used for recognizing the early mildewed degree of maize kernels caused by fungal infection during storage were Variable Combination Population Analysis (VCPA) and Random Frog (RF) methods."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance for recognizing the early mildewed degree of maize kernels caused by fungal infection during storage, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the models in identifying the mildew grades of kernels was the total correct recognition rate. The SSAE-KELM model achieved a high total correct recognition rate of 97.36% for the training set and 96.84% for the testing set. Additionally, the sensitivity and specificity of the model were both between 0.92 and 1, indicating a high level of accuracy in correctly identifying the different grades of mildew in the kernels."
+    },
+    {
+        "instruction": "How were the machine learning models utilized for recognizing the early mildewed degree of maize kernels caused by fungal infection during storage?",
+        "input": "",
+        "Output": "For recognizing the early mildewed degree of maize kernels caused by fungal infection during storage, machine learning models were utilized to identify the mildew grades of maize kernels based on the HSI data. The deep stacked sparse auto-encoders (SSAE) algorithm was used to represent the nonlinear features of the spectra. The key wavelengths were selected using variable combination population analysis and random frog methods. Four classifiers - Softmax, kernel extreme learning machine (KELM), ELM, and support vector machine (SVM) - were combined with the selected wavelengths to establish models for identifying the mildew grades of kernels. Among these models, the SSAE-KELM model showed the best identification ability with a high total correct recognition rate of 97.36% for the training set and 96.84% for the testing set."
+    },
+    {
+        "instruction": "Can hyperspectral imaging combined with the deep stacked sparse auto-encoders (SSAE) algorithm be considered a superior method compared to traditional methods for recognizing the early mildewed degree of maize kernels caused by fungal infection during storage?",
+        "input": "",
+        "Output": "Yes, hyperspectral imaging combined with the deep stacked sparse auto-encoders (SSAE) algorithm can be considered a superior method compared to traditional methods for recognizing the early mildewed degree of maize kernels caused by fungal infection during storage. The study demonstrated that the SSAE-KELM model, which utilized hyperspectral imaging data and the SSAE algorithm, had a high total correct recognition rate of 97.36% and 96.84% for the training and testing sets, respectively. This indicates that the SSAE-KELM model was able to accurately identify the mildew grades of kernels. Additionally, the sensitivity and specificity of the model were also high, ranging from 0.92 to 1. These results suggest that hyperspectral imaging combined with the SSAE algorithm can effectively detect the mildew status of maize kernels and can be used as a reference method for batch and online detection of mildew kernels to improve grain storage security."
+    }
+]

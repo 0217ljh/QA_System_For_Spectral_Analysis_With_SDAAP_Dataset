@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the related study on increasing the number of states classified by a brain-computer interface (BCI)?",
+        "input": "",
+        "Output": "In the related study, two types of spectra were used: electroencephalographic (EEG) signals and functional near-infrared spectroscopy (fNIRS) signals. EEG signals were used to extract the time-phase-frequency feature, while fNIRS signals were used to extract the HbD (the difference of oxy-hemoglobin and deoxyhemoglobin) feature. These two types of spectra were combined and optimized using the joint mutual information (JMI) feature selection criterion to improve the classification accuracy of the BCI."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used for EEG and fNIRS signals in the related study on increasing the number of states classified by a brain-computer interface (BCI)?",
+        "input": "",
+        "Output": "The spectral feature processing methods used for EEG signals were the time-phase-frequency feature, and for fNIRS signals, the HbD feature was used in the related study on increasing the number of states classified by a brain-computer interface (BCI)."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the classification accuracy of the EEG and fNIRS signals in the related study on increasing the number of states classified by a brain-computer interface (BCI), and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the classification accuracy of the EEG and fNIRS signals in the study is the percentage accuracy. The text states that the averaged classification accuracy of the EEG signals improved by 7% to 18% with the time-phase-frequency feature compared to a single-type feature, and improved by 15% more than the common spatial pattern (CSP) feature. For the fNIRS signals, the HbD feature improved the accuracy by 1% to 4% more than Hb, HbO, or HbT. The EEG-fNIRS feature achieved an accuracy of 89% +/- 2% for decoding motor imagery of both force and speed of hand clenching, which improved the accuracy by 1% to 5% more than the sole EEG or fNIRS feature. Therefore, the metric of percentage accuracy was used to evaluate the classification accuracy, and it ranged from 1% to 18% improvement depending on the feature and signal type."
+    },
+    {
+        "instruction": "How were the EEG and fNIRS features combined and optimized in order to increase the number of states classified by the brain-computer interface (BCI) in the related study?",
+        "input": "",
+        "Output": "In the related study, the EEG and fNIRS features were combined and optimized using the joint mutual information (JMI) feature selection criterion. The JMI feature selection criterion is a method that selects the most informative features from both EEG and fNIRS signals based on their mutual information. By combining the selected features from both modalities, the BCI system was able to increase the number of states classified, improving the overall performance of the system."
+    },
+    {
+        "instruction": "Can the time-phase-frequency feature and HbD feature be considered superior to other spectral features in increasing the number of states classified by a brain-computer interface (BCI) in the related study?",
+        "input": "",
+        "Output": "Yes, in the related study, the time-phase-frequency feature and the HbD feature were found to be superior to other spectral features in increasing the number of states classified by a brain-computer interface (BCI). The time-phase-frequency feature extracted from EEG signals improved the classification accuracy by 7% to 18% more than the single-type feature and by 15% more than the common spatial pattern (CSP) feature. Similarly, the HbD feature extracted from fNIRS signals improved the accuracy by 1% to 4% more than other hemoglobin features such as Hb, HbO, or HbT. Therefore, both the time-phase-frequency feature and the HbD feature were effective in enhancing the classification accuracy and increasing the number of states classified by the BCI in the study."
+    }
+]

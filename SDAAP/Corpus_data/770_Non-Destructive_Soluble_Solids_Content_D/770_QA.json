@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to determine the soluble solids content (SSC) of 'Rocha' pears?",
+        "input": "",
+        "Output": "The related study used visible spectrum and NIR spectrum to determine the soluble solids content (SSC) of 'Rocha' pears."
+    },
+    {
+        "instruction": "What spectral feature processing methods were implemented to determine the soluble solids content (SSC) of 'Rocha' pears?",
+        "input": "",
+        "Output": "Multiple pre-processing techniques were implemented, including a feature selection procedure, in order to determine the soluble solids content (SSC) of 'Rocha' pears based on their short-wave NIR reflectance spectra."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the prediction accuracy of the calibration models for SSC determination of 'Rocha' pears?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the prediction accuracy of the calibration models for SSC determination was RMSEP (Root Mean Square Error of Prediction)."
+    },
+    {
+        "instruction": "How did the researchers incorporate information about fruit temperature and size into the calibration models to improve SSC predictability in the related study?",
+        "input": "",
+        "Output": "In the related study, the researchers incorporated information about fruit temperature and size into the calibration models by including these variables as additional input features in the computational pipeline. They measured the macroscopic properties of the pears, including size and temperature, under controlled laboratory conditions. These measurements were then used as input variables along with the NIR reflectance spectra in the feature selection procedure and multivariate regression models. By including temperature and size as additional input features, the researchers were able to improve the predictability of the soluble solids content (SSC) of the pears."
+    },
+    {
+        "instruction": "How did the researchers determine the predictability of SSC using short-wave NIR reflectance spectra in the related study?",
+        "input": "",
+        "Output": "The researchers determined the predictability of SSC (soluble solids content) using short-wave NIR reflectance spectra by implementing a computational pipeline that incorporated multiple pre-processing techniques. They obtained 3300 reflectance spectra from pears acquired from different lots, producers, and with diverse storage times and ripening stages. They also measured the macroscopic properties of the pears, such as size, temperature, and SSC, under controlled laboratory conditions. The pipeline included a feature selection procedure, various multivariate regression models, and three different validation strategies. The researchers tested several calibration models and found that Support Vector Machines provided the best predictions metrics with an RMSEP (Root Mean Square Error of Prediction) of around 0.82 degrees Brix for internal validation and 1.09 degrees Brix for external validation. The external validation was implemented to assess the prediction accuracy of the calibration method under more \"real world-like\" conditions. Additionally, the researchers showed that incorporating information about the fruit temperature and size improved the predictability of SSC."
+    }
+]

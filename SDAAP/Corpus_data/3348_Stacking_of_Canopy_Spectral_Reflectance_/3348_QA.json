@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used for predicting grain yield (GY) in wheat at multiple growth stages?",
+        "input": "",
+        "Output": "For predicting grain yield (GY) in wheat at multiple growth stages,the researchers used visible spectrum"
+    },
+    {
+        "instruction": "What spectral feature processing methods were used for predicting grain yield (GY) in wheat at multiple growth stages?",
+        "input": "",
+        "Output": "A new stacking method for integrating spectral information from multiple growth stages was used to predict grain yield (GY) in wheat."
+    },
+    {
+        "instruction": "What metric was chosen and how far can this metric go for predicting grain yield (GY) in wheat at multiple growth stages?",
+        "input": "",
+        "Output": "The metric chosen in the related study is the prediction accuracy, specifically measured by the coefficient of determination (R-2). The R-2 value ranges from 0 to 1, with 1 indicating a perfect prediction. \n\nThe study found that the prediction accuracy of vegetation indices (VIs) data from single growth stages ranged from 0.60 to 0.66 under full irrigation and 0.35 to 0.42 under limited irrigation. \n\nBy stacking the VIs data from multiple growth stages, the prediction accuracy was increased. On average, stacking the VIs of two, three, and four growth stages increased the prediction accuracy by 0.06, 0.07, and 0.07, respectively, under full irrigation. Similarly, under limited irrigation, stacking the VIs of two, three, and four growth stages increased the prediction accuracy by 0.03, 0.04, and 0.04, respectively. \n\nTherefore, the chosen metric of prediction accuracy (R-2) shows that stacking the VIs data from multiple growth stages can improve the accuracy of grain yield prediction for wheat."
+    },
+    {
+        "instruction": "How were machine learning models utilized in evaluating the potential of temporal spectral information at multiple growth stages for predicting grain yield (GY) in wheat?",
+        "input": "",
+        "Output": "In the related study, machine learning models were utilized to evaluate the potential of temporal spectral information at multiple growth stages for predicting grain yield (GY) in wheat. Specifically, a support vector regression (SVR) model was used to predict GY at each growth stage based on twenty vegetation indices (VIs) derived from spectral reflectance. The predicted GY values at multiple growth stages were then trained using multiple linear regression (MLR) to establish a second-level prediction model. This stacking approach allowed for the combination of spectral information from different growth stages to improve the accuracy of GY prediction."
+    },
+    {
+        "instruction": "Can the use of stacking VIs from multiple growth stages enhance the accuracy of grain yield prediction in wheat based on temporal spectral information?",
+        "input": "",
+        "Output": "Yes, the use of stacking VIs from multiple growth stages can enhance the accuracy of grain yield prediction in wheat based on temporal spectral information. The results of the study showed that the prediction accuracy of VIs data from single growth stages ranged from 0.60 to 0.66 under full irrigation and 0.35 to 0.42 under limited irrigation. However, when the VIs from two, three, and four growth stages were stacked together, the prediction accuracy increased by an average of 0.06, 0.07, and 0.07 under full irrigation, and by 0.03, 0.04, and 0.04 under limited irrigation, respectively. This suggests that combining information from multiple growth stages can effectively improve the prediction accuracy of grain yield in wheat."
+    }
+]

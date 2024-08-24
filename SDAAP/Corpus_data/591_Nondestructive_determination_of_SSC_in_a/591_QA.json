@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kind of spectrum was used to detect the SSC content in apples?",
+        "input": "",
+        "Output": "The handheld SSC detector developed for apples used near-infrared (NIR) spectroscopy."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to detect the SSC content in apples?",
+        "input": "",
+        "Output": "The spectral feature processing methods used to detect the SSC content in apples were multiplicative scatter correction (MSC), standard normal variable transformation (SNV), and Savitzky\u2013Golay (S\u2013G) smoothing algorithms."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the prediction performance of the model to detect the SSC content in apples, and how well did it perform?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the prediction performance of the model in the handheld SSC detector is the R-2 value. The R-2 value is a statistical measure that indicates the proportion of the variance in the dependent variable (SSC in this case) that can be explained by the independent variables (NIR spectroscopy data). \n\nIn the related work, it is mentioned that the R-2 value of the model is 0.993. This indicates that the model can explain approximately 99.3% of the variance in the SSC of apples based on the NIR spectroscopy data. A higher R-2 value suggests a better prediction performance, and in this case, the model performs very well in predicting the SSC of apples."
+    },
+    {
+        "instruction": "What machine learning model was used to establish the prediction model of SSC in the handheld SSC detector for apples using NIR spectroscopy?",
+        "input": "",
+        "Output": "The machine learning model used to establish the prediction model of SSC in the handheld SSC detector for apples using NIR spectroscopy is the extreme learning machine optimized with the improved particle swarm optimization (IPSO-ELM) algorithm."
+    },
+    {
+        "instruction": "How does the developed IPSO-ELM model using NIR spectroscopy compare to traditional models in terms of prediction performance for SSC in apples?",
+        "input": "",
+        "Output": "The developed IPSO-ELM model using NIR spectroscopy has better prediction performance compared to traditional models for SSC in apples. The R-2 value of the IPSO-ELM model is 0.993, indicating a strong correlation between the predicted and actual SSC values. The root mean square error of prediction (RMSEP) is 0.0155, which indicates a small average deviation between the predicted and actual values. Additionally, the residual prediction deviation (RPD) of the IPSO-ELM model is 11.6, suggesting a high level of accuracy in predicting SSC. These performance metrics are better than those of traditional models, indicating that the IPSO-ELM model is more reliable and effective in predicting the soluble solids content in apples."
+    }
+]

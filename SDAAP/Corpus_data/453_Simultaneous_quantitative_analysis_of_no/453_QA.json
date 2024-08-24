@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum for the quantitative detection of C, H, N in coal?",
+        "input": "",
+        "Output": "The study used LIBS to be measured (C, H, N) in coal."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used for the detection of non-metallic elements in coal,such as C, H, N?",
+        "input": "",
+        "Output": "The spectral feature processing methods used for the detection of non-metallic elements in coal, such as C, H, N, included baseline correction and iterative morphological asymmetric weighted least squares algorithm for spectral data preprocessing."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the accuracy of the prediction models, and how far can this metric go in determining the content of C, H, N in coal?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the accuracy of the prediction models is the correlation coefficient (R-2) value. The R-2 value measures the strength and direction of the linear relationship between the predicted values and the actual values. \n\nIn this case, the R-2 values for C, H, and N were 0.9844, 0.9625, and 0.9829 respectively. These values indicate a strong positive linear relationship between the predicted and actual values for each element."
+    },
+    {
+        "instruction": "How were the three machine learning algorithms used in the hybrid model combining LIBS with machine learning algorithms for the quantitative detection of C, H, N in coal?",
+        "input": "",
+        "Output": "The three machine learning algorithms, namely linear regression, support vector regression, and random forest model, were used for calibration and prediction in the hybrid model combining LIBS with machine learning algorithms for the quantitative detection of C, H, N in coal. The spectral data around the wavelength of the elements to be measured were selected and normalized as input variables for the algorithms. The algorithms were then trained using the normalized spectral data and the corresponding known concentrations of C, H, N in the coal samples. Once trained, the algorithms were used to predict the concentrations of C, H, N in unknown coal samples based on their spectral data. The random forest model was found to be more accurate in predicting the non-metallic elements in coal compared to the other two models, with correlation coefficients (R-2) values of 0.9844, 0.9625, and 0.9829 for C, H, N respectively, and root mean square errors (RMSE) of 0.2669, 0.2508, and 0.0335 respectively."
+    },
+    {
+        "instruction": "How does the hybrid model combining LIBS with machine learning algorithms compare to traditional methods in terms of accuracy and effectiveness for determining the content of non-metallic elements in coal?",
+        "input": "",
+        "Output": "The hybrid model combining LIBS with machine learning algorithms is more accurate and effective compared to traditional methods for determining the content of non-metallic elements in coal. The results of the past study showed that the random forest model, one of the machine learning algorithms used in the hybrid model, had a higher accuracy in predicting the non-metallic elements in coal compared to linear regression and support vector regression models. The correlation coefficient (R-2) values for carbon (C), hydrogen (H), and nitrogen (N) were 0.9844, 0.9625, and 0.9829 respectively, indicating a strong correlation between the predicted values and the actual values. Additionally, the root mean square error (RMSE) values for C, H, and N were relatively low, indicating a small deviation between the predicted values and the actual values. Therefore, the hybrid model combining LIBS with machine learning algorithms can accurately and effectively determine the content of non-metallic elements in coal."
+    }
+]

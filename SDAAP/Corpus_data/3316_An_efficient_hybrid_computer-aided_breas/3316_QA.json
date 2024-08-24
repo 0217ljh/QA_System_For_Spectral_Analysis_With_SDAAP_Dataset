@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used on the feasibility of a computationally-efficient CAD system for breast lesion classification?",
+        "input": "",
+        "Output": "In the related study ,the researchers used contrast-enhanced spectral mammography (CESM) on the feasibility of a computationally-efficient CAD system for breast lesion classification"
+    },
+    {
+        "instruction": "What spectral feature processing methods were used ion the feasibility of a computationally-efficient CAD system for breast lesion classification?",
+        "input": "",
+        "Output": "The spectral feature processing methods used in the feasibility of a computationally-efficient CAD system for breast lesion classification were the Wilcoxon rank-sum test and feature selection algorithms such as CFS, FOP, GLCM, histogram, and contrast textural features."
+    },
+    {
+        "instruction": "What metric was chosen on the feasibility of a computationally-efficient CAD system for breast lesion classification, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the proposed system is accuracy. The accuracy values achieved by the system are as follows:\n\n- Using low-energy (LE) images: 90.20% accuracy\n- Using contrast-enhanced spectral mammography (CESM) images: 93.26% accuracy\n- Using synthetic contrast-enhanced (SynCESM) images: 92.14% accuracy\n- Using hybrid pairs of LE and CESM images: 96.87% accuracy\n\nIn addition to accuracy, the system's performance was also evaluated in terms of sensitivity, specificity, and area under the curve (AUC). The sensitivity values achieved by the system are as follows:\n\n- Using LE images: 88.39% sensitivity\n- Using CESM images: 95.94% sensitivity\n- Using SynCESM images: 93.87% sensitivity\n- Using hybrid pairs of LE and CESM images: 97.23% sensitivity\n\nThe specificity values achieved by the system are as follows:\n\n- Using LE images: 88.26% specificity\n- Using CESM images: 93.37% specificity\n- Using SynCESM images: 91.58% specificity."
+    },
+    {
+        "instruction": "What machine learning model was used in the CAD system for breast lesion classification using CESM and SynCESM images, and how effective was it in accurately classifying the lesions?",
+        "input": "",
+        "Output": "The machine learning model used in the CAD system for breast lesion classification using CESM and SynCESM images was a sigmoid-kernel Support Vector Machine (SVM) classifier. \n\nThe effectiveness of the SVM classifier in accurately classifying the lesions varied depending on the type of images used. \n\nUsing low-energy (LE) images, the SVM classifier achieved an accuracy of 90.20%, a sensitivity of 88.39%, a specificity of 88.26%, and an Area Under the Curve (AUC) of 0.92. \n\nUsing CESM images, the SVM classifier achieved an accuracy of 93.26%, a sensitivity of 95.94%, a specificity of 93.37%, and an AUC of 0.94. \n\nUsing SynCESM images, the SVM classifier achieved a slightly lower accuracy of 92.14%, a sensitivity of 93.87%, a specificity of 91.58%, and an AUC of 0.93. "
+    },
+    {
+        "instruction": "Can the computationally-efficient CAD system for breast lesion classification using CESM and SynCESM images be applied to other spectral imaging techniques?",
+        "input": "",
+        "Output": "No. Based on the information provided in the related study, it is not explicitly mentioned whether the computationally-efficient CAD system for breast lesion classification using CESM and SynCESM images can be applied to other spectral imaging techniques. The related study focuses specifically on CESM and SynCESM images and their feasibility for breast lesion classification. Therefore, it is unclear whether the system can be directly applied to other spectral imaging techniques without further investigation or adaptation."
+    }
+]

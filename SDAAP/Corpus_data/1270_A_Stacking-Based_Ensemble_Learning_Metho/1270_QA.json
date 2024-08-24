@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the related study to develop a reliable and accurate soil-available nitrogen model?",
+        "input": "",
+        "Output": "In the related study, the spectral reflectance of the soil samples was collected in the 900 to 1700 nm band using a handheld micronear-infrared spectrometer."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the related study to develop a reliable and accurate soil-available nitrogen model?",
+        "input": "",
+        "Output": "In the related study, nine pre-processing methods were used for spectral feature processing to develop a reliable and accurate soil-available nitrogen model."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of the model in the related study to develop a reliable and accurate soil-available nitrogen model, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the model is the coefficient of determination (R-2). The R-2 value measures the proportion of the variance in the dependent variable (soil-available nitrogen levels) that can be explained by the independent variables (spectral reflectance data). \n\nThe R-2 value ranges from 0 to 1, where 1 indicates a perfect fit of the model to the data. In this manuscript, the R-2 value achieved by the stacked model is reported to be 0.942. This indicates that the model can explain approximately 94.2% of the variance in the soil-available nitrogen levels based on the spectral reflectance data.\n\nThe R-2 value provides a measure of how well the model fits the data, but it does not provide information about the absolute accuracy of the predictions. Therefore, it is important to consider other metrics, such as the relative percent difference, to assess the performance of the model in terms of the actual nitrogen content in the soil. The relative percent difference achieved by the stacked model is reported to be 4.192, which indicates that the predictions are, on average, within 4.192% of the actual nitrogen content in the soil."
+    },
+    {
+        "instruction": "What machine learning models were used in the related study to develop the soil-available nitrogen model using soil NIR spectroscopy and available nitrogen data?",
+        "input": "",
+        "Output": "The machine learning models used in the related study to develop the soil-available nitrogen model were Extreme Gradient Boosting (XGBoost), Categorical Boosting (CatBoost), Light Gradient Boosting Machine (LightGBM), and Random Forest. These tree-based algorithms were stacked as base models in the first layer of the stacking framework."
+    },
+    {
+        "instruction": "How does the performance of the stacked model using micro-NIR spectra compare to traditional methods in predicting soil-available nitrogen levels?",
+        "input": "",
+        "Output": "The performance of the stacked model using micro-NIR spectra is superior to traditional methods in predicting soil-available nitrogen levels. According to the manuscript, the stacked model achieved the best performance among all the models tested. The coefficient of determination (R-2) for the stacked model is reported to be 0.942, indicating a strong correlation between the predicted and actual soil-available nitrogen levels. Additionally, the relative percent difference is 4.192 with the application of Savitzky-Golay and multiplicative scatter correction. This suggests that the predictions made by the stacked model are accurate and reliable. Therefore, the use of micro-NIR spectra in the stacked model provides an efficient method for predicting soil-available nitrogen levels compared to traditional methods."
+    }
+]

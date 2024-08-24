@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used in the related study that aimed to validate the spectra' capability of discriminating blood species between human and non-human with a large volume of data and investigate the predictive ability of the binary classification model for unseen animal species?",
+        "input": "",
+        "Output": "Diffuse reflectance and transmittance near infrared (NIR) spectroscopy was used in the related study."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the study that aimed to validate the spectra' capability of discriminating blood species between human and non-human with a large volume of data and investigate the predictive ability of the binary classification model for unseen animal species?",
+        "input": "",
+        "Output": "Principal component analysis and Kennard-Stone sampling strategy were used as spectral feature processing methods in the study."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the predictive ability of the binary classification model in the study that aimed to validate the spectra' capability of discriminating blood species between human and non-human with a large volume of data and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the predictive ability of the binary classification model in this study was the testing accuracy. The testing accuracy of the optimal binary classifier between human and non-human was reported to be 98.9%. \n\nAs for how far this metric can go, it indicates the percentage of correctly classified instances out of the total number of instances in the testing dataset. In this study, the high testing accuracy of 98.9% suggests that the binary classification model performed very well in accurately distinguishing between human and non-human blood species. However, it is important to note that the testing accuracy alone does not provide information about the model's performance on individual classes or potential biases. Therefore, additional metrics such as sensitivity, specificity, and Youden's index were also used to assess the model's performance in recognizing unseen animal species."
+    },
+    {
+        "instruction": "What machine learning algorithm and balancing re-sampling strategy were used to train the optimal binary classifier between human and non-human in the study that aimed to validate the spectra' capability of discriminating blood species between human and non-human with a large volume of data and investigate the predictive ability of the binary classification model for unseen animal species?",
+        "input": "",
+        "Output": "The machine learning algorithm used to train the optimal binary classifier between human and non-human in the study was linear discriminant analysis. The balancing re-sampling strategy used was cluster centroids."
+    },
+    {
+        "instruction": "How effective is the spectra analysis method in discriminating blood species between human and non-human, and can it outperform traditional methods in the study that aims to validate its capability using a large volume of data and investigate the predictive ability of a binary classification model for unseen animal species?",
+        "input": "",
+        "Output": "The spectra analysis method used in the study has proven to be highly effective in discriminating blood species between human and non-human. The study achieved a testing accuracy of 98.9% and a Youden's index of 0.976, indicating a high level of accuracy in classifying the blood samples. This suggests that the spectra analysis method outperformed traditional methods in this study.\n\nFurthermore, the study also investigated the predictive ability of the binary classification model for unseen animal species. The hold-out experiment showed that nine out of thirteen unseen animal species had sensitivities greater than 0.9, indicating that the model was able to correctly recognize these species as non-human. This demonstrates the potential of the binary classification model to accurately predict blood species of unseen animal samples.\n\nOverall, the spectra analysis method used in this study has shown great promise in discriminating blood species between human and non-human, and it has the potential to outperform traditional methods in terms of accuracy and predictive ability for unseen animal species."
+    }
+]

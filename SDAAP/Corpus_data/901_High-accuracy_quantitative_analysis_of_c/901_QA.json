@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "In the research on high-accuracy quantitative analysis of coal, what kinds of spectra were used?",
+        "input": "",
+        "Output": "In the research on high-accuracy quantitative analysis of coal, the researchers used  based on LIBS."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the machine learning algorithm for coal analysis?",
+        "input": "",
+        "Output": "The spectral data were pretreated in four functional steps, and the spectral features such as atomic emission intensity and molecular bands were used as variable input for model training."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of the prediction model on high-accuracy quantitative analysis of coal and how far can this metric go in terms of accuracy?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the prediction model on high-accuracy quantitative analysis of coal is the Absolute Relative Error (ARE). The related study states that with a training sample size of 15, the ARE of carbon prediction is less than 4% in the new prediction model. This indicates that the proposed model has better generalization and higher prediction accuracy for small-sample-size machine learning. Therefore, the ARE metric can provide a measure of accuracy up to 4% in this case."
+    },
+    {
+        "instruction": "What specific data extraction and data resampling techniques were utilized in the machine learning algorithm for high-accuracy quantitative analysis of coal based on LIBS?",
+        "input": "",
+        "Output": "The specific data extraction and data resampling techniques utilized in the machine learning algorithm for high-accuracy quantitative analysis of coal based on LIBS are as follows:\n\n1. Partial spectra extraction: Partial spectra of each sample are extracted to form a batch of training data. Instead of using the entire spectrum, only a subset of the spectrum is used for analysis.\n\n2. Principal Component Analysis (PCA): PCA is combined with the Partial Least Squares (PLS) method to establish a prediction model. PCA is used to reduce the dimensionality of the data and identify the most important features or components.\n\n3. Data resampling: Stochastic data are repeatedly extracted from the spectra of the samples to form abundant batches of training data sets. This resampling technique helps in discovering the most representative dataset during the training processes.\n\nBy utilizing these techniques, the machine learning algorithm can achieve high-accuracy quantitative analysis of coal with a small sample size."
+    },
+    {
+        "instruction": "How does the proposed machine learning algorithm, trained with a small sample size, compare to the traditional method in terms of generalization and prediction accuracy for high-accuracy quantitative analysis of coal based on LIBS?",
+        "input": "",
+        "Output": "The proposed machine learning algorithm, trained with a small sample size, has comparable performance to the traditional method in terms of generalization and prediction accuracy for high-accuracy quantitative analysis of coal based on LIBS. The model trained by the new algorithm using 10-15 samples achieves a similar level of performance as the model trained by the traditional method using 60-80 samples. Specifically, with a training sample size of 15, the Average Relative Error (ARE) of carbon prediction in the new prediction model is less than 4%. This indicates that the proposed model has better generalization and higher prediction accuracy for small-sample-size machine learning. Therefore, the proposed algorithm improves the universality of the LIBS technology for fast elemental detection."
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used to characterize clinical tumour response to radiation therapy based on their degree of radiosensitivity or radioresistance?",
+        "input": "",
+        "Output": "Raman spectra of tumour tissue were used to characterize clinical tumour response to radiation therapy based on their degree of radiosensitivity or radioresistance."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to characterize clinical tumour response to radiation therapy based on their degree of radiosensitivity or radioresistance?",
+        "input": "",
+        "Output": "The GBR-NMF-RF model was used to visualize specific radiation-induced biochemical changes in breast tumours with respect to dose and time. Random Forest was used as a classifier to distinguish irradiated versus nonirradiated tissue spectra based on their GBR-NMF scores."
+    },
+    {
+        "instruction": "What metric was chosen to characterize clinical tumour response to radiation therapy based on their degree of radiosensitivity or radioresistance and how far can this metric go?",
+        "input": "",
+        "Output": "Classification accuracy was chosen as the metric to characterize clinical tumour response to radiation therapy based on their degree of radiosensitivity or radioresistance. The accuracy exceeded 92.1% for data collected 3 days post-irradiation and 85.0% at day 1 post-irradiation."
+    },
+    {
+        "instruction": "How was the CNN architecture used to identify post-irradiation spectral changes in Raman spectra of tumour tissue in order to develop a predictive model for characterizing clinical tumour response to radiation therapy?",
+        "input": "",
+        "Output": "The CNN architecture was used to classify post-irradiation spectral changes in Raman spectra of tumour tissue. The model was trained to differentiate between irradiated and non-irradiated tissue using Raman spectra of breast tumour xenografts. The CNN effectively classified the tissue spectra with high accuracy, exceeding 92.1% for data collected 3 days post-irradiation and 85.0% at day 1 post-irradiation. The CNN was also evaluated using a leave-one-out validation approach to test its generalization to new subjects. It retained good predictive accuracy (average accuracies of 83.7%, 91.4%, and 92.7%, respectively) even when little to no information for a specific subject was given during training. The performance of the CNN was compared to a previously developed model based on GBR-NMF-RF classification, and the CNN yielded higher classification accuracy, sensitivity, and specificity in mice assessed 3 days post-irradiation. This study demonstrates that the CNN can detect biochemical spectral changes in tumour tissue shortly after irradiation, without the need for manual feature extraction, and lays the foundation for developing a predictive framework for monitoring patient radiation response."
+    },
+    {
+        "instruction": "Can the CNN-based predictive model effectively detect biochemical spectral changes in tumour tissue at an early time point following irradiation, without the need for previous manual feature extraction, as compared to traditional methods?",
+        "input": "",
+        "Output": "Yes, the CNN-based predictive model can effectively detect biochemical spectral changes in tumour tissue at an early time point following irradiation, without the need for previous manual feature extraction. The study found that the CNN architecture was able to classify irradiated versus non-irradiated tissue using Raman spectra of breast tumour xenografts with high accuracy. The CNN achieved accuracies exceeding 92.1% for data collected 3 days post-irradiation and 85.0% at day 1 post-irradiation. Additionally, the CNN retained good predictive accuracy even when little to no information for a specific subject was given during training. The CNN outperformed a previously developed model based on group and basis restricted non-negative matrix factorization and random forest (GBR-NMF-RF) classification in terms of classification accuracy, sensitivity, and specificity. Therefore, the CNN-based predictive model is more effective in detecting biochemical spectral changes in tumour tissue following irradiation compared to traditional methods."
+    }
+]

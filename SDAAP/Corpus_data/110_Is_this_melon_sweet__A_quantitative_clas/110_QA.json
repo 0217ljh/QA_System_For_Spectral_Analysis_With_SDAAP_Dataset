@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectral can be used in predictng the sweetness of melons?",
+        "input": "",
+        "Output": "Near-infrared (NIR) spectroscopy can be used in predictng the sweetness of melons."
+    },
+    {
+        "instruction": "How was the sweetness of melons classified in predictng the sweetness of melons with spectral method?",
+        "input": "",
+        "Output": "The sweetness of melons was classified into three classes: very sweet, sweet, and flat based on the average score given by the panel of judges during sensory evaluation."
+    },
+    {
+        "instruction": "How accurate was the sweetness classification in predictng the sweetness of melons?",
+        "input": "",
+        "Output": "The accuracy of the sweetness classification using ?Brix thresholding was 55.45% for three classes. However, when combining the sweet and very sweet class samples into one \"satisfactory\" class, the accuracy improved to 80.2%. On the other hand, the accuracy of the direct sweetness classification using K nearest neighbor (KNN) was 70.3% for three classes. When combining the sweet and very sweet class samples into one \"satisfactory\" class, the accuracy improved to 88.12%."
+    },
+    {
+        "instruction": "How accurate was the direct sweetness classification using K nearest neighbor (KNN) in predictng the sweetness of melons?",
+        "input": "",
+        "Output": "The direct sweetness classification using K nearest neighbor (KNN) had an accuracy of 70.3% for three classes on test samples. However, it was further observed that the classification accuracy for sweet and flat melons could be improved by combining sweet and very sweet class samples into one \"satisfactory\" class. With this improvement, the accuracy of the KNN-based direct sweetness classification was improved to 88.12%."
+    },
+    {
+        "instruction": "Can the proposed direct sweetness classifier using NIR spectroscopy be considered a superior method compared to traditional Brix-based thresholding for sweetness classification in predicting the sweetness of melons?",
+        "input": "",
+        "Output": "Yes, the proposed direct sweetness classifier using NIR spectroscopy can be considered a superior method compared to traditional Brix-based thresholding for sweetness classification in predicting the sweetness of melons. Past study states that the direct sweetness classifier achieved an accuracy of 70.3% for three classes of sweetness on test samples, while the Brix-based thresholding method only achieved an accuracy of 55.45% for the same three classes. Furthermore, when the sweet and very sweet classes were combined into one \"satisfactory\" class, the accuracy of the direct sweetness classifier improved to 88.12%, while the accuracy of the Brix-based thresholding method improved to 80.2%. This suggests that the direct sweetness classifier is more accurate and reliable in classifying the sweetness of melons compared to the traditional Brix-based thresholding method."
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to identify wheat infected with soil-borne mosaic virus?",
+        "input": "",
+        "Output": "The related study used visible spectrum and nir spectrum to identify wheat infected with soil-borne mosaic virus."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to identify wheat infected with soil-borne mosaic virus?",
+        "input": "",
+        "Output": "Two spectral feature processing methods used were Cp-selection, a filter method based on p-values and correlation coefficients, and FF-selection, a wrapper method dependent on a classification algorithm."
+    },
+    {
+        "instruction": "What metric was chosen to identify wheat infected with soil-borne mosaic virus, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to identify wheat infected with soil-borne mosaic virus is the success rate. The success rate of the model using the full spectrum was 69.7%, and when using a subset of four broad bands to simulate multispectral data, the accuracy increased to 71.3%. In the field validation, the best accuracy achieved using the entire spectrum of hyperspectral data was 64.9%, and when using a subset of wavelengths to simulate multispectral data, the accuracy dropped by only 3 percentage points to 61.9%. Therefore, the success rate metric was used to assess the accuracy of the classification models, and it ranged from 61.9% to 71.3% in this research."
+    },
+    {
+        "instruction": "How were the machine learning models used in the research on using hyperspectral imaging to identify wheat infected with soil-borne mosaic virus?",
+        "input": "",
+        "Output": "In the research on using hyperspectral imaging to identify wheat infected with soil-borne mosaic virus, machine learning models were used to create a classification model. This model was trained using hyperspectral data acquired in a lab setting, specifically scanning leaf samples to investigate spectral differences between healthy and diseased leaves. The model was trained to automatically separate pixels into three classes: symptomatic, non-symptomatic, and healthy. \n\nThe researchers explored the potential of 84 commonly used vegetation indices to find infection. The success rate of the model using the full spectrum was 69.7%. However, by using a subset of only four broad bands, sampled to simulate a data set from a simpler and less costly multispectral camera, the accuracy increased to 71.3%.\n\nFurthermore, the classification models were validated on field data. The classifiers trained on the entire spectrum of the hyperspectral data acquired in the lab setting successfully identified infection in the field with an accuracy of 64.9%. When using a subset of wavelengths to simulate multispectral data, the accuracy dropped by only 3 percentage points to 61.9%. This research demonstrates the potential of using lab scans to train classifiers that can be successfully applied in the field, even when reducing the hyperspectral data to multispectral data."
+    },
+    {
+        "instruction": "Can the classification models trained on hyperspectral data acquired in the lab setting be applied in the field to identify wheat infected with soil-borne mosaic virus with a similar level of accuracy?",
+        "input": "",
+        "Output": "Yes, the classification models trained on hyperspectral data acquired in the lab setting can be successfully applied in the field to identify wheat infected with soil-borne mosaic virus with a similar level of accuracy. The research shows that the classifiers trained on the entire spectrum of the hyperspectral data achieved an accuracy of 64.9% in identifying infection in the field. When a subset of wavelengths, simulating multispectral data, was used, the accuracy only dropped by 3 percentage points to 61.9%. This indicates that the lab scans can effectively train classifiers that can be applied in the field, even when reducing the hyperspectral data to multispectral data."
+    }
+]

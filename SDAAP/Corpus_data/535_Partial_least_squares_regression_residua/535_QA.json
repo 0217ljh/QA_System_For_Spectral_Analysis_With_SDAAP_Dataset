@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used for fast determination of research octane number (RON)?",
+        "input": "",
+        "Output": "The related study used near-infrared (NIR) spectrum for fast determination of research octane number (RON)."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used for fast determination of research octane number (RON)?",
+        "input": "",
+        "Output": "Partial least squares regression residual extreme learning machine (PLSRR-ELM) calibration algorithm was used for fast determination of research octane number (RON) with near-infrared spectroscopy."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the calibration performance for fast determination of research octane number (RON)?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the calibration performance of PLSRR-ELM for fast determination of research octane number (RON) is the root mean squared error of test (RMSE-T)."
+    },
+    {
+        "instruction": "How does the proposed algorithm, PLSRR-ELM, utilize the advantages of both partial least square (PLS) and non-linear extreme learning machine (ELM) in separating the relationship information between NIR spectrum and RON?",
+        "input": "",
+        "Output": "The proposed algorithm, PLSRR-ELM, utilizes the advantages of both partial least square (PLS) and non-linear extreme learning machine (ELM) by combining their strengths in separating the relationship information between NIR spectrum and RON. \n\nPartial least square (PLS) is a linear regression method that is commonly used in spectroscopy analysis. It is effective in capturing the linear relationship between the input variables (NIR spectrum) and the output variable (RON). PLS can handle collinearity and high dimensionality in the data, making it suitable for extracting relevant information from the raw relationship information.\n\nOn the other hand, non-linear extreme learning machine (ELM) is a machine learning algorithm that is known for its ability to handle non-linear relationships. ELM can capture complex patterns and non-linear dependencies in the data, which is important when dealing with the unknown degree of non-linearity between NIR spectrum and RON.\n\nIn the PLSRR-ELM algorithm, PLS and ELM work together to separate the relationship information suitable for each other from the raw relationship information. PLS is used to extract the linear relationship information, while ELM is used to capture the non-linear relationship information. By combining the strengths of both methods, PLSRR-"
+    },
+    {
+        "instruction": "How does the PLSRR-ELM algorithm, utilizing near-infrared (NIR) spectroscopy, compare to traditional methods in terms of predicting related research octane number (RON) for blended gasoline?",
+        "input": "",
+        "Output": "The PLSRR-ELM algorithm, utilizing near-infrared (NIR) spectroscopy, outperforms traditional methods in terms of predicting related research octane number (RON) for blended gasoline. The algorithm combines the advantages of partial least square (PLS) and non-linear extreme learning machine (ELM) to effectively separate and calibrate the relationship information between NIR spectrum and RON. The calibration performance of PLSRR-ELM was evaluated using on-line gasoline blending sample data from a refinery, and it showed an enhanced prediction performance compared to other methods such as PLS, Poly-PLS, KPLS, ELM, and ANN. The PLSRR-ELM algorithm demonstrated a decrease in the root mean squared error of test (RMSE-T) by about 13% or 11% compared to PLS or ELM alone, respectively. This indicates that PLSRR-ELM is superior for fast prediction of gasoline RON."
+    }
+]

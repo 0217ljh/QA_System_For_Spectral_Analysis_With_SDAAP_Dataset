@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used to identify kiwifruits treated with CPPU from untreated kiwifruits?",
+        "input": "",
+        "Output": "To identify kiwifruits treated with CPPU from untreated kiwifruits,the researchers used nir spectrum."
+    },
+    {
+        "instruction": "What spectral feature processing methods were usedto identify kiwifruits treated with CPPU from untreated kiwifruits?",
+        "input": "",
+        "Output": "SPA, SVM, ELM, FS, and SPA-UWs were used as spectral feature processing methods to identify kiwifruits treated with CPPU from untreated kiwifruits."
+    },
+    {
+        "instruction": "What metric was chosen to identify kiwifruits treated with CPPU from untreated kiwifruits?",
+        "input": "",
+        "Output": "The metric chosen to identify kiwifruits treated with CPPU from untreated kiwifruits was the physicochemical parameters, specifically the vertical and transverse diameters, mass, firmness, SSC, and moisture content."
+    },
+    {
+        "instruction": "How were the machine learning models used to establish identification models for distinguishing CPPU-treated kiwifruits from untreated kiwifruits in the related study?",
+        "input": "",
+        "Output": "In the related study, two machine learning models, namely Support Vector Machine (SVM) and Extreme Learning Machine (ELM), were used to establish identification models for distinguishing CPPU-treated kiwifruits from untreated kiwifruits.\n\nThe models were developed using three different sets of data: full spectra (FS), characteristic wavelengths extracted by Successive Projections Algorithm (SPA), and universal wavelengths (UWs) extracted from characteristic wavelengths selected by SPA. \n\nFor each variety (Xixuan and Huayou) and for both varieties together, separate identification models were developed. The models were trained using a calibration set, which consisted of a portion of the total samples, and then tested using a prediction set, which consisted of the remaining samples.\n\nThe performance of the models was evaluated based on their accuracy rate in correctly identifying treated kiwifruits from untreated ones. The best-performing model was determined based on the highest accuracy rate achieved in the prediction set.\n\nThe results showed that the SPA-ELM model had the best performance for both Xixuan and Huayou varieties, with accuracy rates of 99.8% and 100.0% in the prediction set, respectively."
+    },
+    {
+        "instruction": "How does the study demonstrate the feasibility of using hyperspectral imaging technology to identify kiwifruits treated with CPPU from untreated kiwifruits?",
+        "input": "",
+        "Output": "The study demonstrates the feasibility of using hyperspectral imaging technology to identify kiwifruits treated with CPPU from untreated kiwifruits by using two different kiwifruit varieties (Xixuan and Huayou) as samples. The researchers obtained hyperspectral data from both treated and untreated kiwifruits and divided them into calibration and prediction sets. They applied the successive projections algorithm (SPA) to extract characteristic wavelengths from the spectra and used support vector machine (SVM) and extreme learning machine (ELM) modeling methods to establish identification models.\n\nThe results showed that the models built using SPA-ELM had high accuracy rates for both Xixuan (99.8% accuracy rate for prediction set) and Huayou (100.0% accuracy rate for prediction set). Additionally, when the two varieties were used together, the models built using SPA-SVM and SPA-ELM had 100% accuracy rates for both calibration and prediction sets. This indicates that the hyperspectral imaging technique, combined with the SPA-ELM model, can effectively distinguish between CPPU-treated kiwifruits and untreated ones."
+    }
+]

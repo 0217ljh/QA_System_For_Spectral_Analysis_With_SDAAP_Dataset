@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to improve the accuracy of existing satellite products for estimating DSR?",
+        "input": "",
+        "Output": "The related study used visible remote spectrum to improve the accuracy of existing satellite products for estimating DSR."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to improve the accuracy of existing satellite products for estimating DSR?",
+        "input": "",
+        "Output": "The spectral feature processing methods used to improve the accuracy of existing satellite products for estimating DSR include the traditional single-band LUT algorithm, the optimization-based algorithm, and the CNN-based approach."
+    },
+    {
+        "instruction": "What metric was chosen to improve the accuracy of existing satellite products for estimating DSR, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the developed CNN is the root-mean-square error (RMSE). The RMSE measures the average difference between the predicted DSR values and the actual DSR values at the 34 baseline surface radiation network sites globally during 2013. \n\nIn terms of accuracy, the RMSE value obtained from the validation results was 91.42 W/m2. This indicates that, on average, the predicted DSR values from the developed CNN had a difference of 91.42 W/m2 compared to the actual DSR values. \n\nTherefore, the RMSE metric provides a measure of the accuracy of the developed CNN in estimating DSR, with a value of 91.42 W/m2 in the related particular study."
+    },
+    {
+        "instruction": "How does the developed convolutional neural network compare to four traditional machine learning algorithms in estimating instantaneous downward shortwave radiation (DSR) from Visible Infrared Imaging Radiometer Suite (VIIRS) observations?",
+        "input": "",
+        "Output": "The developed convolutional neural network (CNN) was compared to four traditional machine learning algorithms in estimating instantaneous downward shortwave radiation (DSR) from Visible Infrared Imaging Radiometer Suite (VIIRS) observations. The validation results showed that the root-mean-square error (RMSE) and the bias for the CNN were 91.42 and -0.94 W/m2, respectively."
+    },
+    {
+        "instruction": "How does the proposed deep learning method that combines radiative-transfer modeling with convolutional neural network learning compare to traditional lookup table and optimization-based algorithms in terms of estimating instantaneous downward shortwave radiation (DSR) from satellite observations?",
+        "input": "",
+        "Output": "The proposed deep learning method that combines radiative-transfer modeling with convolutional neural network (CNN) learning outperforms traditional lookup table (LUT) and optimization-based algorithms in terms of estimating instantaneous downward shortwave radiation (DSR) from satellite observations. \n\nAccording to the validation results, the root-mean-square error (RMSE) and bias of the developed CNN algorithm were 91.42 and -0.94 W/m2, respectively. In comparison, the previous LUT and optimization-based algorithms had higher errors, with the proposed algorithm outperforming them by around 10-20 W/m2. \n\nThis indicates that the deep learning method, which takes advantage of both spectral information and vertical information, provides more accurate estimations of DSR from satellite observations compared to traditional methods."
+    }
+]

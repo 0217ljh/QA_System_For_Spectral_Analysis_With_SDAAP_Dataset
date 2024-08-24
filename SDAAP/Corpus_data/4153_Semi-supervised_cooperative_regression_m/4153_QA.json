@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the estimation of leaf nitrogen content (LNC) in citrus trees?",
+        "input": "",
+        "Output": "In the estimation of leaf nitrogen content (LNC) in citrus trees,the researchers used visible remote sensing spectrum."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the estimation of leaf nitrogen content (LNC) in citrus trees?",
+        "input": "",
+        "Output": "The spectral feature processing method used in the estimation of leaf nitrogen content (LNC) in citrus trees was the selection of spectral indices based on Pearson's correlation coefficient."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of the estimation model in the estimation of leaf nitrogen content (LNC) in citrus trees and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the estimation model for leaf nitrogen content (LNC) in citrus trees is the determination coefficient (R-2) and the root mean square error (RMSE). The determination coefficient (R-2) measures the proportion of the variance in the LNC that can be explained by the model, with a value ranging from 0 to 1. A higher R-2 value indicates a better fit of the model to the data. The root mean square error (RMSE) measures the average difference between the predicted LNC values and the actual LNC values, with a lower RMSE indicating better accuracy of the model.\n\nIn the case of the semi-supervised cooperative regression model, the best performing model, which is the RF-based cooperative regression model (CoRF), achieved a determination coefficient (R-2) of 0.716 and a root mean square error (RMSE) of 0.620 g\u8defkg(-1). These metrics indicate that the CoRF model can explain approximately 71.6% of the variance in the LNC and has an average difference of 0.620 g\u8defkg(-1) between the predicted and actual LNC values."
+    },
+    {
+        "instruction": "What machine learning models were used in the study to improve the accuracy of estimating leaf nitrogen content (LNC) in citrus trees using UAV remote sensing, despite limited training samples?",
+        "input": "",
+        "Output": "The machine learning models used in the study to improve the accuracy of estimating leaf nitrogen content (LNC) in citrus trees using UAV remote sensing, despite limited training samples, were ridge regression (Ridge), support vector regression (SVR), and random forest (RF). These models were combined with spectral and textural features to construct semi-supervised cooperative regression models. The best performing model among these was the random forest-based cooperative regression model (CoRF)."
+    },
+    {
+        "instruction": "Can the semi-supervised cooperative regression model using RF-based cooperative regression (CoRF) be considered as a superior method for estimating leaf nitrogen content (LNC) in citrus trees using UAV remote sensing, compared to traditional methods?",
+        "input": "",
+        "Output": "Yes, the semi-supervised cooperative regression model using RF-based cooperative regression (CoRF) can be considered as a superior method for estimating leaf nitrogen content (LNC) in citrus trees using UAV remote sensing, compared to traditional methods. The experiments conducted in the study mentioned that the CoRF model performed best among other machine-learning models, with a determination coefficient (R-2) of 0.716 and a root mean square error (RMSE) of 0.620 g/kg(-1). These results indicate that the CoRF model has better and promising results in estimating LNC compared to other machine-learning methods under the condition of small samples. Additionally, the CoRF model also achieved superior performance when combining local binary pattern (LBP) textural features. Therefore, the semi-supervised cooperative regression model using CoRF can be considered as a superior method for estimating LNC in citrus trees using UAV remote sensing."
+    }
+]

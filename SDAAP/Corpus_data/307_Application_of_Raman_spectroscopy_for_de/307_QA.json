@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used on classifying histologically defined areas in FFPE samples of GBM?",
+        "input": "",
+        "Output": "The past study used Raman spectroscopy (RS) to classify histologically defined areas in formalin-fixed, paraffin-embedded (FFPE) samples of glioblastoma (GBM)."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to classify the histologically defined areas in FFPE samples of GBM?",
+        "input": "",
+        "Output": "The study used an SVM (support vector machine)-based classifier that treated the spectra as fingerprint-like patterns to classify the histologically defined areas in FFPE samples of GBM."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the classification accuracy of distinguishing between normal-appearing brain tissue and necrosis in GBM, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the classification accuracy of distinguishing between normal-appearing brain tissue and necrosis in GBM using RS is overall accuracy. The overall accuracy of the classifier in the study was reported to be 70.5%. However, it is important to note that the absolute misclassification rate was 21 out of 471 Raman measurements, indicating that the classifier had a relatively low error rate. Therefore, while the overall accuracy is 70.5%, the precision of distinguishing between normal-appearing brain tissue and necrosis is relatively high."
+    },
+    {
+        "instruction": "How did the researchers validate their findings in the past study on classifying histologically defined areas in FFPE samples of GBM using RS?",
+        "input": "",
+        "Output": "The researchers validated their findings by using a validation cohort. They set up a support vector machine (SVM)-based classifier in a training cohort to classify histologically defined areas in FFPE samples of GBM using RS spectral properties. They then corroborated their findings by applying the trained classifier to a second independent dataset, which served as the validation cohort. In this validation cohort, they found very little overlap between necrosis and normal-appearing brain tissue, indicating that their classifier system was able to accurately distinguish between these areas based on the spectral properties of RS."
+    },
+    {
+        "instruction": "Can Raman spectroscopy (RS) be considered a superior method compared to traditional methods for classifying histologically defined areas in formalin-fixed, paraffin-embedded (FFPE) samples of glioblastoma (GBM) based on RS spectral properties?",
+        "input": "",
+        "Output": "Raman spectroscopy (RS) shows promise as a method for classifying histologically defined areas in formalin-fixed, paraffin-embedded (FFPE) samples of glioblastoma (GBM) based on RS spectral properties. The past study conducted on FFPE samples of GBM used RS to classify different histological areas, such as tumor core and necroses, with an overall accuracy of 70.5%. The trained classifier was able to distinguish between normal-appearing brain tissue and necrosis with a low misclassification rate. Additionally, when the classifier system was tested on a second independent dataset, there was little overlap between necrosis and normal-appearing brain tissue. These findings suggest that RS could be a useful tool in the pathological toolbox for accurately recognizing histologically variable samples like GBM based on their spectral properties."
+    }
+]

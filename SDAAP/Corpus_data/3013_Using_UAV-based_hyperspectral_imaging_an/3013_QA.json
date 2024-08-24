@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used to predict in-season genetic variations for CMT, yield, and yield related traits?",
+        "input": "",
+        "Output": "The related study used remote sensing spectrum to predict in-season genetic variations for CMT, yield, and yield related traits."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to predict in-season genetic variations for CMT, yield, and yield related traits?",
+        "input": "",
+        "Output": "The Sigcomp algorithm was used for spectral feature processing to predict in-season genetic variations for CMT, yield, and yield-related traits."
+    },
+    {
+        "instruction": "What metric was chosen and how far can this metric go in predicting in-season genetic variations for CMT, yield, and yield related traits?",
+        "input": "",
+        "Output": "The metric chosen was Mean Absolute Percentage Error (MAPE). The MAPE for CMT, yield, and yield-related traits ranged from 5.28% to 14.73%, indicating a relatively high prediction power without overfitting the data. The model showed good repeatability and reliability in predicting genetic variations for these traits."
+    },
+    {
+        "instruction": "How does the functional regression approach address the limitations of previous techniques in predicting in-season genetic variations for CMT, yield, and yield-related traits based on spectral data collected from UAVs?",
+        "input": "",
+        "Output": "The functional regression approach addresses the limitations of previous techniques in predicting in-season genetic variations for CMT, yield, and yield-related traits based on spectral data collected from UAVs by specifically addressing the challenges posed by small sample sizes and a large range of features collected per sample. Traditional methods of yield-prediction modeling become less robust in these cases. \n\nTo overcome these limitations, the functional regression approach was employed. This approach utilizes a function-on-function algorithm, which is chosen for its reliability in handling small datasets with high dimensionality. By using this algorithm, the functional regression model is able to accurately predict CMT, grain yield, and other traits in wheat under heat stress environmental conditions, even when data availability is constrained.\n\nThe results of the study indicate that the overall models for each trait studied showed good accuracy compared to the standard deviation of the data. The yield prediction model, in particular, demonstrated an average error of 13.42%, further supporting the reliability of the chosen functional regression approach for small datasets with high dimensionality."
+    },
+    {
+        "instruction": "Can the chosen function-on-function algorithm for small datasets with high dimensionality be used to predict in-season genetic variations for cellular membrane thermostability (CMT), yield, and yield-related traits in wheat under heat stress conditions using spectral data collected from unmanned aerial vehicles (UAVs)?",
+        "input": "",
+        "Output": "Yes, the chosen function-on-function algorithm can be used to predict in-season genetic variations for cellular membrane thermostability (CMT), yield, and yield-related traits in wheat under heat stress conditions using spectral data collected from unmanned aerial vehicles (UAVs). The related study indicates that the overall models for each trait studied, including CMT and grain yield, showed good accuracy compared to the standard deviation of the data. The yield prediction model specifically had an average error of 13.42%, demonstrating the reliability of the function-on-function algorithm for small datasets with high dimensionality."
+    }
+]

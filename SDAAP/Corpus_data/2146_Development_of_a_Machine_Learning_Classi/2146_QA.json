@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used in the research aiming to differentiate GBM and BM?",
+        "input": "",
+        "Output": "The post-contrast 3DT1 MR imaging was used in the research."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to extract radiomic features in the research aiming to differentiate GBM and BM?",
+        "input": "",
+        "Output": "The spectral feature processing method used to extract radiomic features in the research aiming to differentiate GBM and BM was the power transform Yeo\u2013Johnson scaling feature method."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of the ML classifier in the research aiming to differentiate GBM and BM, and how far can this metric go in terms of accuracy?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the ML classifier in the research was the area under the receiver operating characteristic curve (AUC). The AUC is a commonly used metric in medical diagnosis to assess the accuracy of a classifier. In this study, the ML classifier achieved an AUC of 92% with cross-validation, indicating a high level of accuracy in differentiating between GBM and BM."
+    },
+    {
+        "instruction": "What was the performance of the radiomic features-based Machine Learning (ML) classifier in differentiating between Glioblastomas (GBM) and Brain Metastases (BM) compared to human blind reading, based on the evaluation on the test set of patients in the research aiming to differentiate GBM and BM?",
+        "input": "",
+        "Output": "The performance of the radiomic features-based Machine Learning (ML) classifier in differentiating between Glioblastomas (GBM) and Brain Metastases (BM) compared to human blind reading, based on the evaluation on the test set of patients, was as follows:\n\n- Sensitivity: 75%\n- Specificity: 86%\n- Balanced accuracy: 80%\n- Area under the receiver operating characteristic curve (AUC): 85%\n\nThe results indicate that the ML classifier had a comparable performance to human blind reading in differentiating between GBM and BM. There were no statistically significant differences observed between the performance of the classifier and the experts' blinded examination."
+    },
+    {
+        "instruction": "Can the radiomic features-based Machine Learning (ML) classifier trained from post-contrast 3DT1 MR imaging be used as a superior alternative to traditional methods in differentiating between Glioblastomas (GBM) and Brain Metastases (BM), compared to human experts' blinded examination?",
+        "input": "",
+        "Output": "Yes, the radiomic features-based Machine Learning (ML) classifier trained from post-contrast 3DT1 MR imaging can be used as a superior alternative to traditional methods in differentiating between Glioblastomas (GBM) and Brain Metastases (BM), compared to human experts' blinded examination. The ML classifier had a high performance in terms of sensitivity, specificity, balanced accuracy, and area under the receiver operating characteristic curve (AUC). The sensitivity and specificity of the ML classifier were 85% and 87% respectively, with a balanced accuracy of 86% and an AUC of 92% with cross-validation. On the test set, the ML classifier achieved a sensitivity of 75%, specificity of 86%, balanced accuracy of 80%, and an AUC of 85%. These results indicate that the ML classifier performed comparably to the human experts' blinded examination, with no statistically significant differences observed between the two methods. Therefore, the radiomic features-based ML classifier shows promise as a reliable and accurate tool for differentiating between GBM and BM."
+    }
+]

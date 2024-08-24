@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used in the perilesional region radiomics analysis of CEM images to differentiate benign and malignant breast lesions?",
+        "input": "",
+        "Output": "The related study used contrast-enhanced mammography(CEM) spectrum in the perilesional region radiomics analysis of CEM images to differentiate benign and malignant breast lesions."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the perilesional region radiomics analysis of CEM images to differentiate benign and malignant breast lesions?",
+        "input": "",
+        "Output": "LASSO regression was used in the perilesional region radiomics analysis of CEM images to differentiate benign and malignant breast lesions."
+    },
+    {
+        "instruction": "What metric was chosen to assess the model performance in the perilesional region radiomics analysis of CEM images to differentiate benign and malignant breast lesions, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to assess the model performance in diagnosing breast cancers using radiomics analysis is the Area Under the Curve (AUC). The AUC is a commonly used metric in diagnostic studies that measures the ability of a model to discriminate between two classes (in this case, benign and malignant breast lesions). It ranges from 0 to 1, with a higher value indicating better discrimination.\n\nIn this study, the AUC values were reported for different models constructed using features from different regions of interest (ROIs) in the mammography images. The highest AUC value achieved in the testing set was 0.930 for the annular perilesional ROI of 3-mm model, followed closely by the annular perilesional ROI of 1 mm model with an AUC of 0.929. The lesion ROI model achieved an AUC of 0.909.\n\nThe study also combined the predicted probabilities of the lesion ROI and annular perilesional ROI of 3-mm models to create a new model, which achieved a higher AUC of 0.940 in the testing set.\n\nBased on these results, the AUC metric demonstrated that the radiomics models using perilesional region analysis were effective in differentiating between benign and malignant breast lesions. "
+    },
+    {
+        "instruction": "What machine learning models were used in the perilesional region radiomics analysis of CEM images to differentiate benign and malignant breast lesions?",
+        "input": "",
+        "Output": "In the perilesional region radiomics analysis of CEM images to differentiate benign and malignant breast lesions, seven classification models were used. These models were constructed using LASSO regression."
+    },
+    {
+        "instruction": "Can the annular perilesional radiomics analysis of CEM images using the chosen spectrum method be considered superior to traditional methods in diagnosing breast cancers?",
+        "input": "",
+        "Output": "Yes. Based on the information provided in the related study, the annular perilesional radiomics analysis of contrast-enhanced mammography (CEM) images using the chosen spectrum method showed promising results in diagnosing breast cancers. The study found that the annular perilesional region of 3-mm model had the highest area under the curve (AUC) of 0.930 in the testing set, followed closely by the annular perilesional region of 1 mm model with an AUC of 0.929. These results suggest that the annular perilesional radiomics analysis using the chosen spectrum method may be considered superior to traditional methods in diagnosing breast cancers. Additionally, combining the predicted probabilities of the lesion ROI and annular perilesional ROI of 3-mm models further improved the diagnostic performance, achieving an AUC of 0.940 in the testing set. Therefore, the addition of annular perilesional information to the radiomics model built on the lesion information may enhance the accuracy of breast cancer diagnosis."
+    }
+]

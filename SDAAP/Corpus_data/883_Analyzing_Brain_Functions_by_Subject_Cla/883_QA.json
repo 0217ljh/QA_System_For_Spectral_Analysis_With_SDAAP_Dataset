@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to classify subject gender?",
+        "input": "",
+        "Output": "The related study used function-nir spectrum to classify subject gender."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to classify subject gender?",
+        "input": "",
+        "Output": "Convolutional Neural Network (CNN) was used to classify subject gender based on time series cerebral blood flow change data measured at each fNIRS channel."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the accuracy of the gender classification?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the accuracy of the gender classification was the average value of the leave-one-out cross-validation for each channel."
+    },
+    {
+        "instruction": "What machine learning models were used in the CNN analysis of the fNIRS data to classify subject gender?",
+        "input": "",
+        "Output": "A CNN (Convolutional Neural Network) was used as the supervised learning algorithm in the analysis of fNIRS data to classify subject gender."
+    },
+    {
+        "instruction": "Can the proposed CNN analysis method using fNIRS data accurately identify group differences and classify subject gender, and how does it compare to traditional methods?",
+        "input": "",
+        "Output": "Yes, the proposed CNN analysis method using fNIRS data can accurately identify group differences and classify subject gender. The study mentioned in the related study successfully used the CNN analysis method to distinguish between male and female subjects based on distinct fNIRS signals from specific regions of interest (ROI) in the brain, such as the inferior frontal gyrus and premotor areas. These regions are associated with memory storage, attention, and task motor response.\n\nCompared to traditional methods, the CNN analysis method offers several advantages. Firstly, it utilizes machine learning techniques to learn feature vectors from fNIRS time series data, allowing for more accurate identification of group differences. Traditional methods may rely on manual feature extraction, which can be subjective and less precise.\n\nSecondly, the CNN analysis method objectively identifies ROIs using the fNIRS data, eliminating the need for manual selection of regions."
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used on the molecular profiling of B and T lymphocytes?",
+        "input": "",
+        "Output": "Mid IR spectroscopy was used to acquire the molecular profile of B and T lymphocytes."
+    },
+    {
+        "instruction": "What spectral feature processing methods were employed on the molecular profiling of B and T lymphocytes?",
+        "input": "",
+        "Output": "Non-supervised methods (t-SNE) and supervised methods of machine learning algorithms (SVM and k-NN) were employed on the molecular profiling of B and T lymphocytes. Additionally, specific bands were selected by the Gini index and FCBF to improve classification models."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the prediction models on the molecular profiling of B and T lymphocytes for the activation status of B and T lymphocytes, and how well did it perform?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the prediction models for the activation status of B and T lymphocytes was the Area Under the Curve (AUC). The AUC value is a measure of the model's ability to distinguish between activated and non-activated lymphocytes. In this case, the AUC values for the prediction models were reported to be 0.98 for activated lymphocytes in general and 0.99 for activated B lymphocytes specifically. These high AUC values indicate that the models performed very well in accurately predicting the activation status of B and T lymphocytes based on their molecular profiles."
+    },
+    {
+        "instruction": "How were the machine learning algorithms used to evaluate the MIR data obtained from B and T lymphocytes on molecular profiling using MIR spectroscopy?",
+        "input": "",
+        "Output": "Machine learning algorithms were used to evaluate the MIR data obtained from B and T lymphocytes. The MIR spectroscopy was used to acquire the molecular profile of the cells in a label-free, simple, rapid, economic, and high-throughput manner. \n\nTo analyze the MIR data, specific spectral bands were selected based on the Gini index and the Fast Correlation Based Filter. These selected bands were then used to develop prediction models using machine learning algorithms. \n\nThe models aimed to predict if B and T lymphocytes were activated and to identify the molecular fingerprint of their activation. The molecular composition of activated lymphocytes was found to be significantly different from naive cells, allowing for the development of accurate prediction models using the entire spectra (with AUC=0.98). \n\nFurthermore, the activated B lymphocytes exhibited a distinct molecular profile compared to activated T lymphocytes, leading to excellent prediction models, particularly when based on specific target bands (AUC=0.99). \n\nThe identification of critical target bands, based on metabolic differences between B and T lymphocytes and their association with the molecular mechanism of the activation process, revealed bands associated with lipids and glycogen levels. \n\nOverall, the use of machine learning algorithms allowed for the analysis and discrimination"
+    },
+    {
+        "instruction": "Can MIR spectroscopy be considered a superior method compared to traditional methods for acquiring the molecular profile of B and T lymphocytes in terms of being label-free, simple, rapid, economic, and high-throughput?",
+        "input": "",
+        "Output": "Yes, MIR spectroscopy can be considered a superior method compared to traditional methods for acquiring the molecular profile of B and T lymphocytes in terms of being label-free, simple, rapid, economic, and high-throughput. Past study states that MIR spectroscopy was used to acquire the cells' molecular profile in a label-free, simple, rapid, economic, and high-throughput mode. This suggests that MIR spectroscopy offers advantages over traditional methods, which may require labeling or more complex procedures."
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in estimating the LCC of litchi?",
+        "input": "",
+        "Output": "The related study used remote sensing spectrum in estimating the LCC of litchi."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in estimating the LCC of litchi?",
+        "input": "",
+        "Output": "The spectral feature processing methods used in estimating the LCC of litchi were FOD spectra and MLRAs, specifically RR, GPR, and XGBoost."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of the regression algorithms in estimating LCC?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the regression algorithms in estimating LCC is the coefficient of determination (R2). This metric measures the proportion of the variance in the dependent variable (LCC) that can be explained by the independent variables (hyperspectral reflectance data)."
+    },
+    {
+        "instruction": "What was the effectiveness of the hybrid variable selection strategy (VCPA-GA) in retrieving leaf chlorophyll content (LCC) through hyperspectral reflectance at the leaf scale in the study?",
+        "input": "",
+        "Output": "The effectiveness of the hybrid variable selection strategy (VCPA-GA) in retrieving leaf chlorophyll content (LCC) through hyperspectral reflectance at the leaf scale in the study was demonstrated by the development of a model using the selected 14 sensitive bands from 0.8-order hyperspectral reflectance data. This model had the lowest root mean square error in prediction (RMSEP = 5.04 \u6e2dg\u8defcm(-2)). Additionally, the validation results confirmed that the ridge regression (RR) algorithm derived from the 0.2 order was the most effective for estimating the LCC, with a coefficient of determination (R2 = 0.88), mean absolute error (MAE = 3.40 \u6e2dg\u8defcm(-2)), root mean square error (RMSE = 4.23 \u6e2dg\u8defcm(-2)), and ratio of performance to inter-quartile distance (RPIQ = 3.59). Therefore, the hybrid variable selection strategy (VCPA-GA) was shown to be very effective in retrieving the LCC through hyperspectral reflectance at the leaf scale in the study."
+    },
+    {
+        "instruction": "Can the 0.8-order derivative spectrum, which had the highest correlation coefficient with LCC, be used effectively in estimating leaf chlorophyll content (LCC) of Litchi using hyperspectral fractional order derivative (FOD) reflection?",
+        "input": "",
+        "Output": "Yes, the 0.8-order derivative spectrum can be used effectively in estimating leaf chlorophyll content (LCC) of Litchi using hyperspectral fractional order derivative (FOD) reflection. According to the study, the correlation coefficient (r) between the 0.8-order derivative spectrum and LCC was found to be the highest (r = 0.9179, p < 0.01). This indicates a strong positive relationship between the 0.8-order derivative spectrum and LCC, suggesting that it can be a reliable indicator for estimating LCC in Litchi using hyperspectral FOD reflection."
+    }
+]

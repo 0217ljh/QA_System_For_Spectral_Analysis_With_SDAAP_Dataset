@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the study to estimate cotton water stress?",
+        "input": "",
+        "Output": "The related study used remote sensing spectrum to estimate cotton water stress."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to estimate cotton water stress?",
+        "input": "",
+        "Output": "Linear regression and machine-learning-based methods were used to estimate cotton water stress based on spectral features."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of the estimation models to estimate cotton water stress, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the estimation models in this study is the coefficient of determination (R-2) and the root mean square error (RMSE). The R-2 value measures the proportion of the variance in the SWP that can be explained by the model, with a value closer to 1 indicating a better fit. The RMSE measures the average difference between the predicted and observed SWP values, with a lower value indicating better accuracy."
+    },
+    {
+        "instruction": "What were the different data input datasets used in the machine-learning-based models to estimate cotton water stress?",
+        "input": "",
+        "Output": "The different data input datasets used in the machine-learning-based models to estimate cotton water stress were:\n\n1) 9 original spectral bands (e.g., blue, green, red, red edge, near infrared (NIR), and shortwave infrared (SWIR)\n2) 21 vegetation indices\n3) A combination of original Sentinel-2 spectral bands and vegetation indices."
+    },
+    {
+        "instruction": "How does the machine-learning-based method compare to the linear-regression-based method in estimating cotton water stress using satellite remote sensing?",
+        "input": "",
+        "Output": "The machine-learning-based method outperforms the linear-regression-based method in estimating cotton water stress using satellite remote sensing. The machine-learning-based method achieved a higher R-2 value of 0.6709 and a lower RMSE value of 3.3742 (-1*swp (bars)), indicating better accuracy in estimating cotton water stress."
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to propose a novel blood cell classification framework?",
+        "input": "",
+        "Output": "To propose a novel blood cell classification framework,the researchers used visible spectrum."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to propose a novel blood cell classification framework?",
+        "input": "",
+        "Output": "PCA and Gabor wavelet were used for spectral feature processing in the proposed blood cell classification framework."
+    },
+    {
+        "instruction": "What metric was chosen to propose a novel blood cell classification framework, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to propose a novel blood cell classification framework was classification accuracy. The proposed MGCNN model achieved the highest accuracy compared to other methods."
+    },
+    {
+        "instruction": "How does the proposed blood cell classification framework, MGCNN, combine modulated Gabor wavelets and deep CNN kernels to improve the recognition of cells using medical hyperspectral imaging?",
+        "input": "",
+        "Output": "The proposed blood cell classification framework, MGCNN, combines modulated Gabor wavelets and deep CNN kernels to improve the recognition of cells using medical hyperspectral imaging by transforming the convolutional kernels into the frequency domain to learn features. For each convolutional layer, multi-scale and orientation Gabor operators are taken dot product with initial CNN kernels. This combination allows the features learned by modulated kernels at different frequencies and orientations to be more representative and discriminative. By incorporating the characteristics of Gabor wavelets, the MGCNN model can achieve better classification performance compared to traditional CNNs and widely used support vector machine approaches, especially in small-sample-size situations."
+    },
+    {
+        "instruction": "How does the proposed blood cell classification framework, MGCNN, compare to traditional CNNs and support vector machine approaches in terms of classification performance, particularly in small-sample-size training situations?",
+        "input": "",
+        "Output": "The proposed blood cell classification framework, MGCNN, outperforms traditional CNNs and support vector machine approaches in terms of classification performance, especially in small-sample-size training situations. The MGCNN framework combines a modulated Gabor wavelet and deep convolutional neural network (CNN) kernels, which allows for the extraction of more representative and discriminative features from the hyperspectral imaging data. By transforming the convolutional kernels into the frequency domain using Gabor wavelets, the MGCNN model is able to learn features at different frequencies and orientations, resulting in improved classification accuracy. Experimental results have demonstrated that MGCNN achieves better classification performance compared to traditional CNNs and support vector machine approaches, particularly in situations where the training dataset is limited in size."
+    }
+]

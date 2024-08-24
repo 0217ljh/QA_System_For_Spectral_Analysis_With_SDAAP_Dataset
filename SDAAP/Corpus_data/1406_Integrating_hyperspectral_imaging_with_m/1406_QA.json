@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the investigation to retrieve and map different fractions of soil nitrogen (N) within entire soil profiles at a high resolution?",
+        "input": "",
+        "Output": "Hyperspectral imaging (HSI) spectroscopy was used in the related study."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to retrieve and map the soil nitrogen fractions in the investigation to retrieve and map different fractions of soil nitrogen (N) within entire soil profiles at a high resolution?",
+        "input": "",
+        "Output": "The spectral feature processing methods used were laboratory-based hyperspectral imaging (HSI) across the visible and near infrared region (VNIR: 400\u20132500 nm)."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of the models in predicting the soil nitrogen fractions in the investigation to retrieve and map different fractions of soil nitrogen (N) within entire soil profiles at a high resolution, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the models in predicting the soil nitrogen fractions is the coefficient of determination (R-squared or R^2) and the root mean square error (RMSE). The R-squared value measures the proportion of the variance in the dependent variable (soil nitrogen fractions) that can be explained by the independent variables (hyperspectral imaging data). It ranges from 0 to 1, with a higher value indicating a better fit of the model to the data. The RMSE measures the average difference between the predicted values and the actual values, with a lower value indicating better accuracy.\n\nThe text does not provide information on how far the R-squared value can go. The R-squared value alone does not provide information about the absolute accuracy of the predictions or the range of values that can be achieved. It only indicates the proportion of variance explained by the model. Therefore, additional information is needed to determine the practical significance and limitations of the R-squared value in predicting soil nitrogen fractions."
+    },
+    {
+        "instruction": "What machine learning techniques were compared with partial least squares regression to determine the most suitable model for predicting the various soil nitrogen fractions in the investigation of laboratory-based hyperspectral imaging (HSI) spectroscopy?",
+        "input": "",
+        "Output": "The machine learning techniques that were compared with partial least squares regression (PLSR) in the investigation of laboratory-based hyperspectral imaging (HSI) spectroscopy were:\n\n1. Artificial neural networks (ANN)\n2. Cubist regression tree (Cubist)\n3. K-nearest neighbour (KNN)\n4. Support vector machine regression (SVMR)\n5. Extreme gradient boosting (XGBoost)"
+    },
+    {
+        "instruction": "How does the performance of nonlinear techniques compare to partial least squares regression in predicting different fractions of soil nitrogen using laboratory-based hyperspectral imaging (HSI) spectroscopy?",
+        "input": "",
+        "Output": "The performance of nonlinear techniques, such as artificial neural networks (ANN), cubist regression tree (Cubist), k-nearest neighbour (KNN), support vector machine regression (SVMR), and extreme gradient boosting (XGBoost), was compared to partial least squares regression (PLSR) in predicting different fractions of soil nitrogen using laboratory-based hyperspectral imaging (HSI) spectroscopy.\n\nOverall, the results showed that nonlinear techniques performed better than PLSR in most cases. They had a high coefficient of determination (R-2) and low root mean square error (RMSE), indicating their superior predictive ability.\n\nAmong the tested models, SVMR was found to be the most suitable for predicting total nitrogen (TN), available nitrogen (AvailN), nitrate nitrogen (NO3-N), and ammonium nitrogen (NH4-N). It achieved high R-2 values of 0.94 for TN and AvailN, 0.82 for NO3-N, and 0.70 for NH4-N. The corresponding RMSE values were also relatively low, indicating accurate predictions.\n\nFor microbial biomass nitrogen (MBN), KNN performed the best among the models tested. It achieved an R-2 value of 0.63 and an RM"
+    }
+]

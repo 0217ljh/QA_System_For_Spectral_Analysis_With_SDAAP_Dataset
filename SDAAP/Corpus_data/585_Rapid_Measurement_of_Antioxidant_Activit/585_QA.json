@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used in the related study to determine the antioxidant capacity and GABA content of Chinese rice wine?",
+        "input": "",
+        "Output": "Fourier-transform near infrared (FT-NIR) spectroscopy was used in the related study to determine the antioxidant capacity and GABA content of Chinese rice wine."
+    },
+    {
+        "instruction": "What machine learning models were used in the related study to determine the antioxidant capacity and GABA content of Chinese rice wine?",
+        "input": "",
+        "Output": "Interval partial least-squares (iPLS) and extreme learning machine (ELM) were used in the study to determine the antioxidant capacity and \u03b3-aminobutyric acid (GABA) content of Chinese rice wine."
+    },
+    {
+        "instruction": "What metric was chosen and how far can this metric go in predicting the antioxidant capacity and GABA content of Chinese rice wine?",
+        "input": "",
+        "Output": "The metric chosen in the related study to evaluate the prediction performance of the models was the coefficient of determination (R^2) for the prediction set and the residual predictive deviation (RPD) for the prediction set. \n\nThe R^2 value measures the proportion of the variance in the dependent variable (antioxidant capacity and GABA content) that can be explained by the independent variables (spectra intervals). A higher R^2 value indicates a better fit of the model to the data.\n\nThe RPD value, on the other hand, is a measure of the prediction precision. It is calculated by dividing the standard deviation of the reference values by the standard error of prediction. A higher RPD value indicates a better prediction accuracy.\n\nIn the related study, the iELM model achieved the best result with R^2 (pre) values of 0.932 for 1,1-diphenyl-2-picrylhydrazyl assay, 0.970 for 2,2-azino-bis-(3-ethylbenzothiazoline-6-sulfonic acid) diammonium salt assay, 0.974 for total reducing antioxidant power assay, and 0.952 for GABA. "
+    },
+    {
+        "instruction": "What were the performances of the different calibration models (PLS, iPLS, ELM, and iELM) in predicting the antioxidant capacity and GABA content of Chinese rice wine using FT-NIR spectroscopy?",
+        "input": "",
+        "Output": "The performances of the different calibration models in predicting the antioxidant capacity and GABA content of Chinese rice wine using FT-NIR spectroscopy were as follows:\n\n- The PLS model, which used the full spectrum, had lower performance compared to the other models.\n- The iPLS model, which selected efficient spectra intervals, showed improved performance compared to the PLS model.\n- The ELM model, a nonlinear regression tool, performed better than the linear models.\n- The iELM model, which combined the efficient variable selection algorithm of iPLS with the ELM model, achieved the best results with excellent prediction precision.\n\nSpecifically, for the four parameters determined (1,1-diphenyl-2-picrylhydrazyl assay, 2,2-azino-bis-(3-ethylbenzothiazoline-6-sulfonic acid) diammonium salt assay, total reducing antioxidant power assay, and GABA content), the iELM model had the highest coefficient of determination for the prediction set (R (2) (pre)) and the lowest residual predictive deviation for the prediction set. The values were 0.932 and 4.07 for 1,1-diphenyl-2-picrylhyd"
+    },
+    {
+        "instruction": "Can FT-NIR combined with efficient variable selection algorithm and nonlinear regression tool be used as a superior alternative method for predicting the antioxidant capacity and GABA content of Chinese rice wine compared to traditional methods?",
+        "input": "",
+        "Output": "Yes. According to the related study, FT-NIR combined with efficient variable selection algorithm and nonlinear regression tool can be used as a superior alternative method for predicting the antioxidant capacity and GABA content of Chinese rice wine compared to traditional methods. The related study found that the models based on the efficient spectra intervals selected by the variable selection algorithm (iPLS) performed much better than those based on the full spectrum. Additionally, the nonlinear models were found to be superior to linear models. The iELM model, which combined iPLS and extreme learning machine (ELM), achieved the best results with excellent prediction precision for all four parameters tested. Therefore, the overall results suggest that FT-NIR combined with efficient variable selection algorithm and nonlinear regression tool can be a rapid and accurate alternative method for predicting the antioxidant capacity and GABA content of Chinese rice wine."
+    }
+]

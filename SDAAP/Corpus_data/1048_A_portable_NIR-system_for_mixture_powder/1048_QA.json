@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the related study for evaluating the mixing proportion of multi-mixture powdery food?",
+        "input": "",
+        "Output": "The related study used near-infrared spectroscopy (NIR) spectrum for the evaluation of the mixing proportion of multi-mixture powdery food."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the related study for evaluating the mixing proportion of multi-mixture powdery food?",
+        "input": "",
+        "Output": "The related study used the CNN-MR model for evaluating the mixing proportion of multi-mixture powdery food."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of the models in the related study for evaluating the mixing proportion of multi-mixture powdery food, and how far can this metric go in terms of accuracy?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the models in the research on the development of the NIR-Spoon is the root mean square error (RMSE). The RMSE value obtained for the partial least squares regression (PLSR) model was 0.059. \n\nIn terms of accuracy, the research states that the proposed convolutional neural networks for multi-regression (CNN-MR) achieved a further improvement compared to the benchmark PLSR method, with an RMSE of 0.035. This indicates that the CNN-MR model has a higher level of accuracy in estimating the mixing proportion of multi-mixture powdery food."
+    },
+    {
+        "instruction": "How were convolutional neural networks (CNN) utilized in the research on the development of the NIR-Spoon for evaluating the mixing proportion of multi-mixture powdery food?",
+        "input": "",
+        "Output": "Convolutional neural networks (CNN) were utilized in the research on the development of the NIR-Spoon for evaluating the mixing proportion of multi-mixture powdery food in two ways. \n\nFirstly, a CNN for multi-regression (CNN-MR) was proposed for spectra processing. This CNN-MR was used to process the spectra obtained from the NIR-Spoon and estimate the mixing proportion of the multi-mixture powdery food. The results showed that the CNN-MR achieved a root mean square error (RMSE) of 0.035 and a correlation coefficient (R2) of 0.976, which was an improvement compared to the benchmark partial least squares regression (PLSR) method.\n\nSecondly, a CNN for feature selection (CNN-FS) was proposed to select the most relevant features from the spectra. The CNN-FS algorithm selected 25 features that were deemed important for estimating the mixing proportion. The CNN-MR, when using these selected features, still achieved a high correlation coefficient (R2) of 0.970.\n\nOverall, the utilization of CNNs in the research allowed for improved accuracy in estimating the mixing proportion of multi-mixture powdery food using the NIR-Spoon."
+    },
+    {
+        "instruction": "Can the proposed CNN-MR method using near-infrared spectroscopy and machine intelligence be considered superior to the benchmark PLSR method in terms of accurately estimating the mixing proportion of multi-mixture powdery food in the research on the development of the NIR-Spoon?",
+        "input": "",
+        "Output": "Yes, the proposed CNN-MR method using near-infrared spectroscopy and machine intelligence can be considered superior to the benchmark PLSR method in terms of accurately estimating the mixing proportion of multi-mixture powdery food in the research on the development of the NIR-Spoon. The CNN-MR method achieved a root mean square error (RMSE) of 0.035 and a correlation coefficient (R2) of 0.976, which are better than the RMSE of 0.059 and R2 of 0.938 achieved by the PLSR model. This indicates that the CNN-MR method provides a further improvement in accuracy compared to the benchmark method."
+    }
+]

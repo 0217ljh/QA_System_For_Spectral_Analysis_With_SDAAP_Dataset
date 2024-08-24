@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to detect the soil organic matter (SOM)?",
+        "input": "",
+        "Output": "In the past study, visible and near-infrared (vis-NIR) spectra were used to detect soil organic matter (SOM)."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to detect soil organic matter (SOM)?",
+        "input": "",
+        "Output": "The spectral feature processing methods used to detect soil organic matter (SOM) were the successive projection algorithm (SPA), competitive adaptive reweighted sampling (CARS), and Boruta algorithm."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the prediction accuracy of the SOM content estimation model?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the prediction accuracy of the SOM content estimation model was the coefficient of determination (R-2) and the residual prediction deviation (RPD)."
+    },
+    {
+        "instruction": "What are the three wavelength selection strategies used in the past study to obtain the spectral response characteristics of soil organic matter (SOM) using visible and near-infrared (vis-NIR) spectroscopy?",
+        "input": "",
+        "Output": "The three wavelength selection strategies used in the past study to obtain the spectral response characteristics of soil organic matter (SOM) using visible and near-infrared (vis-NIR) spectroscopy are:\n\n1. Successive Projection Algorithm (SPA)\n2. Competitive Adaptive Reweighted Sampling (CARS)\n3. Boruta algorithm"
+    },
+    {
+        "instruction": "How does the combination of vis-NIR spectroscopy and machine learning improve the accuracy of soil organic matter (SOM) prediction in arid land compared to traditional methods?",
+        "input": "",
+        "Output": "The combination of vis-NIR spectroscopy and machine learning improves the accuracy of soil organic matter (SOM) prediction in arid land compared to traditional methods by effectively removing redundant information and optimizing the optimal wavelengths. Traditional methods often rely on manual selection of variables, which can be time-consuming and subjective. In contrast, the use of machine learning algorithms such as the Boruta algorithm allows for automated and objective selection of optimal variables.\n\nBy preselecting spectral wavelengths using Pearson correlation analysis, the past study identified the range of spectral absorption features (i.e., 1400.0, 1900.0, and 2200.0 nm) as the optimal variables for SOM prediction. Additionally, the CARS and Boruta algorithm also selected a few visible wavelengths in the range of 480.0-510.0 nm. These selected wavelengths provide important information about the SOM content.\n\nThe selected wavelengths were then used in combination with machine learning models, specifically partial least squares regression (PLSR) and random forest (RF), to develop quantitative estimation models for SOM content. Both models showed satisfactory prediction results, with the RF model demonstrating better accuracy than the PLSR model."
+    }
+]

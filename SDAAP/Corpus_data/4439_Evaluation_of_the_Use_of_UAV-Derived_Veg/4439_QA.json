@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to estimate grapevine water status (GWS)?",
+        "input": "",
+        "Output": "The related study used remote sensing spectrum to estimate grapevine water status (GWS)."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to estimate grapevine water status (GWS)?",
+        "input": "",
+        "Output": "Two machine learning models were used to reconstruct the SWIR band from the re\ufb02ectance of the VNIR band, and a multispectral imaging system for UAVs was developed to cover 0.4\u20131.7 \u00b5m of the spectrum."
+    },
+    {
+        "instruction": "What metric was chosen to estimate grapevine water status (GWS) and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the accuracy of GWS estimation in the related study is the root mean square error (RMSE). The RMSE is a measure of the differences between predicted and observed values, with lower values indicating better accuracy. \n\nIn terms of improvement, the study found that the inclusion of ancillary variables such as day of the year (DOY), elevation, slope, apparent electrical conductivity (ECa), and daily average windspeed led to a significant reduction in the RMSE of the GWS estimation models. Specifically, the RMSE of the transformed chlorophyll absorption reflectance index-based model improved from 213 to 146 kPa, and the RMSE of the excess green index-based model improved from 221 to 138 kPa. \n\nTherefore, the inclusion of these ancillary variables resulted in a notable improvement in the accuracy of GWS estimation, as indicated by the reduction in RMSE values."
+    },
+    {
+        "instruction": "How did the study assess the relationship between selected variables and stem water potential (psi stem) in order to improve the accuracy of grapevine water status (GWS) estimation using multispectral unmanned aerial vehicles (UAVs)?",
+        "input": "",
+        "Output": "The study assessed the relationship between selected variables and stem water potential (psi stem) by using three machine learning algorithms: elastic net, random forest regression, and support vector regression. These algorithms were used to regress UAV-derived vegetation indices, slope, elevation, apparent electrical conductivity (ECa), weekly or daily weather parameters, and day of the year (DOY) against psi stem. The goal was to determine which variables contribute to GWS variation and to what extent. Additionally, Shapley Additive exPlanations (SHAP) analysis was used to further assess the relationship between the selected variables and psi stem."
+    },
+    {
+        "instruction": "How did the inclusion of ancillary inputs such as DOY and elevation improve the accuracy of GWS estimation models using multispectral unmanned aerial vehicles (UAVs)?",
+        "input": "",
+        "Output": "The inclusion of ancillary inputs such as day of the year (DOY) and elevation improved the accuracy of GWS estimation models using multispectral unmanned aerial vehicles (UAVs) by reducing the root mean square error (RMSE) of the models. Specifically, the transformed chlorophyll absorption reflectance index-based model saw an improvement in RMSE from 213 to 146 kPa when DOY and elevation were included as ancillary inputs. Similarly, the excess green index-based model saw an improvement in RMSE from 221 to 138 kPa when DOY, elevation, slope, apparent electrical conductivity (ECa), and daily average windspeed were included as ancillary inputs. This indicates that incorporating DOY and elevation as additional variables provided valuable information that contributed to a more accurate estimation of grapevine water status (GWS) using UAV-based multispectral sensors."
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the rapid classification of coal samples?",
+        "input": "",
+        "Output": "The near infrared reflectance spectrum (NIRS) was used in the rapid classification of coal samples."
+    },
+    {
+        "instruction": "What spectral feature processing methods were employed in the coal classification?",
+        "input": "",
+        "Output": "The related study used confidence analysis in the rapid classification of coal samples."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance in the rapid classification of coal samples and how far can this metric go in the analysis of coal samples?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the CM-SVM model in the rapid classification of coal samples is the percentage of correctly grouped samples. It is mentioned that the CM-SVM model had 95.45% of the samples correctly grouped. \n\nThis metric can provide a measure of the accuracy of the model in classifying coal samples based on their near-infrared reflectance spectra. It indicates how well the model is able to correctly assign coal samples to their respective types (fat coal, coking coal, lean coal, meager lean coal)."
+    },
+    {
+        "instruction": "What is the advantage of using the confidence machine based on support vector machine (CM-SVM) algorithm in the rapid classification of coal samples using near-infrared reflectance spectroscopy (NIRS)?",
+        "input": "",
+        "Output": "The advantage of using the confidence machine based on support vector machine (CM-SVM) algorithm in the rapid classification of coal samples using near-infrared reflectance spectroscopy (NIRS) is that it provides a probabilistic approach to classification. Unlike traditional support vector machine (SVM) algorithms that use hyperplanes for classification, CM-SVM uses probability to carry out the classification. This probabilistic approach is more effective in accurately grouping coal samples, with a reported 95.45% accuracy rate. \n\nAdditionally, CM-SVM also estimates the confidence and credibility for each predicted sample. By setting different confidence levels, CM-SVM can perform region prediction with a predefined error rate. This is particularly important for controlling product quality when NIRS is applied to the analysis of coal samples. \n\nFurthermore, the confidence machine is designed as an online learning method, allowing new samples to be added to the training set one by one, thereby improving the efficiency of the model. This makes CM-SVM very suitable for industry online analysis. The on-line CM-SVM models also showed that the confidence of prediction increases as the number of samples increases, which is valuable for industry online analysis."
+    },
+    {
+        "instruction": "Can the combination of near-infrared reflectance spectroscopy (NIRS) and confidence machine based on support vector machine (CM-SVM) be considered as a superior alternative to traditional laborious and time-consuming chemical analysis methods for the rapid classification of coal samples?",
+        "input": "",
+        "Output": "Yes, the combination of near-infrared reflectance spectroscopy (NIRS) and confidence machine based on support vector machine (CM-SVM) can be considered as a superior alternative to traditional laborious and time-consuming chemical analysis methods for the rapid classification of coal samples. NIRS and CM-SVM were used to establish classifiers based on the near-infrared spectra of coal samples, allowing for the rapid classification of coal samples. This new method can replace the traditional chemical analysis, which is known to be laborious and time-consuming. The CM-SVM algorithm, which is a probabilistic algorithm, was found to be more effective than the traditional support vector machine (SVM) algorithm, with a 95.45% accuracy rate in correctly grouping the coal samples. Additionally, CM-SVM also estimated the confidence and credibility for each predicted sample, allowing for region prediction and control of product quality. The on-line learning capability of CM-SVM also makes it suitable for industry on-line analysis. Therefore, the combination of NIRS and CM-SVM offers a simpler, more convenient, and safer alternative to traditional chemical analysis methods for the rapid classification of coal samples."
+    }
+]

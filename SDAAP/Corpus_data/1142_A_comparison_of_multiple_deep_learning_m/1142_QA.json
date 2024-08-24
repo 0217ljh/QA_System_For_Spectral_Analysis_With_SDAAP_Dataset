@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the related study for the quantitative estimation of soil organic carbon (SOC) in arid and semi-arid regions?",
+        "input": "",
+        "Output": "The study used visible-near-infrared (Vis-NIR) spectroscopy for the quantitative estimation of soil organic carbon (SOC) in arid and semi-arid regions."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to extract the optimal spectral feature subset in the related study for the quantitative estimation of soil organic carbon (SOC) in arid and semi-arid regions?",
+        "input": "",
+        "Output": "Particle swarm optimization (PSO) and Genetic algorithm (GA) were used as spectral feature processing methods to extract the optimal spectral feature subset in the related study for the quantitative estimation of soil organic carbon (SOC) in arid and semi-arid regions."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the prediction accuracy of SOC in the related study for the quantitative estimation of soil organic carbon (SOC) in arid and semi-arid regions, and how far can this metric go according to the results?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the prediction accuracy of SOC (Soil Organic Carbon) in the related study was the validation R2 (R-squared) value. According to the results, the highest validation R2 achieved was 0.89, which indicates a strong correlation between the predicted and actual SOC values. This suggests that the chosen metric can go as high as 0.89 in terms of evaluating the prediction accuracy of SOC."
+    },
+    {
+        "instruction": "How did the researchers compare the predicted potentials of different modeling algorithms combined with feature selection methods for the spectral prediction of soil organic carbon (SOC) in arid and semi-arid regions?",
+        "input": "",
+        "Output": "The researchers compared the predicted potentials of different modeling algorithms combined with feature selection methods for the spectral prediction of soil organic carbon (SOC) in arid and semi-arid regions by utilizing three different sample sizes of datasets (330, 660, and 990) with SOC contents and Vis-NIR spectroscopy measured in the laboratory. They used eight feature selection methods, including Interval Random Frog (IRF), to extract the optimal spectral feature subset. Six deep learning (DL) algorithms (e.g., Long Short-Term Memory Neural Networks, LSTM; Deep Belief Networks, DBN) and one machine learning method (Random Forest, RF) were employed to relate SOC to spectral predictors. The performance of these algorithms was compared to determine which one provided the best prediction for SOC. Additionally, the influence of different calibration sample sizes on the final modeling accuracy for SOC was also investigated."
+    },
+    {
+        "instruction": "How did the different modeling algorithms combined with feature selection methods compare in terms of their predicted potentials for the spectral prediction of soil organic carbon (SOC) in arid and semi-arid regions, according to the study's findings?",
+        "input": "",
+        "Output": "According to the findings of the study, the deep learning (DL) algorithms outperformed the Random Forest (RF) algorithm for the spectral prediction of soil organic carbon (SOC) in arid and semi-arid regions. Among the DL algorithms, the Long Short-Term Memory Neural Networks (LSTM) model performed the best, while the Deep Belief Networks (DBN) model performed the worst. The one-dimensional-Convolutional Neural Network (1D-CNN), 2D-CNN, Recurrent Neural Network, and DBN algorithms were found to be sensitive to different sample sizes. For the largest dataset (990 samples), four of the eight feature selection methods combined with the DL algorithms improved the prediction for SOC compared to the corresponding full-spectrum DL models. The Interval Random Frog (IRF)-LSTM model achieved the optimal prediction for SOC, with a validation R2 of 0.89."
+    }
+]

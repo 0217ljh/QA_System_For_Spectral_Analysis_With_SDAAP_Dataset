@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used in the related study on nondestructive detection of total soluble solids (TSS) in grape?",
+        "input": "",
+        "Output": "The study used hyperspectral imaging (HSI) with a spectrum range of (400.68-1001.61 nm) for nondestructive detection of total soluble solids (TSS) in grape."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to select feature wavelengths for nondestructive detection of TSS in grape using hyperspectral imaging (HSI)?",
+        "input": "",
+        "Output": "Variational mode decomposition and regression coefficients (VMD-RC) were used to select feature wavelengths for nondestructive detection of TSS in grape using hyperspectral imaging (HSI)."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the prediction accuracy for TSS in grape using hyperspectral imaging (HSI) and wavelength selection?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the prediction accuracy for TSS in grape using hyperspectral imaging (HSI) and wavelength selection is Rp2 (coefficient of determination)."
+    },
+    {
+        "instruction": "How was the VMD-RC method used in the study on nondestructive detection of TSS in grape using hyperspectral imaging (HSI) and wavelength selection?",
+        "input": "",
+        "Output": "The VMD-RC method was used in the study to select feature wavelengths for nondestructive detection of total soluble solids (TSS) in grape using hyperspectral imaging (HSI) and wavelength selection. The method involved decomposing the hyperspectral images data of grape samples using variational mode decomposition (VMD) within the wavelength range of 400.68-1001.61 nm. This decomposition resulted in a series of feature components. Each component was then processed separately using regression analysis to obtain the stability values of regression coefficients (RC). The stability values of RC for each component were used to identify key wavelengths. A filter-based selection strategy was employed to screen and select these key wavelengths."
+    },
+    {
+        "instruction": "Can the VMD-RC-LSSVM model, which achieved the best prediction accuracy for TSS in grapes, be applied to other fruits for nondestructive evaluation of quality attributes using hyperspectral imaging (HSI) and wavelength selection?",
+        "input": "",
+        "Output": "Yes,based on the information provided in the text, it is suggested that the VMD-RC-LSSVM model, which achieved the best prediction accuracy for TSS in grapes, can potentially be applied to other fruits for nondestructive evaluation of quality attributes using hyperspectral imaging (HSI) and wavelength selection. The text states that the VMD-RC algorithm can be used as an alternative to handle high-dimensional hyperspectral images data, and HSI has great potential for nondestructive and rapid evaluation of quality attributes in fruit. Additionally, the practical application section mentions that using HSI and variable selection for predicting TSS in grapes is feasible and can provide a valuable reference for noninvasively evaluating other internal attributes of fruit. However, it is important to note that further research and validation would be necessary to confirm the applicability of the VMD-RC-LSSVM model to other fruits."
+    }
+]

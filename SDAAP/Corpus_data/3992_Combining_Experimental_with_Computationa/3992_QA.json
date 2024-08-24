@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to improve the identification rates and reliability of nontargeted metabolomics?",
+        "input": "",
+        "Output": "The related study used experimental MS/MS (mass spectrometry/mass spectrometry) and ftir spectrum to improve the identification rates and reliability of nontargeted metabolomics."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to improve the identification rates and reliability of nontargeted metabolomics?",
+        "input": "",
+        "Output": "The spectral feature processing methods used to improve the identification rates and reliability of nontargeted metabolomics included fingerprint-based methods, in silico simulation methods, and combinatorial fragmentation methods."
+    },
+    {
+        "instruction": "What metric was chosen to improve the identification rates and reliability of nontargeted metabolomics and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to rank the candidate structures in the related study is a composite score. This composite score is calculated as the average of the rankings obtained from two different methods: CSI:FingerID and density functional theory (DFT-IR). \n\nThe use of this composite score has shown promising results in improving identification rates and reliability. In the related study, the approach resulted in the correct identification of 88 out of 148 test compounds, achieving a 59% identification rate. Additionally, 129 out of the 148 test compounds (87%) were ranked within the top 20 candidates. \n\nThese identification rates are reported to be the highest when candidate structures are used from PubChem. Therefore, the combination of experimental and computational MS/MS and IR spectral data, along with the composite score metric, has the potential to significantly improve the prioritization of candidates for final structure verification."
+    },
+    {
+        "instruction": "How were the candidate structures initially scored and ranked in the research on high-throughput nontargeted chemical structure identification?",
+        "input": "",
+        "Output": "The candidate structures were initially scored and ranked using CSI:FingerID in the research on high-throughput nontargeted chemical structure identification."
+    },
+    {
+        "instruction": "How does combining experimental and computational mass and IR spectral data improve the identification rates and reliability of nontargeted metabolomics in this research?",
+        "input": "",
+        "Output": "Combining experimental and computational mass and IR spectral data improves the identification rates and reliability of nontargeted metabolomics in this research by providing additional orthogonal data. The use of mass spectrometry and machine learning methods alone is limited in identifying the structures of most metabolites. However, by incorporating experimental MS/MS and gas-phase IR data, the researchers were able to enhance the identification process.\n\nIn the related study, the researchers obtained experimental MS/MS and gas-phase IR data for 148 test compounds from NIST. They then obtained candidate structures for each test compound from PubChem, with an average of 4444 candidate structures per test compound. The workflow used CSI:FingerID to initially score and rank the candidate structures based on mass spectrometry data. The top 1000 ranked candidates were further analyzed using density functional theory (DFT-IR) to predict, score, and rank their IR spectra.\n\nBy combining the experimental and computational data, the researchers were able to generate a composite score for each candidate structure, calculated as the average of the CSI:FingerID and DFT-IR rankings. This approach resulted in the correct identification of 88 out of the 148 test compounds (59%)."
+    }
+]

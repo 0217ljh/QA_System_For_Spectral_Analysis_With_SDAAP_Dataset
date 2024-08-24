@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used for soil TN estimation?",
+        "input": "",
+        "Output": "In the past study, reflectance visible and near-infrared (Vis-NIR) spectroscopy spectra were used for soil TN estimation."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used for soil TN estimation?",
+        "input": "",
+        "Output": "Multivariate method and spectral variable selection were used for soil TN estimation."
+    },
+    {
+        "instruction": "What metric was chosen and how far can this metric go for soil TN estimation?",
+        "input": "",
+        "Output": "The metric chosen on the potential of combining multivariate method and spectral variable selection for soil TN estimation by Vis-NIR spectroscopy was the coefficient of determination (R-2). This metric measures the proportion of the variance in the soil TN content that can be explained by the models developed using the different combinations of multivariate methods and variable selection techniques. The R-2 value ranges from 0 to 1, with higher values indicating better estimation accuracy. In this past study, the best estimation accuracy achieved was an R-2 value of 0.79, indicating that the models developed using the ELM-CARS combination could explain approximately 79% of the variance in the soil TN content."
+    },
+    {
+        "instruction": "How were the machine learning models combined with variable selection techniques in the past study on the potential of combining multivariate methods and spectral variable selection for soil TN estimation by Vis-NIR spectroscopy?",
+        "input": "",
+        "Output": "In the past study, four multivariate methods (extreme learning machine, ELM; backpropagation neural network, BPNN; support vector machine regression, SVMR; partial least squares regression, PLSR) were combined with three variable selection techniques (competitive adaptive reweighted sampling, CARS; genetic algorithm, GA; successive projections algorithm, SPA) for model calibration. This means that each multivariate method (ELM, BPNN, SVMR, PLSR) was individually combined with each variable selection technique (CARS, GA, SPA) to create different combinations of models for soil TN estimation."
+    },
+    {
+        "instruction": "How does the past study on the potential of combining multivariate methods and spectral variable selection for soil TN estimation by Vis-NIR spectroscopy contribute to the understanding of the superiority of spectroscopic methods over traditional methods?",
+        "input": "",
+        "Output": "The past study on the potential of combining multivariate methods and spectral variable selection for soil TN estimation by Vis-NIR spectroscopy contributes to the understanding of the superiority of spectroscopic methods over traditional methods by demonstrating the effectiveness of this approach in accurately estimating soil total nitrogen (TN) content. \n\nThe past study compared four multivariate methods (extreme learning machine, backpropagation neural network, support vector machine regression, and partial least squares regression) combined with three variable selection techniques (competitive adaptive reweighted sampling, genetic algorithm, and successive projections algorithm) for model calibration. \n\nThe results showed that the extreme learning machine (ELM) model outperformed the other multivariate methods, indicating that ELM is a more effective approach for regression analysis in this context. Additionally, the competitive adaptive reweighted sampling (CARS) technique was found to be superior to the other variable selection techniques in selecting effective variables.\n\nThe best estimation accuracy (R-2 = 0.79) was achieved by the ELM-CARS model, indicating that this combination of multivariate method and variable selection technique is highly effective in estimating soil TN content."
+    }
+]

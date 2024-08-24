@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the study on the capability of a Hybrid functional neuroimaging technique to quantify human mental workload (MWL)?",
+        "input": "",
+        "Output": "The study used electroencephalography (EEG) and functional near-infrared spectroscopy (fNIRS) as imaging modalities."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the study on the capability of a Hybrid functional neuroimaging technique to quantify human mental workload (MWL)?",
+        "input": "",
+        "Output": "A machine learning approach was utilized for the detection of the level of MWL. Features extracted from EEG, fNIRS, and EEG+fNIRS signals were used as biomarkers of MWL and fed into a linear support vector machine (SVM) for classification."
+    },
+    {
+        "instruction": "What metric was chosen and how far can this metric go in the study on the capability of a Hybrid functional neuroimaging technique to quantify human mental workload (MWL)?",
+        "input": "",
+        "Output": "The metric chosen in the study on the capability of a Hybrid functional neuroimaging technique to quantify human mental workload (MWL) was the accuracy of the classification system. This metric was used to assess the performance level of the linear support vector machine (SVM) classifier in discriminating among various levels of MWL. The study found that the accuracy of the Hybrid (EEG+fNIRS) system was significantly higher than that of either EEG or fNIRS alone. However, the extent to which this metric can go in the study is not explicitly mentioned in the provided text."
+    },
+    {
+        "instruction": "How were the machine learning models used in the study on the capability of a Hybrid functional neuroimaging technique to quantify human mental workload (MWL) using electroencephalography (EEG) and functional near-infrared spectroscopy (fNIRS) as imaging modalities?",
+        "input": "",
+        "Output": "In the study, machine learning models were used to detect and classify different levels of mental workload (MWL) based on the recorded signals from EEG and fNIRS. The researchers extracted various features from the EEG, fNIRS, and EEG+fNIRS signals, which served as biomarkers of MWL. These features were selected based on their sensitivity to changes in MWL according to existing literature.\n\nA linear support vector machine (SVM) classifier was then trained and tested using these extracted features. The SVM classifier was used to discriminate between different combinations of cognitive states, including binary- and multi-class states. The performance of the classifier was assessed using cross-validation, and various metrics such as sensitivity, specificity, and predictive values were calculated to comprehensively evaluate the classification system.\n\nThe study found that the Hybrid (EEG+fNIRS) system had a significantly higher accuracy compared to using either EEG or fNIRS alone. This suggests that combining EEG and fNIRS features with a classifier can robustly discriminate among various levels of MWL. The results also indicate that EEG+fNIRS should be preferred over using only EEG or fNIRS in developing passive brain-computer interfaces (BCIs) and other applications that require monitoring users' MWL."
+    },
+    {
+        "instruction": "Can the Hybrid functional neuroimaging technique using EEG and fNIRS as imaging modalities be considered superior to traditional methods for quantifying human mental workload (MWL)?",
+        "input": "",
+        "Output": "Yes, the Hybrid functional neuroimaging technique using EEG and fNIRS as imaging modalities can be considered superior to traditional methods for quantifying human mental workload (MWL). The study mentioned in the text found that the accuracy of the Hybrid system (EEG+fNIRS) was significantly higher than that of either EEG or fNIRS alone. The results suggest that EEG+fNIRS features combined with a classifier are capable of robustly discriminating among various levels of MWL. Therefore, the Hybrid system is recommended over traditional methods such as using only EEG or fNIRS for quantifying MWL."
+    }
+]

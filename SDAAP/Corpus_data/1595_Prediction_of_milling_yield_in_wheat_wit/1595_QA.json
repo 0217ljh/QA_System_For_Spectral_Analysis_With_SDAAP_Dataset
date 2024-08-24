@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the research on constructing predictive models of flour milling yield (MY)% using image and spectral data captured from wheat samples?",
+        "input": "",
+        "Output": "The research used near-infrared reflectance spectra of corresponding bulk grain as the spectrum data for constructing predictive models of flour milling yield (MY)% using image and spectral data captured from wheat samples."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the research on constructing predictive models of flour milling yield (MY)% using image and spectral data captured from wheat samples?",
+        "input": "",
+        "Output": "The spectral feature processing methods used in the research were Gaussian process regression (GPR) and support vector regression (SVM)."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the models of flour milling yield (MY)% in the research on constructing predictive models of flour milling yield (MY)% using image and spectral data captured from wheat samples and how far can this metric go in the research?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the models of flour milling yield (MY)% is the adjusted-R-2 cross-validation value. This metric measures the proportion of the variance in the dependent variable (MY%) that can be explained by the independent variables (extracted features). \n\nThe adjusted-R-2 cross-validation value can provide insights into the accuracy and performance of the models. In this research, the adjusted-R-2 cross-validation values were reported as 0.61 for MY%. This indicates that the models using the extracted features were able to explain 61% of the variance in flour milling yield.\n\nHowever, it is important to note that the adjusted-R-2 cross-validation value alone does not provide a complete picture of the model's performance. Other metrics such as root mean square error (RMSE) were also reported in the study. RMSE measures the average difference between the predicted and actual values of MY%. In this case, the cross-validation RMSE for the MY% model was reported as 1.24%.\n\nWhile the adjusted-R-2 cross-validation value and RMSE provide valuable information about the model's performance, they do not capture all aspects of the research. Other factors such as the quality and representativeness of the data, the choice of features, and the"
+    },
+    {
+        "instruction": "What machine learning techniques were employed in the research on constructing predictive models of flour milling yield (MY)% using image and spectral data captured from wheat samples?",
+        "input": "",
+        "Output": "The machine learning techniques employed in the research on constructing predictive models of flour milling yield (MY)% using image and spectral data captured from wheat samples were multiple linear regression, support vector regression, and Gaussian process regression (GPR)."
+    },
+    {
+        "instruction": "How accurate were the predictive models of flour milling yield (MY)% constructed using image and spectral data from wheat samples compared to traditional methods?",
+        "input": "",
+        "Output": "The predictive models of flour milling yield (MY)% constructed using image and spectral data from wheat samples were found to be accurate compared to traditional methods. The combination of all features as input variables for a Gaussian process regression (GPR) model yielded the best accuracy, with adjusted-R-2 cross-validation values of 0.61 for MY%. The corresponding cross-validation root mean square error (RMSE) of the MY% model was 1.24%. This indicates that the models were able to accurately predict the flour milling yield based on the image and spectral data, outperforming traditional methods."
+    }
+]

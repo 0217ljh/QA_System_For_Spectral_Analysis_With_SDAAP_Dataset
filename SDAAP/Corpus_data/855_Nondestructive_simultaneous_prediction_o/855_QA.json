@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used to predict the soluble solids content (SSC), firmness?",
+        "input": "",
+        "Output": "The related study used visible spectrum and nir spectrum to predict the soluble solids content (SSC), firmness."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to predict the soluble solids content (SSC), firmness?",
+        "input": "",
+        "Output": "The SNV(X\u2032\u2032) preprocessed data was used to predict the soluble solids content (SSC) and firmness."
+    },
+    {
+        "instruction": "What metric was chosen to predict the soluble solids content (SSC), firmness?",
+        "input": "",
+        "Output": "The RMSEP metric was chosen to predict the soluble solids content (SSC) and firmness."
+    },
+    {
+        "instruction": "How did the researchers compare the performance of different machine learning models for predicting SSC and firmness in 'Rocha' pears using spectroscopic measurements?",
+        "input": "",
+        "Output": "The researchers compared the performance of different machine learning models for predicting SSC and firmness in 'Rocha' pears using spectroscopic measurements by evaluating the root mean square error of prediction (RMSEP) and the coefficient of determination (R-2) for each model. They compared the performance of Partial Least Squares (PLS), Support Vector Machines (SVM), and Ridge Regression models. They also computed multiple types of spectra pre-processing methods and identified the best combination of model and pre-processing method based on the lowest RMSEP results."
+    },
+    {
+        "instruction": "Can the use of a single VIS-NIR spectroscopic measurement be considered a feasible and superior method for predicting SSC, firmness, and detecting internal browning disorders in 'Rocha' pears, based on the findings of the related study?",
+        "input": "",
+        "Output": "Yes, based on the findings of the related study, the use of a single VIS-NIR spectroscopic measurement can be considered a feasible and superior method for predicting soluble solids content (SSC), firmness, and detecting internal browning disorders in 'Rocha' pears. The study developed a spectroscopic measurement setup that mimics real-world conditions and takes into account the geometry and technical requirements of a commercial fruit sorting optical module. The calibration models built using individual and/or average side spectra showed that models using the spectrum of each side as an individual sample only slightly underperformed compared to models based on spectra averages. The study also compared the performance of different models and pre-processing methods, and identified the best combination for predicting SSC, firmness, and detecting internal browning disorders. The results showed that the lowest RMSEP results for SSC and firmness were achieved using SVM on data pre-processed with Standard Normal Variate corrected 2nd derivative. For the detection of internal browning disorders, PLS-LDA applied to the raw spectra presented the highest sensitivity. Therefore, the study concludes that a single VIS-NIR spectral measurement can simultaneously achieve viable predictions of firmness and SSC, as well as detect internal browning disorders in 'Rocha' pears."
+    }
+]

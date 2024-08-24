@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the crop yield prediction?",
+        "input": "",
+        "Output": "The related study used fluorescence spectrum and remote sensing spectrum in the crop yield prediction."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the crop yield prediction?",
+        "input": "",
+        "Output": "The spectral feature processing methods used in the crop yield prediction were EVI, NDPI, LSWI, SIF, LST, and VOD."
+    },
+    {
+        "instruction": "What metric was chosen to assess the yield prediction performance in the crop yield prediction models, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to assess the yield prediction performance in the crop yield prediction models was R2. The R2 values ranged from 0.54 to 0.70, indicating the performance of the models in predicting crop yields."
+    },
+    {
+        "instruction": "How were the machine learning models utilized in the crop yield prediction models that combined environmental data and multiple satellite data?",
+        "input": "",
+        "Output": "The machine learning models were utilized in the crop yield prediction models by adopting three different ML methods and one ML ensemble model. These models were used to build the yield prediction models by integrating environmental data (climate, soil, geography, and topography) with multiple satellite data (optical-based vegetation indices, solar-induced fluorescence (SIF), land surface temperature (LST), and microwave vegetation optical depth (VOD)). The ML methods were compared to linear regression methods to assess their performance. The results showed that the individual ML methods outperformed the linear regression methods, and the ML ensemble model further improved the performance of the single ML models."
+    },
+    {
+        "instruction": "How does the combination of environmental data and satellite data in the crop yield prediction models compare to traditional methods in terms of accuracy and performance?",
+        "input": "",
+        "Output": "The combination of environmental data (climate, soil, geography, and topography) with satellite data (optical-based vegetation indices, solar-induced fluorescence (SIF), land surface temperature (LST), and microwave vegetation optical depth (VOD)) in the crop yield prediction models outperformed traditional methods in terms of accuracy and performance. The results showed that the individual machine learning (ML) methods, which incorporated the combined data, performed better than the linear regression methods. Additionally, the ML ensemble model, which further improved the single ML models, demonstrated even higher yield prediction performance. \n\nFurthermore, models with more inputs, including both satellite and environmental data, achieved better performance compared to models with individual inputs. The combination of satellite data with environmental data explained a significant portion of the variability in crop yield, with 72%, 69%, and 57% explained for maize, rice, and soybean yield respectively. This indicates that the integrated use of these data provides valuable information for accurate crop yield prediction.\n\nIt was also observed that satellite data contributed more to crop yield prediction during the early-peak of the growing season, while climate data offered additional information mainly during the peak-late season."
+    }
+]

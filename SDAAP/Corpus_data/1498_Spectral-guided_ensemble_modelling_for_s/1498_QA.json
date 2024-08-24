@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the study on spectral-guided ensemble modelling (S-GEM) to improve soil spectroscopic prediction?",
+        "input": "",
+        "Output": "The study on spectral-guided ensemble modelling (S-GEM) used vis-NIR spectra to improve soil spectroscopic prediction."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the study on spectral-guided ensemble modelling (S-GEM) to improve soil spectroscopic prediction?",
+        "input": "",
+        "Output": "Savitzky\u2013Golay smoothing with a window size of 101 points and a 2nd order polynomial, along with the 1st derivative, was applied to remove spectral noise and enhance spectral signals."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of spectral-guided ensemble modelling (S-GEM) and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of spectral-guided ensemble modelling (S-GEM) in this study was the coefficient of determination (R-2). The R-2 value measures the proportion of the variance in the dependent variable (soil organic carbon, clay, and pH) that can be explained by the independent variables (spectral information). \n\nThe study found that S-GEM outperformed both the Granger-Ramanathan model and the best classic models (partial least squares regression, Cubist, and random forest) in terms of R-2. The improvement in R-2 achieved by S-GEM ranged from 0.04 to 0.09, depending on the specific soil property being predicted. \n\nTherefore, the metric of R-2 was used to assess and compare the performance of S-GEM, and it demonstrated that S-GEM had a higher potential to improve soil spectroscopic prediction compared to conventional ensemble modelling."
+    },
+    {
+        "instruction": "What machine learning models were used in the study on spectral-guided ensemble modelling (S-GEM) to improve soil spectroscopic prediction?",
+        "input": "",
+        "Output": "Partial least squares regression (PLSR), Cubist, and random forest (RF) were the machine learning models used in the study on spectral-guided ensemble modelling (S-GEM) to improve soil spectroscopic prediction."
+    },
+    {
+        "instruction": "Can the spectral-guided ensemble modelling (S-GEM) approach be used to improve soil spectroscopic prediction and provide more accurate soil information for monitoring soil status and changes over space and time using digital soil mapping, as suggested by the study?",
+        "input": "",
+        "Output": "Yes, according to the study, the spectral-guided ensemble modelling (S-GEM) approach has the potential to improve soil spectroscopic prediction and provide more accurate soil information for monitoring soil status and changes over space and time using digital soil mapping. The study compared S-GEM with other models and found that S-GEM performed better in predicting soil organic carbon, clay, and pH using vis-NIR spectra. The study suggests that S-GEM can enhance model robustness and improve model performance compared to conventional ensemble modelling (EM). Therefore, the use of S-GEM can lead to more accurate soil information for monitoring soil status and changes."
+    }
+]

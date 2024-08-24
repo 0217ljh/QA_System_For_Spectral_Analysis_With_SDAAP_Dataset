@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the related study aiming to establish an accurate prediction model of N, P, and K contents in apple tree leaves?",
+        "input": "",
+        "Output": "In the related study, canopy hyperspectral reflectance was used to establish an accurate prediction model of nitrogen (N), phosphorus (P), and potassium (K) contents in apple tree leaves."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to build the prediction model of N, P, and K contents in apple tree leaves?",
+        "input": "",
+        "Output": "The spectral feature processing methods used to build the prediction model of N, P, and K contents in apple tree leaves were ELM based on differential evolution (DE) algorithm and self-adaptive differential evolution algorithm (SaDE), as well as the stacked ensemble model with optimized ELM."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the prediction results, and how far can this metric go in terms of accuracy for N, P, and K contents in apple tree leaves?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the prediction results in the study was the root mean square error (RMSE) and the partial least squares (PLS) method. The RMSE measures the average difference between the predicted values and the actual values, providing an indication of the overall accuracy of the prediction model. The PLS method, on the other hand, is a statistical technique used to analyze the relationship between the predictor variables (hyperspectral reflectance) and the response variables (N, P, and K contents).\n\nIn terms of accuracy, the results of the study showed that the stacked ensemble SaDE_ELM-PLS method achieved the best prediction results for N, P, and K contents in apple tree leaves. The R-P(2) values, which represent the coefficient of determination, were 0.844 for N, 0.931 for P, and 0.725 for K. The RMSEP values, which represent the root mean square error of prediction, were 1.709 g kg(-1) for N, 0.137 g kg(-1) for P, and 1.071 g kg(-1) for K. The RRMSE values, which represent the relative root mean square error, were 7.654%"
+    },
+    {
+        "instruction": "What machine learning algorithms were used to build the prediction model for N, P, and K contents in apple tree leaves based on canopy hyperspectral reflectance?",
+        "input": "",
+        "Output": "The machine learning algorithms used to build the prediction model for N, P, and K contents in apple tree leaves based on canopy hyperspectral reflectance were the extreme learning machine (ELM) optimized by differential evolution (DE) or self-adaptive differential evolution (SaDE) algorithm, and the unoptimized ELM."
+    },
+    {
+        "instruction": "Can the stacked ensemble SaDE_ELM-PLS method, based on optimized ELM and DE algorithm, be considered superior to traditional methods for accurately predicting N, P, and K contents in apple tree leaves using canopy hyperspectral reflectance?",
+        "input": "",
+        "Output": "Yes, the stacked ensemble SaDE_ELM-PLS method, based on optimized ELM and DE algorithm, can be considered superior to traditional methods for accurately predicting N, P, and K contents in apple tree leaves using canopy hyperspectral reflectance. The results of the study showed that this method achieved the best prediction results for N, P, and K contents in apple tree leaves, with high R-P(2) values and low RMSEP and RRMSE values. Additionally, the use of the SaDE algorithm optimized the ELM model and helped to avoid overfitting issues. The combination of sub-models using the PLS weighting strategy further improved the accuracy of the predictions. Therefore, the stacked ensemble SaDE_ELM-PLS method is reliable and effective for in-situ prediction of N, P, and K contents in apple tree leaves."
+    }
+]

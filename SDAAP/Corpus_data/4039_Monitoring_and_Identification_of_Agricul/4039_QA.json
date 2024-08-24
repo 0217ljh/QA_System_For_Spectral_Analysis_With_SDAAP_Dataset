@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the models for crop recognition?",
+        "input": "",
+        "Output": "The related study used visible and nir remote sensing spectrum."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used for crop recognition?",
+        "input": "",
+        "Output": "The spectral feature processing methods used for crop recognition were support vector machines (SVM) and bagged trees (BT) algorithms."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of the models for crop recognition and how far can this metric go in terms of accuracy?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the models is the overall accuracy. The overall accuracy measures the percentage of correctly classified crops compared to the total number of crops. \n\nIn terms of accuracy, the overall accuracies range from 71.9% to 87.5%. This means that the models correctly classify the crops with an accuracy ranging from 71.9% to 87.5%."
+    },
+    {
+        "instruction": "What is the overall objective of developing crop recognition models without the need for current-year field surveys?",
+        "input": "",
+        "Output": "The overall objective of developing crop recognition models without the need for current-year field surveys is to provide timely and accurate information about the distribution of crops. This information is important for agri-environmental assessments, food security, and agricultural policy making. By using remote sensing data and machine learning algorithms, decision makers can have access to crop information quickly and over large areas, without the need for time-consuming and costly field surveys."
+    },
+    {
+        "instruction": "Can the spectral feature processing methods used in the classification algorithms be considered superior to traditional methods for developing crop recognition models without the need for current-year field surveys?",
+        "input": "",
+        "Output": "Yes, the spectral feature processing methods used in the classification algorithms (support vector machine and bagged tree) can be considered superior to traditional methods for developing crop recognition models without the need for current-year field surveys. These methods utilize the spectral information captured in the visible, red-edge, near infrared, and shortwave infrared regions bands of Sentinel 2 images. By training the models with an exhaustive field survey at plot level in a previous crop cycle, they are able to recognize specific crops (maize, beans, and alfalfa) before the crop cycle ends. The models were validated within the next crop cycle and achieved overall accuracies ranging from 71.9% to 87.5% and a kappa coefficient ranging from 0.53 to 0.74. This demonstrates the effectiveness of the spectral feature processing methods in developing crop recognition models without relying on current-year field surveys."
+    }
+]

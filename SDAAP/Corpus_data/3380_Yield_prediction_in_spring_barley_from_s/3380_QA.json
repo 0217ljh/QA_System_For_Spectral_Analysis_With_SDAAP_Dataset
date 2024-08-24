@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to estimate preharvest yields up to 2 months before harvest?",
+        "input": "",
+        "Output": "The related research used visible spectrum and nir spectrum in the machine learning-based yield predictions."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to estimate preharvest yields up to 2 months before harvest?",
+        "input": "",
+        "Output": "A Ratio Vegetation Index (RVI) was used to estimate preharvest yields up to 2 months before harvest."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the accuracy of the yield predictions in the research on machine learning-based yield predictions in agriculture, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the accuracy of the yield predictions in the research was the mean absolute error (MAE). The MAE measures the average magnitude of the errors in the predictions, indicating how close the predicted values are to the actual measured values. In this study, the MAE values ranged from 0.32 to 0.68 Mg/ha, depending on the timing of the predictions. The research showed that the ML-based yield predictions could be made up to 2 months before harvest, with an MAE of 0.38 Mg/ha when made on June 30, more than 1 month before harvest."
+    },
+    {
+        "instruction": "How did the researchers select the best machine learning model for yield predictions in agriculture using spectral reflectance measurements and other environmental factors?",
+        "input": "",
+        "Output": "The researchers selected the best machine learning model for yield predictions in agriculture using spectral reflectance measurements and other environmental factors by using the AutoML interface included in the R program package H2O. This interface automatically selected the model with the smallest mean absolute error (MAE) from the available options."
+    },
+    {
+        "instruction": "Can the use of spectral reflectance measurements in machine learning-based yield predictions be considered superior to traditional methods in accurately estimating preharvest yields up to 2 months before harvest?",
+        "input": "",
+        "Output": "Yes, the use of spectral reflectance measurements in machine learning-based yield predictions can be considered superior to traditional methods in accurately estimating preharvest yields up to 2 months before harvest. The related study tested the accuracy of machine learning-based yield predictions using spectral reflectance measurements, precipitation, and reference evapotranspiration. The results showed that the best machine learning model had a mean absolute error (MAE) of 0.38 Mg/ha when making predictions on June 30, more than 1 month before harvest. This indicates that the machine learning model was able to accurately estimate the yield with a relatively small margin of error. Additionally, the yield estimations were robust even in the presence of considerable soil variation within the experimental area. Therefore, the use of spectral reflectance measurements in machine learning-based yield predictions can be considered superior to traditional methods for accurately estimating preharvest yields up to 2 months before harvest."
+    }
+]

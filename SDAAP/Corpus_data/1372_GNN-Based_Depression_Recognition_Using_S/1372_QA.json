@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the related study on automatic depression recognition?",
+        "input": "",
+        "Output": "Functional near-Infrared spectroscopy (fNIRS) was used in the related study."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the related study on automatic depression recognition?",
+        "input": "",
+        "Output": "In the related study on automatic depression recognition, the spectral feature processing methods used included the average or kurtosis of oxyhemoglobin and the extraction of multi-channel features."
+    },
+    {
+        "instruction": "What metric was chosen and how far can this metric go in the related study on automatic depression recognition?",
+        "input": "",
+        "Output": "The metric chosen in the study on automatic depression recognition using fNIRS data is the F1 score. The F1 score is a measure of the model's accuracy that takes into account both precision and recall. It is a useful metric in imbalanced datasets, where the number of positive and negative samples may differ significantly. \n\nThe study found that the GNN-based method achieved the best depression recognition performance compared to classical machine-learning methods, particularly in terms of the F1 score, where it outperformed the other methods by over 10%. This indicates that the proposed method combining temporal and spatial features of fNIRS data using a Graph Neural Network is effective in accurately recognizing depression."
+    },
+    {
+        "instruction": "How were the fNIRS data processed and utilized in the related study on automatic depression recognition?",
+        "input": "",
+        "Output": "In the study on automatic depression recognition using fNIRS data, the fNIRS data of 96 subjects were collected and pre-processed. The pre-processing likely involved removing any noise or artifacts from the data to ensure its quality. \n\nAfter pre-processing, the researchers extracted basic statistical metrics from each channel of the fNIRS data. These statistical metrics served as temporal features, capturing the characteristics of the data over time. \n\nAdditionally, the researchers calculated channel connectivity measures such as coherence and correlation. These measures represented the spatial features of the fNIRS data, indicating the functional connectivity among different channels. \n\nTo utilize both the temporal and spatial features, the researchers treated the data of each subject as a graph. The temporal features were assigned as node features, representing the characteristics of each node (channel), while the spatial features were used as edge weights, indicating the connectivity strength between nodes. \n\nThe constructed graphs were then fed into Graph Neural Networks (GNNs) for training and testing. GNNs are a type of neural network specifically designed to process graph-structured data. \n\nThe experimental results demonstrated that the GNN-based method outperformed classical machine-learning methods in terms of accuracy, F1 score, and precision, particularly in the F1 score, where it"
+    },
+    {
+        "instruction": "How does the GNN-based method compare to classical machine-learning methods in terms of depression recognition performance in the related study on automatic depression recognition?",
+        "input": "",
+        "Output": "The GNN-based method in the study on automatic depression recognition using fNIRS data outperformed classical machine-learning methods in terms of depression recognition performance. The experimental results showed that the GNN-based method achieved the best performance compared to classical machine-learning methods in terms of accuracy, F1 score, and precision. Specifically, the GNN-based method had a significant improvement in F1 score, with an increase of over 10%."
+    }
+]

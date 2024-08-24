@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in this study to detect soil total nitrogen (STN) content?",
+        "input": "",
+        "Output": "The past study used the visible-near-infrared spectrum (Vis-NIR) to detect soil total nitrogen (STN) content."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used for predicting soil total nitrogen (STN) content?",
+        "input": "",
+        "Output": "Uninformative variable elimination (UVE) and characteristic wavelengths were used for predicting soil total nitrogen (STN) content."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the predictive performances of the different models to detect soil total nitrogen (STN) content, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the predictive performances of the different models is the coefficient of determination (R-2). The precision of the baseline-corrected and smoothed ELM model is reported as R-2 = 0.89. The root mean square error of prediction (RMSEP) for this model is 1.60 g/kg, and the residual prediction deviation (RPD) is 2.34. For the CNN models, the one with more 1 x 1 convolutions performs better with an R-2 of 0.93, an RMSEP of 0.95 g/kg, and an RPD of 3.85 in the optimal case."
+    },
+    {
+        "instruction": "What are the different pre-processing approaches used in the past study to predict soil total nitrogen (STN) content using Vis-NIR spectroscopy technology?",
+        "input": "",
+        "Output": "The different pre-processing approaches used in the past study to predict soil total nitrogen (STN) content using Vis-NIR spectroscopy technology are:\n\n1. Baseline correction: This approach involves adjusting the baseline of the spectral data to remove any systematic variations or offsets, allowing for more accurate analysis of the STN content.\n\n2. Smoothing: Smoothing is a technique used to reduce noise and variability in the spectral data. It involves applying mathematical algorithms to average out fluctuations and enhance the overall signal quality.\n\n3. Dimensional reduction: Dimensional reduction techniques aim to reduce the number of variables or features in the spectral data while retaining the most relevant information. This helps to simplify the analysis and improve the efficiency of the prediction model.\n\n4. Feature selection: Feature selection involves selecting a subset of the most informative features from the spectral data. This is done to eliminate irrelevant or redundant variables, improving the accuracy and interpretability of the prediction model.\n\nThese pre-processing approaches are combined with the three conventional machine learning methods (OLSE, RF, and ELM) to investigate their effectiveness in predicting STN content."
+    },
+    {
+        "instruction": "Can the deep learning method using CNN with Inception module be considered superior to conventional machine learning methods (OLSE, RF, ELM) in predicting soil total nitrogen (STN) content using Vis-NIR spectroscopy technology?",
+        "input": "",
+        "Output": "Yes, the deep learning method using CNN with Inception module can be considered superior to conventional machine learning methods (OLSE, RF, ELM) in predicting soil total nitrogen (STN) content using Vis-NIR spectroscopy technology. The results of the past study indicate that the deep learning method with CNN outperformed the conventional machine learning methods in terms of predictive performance. The deep learning method achieved a higher coefficient of determination (R-2) value, lower root mean square error of prediction (RMSEP), and higher residual prediction deviation (RPD) compared to the conventional methods. Therefore, the deep learning method using CNN with Inception module is more effective and practical for predicting STN content in soil using Vis-NIR spectroscopy technology."
+    }
+]

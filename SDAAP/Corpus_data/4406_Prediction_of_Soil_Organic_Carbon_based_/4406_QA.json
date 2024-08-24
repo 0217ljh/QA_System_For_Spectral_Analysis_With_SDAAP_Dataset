@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to map soil organic carbon (SOC) in plain areas covered with vegetation?",
+        "input": "",
+        "Output": "To map soil organic carbon (SOC) in plain areas covered with vegetation,the researchers used remote sensing spectrum."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to map soil organic carbon (SOC) in plain areas covered with vegetation?",
+        "input": "",
+        "Output": "The spectral feature processing methods used to map soil organic carbon (SOC) in plain areas covered with vegetation were stepwise linear regression (SLR), partial least squares regression (PLSR), support vector machine (SVM), and artificial neural network (ANN)."
+    },
+    {
+        "instruction": "What metric was chosen to map soil organic carbon (SOC) in plain areas covered with vegetation and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the model performance in mapping SOC (soil organic carbon) was the root mean square error of prediction (RMSEP) and the coefficient of determination of prediction (R-P(2)). The RMSEP measures the average difference between the predicted and actual values of SOC, with lower values indicating higher accuracy. The R-P(2) measures the proportion of the variation in SOC that can be explained by the model, with higher values indicating a better fit."
+    },
+    {
+        "instruction": "How were the machine learning models (SLR, PLSR, SVM, and ANN) used to estimate SOC maps in the study investigating the use of NDVI time series data for mapping SOC in plain areas covered with vegetation?",
+        "input": "",
+        "Output": "In the study, four machine learning models (stepwise linear regression - SLR, partial least squares regression - PLSR, support vector machine - SVM, and artificial neural network - ANN) were used to estimate soil organic carbon (SOC) maps in plain areas covered with vegetation using NDVI time series data.\n\nThe researchers extracted NDVI time series data from Landsat 8 satellite imagery as auxiliary variables. These NDVI time series data represent the apparent spectral characteristics of crops and reflect crop growth and biomass. \n\nThe models were trained using the extracted NDVI time series data and corresponding SOC measurements. The goal was to establish a relationship between the NDVI time series data and SOC content in the soil.\n\nThe performance of each model was evaluated using the root mean square error of prediction (RMSEP) and the coefficient of determination of prediction (R-P(2)). The lower the RMSEP and the higher the R-P(2), the better the model's performance."
+    },
+    {
+        "instruction": "How does the use of NDVI time series data as auxiliary variables compare to traditional methods for mapping soil organic carbon (SOC) in plain areas covered with vegetation?",
+        "input": "",
+        "Output": "The use of NDVI time series data as auxiliary variables for mapping soil organic carbon (SOC) in plain areas covered with vegetation is found to be more effective compared to traditional methods. Traditional soil-forming factors, such as terrain or climatic factors, have limited variability in low-relief areas like plains and cannot accurately reflect the spatial variation of soil attributes. Additionally, vegetation cover obstructs the direct acquisition of farmland soil information.\n\nIn contrast, NDVI time series data, which records the apparent spectral characteristics of crops, provides useful environmental variables for predicting SOC. The normalized difference vegetation index (NDVI) is an important index that reflects crop growth and biomass. The study found that SOC had a significant positive correlation with NDVI time series data in July and August, and a significant negative correlation in January, April, and December.\n\nThe study compared different modeling techniques for SOC prediction, including stepwise linear regression (SLR), partial least squares regression (PLSR), support vector machine (SVM), artificial neural network (ANN), and ordinary kriging (OK) as the reference model."
+    }
+]

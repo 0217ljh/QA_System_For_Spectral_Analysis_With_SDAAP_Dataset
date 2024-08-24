@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the related study to detect distinctive biomarkers for MDD?",
+        "input": "",
+        "Output": "In the related study, functional near-infrared spectroscopy (fNIRS) measurements were used to detect distinctive biomarkers for major depressive disorder (MDD)."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to extract spatiotemporal characteristics of NIRS signals in the related study to detect distinctive biomarkers for MDD?",
+        "input": "",
+        "Output": "Data transformation and feature selection methods were proposed to extract spatiotemporal characteristics of NIRS signals in the related study to detect distinctive biomarkers for MDD."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the predictive capability of selected features in the related study to detect distinctive biomarkers for MDD, and how far can this metric go in terms of accuracy, sensitivity, and specificity?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the predictive capability of selected features was accuracy. The accuracy achieved in the study was 75.6% with a standard deviation of 4.7% in the nested cross-validation. In the independent test set, the correct prediction rate was 78.0%. The sensitivity of the model was 75.0%, indicating the proportion of true positive cases correctly identified as MDD, and the specificity was 81.4%, indicating the proportion of true negative cases correctly identified as non-MDD."
+    },
+    {
+        "instruction": "How were machine learning algorithms, such as support vector machine (SVM) and k-nearest neighbors (KNN), utilized in the related study to detect distinctive biomarkers for MDD using fNIRS measurements during the verbal fluency task?",
+        "input": "",
+        "Output": "In the related study, machine learning algorithms, specifically support vector machine (SVM) and k-nearest neighbors (KNN), were utilized to detect distinctive biomarkers for major depressive disorder (MDD) using functional near-infrared spectroscopy (fNIRS) measurements during the verbal fluency task (VFT). \n\nThe study employed a two-phase machine learning framework. In the first phase, a large-scale dataset of 363 subjects was used to extract spatiotemporal characteristics of NIRS signals, which were considered as candidate predictors. These predictors were then used in the second phase, where supervised classifiers (SVM and KNN) were implemented. \n\nCross-validation was employed to evaluate the predictive capability of the selected features in a training set. The classifiers were trained on the training set, and their performance was assessed using the optimal fusion features. \n\nTo assess the generalization of the model, a separate test set that was not involved in developing the algorithms was used. The SVM classifier achieved the highest accuracy of 75.6% with a sensitivity of 75.0% and a specificity of 81.4% in the test set. \n\nOverall, the study demonstrated that machine learning algorithms, such as SVM and KNN, can be effectively utilized with f"
+    },
+    {
+        "instruction": "Can the spectral features extracted from functional near-infrared spectroscopy (fNIRS) measurements during the verbal fluency task (VFT) be considered superior to traditional methods in developing a quantitative and objective assessment tool for the early diagnosis of major depressive disorder (MDD)?",
+        "input": "",
+        "Output": "Yes, the spectral features extracted from functional near-infrared spectroscopy (fNIRS) measurements during the verbal fluency task (VFT) can be considered superior to traditional methods in developing a quantitative and objective assessment tool for the early diagnosis of major depressive disorder (MDD). The study mentioned in the text used a large-scale dataset and a two-phase machine learning framework to detect distinctive biomarkers for MDD. The selected features from the fNIRS measurements were able to achieve a high accuracy rate in classifying MDD cases. This suggests that the spatiotemporal characteristics of NIRS signals can serve as objective and quantifiable biomarkers for assessing cognitive deficits and screening MDD at an early stage."
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used in the related study to predict soil particle size of unknown samples and to confidently map predicted values across large spatial scales?",
+        "input": "",
+        "Output": "In the related study, MIR (Mid-Infrared) spectroscopy was used to predict soil particle size."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the related study to predict soil particle size of unknown samples and to confidently map predicted values across large spatial scales?",
+        "input": "",
+        "Output": "The related study used the additive log-ratio (alr) transformation before building the regression models to predict soil particle size of unknown samples and confidently map predicted values across large spatial scales."
+    },
+    {
+        "instruction": "What metric was chosen to assess the accuracy of predicted values in the related study to predict soil particle size of unknown samples and to confidently map predicted values across large spatial scales?",
+        "input": "",
+        "Output": "The metric chosen to assess the accuracy of predicted values was R-2 val (coefficient of determination), RMSEP (root mean square error of prediction), and RPIQval (ratio of performance to interquartile range of validation)."
+    },
+    {
+        "instruction": "How was the systematic approach using MIR spectroscopy utilized to confidently map predicted values of soil particle size across large spatial scales in the related study?",
+        "input": "",
+        "Output": "In the related study, the systematic approach using MIR spectroscopy was utilized to confidently map predicted values of soil particle size across large spatial scales by following several steps. \n\nFirst, a calibration dataset of approximately 1,000 mineral and organo-mineral (MOM) soils was used to build MIR models based on the support vector regression algorithm. These models were trained using the pipette method, which is a classical reference method for analyzing soil particle size.\n\nNext, a systematic approach combining MIR spectroscopy and chemometrics was employed to predict soil particle size for 9,009 unknown samples. Spectral control charts were used to identify unrepresentative spectra that should not be used for prediction. In the related study, 97.59% of the peat soils (3078 out of 3154 samples) were correctly identified as 'out of control' samples, while about 90% of the MOM soils (5254 out of 5855 samples) were classified as 'under control' samples.\n\nTo assess the accuracy of the predicted values, a subset of approximately 2% of the predicted values (external validation) was selected, covering a wide range of clay, sand, and silt. These samples were then analyzed using the classical reference method. The accuracy"
+    },
+    {
+        "instruction": "Can the systematic approach using MIR spectroscopy and chemometrics be considered a superior method compared to traditional methods for predicting soil particle size and mapping predicted values across large spatial scales in the related study to predict soil particle size of unknown samples and to confidently map predicted values across large spatial scales?",
+        "input": "",
+        "Output": "Yes, the systematic approach using MIR spectroscopy and chemometrics can be considered a superior method compared to traditional methods for predicting soil particle size and mapping predicted values across large spatial scales in the related study. The study developed a systematic approach that combined MIR spectroscopy with chemometrics to predict soil particle size of 9,009 unknown samples. This approach was able to accurately predict the soil particle size and provided confidence when projecting predicted values onto soil particle size maps at multiple regional scales. The accuracy of the predicted values was assessed by comparing them to the results obtained from the classical reference method. The MIR models used in this approach were based on the support vector regression algorithm and were built using a calibration dataset of similar to 1,000 mineral and organo-mineral soils. The systematic approach also included the use of spectral control charts to identify unrepresentative spectra in predicting unknown samples. This approach demonstrated high prediction accuracy and the ability to confidently map predicted values across large spatial scales, making it a superior method compared to traditional wet chemical methods."
+    }
+]

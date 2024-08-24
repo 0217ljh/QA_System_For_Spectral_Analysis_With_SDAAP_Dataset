@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used for estimating oxygen saturation and hemoglobin concentration using DRS?",
+        "input": "",
+        "Output": "The study for developing the ANN-based method for estimating oxygen saturation and hemoglobin concentration using visible DRS."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the ANN-based method for estimating oxygen saturation and hemoglobin concentration in living tissue?",
+        "input": "",
+        "Output": "The ANN-based method used the shape of the measured spectra as input for estimating oxygen saturation and hemoglobin concentration in living tissue."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the accuracy of the method, and how far can this metric go in terms of estimation error for oxygen saturation and hemoglobin concentration?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the accuracy of the method is the root-mean-square (RMS) deviation. For oxygen saturation estimation, the absolute RMS deviation was found to be 5.1% units. For hemoglobin concentration, the relative RMS deviation was 13%. This means that the estimation error for oxygen saturation can be up to 5.1% units, and for hemoglobin concentration, it can be up to 13%."
+    },
+    {
+        "instruction": "What is the architecture of the artificial neural network (ANN) used in the past study on developing an ANN-based method for estimating oxygen saturation and hemoglobin concentration using diffuse reflectance spectroscopy (DRS)?",
+        "input": "",
+        "Output": "The architecture of the artificial neural network (ANN) used in the past study involved training the ANN on spectra generated from a three-layer tissue model with oxygen saturation and hemoglobin concentration as targets."
+    },
+    {
+        "instruction": "Can the presented artificial neural network (ANN)-based method, which directly assesses oxygen saturation and hemoglobin concentration using the shape of the measured spectra as input, be considered superior to traditional methods in terms of accuracy and robustness?",
+        "input": "",
+        "Output": "Yes. The presented artificial neural network (ANN)-based method can be considered superior to traditional methods in terms of accuracy and robustness. The results of the past study showed that the ANN-based method had an absolute root-mean-square (RMS) deviation of 5.1% units for oxygen saturation estimation and a relative RMS deviation of 13% for hemoglobin concentration. This level of accuracy is at least twice as good as their previous nonlinear optimization method. Additionally, the method was found to be robust to noise, as it performed well on modeled evaluation data with realistic measurement noise and on blood-intralipid phantoms. Therefore, the ANN-based method offers a fast, accurate, and robust approach for assessing oxygen saturation and hemoglobin concentration compared to traditional methods."
+    }
+]

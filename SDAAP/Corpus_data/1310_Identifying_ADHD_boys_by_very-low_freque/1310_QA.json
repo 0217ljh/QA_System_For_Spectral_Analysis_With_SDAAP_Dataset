@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the development the methodological approach for the identification of ADHD boys?",
+        "input": "",
+        "Output": "The methodological approach for the identification of ADHD boys used frequency-specific oscillatory patterns in the time-frequency plane. Specifically, the approach focused on very low-frequency fluctuations in the fNIRS signals recorded from the superficial and deep tissue layers of the forehead."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the development the methodological approach for the identification of ADHD boys?",
+        "input": "",
+        "Output": "Synchronization measures in the time-frequency plane were computed to find frequency-specific oscillatory patterns maximally representative of the ADHD or control group. Time series distance-based features were fed into four popular ML linear models for binary classification."
+    },
+    {
+        "instruction": "What metric was chosen in the development the methodological approach for the identification of ADHD boys and how far can this metric go in accurately identifying ADHD boys?",
+        "input": "",
+        "Output": "The metric chosen in the related study was accuracy, sensitivity, and specificity. The study found that the logistic regression (LR) and linear discriminant analysis models achieved near 100% accuracy, sensitivity, and specificity scores in both cross-validation schemes. This indicates that the chosen metric of accuracy was able to accurately identify ADHD boys in the study."
+    },
+    {
+        "instruction": "How were the machine learning models utilized in the methodological approach for the identification of ADHD boys?",
+        "input": "",
+        "Output": "In the methodological approach for the identification of ADHD boys, four popular machine learning (ML) linear models were utilized. These models were the support vector machine, logistic regression (LR), discriminant analysis, and naive Bayes. The approach involved feeding time series distance-based features into these ML models for binary classification. The models were trained with three key wrapper-selected features, which were chosen using a 'sequential forward floating selection' wrapper algorithm. The performance of the classifiers was evaluated using five-fold and leave-one-out cross-validation (CV) techniques. The accuracy, sensitivity, and specificity scores of LR and linear discriminant analysis were near 100% (p <.001) for both CV schemes."
+    },
+    {
+        "instruction": "How does the use of functional near-infrared spectroscopy (fNIRS) in the related study compare to traditional methods in accurately identifying boys with attention-deficit/hyperactivity disorder (ADHD)?",
+        "input": "",
+        "Output": "The use of functional near-infrared spectroscopy (fNIRS) in the related study is shown to be effective in accurately identifying boys with attention-deficit/hyperactivity disorder (ADHD). The study found that fNIRS signals recorded from the forehead of ADHD boys during a rhythmic mental arithmetic task were able to differentiate them from non-ADHD controls. The researchers used synchronization measures in the time-frequency plane to identify frequency-specific oscillatory patterns that were representative of the ADHD or control group. These patterns were then used as features in machine learning models for binary classification. The results showed that the fNIRS-based approach achieved near 100% accuracy, sensitivity, and specificity in distinguishing ADHD boys from non-ADHD controls. This performance outperformed other similar studies and suggests that fNIRS may be a more accurate method for identifying ADHD compared to traditional methods."
+    }
+]

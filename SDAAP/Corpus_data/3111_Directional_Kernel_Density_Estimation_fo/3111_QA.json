@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used to propose and test a methodology for tumor discrimination in Breast Conserving Therapy ?",
+        "input": "",
+        "Output": "To propose and test a methodology for tumor discrimination in Breast Conserving Therapy,the researchers used visible spectrum ."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to propose and test a methodology for tumor discrimination in Breast Conserving Therapy?",
+        "input": "",
+        "Output": "Spectral Normal Variate and Singular Value Decomposition were used for tumor discrimination in Breast Conserving Therapy."
+    },
+    {
+        "instruction": "What metric was chosen to propose and test a methodology for tumor discrimination in Breast Conserving Therapy  and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to propose and test a methodology for tumor discrimination in Breast Conserving Therapy was the Receiver Operating Characteristic (ROC). The ROC was used to confirm that the sensitivity and specificity of the classifier is maximal at a certain point. The ROC shape indicated that the Maximum Likelihood classification is sufficient to assess the type of tissue appearing in each pixel."
+    },
+    {
+        "instruction": "How does the proposed methodology for tumor discrimination in Breast Conserving Therapy using spectroscopic interrogation of surgical margins differ from other machine learning models?",
+        "input": "",
+        "Output": "The proposed methodology for tumor discrimination in Breast Conserving Therapy using spectroscopic interrogation of surgical margins differs from other machine learning models in several ways:\n\n1. Dimensionality reduction: The methodology utilizes dimensionality reduction techniques to process the spectral image data. Specifically, it employs Directional Kernel Density Estimation (KDE) for parametric or dimension reduction processing. This approach helps to reduce the complexity of the data and extract relevant features for tumor discrimination.\n\n2. Real-time results: The methodology provides results in almost real-time. Once a hyperspectral image of the tumor is captured, the surgeon establishes Regions of Interest (ROIs) where tissues are qualitatively differentiable. After proper normalization, Directional KDE is used to estimate the likelihood of every pixel in the image belonging to each specified tissue class. This allows for quick and efficient decision-making during the surgery.\n\n3. High accuracy: The proposed methodology claims to achieve 98% accuracy in tumor discrimination. This level of accuracy is comparable to histological validation performed after the surgery. By accurately identifying the tumor margins, surgeons can ensure that an adequate amount of healthy tissue is preserved, reducing the risk of recurrence."
+    },
+    {
+        "instruction": "How does the proposed methodology for tumor discrimination in Breast Conserving Therapy using spectroscopic interrogation of surgical margins compare to traditional methods in terms of accuracy and effectiveness?",
+        "input": "",
+        "Output": "The proposed methodology for tumor discrimination in Breast Conserving Therapy using spectroscopic interrogation of surgical margins is reported to have a high accuracy rate of 98%. This means that the results obtained from this methodology coincide with those provided by histological H&E validation performed after the surgery. \n\nIn comparison, traditional methods for measuring the thickness of healthy tissue surrounding an excised tumor through post-operative histological or visual assessment tests have recurrence rates in the order of 33%. This suggests that the proposed methodology is more effective in accurately determining the presence of tumor cells in the surgical margins.\n\nTherefore, the proposed methodology using spectroscopic interrogation shows improved accuracy and effectiveness compared to traditional methods in tumor discrimination during Breast Conserving Therapy."
+    }
+]

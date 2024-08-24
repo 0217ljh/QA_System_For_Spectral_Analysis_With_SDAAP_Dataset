@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used in the related study to investigate the influence of the size of the calibration set on the accuracy of the external validation set?",
+        "input": "",
+        "Output": "In the related study, vis-NIR (visible near-infrared) spectroscopy was used."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the related study to investigate the influence of the size of the calibration set on the accuracy of the external validation set?",
+        "input": "",
+        "Output": "Partial least squares (PLS) regression and Support vector machine (SVM) with linear and radial basis kernel functions were used in the related study to investigate the influence of the size of the calibration set on the accuracy of the external validation set."
+    },
+    {
+        "instruction": "What metric was chosen in the related study to investigate the influence of the size of the calibration set on the accuracy of the external validation set and how far can this metric go in assessing the accuracy of the regression algorithms?",
+        "input": "",
+        "Output": "The text does not explicitly mention the specific metric that was chosen to assess the accuracy of the regression algorithms. However, it does mention the root mean square error of prediction (RMSEP) as a measure of accuracy. The RMSEP values are used to compare the performance of the partial least squares (PLS) and support vector machine (SVM) regression models. The text states that the SVM-RBF models showed a significant improvement in accuracy compared to PLS, resulting in a reduction of -14-29% on the RMSEP for sand and clay determinations, and a reduction of -8-22% on the RMSEP for soil organic matter (SOM) determinations. Therefore, the RMSEP is used as a metric to assess the accuracy of the regression algorithms in this study."
+    },
+    {
+        "instruction": "How did the size of the calibration set influence the accuracy of the external validation set in determining soil organic matter and particle size using vis-NIR spectroscopy?",
+        "input": "",
+        "Output": "The size of the calibration set had an influence on the accuracy of the external validation set in determining soil organic matter (SOM) and particle size using vis-NIR spectroscopy. \n\nFor sand and clay determinations, the support vector machine with radial basis function (SVM-RBF) regression models showed a significant improvement in accuracy compared to partial least squares (PLS) when the calibration set was built using at least 1000 samples. This resulted in a reduction of -14-29% on the root mean square error of prediction (RMSEP) values.\n\nFor SOM determinations, the difference in RMSEP values between SVM-RBF and PLS became significant when 2000 or more samples were used in the calibration set. In this case, SVM-RBF showed a reduction of -8-22% on the RMSEP values compared to PLS.\n\nIt is worth noting that for all soil attributes investigated, between 20 and 27% of the external validation set (1173-2241 samples) were considered outliers and excluded by the PLS regression models. This suggests that the correlation between the vis-NIR spectra and clay, sand, and SOM contents becomes more complex as the variability/number of samples increases. Therefore, using machine learning models with high"
+    },
+    {
+        "instruction": "How does the accuracy of support vector machine (SVM) regression algorithms compare to partial least squares (PLS) in determining soil organic matter and particle size using vis-NIR spectroscopy, and how does the size of the calibration set influence this accuracy?",
+        "input": "",
+        "Output": "The accuracy of support vector machine (SVM) regression algorithms was compared to partial least squares (PLS) in determining soil organic matter (SOM) and particle size using vis-NIR spectroscopy. The study found that the SVM-RBF (radial basis function) models showed a significant improvement in accuracy compared to PLS for sand and clay determinations when the calibration set contained at least 1000 samples. This resulted in a reduction of -14-29% in the root mean square error of prediction (RMSEP).\n\nFor SOM determinations, the difference in RMSEP values between SVM-RBF and PLS became significant when the calibration set contained 2000 or more samples. In this case, the SVM-RBF models showed a reduction of -8-22% in RMSEP values compared to PLS.\n\nThe size of the calibration set had an influence on the accuracy of both SVM and PLS models. Increasing the number of samples in the calibration set improved the performance of both models. However, the PLS models showed a loss of performance for large calibration sets, with between 20 and 27% of the external validation set (1173-2241 samples) being considered outliers and excluded by the PLS regression models.\n\nOverall, the study suggests"
+    }
+]

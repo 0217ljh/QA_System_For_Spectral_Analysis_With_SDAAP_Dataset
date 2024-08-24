@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to estimate wheat aboveground biomass (AGB)?",
+        "input": "",
+        "Output": "The related study used remote sensing spectrum to estimate wheat aboveground biomass (AGB)."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to estimate AGB in the wheat crop?",
+        "input": "",
+        "Output": "GLCM texture and spectral indices derived from optical images were used as spectral feature processing methods to estimate AGB in the wheat crop."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the AGB estimation accuracy and how far can this metric go in assessing wheat AGB?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the AGB estimation accuracy in the related study was the percentage decrease in accuracy as the flight height increased from 30 to 120 m. This metric was used to assess the impact of flight height on wheat AGB estimation."
+    },
+    {
+        "instruction": "How did the researchers assess the impacts of flight height and integration of multiscale sensing information on wheat aboveground biomass (AGB) estimation using optical unmanned aerial vehicle (UAV) remote sensing?",
+        "input": "",
+        "Output": "The researchers assessed the impacts of flight height and integration of multiscale sensing information on wheat aboveground biomass (AGB) estimation using optical unmanned aerial vehicle (UAV) remote sensing by conducting multispectral UAV flight missions at different heights (30, 60, 90, and 120 m) during the wheat grain filling phase in 2018 and 2019. They used the UAV-based crop surface model (CSM), spectral indices, texture indices, and their combinations as inputs for machine learning models such as deep convolutional neural network (DCNN with AlexNet architecture), random forest, and support vector machine. They compared the estimation accuracy of AGB at different flight heights and evaluated the performance of the models when integrating data from different heights. They also analyzed the sensitivity of different sensing information (CSM, spectral indices, and textures) to flight height and assessed the impact of flight height on the accuracy of AGB estimation for both machine learning and DCNN models."
+    },
+    {
+        "instruction": "Can the integration of multiscale sensing information improve wheat aboveground biomass (AGB) estimation using optical unmanned aerial vehicle (UAV) remote sensing, as assessed in this study?",
+        "input": "",
+        "Output": "Yes, the integration of multiscale sensing information can improve wheat aboveground biomass (AGB) estimation using optical unmanned aerial vehicle (UAV) remote sensing, as assessed in the related study. The related study found that integrating data from different flight heights resulted in better performances in texture and spectral indices for AGB estimation. Additionally, the integration of multiscale textures, derived from images with moderate spatial resolutions, was found to be optimal for grain-filling wheat AGB estimation."
+    }
+]

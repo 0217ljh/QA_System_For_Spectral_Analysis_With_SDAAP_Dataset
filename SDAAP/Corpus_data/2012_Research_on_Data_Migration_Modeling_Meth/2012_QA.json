@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrometers were used to address poor generalisation of different types of spectrometer models by studying larch bending strengths?",
+        "input": "",
+        "Output": "The related study used nir spectrum to address poor generalisation of different types of spectrometer models by studying larch bending strengths."
+    },
+    {
+        "instruction": "What spectral feature processing methods were employed to address poor generalisation of different types of spectrometer models by studying larch bending strengths?",
+        "input": "",
+        "Output": "The spectral feature processing methods employed to address poor generalisation of different types of spectrometer models by studying larch bending strengths were SNV (Standard Normal Variate), S-G (Savitzky-Golay), and spectral shearing."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the modeling methods and how far can this metric go in addressing the poor generalization of the master model by studying larch bending strengths?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the modeling methods in the study is the correlation coefficient (R-p) and the root mean square error (RMSEP). The best result can reach R-p=0.875 and RMSEP=11.975."
+    },
+    {
+        "instruction": "What machine learning models were used to address poor generalisation of different types of spectrometer models by studying larch bending strengths?",
+        "input": "",
+        "Output": "The machine learning models used to address poor generalisation of different types of spectrometer models by studying larch bending strengths were PLSR and SVM."
+    },
+    {
+        "instruction": "How does the near-infrared spectral modeling method combining migration learning and spectral transfer calibration compare to traditional methods in terms of modeling accuracy and efficiency for predicting larch bending strength?",
+        "input": "",
+        "Output": "The near-infrared spectral modeling method combining migration learning and spectral transfer calibration outperforms traditional methods in terms of modeling accuracy and efficiency for predicting larch bending strength. \n\nThe method addresses the poor generalization of the master model caused by differences in data from different types of spectrometers. By using migration learning and spectral transfer calibration, the method is able to linearly transform the spectral data from the slave instrument to match the master instrument, improving the modeling accuracy.\n\nAdditionally, the method employs the SWCSS feature extraction technique, which selects wavebands based on the differences and similarities of the two groups of spectral data sets. This ensures the effectiveness and stability of the features, further enhancing the modeling accuracy.\n\nFurthermore, the method utilizes the GFK-SVM model, which is suitable for the migration of different spectral data. It can map different types of spectral data through reasonable kernel function parameters, constructing a generalized model for different datasets. This improves the efficiency of data processing.\n\nOverall, the near-infrared spectral modeling method combining migration learning and spectral transfer calibration demonstrates higher modeling accuracy and efficiency compared to traditional methods for predicting larch bending strength."
+    }
+]

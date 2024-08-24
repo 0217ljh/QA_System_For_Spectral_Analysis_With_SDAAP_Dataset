@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the analysis of soil total nitrogen?",
+        "input": "",
+        "Output": "In the analysis of soil total nitrogen, near infrared spectroscopy was used."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the analysis of soil total nitrogen?",
+        "input": "",
+        "Output": "The spectral feature processing methods used to preprocess the spectra in the analysis were Savitzky-Golay smoothing (SG), Reduce (RD), and Wavelet Transform (WT)."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of the models, and how far can this metric go in predicting soil total nitrogen?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the models was the determination coefficient (R-2), root mean square error of prediction (RMSEP), and the ratio of performance to deviation (RPD). \n\nThe determination coefficient (R-2) measures the proportion of the variance in the dependent variable (soil total nitrogen) that can be explained by the independent variables (selected wavelengths). A value of 0.63 for R-2 indicates that approximately 63% of the variability in soil total nitrogen can be predicted by the selected wavelengths.\n\nThe root mean square error of prediction (RMSEP) measures the average difference between the predicted values and the actual values of soil total nitrogen. A value of 0.0079 for RMSEP indicates that, on average, the predicted values of soil total nitrogen deviate from the actual values by approximately 0.0079.\n\nThe ratio of performance to deviation (RPD) is a measure of the precision of the prediction model. A value of 1.58 for RPD suggests that the prediction model has moderate precision in predicting soil total nitrogen.\n\nOverall, the chosen metrics provide an assessment of the performance and accuracy of the models in predicting soil total nitrogen. "
+    },
+    {
+        "instruction": "What machine learning models were used to build prediction models for soil total nitrogen in the analysis of soil samples using near infrared spectroscopy?",
+        "input": "",
+        "Output": "The machine learning models used to build prediction models for soil total nitrogen in the analysis of soil samples using near infrared spectroscopy were Partial Least Squares (PLS), Extreme Learning Machine (ELM), and Least Squares Support Vector Machine (LS-SVM)."
+    },
+    {
+        "instruction": "How did the past study evaluate the performance of different variable selection methods in building prediction models for soil total nitrogen using near infrared spectroscopy?",
+        "input": "",
+        "Output": "The past study evaluated the performance of different variable selection methods in building prediction models for soil total nitrogen using near infrared spectroscopy by comparing the results obtained from different methods. The past study used three different variable selection methods, namely competitive adaptive reweighted sampling (CARS), Random frog, and Successive Projections Algorithm (SPA), with the Wavelet Transform (WT) preprocessing method. \n\nThe preprocessed spectra were used to select sensitive wavelengths using these variable selection methods. Different numbers of sensitive wavelengths were selected by each method. \n\nThe study then built prediction models using Partial Least Squares (PLS) with the full spectra, as well as Extreme Learning Machine (ELM) and LS-SVM with the selected wavelength variables. \n\nThe overall results showed that PLS and LS-SVM models performed better than ELM models. Among the LS-SVM models, the ones with the selected wavelengths based on the SPA method obtained the best results. The determination coefficient (R-2), RMSEP, and RPD values for the LS-SVM models with SPA-selected wavelengths were 0.63, 0.0079, and 1.58, respectively, for the prediction set."
+    }
+]

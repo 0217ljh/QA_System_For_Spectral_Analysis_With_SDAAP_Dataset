@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used for the detection of colorectal cancer?",
+        "input": "",
+        "Output": "For the detection of colorectal cancer,the researchers used visible spectrum and nir spectrum."
+    },
+    {
+        "instruction": "What spectral feature processing methods were analyzed for the detection of colorectal cancer?",
+        "input": "",
+        "Output": "Standardization and Normalization spectral scaling methods were analyzed for the detection of colorectal cancer."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of the models for the detection of colorectal cancer, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the models for the detection of colorectal cancer is classification accuracy. The classification accuracy can range from 0% (completely inaccurate) to 100% (completely accurate)."
+    },
+    {
+        "instruction": "What were the two post-processing algorithms applied in the study to enhance the predictions map in the detection of colorectal cancer using hyperspectral imaging combined with tissue classification algorithms?",
+        "input": "",
+        "Output": "The two post-processing algorithms applied in the study to enhance the predictions map in the detection of colorectal cancer using hyperspectral imaging combined with tissue classification algorithms were:\n\n1) Applying a median filter to the raw predictions map.\n2) Applying a median filter to the predictions map after adopting a discrimination threshold."
+    },
+    {
+        "instruction": "How did the different pre-processing techniques, neural network models, and post-processing algorithms impact the detection of colorectal cancer using hyperspectral imaging (HSI) combined with tissue classification algorithms in the study?",
+        "input": "",
+        "Output": "In the study, different pre-processing techniques, neural network models, and post-processing algorithms were tested to evaluate their impact on the detection of colorectal cancer using hyperspectral imaging (HSI) combined with tissue classification algorithms. \n\n1. Pre-processing Techniques:\n   - Two pre-processing techniques were tested: Standardization and Normalization.\n   - It was found that Inception-based models performed better with Normalization, while RS-based models performed better with Standardization.\n\n2. Neural Network Models:\n   - Two 3D-CNN models were used: Inception-based and RemoteSensing (RS)-based.\n   - The results showed that Inception-based models performed better than RS-based models.\n   - The best results achieved were 92% sensitivity and 94% specificity.\n\n3. Post-processing Algorithms:\n   - Two post-processing algorithms based on a median filter were tested.\n   - The first algorithm applied a median filter to a raw predictions map, while the second algorithm applied the filter to the predictions map after adopting a discrimination threshold.\n   - It was observed that the post-processing step improved sensitivity and specificity by a total of 6.6%.\n   - Both post-processing algorithms had the same effect on the results."
+    }
+]

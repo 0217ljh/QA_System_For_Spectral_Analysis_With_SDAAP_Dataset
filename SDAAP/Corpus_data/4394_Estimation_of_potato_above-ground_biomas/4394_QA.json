@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to estimate potato AGB?",
+        "input": "",
+        "Output": "The related study used visible remote sensing spectrum to estimate potato AGB."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to estimate potato AGB?",
+        "input": "",
+        "Output": "GLCM-based texture features and Gabor-based texture features were used to estimate potato AGB."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the accuracy of potato AGB estimation, and how far can this metric go in improving the estimation?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the accuracy of potato AGB estimation is the normalized root mean square error (RMSE). This metric measures the average difference between the estimated AGB values and the actual AGB values, normalized by the range of the actual AGB values. \n\nThe study found that different forms of texture features obtained from RGB images, combined with crop height, improved the accuracy of potato AGB estimates. Specifically, using the least-squares support vector machine (LSSVM) technique, the AGB estimation improved by 22.97% compared to using only all GLCM-based textures, 14.63% compared to using only all Gabor-based textures, 9.74% compared to using GLCM-based textures combined with crop height, and 8.18% compared to using Gabor-based textures combined with crop height. \n\nTherefore, the chosen metric of normalized RMSE was effective in evaluating the accuracy of potato AGB estimation, and the use of different forms of texture features combined with crop height significantly improved the estimation."
+    },
+    {
+        "instruction": "What machine learning models were used in the related study to estimate potato above-ground biomass (AGB) using texture features obtained from ultrahigh-ground-resolution (GDS) red-green-blue (RGB) images, along with crop height?",
+        "input": "",
+        "Output": "The machine learning models used in the related study to estimate potato above-ground biomass (AGB) using texture features obtained from ultrahigh-ground-resolution (GDS) red-green-blue (RGB) images, along with crop height, were the least-squares support vector machine (LSSVM), extreme learning machine, and partial least squares regression techniques."
+    },
+    {
+        "instruction": "Can the use of texture features obtained from ultrahigh-ground-resolution (GDS) red-green-blue (RGB) images, along with crop height, be considered as a superior method compared to traditional methods for estimating potato above-ground biomass (AGB)?",
+        "input": "",
+        "Output": "Yes, the use of texture features obtained from ultrahigh-ground-resolution (GDS) red-green-blue (RGB) images, along with crop height, can be considered as a superior method compared to traditional methods for estimating potato above-ground biomass (AGB). The study mentioned in the text found that combining different forms of texture features with crop height improved the accuracy of potato AGB estimates. Specifically, using multi-resolution GLCM-based and multiscale Gabor-based textures along with crop height yielded the best results. This approach outperformed using single-type textures or traditional methods that rely solely on optical vegetation indices. The results showed significant improvements in estimating AGB, with normalized root mean square error reduced by 22.97% compared to using only GLCM-based textures, and by 14.63% compared to using only Gabor-based textures. Therefore, the use of texture features obtained from RGB images, combined with crop height, can be considered a superior method for estimating potato AGB."
+    }
+]

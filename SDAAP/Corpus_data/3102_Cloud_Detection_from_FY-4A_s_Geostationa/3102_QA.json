@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the cloud detection?",
+        "input": "",
+        "Output": "The related study used visible spctrum and mir spctrum to detect clouds."
+    },
+    {
+        "instruction": "What spectral feature processing methods were usedin the cloud detection?",
+        "input": "",
+        "Output": "The spectral feature processing methods used in the cloud detection were the radiation observations of GIIRS long wave infrared channels."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of the cloud detection models and how far can this metric go in assessing their accuracy?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the cloud detection models is the Heidke skill score (HSS). The HSS measures the skill of a forecast or detection method by comparing it to a reference forecast or detection method. It takes into account both hits and correct rejections, as well as false alarms and misses. \n\nThe HSS can provide a good assessment of the accuracy of the cloud detection models, as it considers both the ability to correctly identify clouds (hits) and the ability to correctly identify non-clouds (correct rejections)."
+    },
+    {
+        "instruction": "What were the results of comparing the cloud detection results from the machine learning models with the Himawari-8 Advanced Himawari Imager (AHI) cloud images?",
+        "input": "",
+        "Output": "The results of comparing the cloud detection results from the machine learning models with the Himawari-8 Advanced Himawari Imager (AHI) cloud images showed that the proposed method had a good ability to identify clouds under various circumstances such as typhoons, snow-covered land, and bright broken clouds."
+    },
+    {
+        "instruction": "How do the machine-learning-based cloud detection models using GIIRS channel observations compare to traditional methods in terms of performance and time cost?",
+        "input": "",
+        "Output": "The machine-learning-based cloud detection models using GIIRS channel observations have shown better performance compared to traditional methods. The models using 689 channels as features achieved a Heidke skill score (HSS) of 0.780 on land and 0.945 at sea, with false alarm rates (FAR) of 16.6% on land and 4.7% at sea. The models using 38 channels had a slightly lower performance, with an HSS of 0.741 on land and 0.912 at sea, and FAR of 17.7% on land and 7.1% at sea.\n\nIn terms of time cost, the machine learning cloud detection method has a significant advantage over the traditional methods. "
+    }
+]

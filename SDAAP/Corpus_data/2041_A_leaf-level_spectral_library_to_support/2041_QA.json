@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in developing the spectral library of maize and sorghum to estimate nine leaf properties and predict leaf properties of soybean and camelina using extra-weighted spiking?",
+        "input": "",
+        "Output": "The spectral library of maize and sorghum used hyperspectral reflectance data ranging from 400 to 2500 nm."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the related study to estimate the nine leaf properties in the spectral library?",
+        "input": "",
+        "Output": "PLSR and DNN were the spectral feature processing methods used in the related study to estimate the nine leaf properties in the spectral library."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of the spectral library in estimating the leaf properties, and how far can this metric go in the related study to estimate the nine leaf properties in the spectral library?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the spectral library in estimating the leaf properties is the coefficient of determination (R-2). The R-2 value measures the proportion of the variance in the estimated leaf properties that can be explained by the spectral library. \n\nThe text states that the internal cross-validation showed satisfactory performance of the spectral library to estimate all nine leaf properties, with a mean R-2 value of 0.688. This indicates that, on average, the spectral library can explain approximately 68.8% of the variance in the estimated leaf properties.\n\nHowever, when the models calibrated solely using the spectral library were tested on external datasets (including soybean and camelina), the performance degraded significantly. The mean R-2 values for these external datasets were 0.159 for camelina and 0.337 for soybean. \n\nTo improve the model transferability and extend the utility of the spectral library, a small portion of external samples (n=20) was added to the library via extra-weighted spiking. This resulted in a significant improvement in the models' performance, with mean R-2 values of 0.574 for camelina and 0.536 for soybean. \n\nTherefore, while the spectral library initially showed satisfactory performance in"
+    },
+    {
+        "instruction": "What were the machine learning approaches used in the study to estimate the nine leaf properties in the spectral library?",
+        "input": "",
+        "Output": "The machine learning approaches used in the study to estimate the nine leaf properties in the spectral library were partial least-squares regression and deep neural network models."
+    },
+    {
+        "instruction": "How does the addition of external samples via extra-weighted spiking enhance the performance of the spectral library in predicting leaf properties for soybean and camelina?",
+        "input": "",
+        "Output": "The addition of external samples via extra-weighted spiking enhances the performance of the spectral library in predicting leaf properties for soybean and camelina by improving the models' transferability and extending its utility. Initially, models calibrated solely using the spectral library showed degraded performance on external datasets, with mean R-2 values of 0.159 for camelina and 0.337 for soybean. However, when a small portion of external samples (n=20) was added to the library via extra-weighted spiking, the models' performance significantly improved. The mean R-2 values increased to 0.574 for camelina and 0.536 for soybean. This indicates that the addition of external samples through extra-weighted spiking helps to enhance the accuracy and reliability of the spectral library in predicting leaf properties for soybean and camelina."
+    }
+]

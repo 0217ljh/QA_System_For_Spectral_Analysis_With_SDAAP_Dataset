@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used for high-throughput phenotyping in maize?",
+        "input": "",
+        "Output": "For high-throughput phenotyping in maize,the researchers used remote sensing spectrum."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used for high-throughput phenotyping in maize?",
+        "input": "",
+        "Output": "The spectral feature processing methods used for high-throughput phenotyping in maize included the utilization of NIR spectra, specifically wavelengths ranging from 749 nm to 917 nm, and the analysis of mean decrease impurity (MDI) feature importance, which highlighted the importance of Fluorescence Ratio Index 2 and 4 (FRI2[750, 800] and FRI4[740, 800]) in the form of NIR wavelengths."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the prediction performance for high-throughput phenotyping in maize?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the prediction performance for high-throughput phenotyping in maize was the coefficient of determination (R-2)."
+    },
+    {
+        "instruction": "How did the researchers use machine learning models for high-throughput phenotyping in maize?",
+        "input": "",
+        "Output": "The researchers used machine learning models for high-throughput phenotyping in maize by feeding a fusion of vegetation indices, structural indices, and thermal index selectively handcrafted from each data modality to classical machine learning regressors, Support Vector Machine (SVM) and Random Forest (RF). These machine learning models were used to predict various maize traits such as grain density, grain nitrogen content, total plant nitrogen content, and others. The prediction performance of these models varied for different traits, with R-2 values ranging from 0.34 to 0.85. Additionally, the researchers also customized a multi-task deep convolutional neural network (CNN) to take a raw imagery data fusion of hyperspectral, thermal, and LiDAR for multi-predictions of maize traits at a time. The multi-task deep learning models performed predictions comparably, if not better in some traits, with the mono-task deep learning and machine learning regressors. Data augmentation techniques were used to boost the prediction accuracy of the deep learning models, addressing the limitations of a small sample size and unbalanced sample classes in remote sensing research."
+    },
+    {
+        "instruction": "How did the fusion of vegetation indices, structural indices, and thermal index using classical machine learning regressors compare to traditional methods in terms of prediction performance for different phenotypes in the related study on high-throughput phenotyping in maize?",
+        "input": "",
+        "Output": "In the related study on high-throughput phenotyping in maize, the fusion of vegetation indices, structural indices, and thermal index using classical machine learning regressors (Support Vector Machine and Random Forest) showed varying prediction performance for different phenotypes. The prediction performance ranged from R-2 = 0.34 for grain density to R-2 = 0.85 for both grain nitrogen content and total plant nitrogen content. This indicates that the fusion of these indices using classical machine learning regressors performed relatively well in predicting grain nitrogen content and total plant nitrogen content, but had lower performance in predicting grain density."
+    }
+]

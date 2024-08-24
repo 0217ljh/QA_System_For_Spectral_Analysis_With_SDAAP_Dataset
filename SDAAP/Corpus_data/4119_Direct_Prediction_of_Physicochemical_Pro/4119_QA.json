@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to predict the properties and toxicities of compounds without requiring exact structural information?",
+        "input": "",
+        "Output": "To predict the properties and toxicities of compounds without requiring exact structural information,the researchers used gas chromatography-mass spectrometry."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to predict the properties and toxicities of compounds without requiring exact structural information?",
+        "input": "",
+        "Output": "The spectral feature processing method used to predict the properties and toxicities of compounds without requiring exact structural information was based on mass spectrum and retention index obtained via gas chromatography-mass spectrometry."
+    },
+    {
+        "instruction": "What metric was chosen to predict the properties and toxicities of compounds without requiring exact structural information?",
+        "input": "",
+        "Output": "The metric chosen to predict the properties and toxicities of compounds without requiring exact structural information is the root-mean-square error (RMSE)."
+    },
+    {
+        "instruction": "What properties were used to calculate the root-mean-square errors (RMSEs) in the XGBoost MI method-based machine learning model that predicts the properties and toxicities of compounds using analytical descriptors obtained via gas chromatography-mass spectrometry without requiring exact structural information?",
+        "input": "",
+        "Output": "The properties used to calculate the root-mean-square errors (RMSEs) in the XGBoost MI method-based machine learning model are log Ko-w, log (molecular weight), melting point, boiling point, log (vapor pressure), log (water solubility), log (LD50) (rat, oral), and log (LD50) (mouse, oral)."
+    },
+    {
+        "instruction": "Can the proposed machine learning-based QSAR approach that uses analytical descriptors obtained via gas chromatography-mass spectrometry be considered superior to traditional methods in predicting the properties and toxicities of compounds without requiring exact structural information?",
+        "input": "",
+        "Output": "Yes, the proposed machine learning-based QSAR approach that uses analytical descriptors obtained via gas chromatography-mass spectrometry can be considered superior to traditional methods in predicting the properties and toxicities of compounds without requiring exact structural information. This is because the traditional QSAR approach relies on knowing the exact chemical structure of the target compound, which may not always be available. In contrast, the proposed approach utilizes analytical descriptors derived from mass spectrum and retention index data, which can provide valuable information about the properties and toxicities of compounds even without knowing their exact structures. The model developed based on this approach has shown good performance in predicting various properties and toxicities, as indicated by the low root-mean-square errors (RMSEs) reported for different parameters. Additionally, the model has been validated and performed well on measurements of chemical standard mixtures and contaminated oil, further demonstrating its effectiveness in evaluating unknown-structured chemicals. The availability of an online web application, Detective QSAR, also makes the model easily accessible for users to execute and utilize in their investigations. Overall, the analytical descriptor-based approach offers new opportunities for evaluating unknown chemicals and can be considered superior to traditional methods in predicting their properties and toxicities."
+    }
+]

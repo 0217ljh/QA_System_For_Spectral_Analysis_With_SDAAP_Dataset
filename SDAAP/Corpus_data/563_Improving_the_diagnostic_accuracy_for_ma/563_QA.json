@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the related study that aimed to evaluate the discriminative and predictive ability of different approaches in diagnosing MDD?",
+        "input": "",
+        "Output": "The related study used functional near-infrared spectroscopy (fNIRS) to measure brain activity during a verbal fluency task."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the related study that aimed to evaluate the discriminative and predictive ability of different approaches in diagnosing MDD?",
+        "input": "",
+        "Output": "HbO gradient and HbR L-L were the spectral feature processing methods used in the related study."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the discriminative and predictive ability of different approaches in diagnosing MDD?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the classification performance of the different approaches was the area under the receiver operating characteristic curve (ROC), balanced accuracy, sensitivity, and specificity."
+    },
+    {
+        "instruction": "How were the machine learning models used in the related study to integrate neurobiological markers and clinical characteristics for diagnosing major depressive disorder (MDD)?",
+        "input": "",
+        "Output": "In the related study, seven machine learning (ML) models were used to integrate neurobiological markers and clinical characteristics for diagnosing major depressive disorder (MDD). These models included:\n\n1. Clinical Model: This model utilized only clinical information provided by the participants, such as sociodemographic and clinical data.\n\n2. Demographic Model: This model used only demographic information of the participants.\n\n3. Functional Near-Infrared Spectroscopy (fNIRS) Model: This model utilized data obtained from fNIRS measurements during the verbal fluency task.\n\n4. Unimodal Models: Two separate unimodal models were created, combining either the clinical and demographic information or the clinical and fNIRS data.\n\n5. Bimodal Model: This model combined both demographic information and fNIRS data.\n\n6. Multimodal Model: This model integrated all three types of data, including clinical, demographic, and fNIRS information.\n\nThe performance of each ML model was evaluated using the area under the receiver operating characteristic curve (ROC), balanced accuracy, sensitivity, and specificity. The multimodal ML model demonstrated the highest diagnostic accuracy for MDD, with a balanced accuracy of 87.98% and an AUC of 0.92. "
+    },
+    {
+        "instruction": "Can spectroscopic methods be used in this research to evaluate the discriminative and predictive ability of different machine learning models in diagnosing major depressive disorder (MDD) by integrating neurobiological markers and clinical characteristics?",
+        "input": "",
+        "Output": "Yes. Spectroscopic methods were used in this research to evaluate the discriminative and predictive ability of different machine learning models in diagnosing major depressive disorder (MDD). Specifically, functional near-infrared spectroscopy (fNIRS) was used to measure neurobiological markers while participants were engaged in a verbal fluency task. The fNIRS data, along with clinical and demographic information, were then integrated into the machine learning models to assess their diagnostic accuracy for MDD."
+    }
+]

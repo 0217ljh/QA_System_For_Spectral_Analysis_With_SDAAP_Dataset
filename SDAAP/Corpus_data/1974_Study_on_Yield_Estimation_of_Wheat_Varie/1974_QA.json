@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the research of pre-production estimation of wheat production?",
+        "input": "",
+        "Output": "The researchers used visible RGB and nir remote sensing spectrum was used in the research of pre-production estimation of wheat production."
+    },
+    {
+        "instruction": "What machine learning models were used in the related study to estimate the grain yield of multiple wheat varieties?",
+        "input": "",
+        "Output": "In the study, six machine learning algorithms were used to estimate the grain yield of multiple wheat varieties. These algorithms include Ridge Regression (RR), support vector regression (SVR), Random Forest Regression (RFR), Gaussian Process (GP), k-Nearest Neighbor (k-NN), and Cubist."
+    },
+    {
+        "instruction": "What metric were chosen in the related study to estimate the grain yield of multiple wheat varieties?",
+        "input": "",
+        "Output": "The estimation models in the study were evaluated using three metrics: coefficient of determination (R-2), root mean square error (RMSE), and relative root mean square error (RRMSE). The best result can reach R2=0.71, RMSE=290 and RRMSE=3.62%."
+    },
+    {
+        "instruction": "How did the use of multi-source data fusion affect the accuracy of yield estimation models in the related study to estimate the grain yield of multiple wheat varieties?",
+        "input": "",
+        "Output": "The use of multi-source data fusion significantly improved the accuracy of yield estimation models in the study. The results showed that all six machine learning algorithms had the highest yield estimation and prediction accuracy when using multi-source data fusion. The coefficient of determination (R-2) for multi-source data fusion yield estimation models ranged from 0.50 to 0.71, which was higher than the R-2 values for yield estimation models using only multi-spectral sensor data (0.53 to 0.69) or RGB sensor data (0.35 to 0.51). \n\nCompared to using RGB data alone, the multi-source data fusion models increased the R-2 by 0.17 to 0.23 and decreased the root mean square error (RMSE) by 0.06 to 0.09 t center dot hm(-2). Compared to using multi-spectral data alone, the multi-source data fusion models increased the R-2 by 0.01 to 0.06 and decreased the RMSE by 0.01 to 0.03 t center dot hm(-2)."
+    },
+    {
+        "instruction": "How does the use of multi-source data fusion with all six machine learning algorithms affect the accuracy of yield estimation in the related study?",
+        "input": "",
+        "Output": "The use of multi-source data fusion with all six machine learning algorithms significantly improves the accuracy of yield estimation in this study. The results showed that the multi-source data fusion yield estimation accuracy, as measured by the coefficient of determination (R-2), ranged from 0.50 to 0.71. This accuracy was higher than the yield estimation accuracy using only multi-spectral sensor data (R-2 = 0.53 to 0.69) or RGB sensor data (R-2 = 0.35 to 0.51). \n\nCompared to using RGB data alone, the multi-source data fusion increased the R-2 by 0.17 to 0.23, and decreased the root mean square error (RMSE) by 0.06 to 0.09 t center dot hm(-2). Compared to using multi-spectral data alone, the multi-source data fusion increased the R-2 by 0.01 to 0.06, and decreased the RMSE by 0.01 to 0.03 t center dot hm(-2).\n\nAmong the six machine learning algorithms used, the Cubist algorithm performed the best in terms of yield estimation accuracy, with an R-2 of 0.71."
+    }
+]

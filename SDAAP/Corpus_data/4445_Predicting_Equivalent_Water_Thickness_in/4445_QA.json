@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used to estimate wheat EWT?",
+        "input": "",
+        "Output": "In the related study,the researchers used visible remote sensing spectrum to estimate wheat EWT."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to estimate wheat EWT?",
+        "input": "",
+        "Output": "Feature selection (FS) algorithm named the decision tree (DT) was used as the automatic relevance determination method to obtain the relative relevance of 5 out of 67 vegetation indices (Vis), which were used for estimating EWT."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of the machine learning algorithms in estimating EWT, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the machine learning algorithms in estimating EWT (equivalent water thickness) was the coefficient of determination (R-2). This metric measures the proportion of the variance in the EWT estimates that can be explained by the ML algorithms. \n\nThe R-2 value ranges from 0 to 1, with 1 indicating a perfect fit between the estimated and actual EWT values. In this study, the ML algorithm with the highest R-2 value was the Deep Neural Network Multilayer Perceptron (DNN-MLP), which achieved an R-2 value of 0.934. \n\nThis indicates that the DNN-MLP algorithm was able to explain approximately 93.4% of the variance in the EWT estimates, suggesting a strong performance in estimating EWT. \n\nTherefore, the chosen metric of R-2 provides a measure of how well the ML algorithms can estimate EWT, and in this case, it shows that the DNN-MLP algorithm performed exceptionally well in estimating EWT."
+    },
+    {
+        "instruction": "What were the results of comparing the Deep Neural Network (DNN) algorithm with other machine learning models in estimating wheat EWT?",
+        "input": "",
+        "Output": "The results of comparing the Deep Neural Network (DNN) algorithm with other machine learning models in estimating wheat EWT showed that the DNN-MLP outperformed other ML algorithms such as ANN-MLP, BRT, and SVM-Polynomial. The DNN-MLP had an R-2 value of 0.934, NSE value of 0.933, RMSE value of 0.028 g/cm(2), and MAE value of 0.017 g/cm(2). These performance metrics indicate that the DNN-MLP had a high capacity for estimating EWT compared to the other ML methods."
+    },
+    {
+        "instruction": "Can the DNN-MLP algorithm, which outperformed other machine learning algorithms in estimating wheat EWT, be considered as a superior method compared to traditional methods for retrieving EWT in precision agriculture?",
+        "input": "",
+        "Output": "Yes, based on the results of the study, the DNN-MLP algorithm can be considered as a superior method compared to traditional methods for retrieving equivalent water thickness (EWT) in precision agriculture. The DNN-MLP algorithm demonstrated high performance with an R-2 value of 0.934, NSE value of 0.933, RMSE value of 0.028 g/cm(2), and MAE value of 0.017 g/cm(2). These results indicate that the DNN-MLP algorithm has a high capacity for accurately estimating EWT in wheat crops. This suggests that using machine learning algorithms, specifically the DNN-MLP algorithm, in combination with vegetation indices (VIs) can improve the real-time irrigation efficiency of wheat by quantifying field water content and addressing variability."
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used for predicting soybean seed yield and fresh biomass (FBIO)?",
+        "input": "",
+        "Output": "For predicting soybean seed yield and fresh biomass (FBIO),the researchers used nir spectrum"
+    },
+    {
+        "instruction": "What spectral feature processing methods were used for predicting soybean seed yield and fresh biomass (FBIO)?",
+        "input": "",
+        "Output": "The spectral feature processing methods used for predicting soybean seed yield and fresh biomass (FBIO) were ensemble-bagging (EB) and deep neural network (DNN) algorithms."
+    },
+    {
+        "instruction": "What metric was chosen for predicting soybean seed yield and fresh biomass (FBIO) and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen for predicting soybean seed yield and fresh biomass (FBIO) was the coefficient of determination (R-2). The R-2 value measures the proportion of the variance in the dependent variable (soybean seed yield and fresh biomass) that can be explained by the independent variables (hyperspectral vegetation indices). \n\nThe study found that using the deep neural network (DNN) algorithm, the R-2 values obtained for predicting soybean seed yield were 0.76, and for predicting fresh biomass were 0.91. When using the ensemble-bagging (EB) algorithm, the R-2 values obtained were 0.77 for seed yield and 0.89 for fresh biomass. \n\nThese R-2 values indicate that the selected hyperspectral vegetation indices have a moderate to high level of predictive power for soybean seed yield and fresh biomass at the R5 growth stage."
+    },
+    {
+        "instruction": "How were the hyperspectral vegetation indices (HVI) collected at the R5 growth stage used to predict soybean seed yield and fresh biomass (FBIO)?",
+        "input": "",
+        "Output": "The hyperspectral vegetation indices (HVI) collected at the R5 growth stage were used as input variables in two artificial intelligence algorithms, ensemble-bagging (EB) and deep neural network (DNN), to predict soybean seed yield and fresh biomass (FBIO). The coefficients of determination (R-2) were calculated to assess the accuracy of the predictions. The study found that the DNN algorithm achieved R-2 values of 0.76 for yield and 0.91 for FBIO, while the EB algorithm achieved R-2 values of 0.77 for yield and 0.89 for FBIO. These results demonstrate the potential use of HVI in predicting soybean seed yield and FBIO at early growth stages."
+    },
+    {
+        "instruction": "Can the hybrid DNN-SPEA2 method using hyperspectral vegetation indices (HVI) collected at the R5 growth stage be considered a superior approach compared to traditional methods for estimating soybean seed yield and fresh biomass (FBIO)?",
+        "input": "",
+        "Output": "Yes, the hybrid DNN-SPEA2 method using hyperspectral vegetation indices (HVI) collected at the R5 growth stage can be considered a superior approach compared to traditional methods for estimating soybean seed yield and fresh biomass (FBIO). This is supported by the coefficients of determination (R-2) obtained using the DNN and EB algorithms, which were 0.76 and 0.77 for yield and 0.91 and 0.89 for FBIO, respectively. These values indicate a strong correlation between the HVI and the predicted traits. Additionally, the feature recursive elimination wrapper method identified the most informative HVI associated with red (670 nm) and near-infrared (800 nm) regions, further highlighting the effectiveness of the hybrid DNN-SPEA2 method in accurately estimating yield and FBIO. Overall, the related study demonstrates the potential of advanced high-throughput field phenotyping and big data analysis methods in improving the prediction of important agronomic traits in soybeans."
+    }
+]

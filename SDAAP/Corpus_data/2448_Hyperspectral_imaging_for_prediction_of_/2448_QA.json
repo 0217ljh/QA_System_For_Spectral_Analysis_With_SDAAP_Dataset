@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used to predict the surface roughness in monitoring the laser powder bed fusion(LPBF) process?",
+        "input": "",
+        "Output": "The related study used visible spectrum and nir spectrum to predict the surface roughness in monitoring the laser powder bed fusion(LPBF) process."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to predict the surface roughness in monitoring the laser powder bed fusion(LPBF) process?",
+        "input": "",
+        "Output": "Hyperspectral imaging was used to predict the surface roughness in monitoring the laser powder bed fusion (LPBF) process."
+    },
+    {
+        "instruction": "What metric was chosen to predict the surface roughness in monitoring the laser powder bed fusion(LPBF) process?",
+        "input": "",
+        "Output": "The metric chosen to predict the surface roughness in monitoring the laser powder bed fusion(LPBF) process was the mean absolute error (MAE) in micrometers (\u6e2dm)."
+    },
+    {
+        "instruction": "How does the approach of monitoring the LPBF process using an area-scan hyperspectral camera contribute to cost-efficient product qualification in metal additive manufacturing?",
+        "input": "",
+        "Output": "The approach of monitoring the LPBF process using an area-scan hyperspectral camera contributes to cost-efficient product qualification in metal additive manufacturing by predicting the surface roughness R-z with the help of a convolutional neural network. By using the hyperspectral camera, the process can be monitored in real-time, allowing for immediate detection of any deviations or defects in the manufacturing process. This enables timely adjustments to be made, reducing the likelihood of producing faulty or substandard products. Additionally, the use of the convolutional neural network allows for accurate prediction of the surface roughness, which is an important quality parameter in metal additive manufacturing. By accurately predicting the surface roughness, manufacturers can ensure that the final products meet the required specifications, reducing the need for costly post-processing or rework. Overall, this approach improves the efficiency of product qualification by enabling real-time monitoring and accurate prediction of quality parameters, leading to cost savings in the manufacturing process."
+    },
+    {
+        "instruction": "How does the use of hyperspectral data in predicting surface roughness contribute to the in situ quality assurance in metal additive manufacturing for cost-efficient product qualification?",
+        "input": "",
+        "Output": "The use of hyperspectral data in predicting surface roughness contributes to the in situ quality assurance in metal additive manufacturing for cost-efficient product qualification by providing a non-destructive and real-time monitoring method. By using an area-scan hyperspectral camera during the laser powder bed fusion (LPBF) process, the surface roughness of the manufactured product can be predicted with the help of a convolutional neural network.\n\nThis approach allows for the efficient management of the hyperspectral data, which is obtained from the LPBF process. The hyperspectral images are labeled with the surface roughness values determined by a confocal microscope. The data is then used to train a convolutional neural network, optimizing its hyperparameters through a hyperparameter tuning process.\n\nThe resulting network is able to predict the surface roughness with a mean absolute error (MAE) of 4.1 \u6e2dm over samples from three different parameter sets. This level of accuracy is significantly smaller than the spread of the actual roughness measured (MAE = 14.3 \u6e2dm), indicating that the network has identified features in the hyperspectral data that are linked to the roughness."
+    }
+]

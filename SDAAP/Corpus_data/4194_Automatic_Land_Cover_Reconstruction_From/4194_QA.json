@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the analysis of the land cover reconstruction?",
+        "input": "",
+        "Output": "The related study used visible remote sensing spectrum in the analysis of the land cover reconstruction."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the analysis of the land cover reconstruction?",
+        "input": "",
+        "Output": "State-of-the-art texture features extraction and classification algorithms, including deep convolutional neural networks (DCNNs), were used in the analysis of the land cover reconstruction."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance in the analysis of the land cover reconstruction, and how far can this metric go in terms of accuracy?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance in the analysis of land cover reconstruction was the Light Combination of Local Binary Patterns (LCoLBP) filter. This metric achieved state-of-the-art results on the HistAerial dataset while maintaining a relatively low-dimensional feature vector space compared to DCNN approaches."
+    },
+    {
+        "instruction": "What are the four contributions proposed in the paper for the future development of computer vision algorithms applied to the automation of land cover reconstruction from monochromatic historical aerial images?",
+        "input": "",
+        "Output": "The four contributions proposed in the paper for the future development of computer vision algorithms applied to the automation of land cover reconstruction from monochromatic historical aerial images are:\n\n1. Creation of a new multi-scale multi-date dataset called HistAerial, consisting of 4.9 million non-overlapping annotated patches of the France territory between 1970 and 1990, with the assistance of geography experts.\n\n2. Conducting an extensive comparison study of state-of-the-art texture features extraction and classification algorithms, including deep convolutional neural networks (DCNNs), presented in the form of an evaluation.\n\n3. Introduction of a novel low-dimensional local texture filter called rotated-corner local binary pattern (R-CRLBP), which simplifies the binary gradient contours filter by using an orthogonal combination representation.\n\n4. Introduction of a novel combination of low-dimensional texture descriptors, including the R-CRLBP filter, known as the light combination of local binary patterns (LCoLBPs). The LCoLBP filter achieved state-of-the-art results on the HistAerial dataset while maintaining a relatively low-dimensional feature vector space compared to the DCNN approaches (17 times shorter)."
+    },
+    {
+        "instruction": "Can the proposed spectral feature processing methods be used in the comparison study of texture features extraction and classification algorithms for land cover reconstruction from monochromatic historical aerial images?",
+        "input": "",
+        "Output": "No, the proposed spectral feature processing methods cannot be used in the comparison study of texture features extraction and classification algorithms for land cover reconstruction from monochromatic historical aerial images. The related study specifically mentions that the efforts made by the computer vision community in remote-sensing applications are mostly focused on prospective approaches using high-resolution multi-spectral data. The proposed contributions in the paper are aimed at providing a comparison basis for future development of computer vision algorithms for land cover reconstruction from monochromatic historical aerial images, and they focus on the evaluation of texture features extraction and classification algorithms, including deep convolutional neural networks (DCNNs)."
+    }
+]

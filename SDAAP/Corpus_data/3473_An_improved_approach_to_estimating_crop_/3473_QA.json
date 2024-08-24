@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectral bands were used for estimating crop lodging area?",
+        "input": "",
+        "Output": "The related study used remote sensing spectrum for estimating crop lodging area."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used for estimating crop lodging area?",
+        "input": "",
+        "Output": "Spectral reflectance and its derived indicators, such as vegetation indexes (VIs) and texture metrics, were used for estimating crop lodging area."
+    },
+    {
+        "instruction": "What metric was chosen for estimating crop lodging area and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the lodging percentage estimation is the R2 (coefficient of determination) and RMSE (root mean square error). The R2 value of 0.64 indicates that the proposed method can explain around 64% of the spatial variation in lodging crop. The RMSE value of 25.24 suggests that, on average, the estimated lodging percentage may deviate from the actual value by approximately 25.24%. Therefore, the chosen metric provides a measure of the accuracy and precision of the lodging percentage estimation."
+    },
+    {
+        "instruction": "What machine learning algorithm was used to establish the quantitative model for lodging percentage estimation in the study?",
+        "input": "",
+        "Output": "The random forest (RF) algorithm was used to establish the quantitative model for lodging percentage estimation in the study."
+    },
+    {
+        "instruction": "Can the proposed method using the optimal grid cell of Sentinel-2 and crop lodging percentage overcome the limitations of traditional pixel-based mapping approaches and provide more accurate and quantitative lodging information?",
+        "input": "",
+        "Output": "Yes, the proposed method using the optimal grid cell of Sentinel-2 and crop lodging percentage can overcome the limitations of traditional pixel-based mapping approaches and provide more accurate and quantitative lodging information. Traditional pixel-based mapping approaches fail to obtain quantitative lodging information, but the proposed method overcomes this limitation by analyzing the optimal grid size of Sentinel-2 data for lodging percentage estimation. By establishing a quantitative model between the training set and the Sentinel-2 metrics using the random forest algorithm, the proposed method can estimate the crop lodging percentage with a high level of accuracy. The results indicate that the proposed method can explain around 95% spatial variation of lodging crop, demonstrating its ability to provide more accurate and quantitative lodging information."
+    }
+]

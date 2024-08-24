@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectral indexes were used to estimate wheat crop residue coverage (CRC)?",
+        "input": "",
+        "Output": "In the related study, the researchers used remote sensing spectrum to estimate wheat crop residue coverage (CRC)."
+    },
+    {
+        "instruction": "What spectral feature processing methods were employed to estimate wheat crop residue coverage (CRC)?",
+        "input": "",
+        "Output": "The spectral feature processing methods employed to estimate wheat crop residue coverage (CRC) included the cellulose absorption index (CAI), texture features, spatial heterogeneity analysis, mini-NDTI spectral index, broadband spectral angle index (BAI), and machine learning methods such as ANN, SVR, and GPR."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance to estimate wheat crop residue coverage (CRC), and how well did it perform in the related study?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of CRC estimation in the related study was the coefficient of determination (R-2) and the root mean square error (RMSE). The study found that the dead fuel index (DFI) extracted from the shortwave infrared characteristic bands of sentinel-2 imagery had an R-2 of 0.54 and an RMSE of 10.26% for estimating wheat CRC. The ratio vegetation index (RVI) extracted from the visible and near-infrared characteristic bands of GF-1 data had an R-2 of 0.46 and an RMSE of 11.39%. The LASSO machine learning algorithm had the most stable capability, with an R-2 of 0.46 and an RMSE of 11.4%."
+    },
+    {
+        "instruction": "How were machine learning algorithms utilized in estimating wheat CRC using remote sensing in the related study?",
+        "input": "",
+        "Output": "In the related study, machine learning algorithms were utilized to estimate wheat CRC (crop residue coverage) using remote sensing. The algorithms used include decision tree (DT), gradient boosting decision tree (GBDT), random forest (RF), least absolute shrinkage and selection operator (LASSO), and extreme gradient boosting regression (XGBR). These algorithms were applied to the high-resolution GF-1 satellite remote sensing imagery from China. The goal was to analyze and predict the wheat CRC based on the spectral indexes extracted from the satellite images. The performance of these algorithms was evaluated by comparing their results with the CRC estimates obtained from sentinel-2 imagery data. The study found that LASSO had the most stable capability among the machine learning algorithms, with an R-2 of 0.46 and an RMSE of 11.4%. This indicates that LASSO algorithm can be effectively used for estimating wheat CRC using remote sensing data."
+    },
+    {
+        "instruction": "How does the performance of the DFI from the shortwave infrared characteristic bands of Sentinel-2 imagery compare to the RVI from the visible and near-infrared characteristic bands of GF-1 data in estimating wheat CRC using remote sensing?",
+        "input": "",
+        "Output": "The performance of the DFI (dead fuel index) from the shortwave infrared characteristic bands of Sentinel-2 imagery is better than the RVI (ratio vegetation index) from the visible and near-infrared characteristic bands of GF-1 data in estimating wheat CRC using remote sensing. The DFI had an R-2 (coefficient of determination) of 0.54 and an RMSE (root mean square error) of 10.26%, while the RVI had an R-2 of 0.46 and an RMSE of 11.39%. This indicates that the DFI is a more accurate spectral index for estimating wheat CRC compared to the RVI."
+    }
+]

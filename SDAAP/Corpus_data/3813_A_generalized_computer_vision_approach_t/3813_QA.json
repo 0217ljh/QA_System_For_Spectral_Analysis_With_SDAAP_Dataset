@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the mapping of agricultural fields in the research that focused on smallholder farms?",
+        "input": "",
+        "Output": "The related study used visible and nir remote sensing spectrum in the mapping of agricultural fields in the research that focused on smallholder farms."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the mapping of agricultural fields in the research that focused on smallholder farms?",
+        "input": "",
+        "Output": "The research utilized a supervised, non-parametric machine learning classifier to handle the vast feature space and provide probabilistic output of the likelihood that pixels belong to agricultural fields."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of the mapping approach, and how far can this metric go in assessing accuracy in the research on smallholder farms?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the mapping approach was the receiver operating characteristic (ROC) curves and the related area under the ROC curve (AUC). This metric can assess accuracy in the research on smallholder farms by providing a measure of performance that is consistent across different types of agriculture, including smallholders, with high performance (AUC \u2265 0.90)."
+    },
+    {
+        "instruction": "What impact did the inclusion of multi-temporal information and multi-spectral bands have on the performance of the random forest classifier in mapping agricultural fields in smallholder farms, as observed in the research conducted in South Africa?",
+        "input": "",
+        "Output": "The research conducted in South Africa found that the inclusion of multi-temporal information had a greater impact on the performance of the random forest classifier in mapping agricultural fields in smallholder farms compared to the addition of multi-spectral bands available in DigitalGlobe Worldview-2 imagery. This means that considering the temporal aspect of the data, such as changes over time, provided greater gains in performance for accurately mapping agricultural fields in smallholder farms."
+    },
+    {
+        "instruction": "Can the new approach to mapping agricultural fields, using a specialized methodology, be applied to smallholder farms in Sub-Saharan Africa as intended in the study?",
+        "input": "",
+        "Output": "Yes, the new approach to mapping agricultural fields, using a specialized methodology, can be applied to smallholder farms in Sub-Saharan Africa as intended in the study. The study specifically mentions that the approach achieved high performance across agricultural types, including the spectrally indistinct smallholder fields. Therefore, the methodology is suitable for mapping smallholder farms in Sub-Saharan Africa."
+    }
+]

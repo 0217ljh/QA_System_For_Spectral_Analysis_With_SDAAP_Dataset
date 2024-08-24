@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the related study to recognize internal and external defects in potatoes?",
+        "input": "",
+        "Output": "The study used visible and nir hyperspectral images in the range of 390 nm to 1,040 nm to extract average spectrums for spectral preprocessing."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to preprocess the data in the study to recognize internal and external defects in potatoes?",
+        "input": "",
+        "Output": "The spectral feature processing methods used to preprocess the data in the related study were Auto scale, MSC, SNV and Normalize."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of the classification model and how far can this metric go in the related study to recognize internal and external defects in potatoes?",
+        "input": "",
+        "Output": "The specific metric chosen to evaluate the performance of the classification model was recognition accuracy. The best result can reach 93.94%."
+    },
+    {
+        "instruction": "How were the manifold learning algorithms used in the multi-target classification model to recognize internal and external defects in potatoes using hyperspectral imaging technology?",
+        "input": "",
+        "Output": "The manifold learning algorithms were used in the multi-target classification model to reduce the dimension of the spectrum data. Three different manifold learning algorithms, namely supervised locally linear embedding (SLLE), locally linear embedding (LLE), and isometric mapping (ISOMAP), were utilized for this purpose. These algorithms were applied to the extracted average spectrums (390 similar to 1 040 nm) from the region of interests in the hyperspectral images of the potatoes. The low-dimensional data obtained from the manifold learning algorithms were then used as input for the model. The Error Correcting Output Code (ECOC) and least squares support vector machine (LSSVM) were combined to develop the multi-target classification model. By comparing and analyzing the results of the three models, it was concluded that SLLE was the optimal manifold learning dimension reduction algorithm. Therefore, the SLLE-LSSVM model was determined to have the best recognition rate for recognizing internal and external defects in potatoes using hyperspectral imaging technology."
+    },
+    {
+        "instruction": "Can the combination of semi-transmission hyperspectral imaging technology and the SLLE-LSSVM model be used as a superior method for non-destructive detection of internal and external defects in potatoes compared to traditional methods?",
+        "input": "",
+        "Output": "Yes, the combination of semi-transmission hyperspectral imaging technology and the SLLE-LSSVM model can be considered as a superior method for non-destructive detection of internal and external defects in potatoes compared to traditional methods. The research conducted in the present paper demonstrates that this method achieved a high recognition rate for different types of defects in potatoes, including normal, bud, green rind, and hollow heart. The single recognition rates for these defects ranged from 86.96% to 96.83%, and the hybrid recognition rate was 93.02%. These results indicate that the combination of semi-transmission hyperspectral imaging technology and the SLLE-LSSVM model provides an effective and accurate approach for simultaneously recognizing internal and external defects in potatoes. This method offers a feasible qualitative analytical method for rapid on-line non-destructive detection of potato defects, providing a valuable technical reference for potato quality control in the industry."
+    }
+]

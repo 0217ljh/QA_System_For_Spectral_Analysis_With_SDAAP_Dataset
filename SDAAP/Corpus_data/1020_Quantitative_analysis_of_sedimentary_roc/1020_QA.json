@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the analysis of the concentrations of five main elements in sedimentary rock samples?",
+        "input": "",
+        "Output": "Laser Induced Breakdown Spectroscopy (LIBS) was used in in the analysis of the concentrations of five main elements in sedimentary rock samples."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the analysis of the concentrations of five main elements in sedimentary rock samples?",
+        "input": "",
+        "Output": "Moving average smoothing method coupled with optimized spectral feature points was used in the analysis of the concentrations of five main elements in sedimentary rock samples."
+    },
+    {
+        "instruction": "What metric was chosen in the analysis of the concentrations of five main elements in sedimentary rock samples?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the accuracy and precision of the SVR and PLSR regression models was the average relative standard deviations (RSDs) for accuracy and the root mean square error (RMSE) for precision."
+    },
+    {
+        "instruction": "How were the penalty parameter C and the key parameter of the radial basis function (RBF)-sigma optimized in the SVR algorithm for the analysis of sedimentary rock samples using LIBS?",
+        "input": "",
+        "Output": "The penalty parameter C and the key parameter of the radial basis function (RBF)-sigma were optimized using a genetic algorithm (GA). The optimized penalty parameter C was found to be 4.63, and the optimized RBF-sigma parameter was found to be 0.9159."
+    },
+    {
+        "instruction": "How does the SVR model compare to the PLSR model in terms of accuracy and precision for determining the concentrations of five main elements in sedimentary rock samples using LIBS?",
+        "input": "",
+        "Output": "The SVR model outperforms the PLSR model in terms of accuracy and precision for determining the concentrations of five main elements (Si, Ca, Mg, Fe, and Al) in sedimentary rock samples using LIBS. The SVR model demonstrated more satisfactory accuracy and precision under the optimized conditions. The accuracy, measured by the average relative standard deviations (RSDs), was significantly enhanced by up to 43.50 times compared to the PLSR model. Additionally, the precision, measured by the root mean square error (RMSE), was improved by 7.19 times for the SVR model. This improvement in accuracy and precision can be attributed to the elimination of self-absorption of plasma efficiently by the SVR model, which is not achieved by the linear machine learning method PLSR. Therefore, the chemometric method of SVR is successfully applied for the quantitative analysis of complex geological samples using the LIBS technique."
+    }
+]

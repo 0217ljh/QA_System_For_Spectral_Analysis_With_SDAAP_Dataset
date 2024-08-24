@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the related study to discriminate dynamic gait-adjustment intention using cerebral hemoglobin signals obtained from 30 subjects?",
+        "input": "",
+        "Output": "In the related study, functional near infrared spectroscopy (fNIRS) technology was used to obtain cerebral hemoglobin signals."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the related study to discriminate dynamic gait-adjustment intention using cerebral hemoglobin signals obtained from 30 subjects?",
+        "input": "",
+        "Output": "MMF method for preprocessing signals, EWM method for averaging over the ROIs, and ensemble learning for improving generalization performance and accuracy."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of intention detection in the related study to discriminate dynamic gait-adjustment intention using cerebral hemoglobin signals obtained from 30 subjects, and how far can this metric go in discriminating dynamic gait-adjustment intention?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of intention detection in the related study was the Area Under Curve (AUC). The AUC is a commonly used metric in machine learning and classification tasks, which measures the overall performance of a classifier by calculating the area under the receiver operating characteristic (ROC) curve.\n\nIn the related study, the AUC value was found to be 0.894, indicating a good performance of the gradient boosting decision tree (GBDT) in detecting the onset of self-regulated intention. This suggests that the GBDT model has a high ability to discriminate dynamic gait-adjustment intention from a motion state.\n\nHowever, it is important to note that the AUC alone does not provide information about the specific accuracy or performance for each type of intention. To further evaluate the discrimination of different types of self-regulated intention, a 2-layer-GA-SVM model based on stacking algorithm was proposed. This model improved the average accuracy (ACC) of the four types of intention from 70.6% to 84.4%, indicating a significant enhancement in discriminating dynamic gait-adjustment intention.\n\nTherefore, while the AUC metric provides an overall measure of performance, the 2-layer-GA-SVM model was able to improve the discrimination of dynamic g"
+    },
+    {
+        "instruction": "How were machine learning models utilized in the related study to discriminate dynamic gait-adjustment intention using cerebral hemoglobin signals obtained from subjects?",
+        "input": "",
+        "Output": "In the related study, machine learning models were utilized to discriminate dynamic gait-adjustment intention using cerebral hemoglobin signals obtained from subjects. The authors used the gradient boosting decision tree (GBDT) model to detect the onset of self-regulated intention. The GBDT model had a good performance with an average AUC (Area Under Curve) of 0.894 in detecting the onset intention.\n\nFurthermore, the authors proposed a 2-layer-GA-SVM (Genetic Algorithm-Support Vector Machine) model based on stacking algorithm to identify the four types of self-regulated intention: speed increase, speed reduction, step increase, and step reduction. The 2-layer-GA-SVM model improved the average accuracy (ACC) of intention recognition from 70.6% to 84.4% (p = 0.005) compared to the single GA-SVM model.\n\nOverall, the machine learning models, GBDT and 2-layer-GA-SVM, were used to analyze the cerebral hemoglobin signals and classify the different types of gait-adjustment intentions."
+    },
+    {
+        "instruction": "Can the proposed method using spectral analysis of cerebral hemoglobin signals be considered superior to traditional methods in discriminating dynamic gait-adjustment intention?",
+        "input": "",
+        "Output": "Yes,based on the information provided in the text, it can be inferred that the proposed method using spectral analysis of cerebral hemoglobin signals is considered superior to traditional methods in discriminating dynamic gait-adjustment intention. The text states that the proposed method achieved good performance in detecting the onset of self-regulated intention, with an average AUC of 0.894. Additionally, the 2-layer-GA-SVM model based on stacking algorithm further improved the accuracy of identifying the four types of self-regulated intention from 70.6% to 84.4%. These results suggest that the proposed method using spectral analysis of cerebral hemoglobin signals is more effective in discriminating dynamic gait-adjustment intention compared to traditional methods."
+    }
+]

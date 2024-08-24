@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to assess the water status of three grapevine cultivars in two sub-regions of the Douro wine region?",
+        "input": "",
+        "Output": "To assess the water status of three grapevine cultivars in two sub-regions of the Douro wine region,the researchers used visible spectrum and nir spectrum."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to assess the water status of three grapevine cultivars in two sub-regions of the Douro wine region?",
+        "input": "",
+        "Output": "B-MARS, GAM, GBM, and BRNN methodologies were used to assess the water status of three grapevine cultivars in two sub-regions of the Douro wine region."
+    },
+    {
+        "instruction": "What metric was chosen to assess the water status of three grapevine cultivars in two sub-regions of the Douro wine region and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen in this study is the predawn leaf water potential (Psi(pd)). This metric is used to assess the water status of grapevine cultivars. The study aimed to predict Psi(pd) using hyperspectral reflectance (HySR) data and different statistical and machine learning techniques. The models developed in the study showed good performance, with an average determination coefficient (R-2) ranging between 0.78 and 0.80 and root mean square error (RMSE) varying between 0.11 and 0.12 MPa. When the models were trained on one cultivar (Touriga Nacional) and tested on two other cultivars (Touriga Franca and Tinta Barroca), the performance of the models was also good, particularly for the generalized boosted model (GBM) with an R-2 of 0.85 and RMSE of 0.09 MPa. Therefore, the chosen metric of Psi(pd) and the predictive models based on vegetation indices have shown potential for supporting irrigation scheduling in vineyards."
+    },
+    {
+        "instruction": "What machine learning techniques were tested for predictive modeling to assess the water status of three grapevine cultivars in two sub-regions of the Douro wine region?",
+        "input": "",
+        "Output": "The machine learning techniques that were tested for predictive modeling to assess the water status of three grapevine cultivars in two sub-regions of the Douro wine region include generalized boosted model (GBM), bagged multivariate adaptive regression splines (B-MARS), generalized additive model (GAM), and Bayesian regularized neural networks (BRNN)."
+    },
+    {
+        "instruction": "How effective were the predictive models based on vegetation indices in supporting irrigation scheduling in vineyards, as assessed in this study using hyperspectral reflectance data?",
+        "input": "",
+        "Output": "The predictive models based on vegetation indices were found to be effective in supporting irrigation scheduling in vineyards, as assessed in this study using hyperspectral reflectance data. The models showed good performance in predicting the predawn leaf water potential (Psi(pd)), with an average determination coefficient (R-2) ranging between 0.78 and 0.80 and RMSE varying between 0.11 and 0.12 MPa. When tested on independent validation data, the models performed well, particularly the generalized boosted model (GBM) with an R-2 of 0.85 and RMSE of 0.09 MPa. The comparison of observed and predicted Psi(pd) showed an equitable dispersion of data from different grapevine cultivars. These results indicate that the predictive models based on vegetation indices have the potential to support irrigation scheduling in vineyards."
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the related study to diagnose NPSLE with the assistance of a support vector machine broad learning system (BL-SVM)?",
+        "input": "",
+        "Output": "The study used multivoxel proton magnetic resonance spectroscopy (H-1-MRS) spectrum."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the related study to diagnose NPSLE with the assistance of a support vector machine broad learning system (BL-SVM)?",
+        "input": "",
+        "Output": "The spectral feature processing method used in the related study to diagnose NPSLE with the assistance of a support vector machine broad learning system (BL-SVM) involved mapping the features into a higher dimensional space using kernel tricks to make the samples linearly separable."
+    },
+    {
+        "instruction": "What metric was chosen in the related study to diagnose NPSLE with the assistance of a support vector machine broad learning system (BL-SVM), and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the BL-SVM model in predicting NPSLE is the area under the receiver operating characteristic curve (AUC). The AUC is a measure of the model's ability to distinguish between NPSLE patients and healthy controls. In the related study, the AUC was reported to be 95%. \n\nThe AUC ranges from 0 to 1, with a value of 1 indicating a perfect model that can accurately classify all cases correctly. Therefore, a value of 95% suggests that the BL-SVM model has a high level of accuracy in predicting NPSLE. However, it is important to note that the AUC alone does not provide information about the model's performance at specific sensitivity or specificity levels."
+    },
+    {
+        "instruction": "How many metabolic features were selected for analysis using the Mann-Whitney U test in the study on diagnosing NPSLE using H-1-MRS and BL-SVM?",
+        "input": "",
+        "Output": "Thirty-three metabolic features were selected for analysis using the Mann-Whitney U test in the study on diagnosing NPSLE using H-1-MRS and BL-SVM."
+    },
+    {
+        "instruction": "Can the use of multivoxel proton magnetic resonance spectroscopy (H-1-MRS) in combination with a support vector machine broad learning system (BL-SVM) be considered a superior method for diagnosing neuropsychiatric systemic lupus erythematosus (NPSLE) compared to traditional diagnostic methods?",
+        "input": "",
+        "Output": "Yes, the use of multivoxel proton magnetic resonance spectroscopy (H-1-MRS) in combination with a support vector machine broad learning system (BL-SVM) can be considered a superior method for diagnosing neuropsychiatric systemic lupus erythematosus (NPSLE) compared to traditional diagnostic methods. The study mentioned in the text retrospectively analyzed 23 confirmed NPSLE patients and 16 healthy controls using H-1-MRS. By extracting 117 metabolic features from the H-1-MRS images and applying the BL-SVM, the system achieved an accuracy of 95%, sensitivity of 95.8%, and specificity of 93% in predicting NPSLE. In contrast, traditional statistical methods using only 33 metabolic features achieved an accuracy of only 77%. Therefore, the combination of H-1-MRS and BL-SVM shows promise as an effective and efficient non-invasive method for early diagnosis of NPSLE."
+    }
+]

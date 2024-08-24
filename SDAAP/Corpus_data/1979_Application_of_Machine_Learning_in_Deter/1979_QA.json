@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the development of the improved method for determining the concentration of nitrate nitrogen in water?",
+        "input": "",
+        "Output": "In the development of the improved method for determining the concentration of nitrate nitrogen in water, the uv absorbances spectrum, at wavelengths 220 and 275 nm, was initially used."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the development of the improved method for determining the concentration of nitrate nitrogen in water?",
+        "input": "",
+        "Output": "The spectral feature processing methods used in the development of the improved method for determining the concentration of nitrate nitrogen in water are principal components analysis (PCA) and locally weighted linear regression."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance for determining the concentration of nitrate nitrogen in water and how far can this metric go in terms of concentration range?",
+        "input": "",
+        "Output": "The specific metric chosen to evaluate the performance for determining the concentration of nitrate nitrogen in water were R2 and RMSEP. The best result can reach R2=0.9999 and RMSEP=0.91."
+    },
+    {
+        "instruction": "How did the researchers overcome the limitations of single-wavelength or double-wavelength spectrophotometry in determining the concentration of nitrate nitrogen in water using ultraviolet spectrophotometry?",
+        "input": "",
+        "Output": "The researchers overcame the limitations of single-wavelength or double-wavelength spectrophotometry by introducing the absorbances at wavelengths that covered the absorption peak into the construction of the model. They used principal components analysis to compress the dimensions of the original absorbance data from 107 down to 4. They then constructed the absorbance model using locally weighted linear regression. This approach allowed them to deal with the non-linear relationship between absorbance and concentration, and raised the upper range limit concentrations of nitrate nitrogen up to hundreds mg . L-1 from 4 mg . L-1 defined in the standard method."
+    },
+    {
+        "instruction": "How did the proposed method overcome the limitations of single-wavelength or double-wavelength spectrophotometry in determining the concentration of nitrate nitrogen in water and achieve higher range limit concentrations?",
+        "input": "",
+        "Output": "The proposed method overcame the limitations of single-wavelength or double-wavelength spectrophotometry by introducing the absorbances at wavelengths that covered the absorption peak of nitrate nitrogen. This allowed for a more accurate construction of the absorption model. Additionally, the method used principal components analysis to compress the dimensions of the absorbance data, reducing complexity. The absorbance model was then constructed using locally weighted linear regression. This approach successfully dealt with the non-linear relationship between absorbance and concentration, enabling the determination of higher range limit concentrations of nitrate nitrogen, up to hundreds of mg.L-1, compared to the standard method which had a limit of 4 mg.L-1. The principle and procedure of this analytical method can also be applied to construct absorbance models for other solutions."
+    }
+]

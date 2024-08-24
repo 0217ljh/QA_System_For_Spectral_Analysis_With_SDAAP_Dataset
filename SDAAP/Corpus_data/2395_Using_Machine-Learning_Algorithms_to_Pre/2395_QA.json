@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to increase the accuracy of predictions of soil organic carbon (SOC) content?",
+        "input": "",
+        "Output": "The related study used remote sensing spectrum to increase the accuracy of predictions of soil organic carbon (SOC) content."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to increase the accuracy of predictions of soil organic carbon (SOC) content?",
+        "input": "",
+        "Output": "Three main approaches were used to increase the accuracy of predictions of soil organic carbon (SOC) content: \n1. Inclusion of spectral indices to consider effects of interference factors.\n2. Combination of remotely sensed data with laboratory or field spectra to fuse spectral and spatial soil information.\n3. Combination of spectral information from optical images with non-spectral covariates."
+    },
+    {
+        "instruction": "What metric was chosen to increase the accuracy of predictions of soil organic carbon (SOC) content?",
+        "input": "",
+        "Output": "The metric chosen to increase the accuracy of predictions of soil organic carbon (SOC) content is the ratio of performance to the interquartile distance (RPIQ). RPIQ measures the accuracy of the models in predicting soil organic carbon (SOC) content."
+    },
+    {
+        "instruction": "How were machine and deep-learning algorithms utilized in the related study to evaluate the combination of remote sensing time series with laboratory spectral measurements for predicting soil organic carbon (SOC) content?",
+        "input": "",
+        "Output": "In the related study, machine and deep-learning algorithms were used to evaluate the combination of remote sensing time series with laboratory spectral measurements for predicting soil organic carbon (SOC) content. The researchers developed Partial Least Squares (PLS) regression, Random Forest (RF), and Deep Neural Network (DNN) models using Sentinel-2 (S2) time series data from 58 sampling points of bare soil.\n\nThe study employed three different approaches to assess the performance of these models. In the first approach, only the S2 bands were used to calibrate and compare the models. In the second approach, additional information such as S2 indices, Sentinel-1 (S1) indices, and S1 soil moisture were separately added during model calibration to evaluate their individual effects and then combined. Finally, in the third approach, laboratory indices were incrementally added to test their influence on model accuracy.\n\nThe results showed that using only the S2 bands, the DNN model outperformed the PLS and RF models, with a ratio of performance to the interquartile distance (RPIQ) of 0.79, 1.36, and 1.67, respectively."
+    },
+    {
+        "instruction": "How did the use of equivalent indices of the S2 indices calculated using laboratory soil spectra contribute to the prediction of SOC in the related study that aimed to evaluate the combination of remote sensing time series with laboratory spectral measurements using machine and deep-learning algorithms?",
+        "input": "",
+        "Output": "The use of equivalent indices of the S2 indices calculated using laboratory soil spectra contributed to the prediction of SOC by improving the accuracy of the models. The study found that including these equivalent indices in the models resulted in good validation performances for the random forest (RF) and deep neural network (DNN) models. Specifically, using only two indices achieved mean RPIQ values of 2.01 and 1.77 for the RF and DNN models, respectively. This indicates that the addition of laboratory indices incrementally improved the prediction of SOC content, enhancing the performance of the models in estimating soil organic carbon."
+    }
+]

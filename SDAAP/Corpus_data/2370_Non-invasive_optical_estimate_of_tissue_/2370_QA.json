@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used to classify malignant and benign breast lesions?",
+        "input": "",
+        "Output": "The related study used nir spectrum to classify malignant and benign breast lesions."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to classify malignant and benign breast lesions?",
+        "input": "",
+        "Output": "The Discrete AdaBoost procedure with decision trees was used for spectral feature processing to classify malignant and benign breast lesions."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the classification performance and how far can this metric go in distinguishing between malignant and benign lesions?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the classification performance was the Area Under the Curve (AUC). The AUC was 0.917, indicating a strong performance in distinguishing between malignant and benign lesions."
+    },
+    {
+        "instruction": "How was the Discrete AdaBoost procedure utilized in classifying breast lesions based on optically derived information and patient risk factors?",
+        "input": "",
+        "Output": "The Discrete AdaBoost procedure was used as a machine-learning algorithm to classify breast lesions based on optically derived information and patient risk factors. The algorithm utilized the optically derived information, which included differences in tissue composition (oxy- and deoxyhemoglobin, lipid, water, collagen) and absorption properties between the lesion and average healthy tissue in the same breast. Additionally, the algorithm incorporated patient risk factors obtained from the patient's anamnesis, such as age, body mass index, familiarity, parity, use of oral contraceptives, and use of Tamoxifen. By combining these factors, the Discrete AdaBoost procedure was able to classify the breast lesions as either malignant or benign."
+    },
+    {
+        "instruction": "How does the proposed method of time domain diffuse optical imaging compare to traditional methods in classifying malignant and benign breast lesions?",
+        "input": "",
+        "Output": "The proposed method of time domain diffuse optical imaging aims to classify malignant and benign breast lesions by estimating differences in tissue composition and absorption properties, particularly focusing on collagen content. This method is non-invasive, operator-independent, and relatively cheap compared to traditional methods, such as mammography."
+    }
+]

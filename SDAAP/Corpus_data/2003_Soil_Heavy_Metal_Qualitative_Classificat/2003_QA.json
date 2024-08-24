@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the related research on the transferability of qualitative classification models of soil heavy metal content?",
+        "input": "",
+        "Output": "In the research on the transferability of qualitative classification models of soil heavy metal content, both visible and nir spectra were used."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to reduce the difference between indoor and outdoor measured spectral data in the research on the transferability of qualitative classification models of soil heavy metal content?",
+        "input": "",
+        "Output": "The spectral feature processing method used to reduce the difference between indoor and outdoor measured spectral data in the research on the transferability of qualitative classification models of soil heavy metal content was the joint distribution adaptation (JDA) method."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the transferability of the classification model in the research on the transferability of qualitative classification models of soil heavy metal content, and how far can this metric go?",
+        "input": "",
+        "Output": "The specific metric chosen to evaluate the transferability of the classification model in the research on the transferability of qualitative classification models of soil heavy metal content was classification accuracy. The best result can reach 84%."
+    },
+    {
+        "instruction": "How did the researchers investigate the transferability of the qualitative classification model of soil heavy metal pollution in different test areas using machine learning models?",
+        "input": "",
+        "Output": "The researchers investigated the transferability of the qualitative classification model of soil heavy metal pollution in different test areas using machine learning models by conducting a study in two lead-zinc mining areas in Chenzhou City and Hengyang City of Hunan Province. They used Support Vector Machine as the classifier and collected 83 sample data from indoor sampling in Zhangzhou experimental area and 46 sample data from indoor sampling in Hengyang experimental area for classifier training. Additionally, 46 sample data from field sampling in Hengyang area were used for classification testing.\n\nTo address the differences in spectral distribution between indoor and outdoor measured spectral data, the researchers employed a transfer learning method called joint distribution adaptation (JDA). This method aimed to reduce the differences in spectral distribution between indoor and outdoor samples. By applying JDA transformation, the researchers constructed a domain adaptation model for the two research areas.\n\nThe experimental results showed that the spectral data measured by outdoor samples could be significantly affected by factors such as solar radiation and differences in extracted soil components, leading to notable spectral differences between indoor and outdoor samples. Therefore, directly transferring the qualitative classification model trained using indoor samples to outdoor samples from the same area was challenging."
+    },
+    {
+        "instruction": "Can the JDA transformation method be used to improve the transferability of the qualitative classification model of soil heavy metal pollution from indoor to outdoor measured spectral data in different test areas?",
+        "input": "",
+        "Output": "Yes, the JDA transformation method can be used to improve the transferability of the qualitative classification model of soil heavy metal pollution from indoor to outdoor measured spectral data in different test areas. The experimental results showed that after reducing the differences in spectral distribution between indoor and outdoor measured spectral data using JDA, the transfer ability of the model was significantly improved. The classification accuracy of heavy metals such as As, Pb, and Zn reached over 84%, with the accuracy of Zn elements even exceeding the standard at 89%. This indicates that the JDA transformation method effectively reduces the spectral differences and allows for the direct use of outdoor spectral data to investigate the pollution situation of heavy metals in different test areas."
+    }
+]

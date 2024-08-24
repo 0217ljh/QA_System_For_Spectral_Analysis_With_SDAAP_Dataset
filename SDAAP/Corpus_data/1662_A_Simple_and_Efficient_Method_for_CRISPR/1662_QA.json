@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the visual identification method of CRISPR/Cas9-induced rice mutants?",
+        "input": "",
+        "Output": "The visual identification method of CRISPR/Cas9-induced rice mutants used near-infrared hyperspectral image technology."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the visual identification method of CRISPR/Cas9-induced rice mutants?",
+        "input": "",
+        "Output": "In the related study, the spectral feature processing methods used were preprocessing the selection spectral region with absolute noises by wavelet transform and selecting optimal wavelengths by the 2nd spectra algorithm."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the classification performance of the models in the visual identification method of CRISPR/Cas9-induced rice mutants, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the classification performance of the models in the related study was the classification rate. The classification rate measures the accuracy of the models in correctly classifying the samples into their respective groups (wide types or CRISPR/Cas9-induced mutants). \n\nThe classification rates achieved by the models were 92.25% for the calibration set and 89.50% for the prediction set. These rates indicate that the models were able to accurately classify the majority of the samples."
+    },
+    {
+        "instruction": "How were the discrimination models, such as radial basis function neural network (RBFNN), extreme learning machine (ELM), and K-nearest neighbor (KNN), utilized in the visual identification method of CRISPR/Cas9-induced rice mutants using near-infrared hyper-spectral image technology?",
+        "input": "",
+        "Output": "The discrimination models, including radial basis function neural network (RBFNN), extreme learning machine (ELM), and K-nearest neighbor (KNN), were used in the visual identification method of CRISPR/Cas9-induced rice mutants using near-infrared hyper-spectral image technology to build classification models. These models were trained using the preprocessed full spectra and feature wavelengths of the rice seed samples. The models were then used to classify and distinguish between the wide types and CRISPR/Cas9-induced mutant samples. The RBFNN model, specifically calculated on the optimal wavelengths, achieved classification rates of 92.25% and 89.50% for the calibration set and prediction set, respectively. This demonstrates that the neural network models had good recognition ability in identifying the mutant seeds."
+    },
+    {
+        "instruction": "How does the use of hyperspectral imaging and chemometric data analysis in the visual identification method of CRISPR/Cas9-induced rice mutants compare to traditional methods in terms of recognition ability and evaluation of gene editing performance trials and breeding programs?",
+        "input": "",
+        "Output": "The use of hyperspectral imaging and chemometric data analysis in the visual identification method of CRISPR/Cas9-induced rice mutants offers several advantages compared to traditional methods in terms of recognition ability and evaluation of gene editing performance trials and breeding programs.\n\nFirstly, the results of the study showed that the neural network models built using hyperspectral imaging achieved good recognition ability. The radial basis function neural network (RBFNN) model, specifically, demonstrated classification rates of 92.25% and 89.50% for the calibration set and prediction set, respectively. This indicates that the hyperspectral imaging method is effective in accurately identifying CRISPR/Cas9-induced rice mutants.\n\nSecondly, the use of hyperspectral imaging allows for the visualization of the classification of mutant seeds on prediction maps. By predicting the features of each pixel on individual hyperspectral images based on the 2nd derivative-RBFNN model, the classification of mutant seeds can be easily visualized. This provides a clear and intuitive way to identify and analyze the mutants.\n\nFurthermore, the combination of hyperspectral imaging and chemometric data analysis offers a powerful tool for evaluating a large number of samples from CRISPR/Cas9 gene editing performance trials and breeding programs."
+    }
+]

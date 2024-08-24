@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "In the classification of cervical smear images, what kinds of spectrum were used?",
+        "input": "",
+        "Output": "In the classification of cervical smear images, the peak intensities and peak shift frequencies from the spectra were used as features."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the classification models of cervical smear images?",
+        "input": "",
+        "Output": "The spectral feature processing methods used in the classification models of cervical smear images included the intensity of characteristic peaks in optomagnetic spectra, wavelength where peaks occur, and areas below the peaks."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the classification results of cervical smear images and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the classification results of cervical smear images is the Area Under the Curve (AUC) of the Receiver Operating Characteristic (ROC) curve. The AUC measures the overall performance of a classification model by calculating the area under the ROC curve, which plots the true positive rate against the false positive rate at various classification thresholds.\n\nIn the related study, the AUC of the ROC curve is reported to be 88%. This indicates that the developed system for classification of cervical smear images has a good overall performance in distinguishing between pre-cancerous/cancerous states and non-cancerous states. A higher AUC value suggests a better discriminatory power of the classification model."
+    },
+    {
+        "instruction": "What machine learning algorithms were tested in the classification models of cervical smear images using Optomagnetic Imaging Spectroscopy (OMIS)?",
+        "input": "",
+        "Output": "Six different classification models were tested in the classification models of cervical smear images using Optomagnetic Imaging Spectroscopy (OMIS)."
+    },
+    {
+        "instruction": "How does the proposed semi-automated system using Optomagnetic Imaging Spectroscopy (OMIS) and machine learning compare to traditional methods in improving standard Liquid Based Cytology (LBC) screening tests for cervical cancer detection?",
+        "input": "",
+        "Output": "The proposed semi-automated system using Optomagnetic Imaging Spectroscopy (OMIS) and machine learning shows promising results in improving standard Liquid Based Cytology (LBC) screening tests for cervical cancer detection. \n\nThe system was tested on 700 cervical samples prepared according to LBC principles and recorded spectra of the samples using Optomagnetic Imaging Spectroscopy. The peak intensities and peak shift frequencies from the spectra were used as features in classification models.\n\nSeveral machine learning algorithms were tested, and the results of classification were compared. The system achieved a sensitivity of 79% and specificity of 83% in detecting pre-cancerous and cancerous states. The AUC (ROC) was found to be 88%, indicating a high level of accuracy in distinguishing between different states.\n\nCompared to traditional methods, the developed system offers several advantages. Firstly, it enables the detection of pre-cancerous and cancerous states with improved sensitivity and specificity. This suggests that the system has the potential to identify abnormalities that may be missed by standard LBC screening tests.\n\nAdditionally, the system can be implemented using a portable apparatus, making it more accessible and convenient for screening purposes. Furthermore, the results are immediately available, allowing for prompt diagnosis and treatment if necessary."
+    }
+]

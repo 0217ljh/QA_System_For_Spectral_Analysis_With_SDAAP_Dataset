@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the related study for estimating sorghum and corn N concentration?",
+        "input": "",
+        "Output": "The related study used both canopy-level spectral data collected by an unoccupied aerial system (UAS) and leaf-level spectral data collected by an ASD spectroradiometer to estimate sorghum and corn N concentration."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the related study for estimating sorghum and corn N concentration?",
+        "input": "",
+        "Output": "PLSR coefficients and VIP scores were used to determine the contribution of different spectral regions in estimating sorghum and corn N concentration."
+    },
+    {
+        "instruction": "What metric was chosen to estimate sorghum and corn N concentration and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to estimate sorghum and corn N concentration in the related study was vegetation indices (VIs). The related study found that resampled leaf-level ASD spectral data matching the spectral resolution of the UAS-based data at five spectral bands ranging from 360 to 900 nm provided sufficient spectral information to estimate plot-level sorghum and corn N concentration. Therefore, the chosen metric of VIs based on spectral data can accurately estimate N concentration in sorghum and corn crops."
+    },
+    {
+        "instruction": "How were machine learning algorithms used in estimating sorghum and corn N concentration in the study assessing the capability of UAS and non-imaging spectroscopic data?",
+        "input": "",
+        "Output": "In the related study, machine learning algorithms (MLAs) were used to estimate sorghum and corn N concentration based on the spectral data collected from the UAS and ASD spectroradiometer. The researchers used a suite of vegetation indices (VIs) along with the MLAs to develop models for estimating N concentration. These MLAs were trained using the spectral data and corresponding foliar N concentration measurements obtained from foliage samples collected in the field. The trained MLAs were then used to predict N concentration in the experimental plots based on the spectral data collected by the UAS and ASD. By utilizing MLAs, the researchers were able to analyze and interpret the complex relationships between the spectral information and N concentration, enabling them to estimate N concentration accurately."
+    },
+    {
+        "instruction": "How did the study assess the capability of unoccupied aerial systems (UAS) and non-imaging spectroscopic data in estimating sorghum and corn nitrogen (N) concentration, and what were the findings regarding the impact of spatial and spectral resolution of reflectance data on estimating N concentration?",
+        "input": "",
+        "Output": "The related study assessed the capability of unoccupied aerial systems (UAS) and non-imaging spectroscopic data in estimating sorghum and corn nitrogen (N) concentration by collecting canopy- and leaf-level spectral data from sorghum and corn using a UAS and an ASD spectroradiometer. Foliage samples were also collected in the field and foliar N concentration was measured in the lab for model validation.\n\nTo determine the impact of spectral resolution on estimating N concentration, the leaf-level ASD data was resampled to generate datasets with coarser spectral resolutions. The impact of spatial resolution on estimating N concentration was determined by resampling the UAS data to simulate five datasets with varying spatial resolutions ranging from 5 cm to 1 m.\n\nThe findings regarding the impact of spectral resolution showed that the resampled leaf-level ASD data, matching the spectral resolution of the UAS-based data at five spectral bands ranging from 360 to 900 nm, provided sufficient spectral information to estimate plot-level sorghum and corn N concentration.\n\nRegarding spatial resolution, the canopy-level UAS data resampled at multiple pixel sizes, ranging from 1 cm to 1 m, consistently showed the capability of estimating N concentration.\n\nOverall, the findings of the study indicate the possibility of developing monitoring instruments"
+    }
+]

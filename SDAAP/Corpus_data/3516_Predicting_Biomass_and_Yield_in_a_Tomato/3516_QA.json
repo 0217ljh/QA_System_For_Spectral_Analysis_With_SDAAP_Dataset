@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to predict biomass and yield of tomato plants?",
+        "input": "",
+        "Output": "To predict biomass and yield of tomato plants,the researchers used remote sensing spectrum."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to predict biomass and yield of tomato plants?",
+        "input": "",
+        "Output": "Vegetation indices and spectral band combinations were used to classify objects representing the green parts of the tomato plants. A region growing algorithm was applied to expand tomato plant objects into neighboring unclassified objects using more relaxed vegetation index thresholds."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the prediction accuracies of biomass and yield, and how far can this metric go in terms of accuracy?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the prediction accuracies of biomass and yield in this study was the explained variance. The results showed that the prediction accuracies varied depending on the time to harvest and the type of plants (control or salt-treated). The highest explained variances were achieved using multispectral UAV imagery collected 2 weeks prior to harvest, with values of 87.95% for fresh shoot mass, 63.88% for fruit numbers, and 66.51% for yield mass per plant. This indicates that the predictions based on the UAV imagery were able to explain a significant portion of the variability in biomass and yield measurements."
+    },
+    {
+        "instruction": "What machine learning approach was implemented using UAV-imagery-derived predictors to estimate end-of-season biomass and yield of tomato plants?",
+        "input": "",
+        "Output": "The machine learning approach implemented using UAV-imagery-derived predictors to estimate end-of-season biomass and yield of tomato plants was a random forest algorithm."
+    },
+    {
+        "instruction": "Can the shape features derived from UAV imagery be used as predictors for biomass and yield in the related study evaluating wild tomato species and assessing the impact of salinity and other abiotic stresses on precision agriculture?",
+        "input": "",
+        "Output": "Yes, the shape features derived from UAV imagery were found to be important predictors for biomass and yield in the related study evaluating wild tomato species and assessing the impact of salinity and other abiotic stresses on precision agriculture. These shape features, such as plant area, border length, width, and length, were found to have the highest importance in predicting the biomass and yield of the tomato plants."
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used to predict the thermal growth oxide (TGO) thickness in thermal barrier coatings (TBCs)?",
+        "input": "",
+        "Output": "The multi-scale analysis method used terahertz time-domain spectroscopy (THz-TDS) to predict the thermal growth oxide (TGO) thickness in thermal barrier coatings (TBCs)."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to extract informative feature parameters to predict the thermal growth oxide (TGO) thickness in thermal barrier coatings (TBCs)?",
+        "input": "",
+        "Output": "Impedance spectroscopy, ultrasonic method, and X-ray methods were used as spectral feature processing methods to extract informative feature parameters to predict the thermal growth oxide (TGO) thickness in thermal barrier coatings (TBCs)."
+    },
+    {
+        "instruction": "What metric was chosen to assess the wavelet feature parameters and how far can this metric go in predicting and assessing TGO thickness?",
+        "input": "",
+        "Output": "The metric used to predict the thermal growth oxide (TGO) thickness in thermal barrier coatings (TBCs was R2. The haar wavelet basis function exhibited excellent predictive performance, with R2 of 0.9763 and 0.9840."
+    },
+    {
+        "instruction": "How were the machine learning regression models utilized in the proposed multi-scale analysis method to address the inverse problem of TGO thickness in TBCs?",
+        "input": "",
+        "Output": "In the proposed multi-scale analysis method, machine learning regression models were utilized to predict and assess the wavelet feature parameters extracted from the continuous wavelet transform (CWT) and max-pooling operations. These wavelet feature parameters characterize the TGO thickness in thermal barrier coatings (TBCs).\n\nTwo types of machine learning regression models were employed: multi-linear regression and machine learning regression. \n\nFor multi-linear regression, partial-scale data based on the four wavelet basis functions (db4, sym3, haar, coif3) were selected. The multi-linear regression model was trained using these partial-scale data to predict the TGO thickness.\n\nFor machine learning regression, full-scale data based on the four wavelet basis functions were selected. The machine learning regression model was trained using these full-scale data to predict the TGO thickness.\n\nBoth methods demonstrated high accuracy prediction performance, with the haar wavelet basis function showing excellent predictive performance. The regression coefficients for the haar wavelet basis function were reported as 0.9763 and 0.9840, further confirming the validity of the multi-scale analysis method.\n\nTherefore, the machine learning regression models were utilized to predict and assess the wavelet feature parameters, enabling the effective inversion of TGO thickness in TBCs."
+    },
+    {
+        "instruction": "How does the proposed multi-scale analysis method based on terahertz time-domain spectroscopy compare to traditional methods in addressing the inverse problem of TGO thickness in TBCs?",
+        "input": "",
+        "Output": "The proposed multi-scale analysis method based on terahertz time-domain spectroscopy offers distinct advantages over traditional methods in accurately estimating the TGO thickness in TBCs."
+    }
+]

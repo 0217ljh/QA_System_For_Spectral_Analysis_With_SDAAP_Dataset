@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used for discriminating between crop and weed species?",
+        "input": "",
+        "Output": "For discriminating between crop and weed species,the researchers used visible spectrum."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used for discriminating between crop and weed species?",
+        "input": "",
+        "Output": "The spectral feature processing methods used for discriminating between crop and weed species were SOM (Self-Organizing Map) and MOG (Mixture of Gaussians) based one-class classifiers."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance for discriminating between crop and weed species and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance for discriminating between crop and weed species was the percentage of successful recognition. This metric can reach up to 100% for crop recognition and varied between 31% and 98% for different weed species."
+    },
+    {
+        "instruction": "How did the proposed machine learning method for discriminating between crop and weed species compare the performance of different classifiers?",
+        "input": "",
+        "Output": "The proposed machine learning method compared the performance of different classifiers in discriminating between crop and weed species. The best results for the active learning were obtained for the one-class MOG (mixture of Gaussians) and one-class SOM (self-organising map) classifiers. These classifiers achieved a recognition performance of 100% in crop recognition. For different weed species, the recognition performance varied between 31% and 98% for the MOG classifier and between 53% and 94% for the SOM classifier."
+    },
+    {
+        "instruction": "Can the proposed machine learning method, which achieved 100% recognition performance in crop recognition, be used to accurately discriminate between crop and weed species based on their spectral reflectance differences?",
+        "input": "",
+        "Output": "Yes, the proposed machine learning method, which achieved 100% recognition performance in crop recognition, can be used to accurately discriminate between crop and weed species based on their spectral reflectance differences. The method utilizes a hyperspectral imaging system mounted on a robotic platform to extract spectral features. It employs active learning through novelty detection and incremental class augmentation, using one-class classifiers such as MOG (mixture of Gaussians) and SOM (self-organising map). The performance of the SOM and MOG classifiers in crop recognition was found to be 100%, indicating their ability to accurately distinguish crops from weeds based on their spectral reflectance differences."
+    }
+]

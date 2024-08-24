@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum (EEM or others) was used to diagnose Alzheimer's disease (AD) using blood plasma samples?",
+        "input": "",
+        "Output": "The study employed excitation-emission matrices (EEM) of fluorescence spectroscopy to diagnose Alzheimer's disease (AD) using blood plasma samples."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to diagnose Alzheimer's disease (AD) using blood plasma samples?",
+        "input": "",
+        "Output": "Excitation-emission matrices (EEM) of fluorescence spectroscopy combined with machine learning were used to diagnose Alzheimer's disease (AD) using blood plasma samples."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of the classification algorithms to diagnose Alzheimer's disease (AD) using blood plasma samples, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the classification algorithms in the related study was a combination of commonly used figures of merit such as accuracy, sensitivity, and specificity, along with figures of merit that take into account the samples unbalance and the discrimination power of the models. Specifically, the related study used the F-2 score, Matthews correlation coefficient (MCC), and test effectiveness (delta) as additional metrics.\n\nThe F-2 score is a measure that gives more weight to the sensitivity of the model, which is the ability to correctly identify positive cases (AD patients), while still considering the specificity, which is the ability to correctly identify negative cases (healthy controls). The MCC is a correlation coefficient that takes into account true positives, true negatives, false positives, and false negatives, providing a measure of the overall quality of the classification. The test effectiveness (delta) is a metric that considers the balance between sensitivity and specificity, as well as the unbalance in the number of samples between the two groups.\n\nThe related study reported satisfactory results for the classification algorithms using these metrics. The PARAFAC-QDA model achieved 83.33% sensitivity, 100% specificity, and 86.21% F-2 score, while the Tucker3-QDA model achieved 91.67"
+    },
+    {
+        "instruction": "What machine learning models were used in the related study that employed fluorescence spectroscopy combined with machine learning to develop a low-cost, rapid, and minimally invasive blood-based test for diagnosing Alzheimer's disease (AD)?",
+        "input": "",
+        "Output": "The machine learning models used in the related study were Parallel Factor Analysis with Quadratic Discriminant Analysis (PARAFAC-QDA) and Tucker3-QDA."
+    },
+    {
+        "instruction": "Can the spectral profiles and wavelength values obtained from the models be used to compare the performance of spectroscopic methods with traditional diagnostic methods for Alzheimer's disease (AD) diagnosis using blood plasma samples?",
+        "input": "",
+        "Output": "Yes. the spectral profiles and wavelength values obtained from the models can be used to compare the performance of spectroscopic methods with traditional diagnostic methods for Alzheimer's disease (AD) diagnosis using blood plasma samples. The related study used excitation-emission matrices (EEM) of fluorescence spectroscopy combined with machine learning to diagnose AD. By evaluating the performance of the classification algorithms, including measures such as accuracy, sensitivity, specificity, F-2 score, Matthews correlation coefficient (MCC), and test effectiveness, the related study demonstrated the satisfactory results and high overall performance of the spectroscopic method. These results suggest that the spectroscopic method has the potential to be a rapid, low-cost, and minimally invasive blood-based method for AD diagnosis. Comparing these results with the performance of traditional diagnostic methods can provide valuable insights into the effectiveness and advantages of spectroscopic methods in AD diagnosis."
+    }
+]

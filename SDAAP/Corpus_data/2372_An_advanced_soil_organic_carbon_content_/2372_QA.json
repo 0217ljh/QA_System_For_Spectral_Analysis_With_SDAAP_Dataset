@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the prediction models for soil organic carbon (SOC) content?",
+        "input": "",
+        "Output": "In the prediction models for soil organic carbon (SOC) content,the researchers used remote sensing spectrum."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the prediction models for soil organic carbon (SOC) content?",
+        "input": "",
+        "Output": "Intensity-hue-saturation transformation, high-pass filtering, principal component analysis, and wavelet transform were used in the prediction models for soil organic carbon (SOC) content."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the prediction models and how far can this metric go in terms of SOC content prediction?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the prediction models in terms of SOC content prediction was the root mean square error (RMSE). The RMSE measures the average difference between the predicted and actual values, providing an indication of the model's accuracy. In the related study, the lowest RMSE achieved was 2.49 g kg(-1) for the optimal prediction model using the convolutional neural network (CNN) algorithm. \n\nThe RMSE can provide a measure of the precision of the prediction model, indicating how close the predicted values are to the actual values. However, it does not provide information about the direction of the error or the bias of the model. Therefore, while the RMSE can give an indication of the accuracy of the prediction model, it does not provide a complete picture of the model's performance. Other metrics, such as the coefficient of determination (R-2) and the ratio of performance to interquartile distance (RPIQ), were also used in this study to assess the prediction models."
+    },
+    {
+        "instruction": "What machine learning algorithms were used to establish the prediction models for soil organic carbon (SOC) content in the study?",
+        "input": "",
+        "Output": "The machine learning algorithms used to establish the prediction models for soil organic carbon (SOC) content in the study were partial least squares regression (PLSR), random forest (RF), and convolutional neural network (CNN)."
+    },
+    {
+        "instruction": "How does the fusion approach with multisource remote sensing data compare to traditional methods in predicting soil organic carbon (SOC) content?",
+        "input": "",
+        "Output": "The fusion approach with multisource remote sensing data outperforms traditional methods in predicting soil organic carbon (SOC) content. The study found that the optimal SOC content prediction model, which utilized temporal-spatial-spectral (TSS) information and the convolutional neural network (CNN) algorithm, had the lowest root mean square error (RMSE) of 2.49 g kg(-1), the highest coefficient of determination (R-2) of 0.86, and the ratio of performance to interquartile distance (RPIQ) of 1.91. \n\nComparing the effect of different data sources, the study found that spectral information had the highest impact on improving the accuracy of the model (26.79%), followed by temporal information (19.64%), and spatial information (14.29%). \n\nFurthermore, the CNN algorithm consistently yielded higher prediction accuracy than traditional methods such as partial least squares regression (PLSR) and random forest (RF), regardless of the input variables used. The average RMSE of the CNN was 0.42 g kg(-1) lower than that of RF, and the average R-2 and RPIQ were 9.25% and 0.14 higher, respectively, than those of RF."
+    }
+]

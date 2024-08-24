@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in deriving crop biophysical parameters of wheat and rapeseed in Brittany, France?",
+        "input": "",
+        "Output": "The related study used remote sensing spectrum in deriving crop biophysical parameters of wheat and rapeseed in Brittany, France."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in deriving crop biophysical parameters of wheat and rapeseed in Brittany, France?",
+        "input": "",
+        "Output": "The spectral feature processing methods used in deriving crop biophysical parameters of wheat and rapeseed in Brittany, France included extracting backscattering coefficients from SAR Sentinel-1 images and deriving polarimetric indicators using PolSARpro software. Additionally, optical Sentinel-2 images were preprocessed by using the S-2 Toolbox to estimate LAI, WB, DB, and WC of the crops."
+    },
+    {
+        "instruction": "What metric was chosen in deriving crop biophysical parameters of wheat and rapeseed in Brittany, France?",
+        "input": "",
+        "Output": "The metric chosen to compare the respective value of S-1 and S-2 features in deriving crop biophysical parameters of wheat and rapeseed in Brittany, France was Gaussian processes regression."
+    },
+    {
+        "instruction": "What machine learning model was used in deriving crop biophysical parameters of wheat and rapeseed in Brittany, France?",
+        "input": "",
+        "Output": "The machine learning model used in deriving crop biophysical parameters of wheat and rapeseed in Brittany, France was GPR (Gaussian Process Regression)."
+    },
+    {
+        "instruction": "How did the study demonstrate the potential of synthetic aperture radar (SAR) Sentinel-1 (S-1) and optical Sentinel-2 (S-2) images in estimating crop biophysical parameters of wheat and rapeseed in Brittany, France?",
+        "input": "",
+        "Output": "The study demonstrated the potential of synthetic aperture radar (SAR) Sentinel-1 (S-1) and optical Sentinel-2 (S-2) images in estimating crop biophysical parameters of wheat and rapeseed in Brittany, France by comparing the respective values of S-1 and S-2 features. The researchers generated a dataset of 29 features, including spectral bands and vegetation indices derived from S-2 images, and backscattering coefficients and polarimetric indicators derived from S-1 images. They then used Gaussian processes regression to estimate crop leaf area index (LAI), biomass, and water content (WC) based on these features. The results showed that the best models for estimating wheat WC, LAI, and biomass were achieved using the green band, NIR bands, and vegetation indices from S-2 images, respectively. For rapeseed biomass, the shortwave-infrared bands from S-2 images were most relevant. In terms of S-1-based models, the sigma(VH)-V-0 : sigma(VV)-V-0 ratio was the most relevant feature for estimating wheat LAI and rapeseed biomass, while the Shannon entropy polarization contribution performed best for wheat WC."
+    }
+]

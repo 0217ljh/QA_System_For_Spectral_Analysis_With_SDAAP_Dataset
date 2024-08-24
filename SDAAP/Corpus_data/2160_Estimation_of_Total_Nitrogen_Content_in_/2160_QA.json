@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the related study to estimate soil total nitrogen (TN) content in rubber plantations in the coastal environment?",
+        "input": "",
+        "Output": "In the study, the researchers used hyperspectral data to detect the soil nitrogen ion content in rubber plantations in the coastal environment. The spectral reflectance of the soil samples was measured, and the original spectrum was preprocessed using fractional order derivative (FOD) with an interval of 0.2. This preprocessing step resulted in 11 spectral curves. The successive projections algorithm (SPA) was then used to extract spectral features, and partial least squares regression (PLSR) models of soil TN content were established based on these spectral curves."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the study on the feasibility of using fractional order derivative (FOD) combined with partial least squares regression (PLSR) to estimate soil total nitrogen (TN) content in rubber plantations in the coastal environment?",
+        "input": "",
+        "Output": "The study used fractional order derivative (FOD) combined with partial least squares regression (PLSR) for spectral feature processing."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the estimation model of soil total nitrogen (TN) content in rubber plantations using fractional order derivative (FOD) combined with partial least squares regression (PLSR), and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the estimation model of soil total nitrogen (TN) content in rubber plantations using fractional order derivative (FOD) combined with partial least squares regression (PLSR) is the determination coefficient of validation (R(2)v). The R(2)v value indicates the proportion of the variance in the TN content that can be explained by the model. In this case, the R(2)v value obtained for the model established by the 1.8-order FOD is 0.649. \n\nThe R(2)v value can range from 0 to 1, with 1 indicating a perfect fit of the model to the data. In this study, the R(2)v value of 0.649 suggests that the model explains approximately 64.9% of the variance in the TN content. \n\nIt is important to note that the R(2)v value alone does not provide a complete assessment of the model's performance. Other metrics, such as the ratio of the performance to deviation (RPD), should also be considered. However, the given text does not provide information on how far the R(2)v value can go beyond 0.649."
+    },
+    {
+        "instruction": "What machine learning models were used in the study on the feasibility of using fractional order derivative (FOD) combined with partial least squares regression (PLSR) to estimate soil total nitrogen (TN) content in rubber plantations in the coastal environment?",
+        "input": "",
+        "Output": "The study used partial least squares regression (PLSR) models to estimate soil total nitrogen (TN) content in rubber plantations in the coastal environment."
+    },
+    {
+        "instruction": "Can the use of fractional order derivative (FOD) combined with partial least squares regression (PLSR) be considered superior to traditional methods for estimating soil total nitrogen (TN) content in rubber plantations in the coastal environment, based on the research findings?",
+        "input": "",
+        "Output": "Yes, based on the research findings, the use of fractional order derivative (FOD) combined with partial least squares regression (PLSR) can be considered superior to traditional methods for estimating soil total nitrogen (TN) content in rubber plantations in the coastal environment. The research results show that FOD has a significant advantage in balancing spectral information and noise, providing more abundant characteristic variables and helping establish a more robust estimation model. The model established using a 1.8-order FOD showed the best performance, with a determination coefficient of validation (R(2)v) of 0.649 and a ratio of the performance to deviation (RPD) of 1.72. This indicates that the FOD-PLSR approach is accurate and rapid in estimating soil TN content, making it a practical and feasible method for large-scale detection in rubber plantations."
+    }
+]

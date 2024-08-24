@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used for determining the dry matter of mango?",
+        "input": "",
+        "Output": "For determining the dry matter of mango,the researchers used visible spectrum,nir spectrum and fluorescence spectrum."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used for determining the dry matter of mango?",
+        "input": "",
+        "Output": "(CARS + IRIV)-SPA algorithm and OSC-SPXY-(CARS + RF)-SPA-BPNN model were used for determining the dry matter of mango."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the prediction performance of the models for determining the dry matter of mango, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the prediction performance of the models for determining the dry matter of mango is the correlation coefficient. The specific correlation coefficients used are R-C(2), RP2, RMSEC, and RMSEP. \n\nThe correlation coefficient measures the strength and direction of the linear relationship between two variables. In this case, it is used to assess the relationship between the predicted dry matter values and the actual dry matter values of the mango samples.\n\nThe correlation coefficient can range from -1 to 1, with values closer to 1 indicating a strong positive correlation and values closer to -1 indicating a strong negative correlation. A value of 0 indicates no correlation.\n\nIn the related study, the best prediction performance was achieved by the (CARS + RF)-SPA-BPNN model, which had a correlation coefficient of R-C(2) = 0.9710. This indicates a strong positive correlation between the predicted dry matter values and the actual dry matter values of the mango samples.\n\nTherefore, the chosen metric of correlation coefficient provides a reliable measure of the prediction performance of the models in terms of their ability to accurately predict the dry matter of mangoes."
+    },
+    {
+        "instruction": "What machine learning models were used to predict the dry matter of mangoes?",
+        "input": "",
+        "Output": "The machine learning models used to predict the dry matter of mangoes were Support Vector Regression (SVR), Extreme Learning Machine (ELM), and Back Propagation Neural Network (BPNN) model."
+    },
+    {
+        "instruction": "How does the (CARS + RF)-SPA-BPNN model compare to traditional methods in terms of predicting mango dry matter using hyperspectral fluorescence imaging technology?",
+        "input": "",
+        "Output": "The (CARS + RF)-SPA-BPNN model outperforms traditional methods in predicting mango dry matter using hyperspectral fluorescence imaging technology. The results show that this model has the best prediction performance, with correlation coefficients of R-C(2) = 0.9710, RP2 = 0.9658, RMSEC = 0.1418, and RMSEP = 0.1526. These values indicate a strong correlation between the predicted dry matter values and the actual dry matter values of the mango samples. This model provides a reliable theoretical basis and technical support for non-destructive detection and the precise and intelligent development of mango dry matter detection."
+    }
+]

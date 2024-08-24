@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the experiment on the intelligent recognition of coal and gangue?",
+        "input": "",
+        "Output": "In the experiment on the intelligent recognition of coal and gangue, the visible spectrum and near infrared spectrum were used."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the experiment on the intelligent recognition of coal and gangue?",
+        "input": "",
+        "Output": "The spectral feature processing methods used to preprocess the collected spectra in the experiment on the intelligent recognition of coal and gangue were black and white correction, method of removing the start and end bands, Savitzky-Golay (SG) smoothing, and standard normal variable transformation (SNV)."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of the classification models in the experiment on the intelligent recognition of coal and gangue, and how well did it perform in the experiment?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the classification models in the experiment was the average accuracy of 10-fold cross-validation (ACC), classification accuracy (ACC), and AUC values. \n\nThe XGBoost algorithm performed the best in the experiment, with an average accuracy of 0.9572, classification accuracy of 0.9705, and AUC value of 0.9716. These values indicate strong stability and classification capabilities of the XGBoost algorithm in recognizing coal and gangue.\n\nAdditionally, a simplified model combining recursive feature elimination (RFE) and XGBoost (RFEXGB) was constructed, which further improved the performance. The simplified model achieved an average accuracy of 0.9657, classification accuracy of 0.9803, and AUC value of 0.9803. The data dimension was also reduced to 9, indicating improved stability and classification ability while reducing the complexity of the model."
+    },
+    {
+        "instruction": "What are the different machine learning classification algorithms used in the experiment on the intelligent recognition of coal and gangue using visible-near infrared spectroscopy technology and the XGBoost algorithm?",
+        "input": "",
+        "Output": "The different machine learning classification algorithms used in the experiment on the intelligent recognition of coal and gangue using visible-near infrared spectroscopy technology and the XGBoost algorithm are:\n\n1. k-nearest neighbor method (KNN)\n2. Random forest (RF)\n3. Support vector machine (SVM)"
+    },
+    {
+        "instruction": "How did the XGBoost algorithm perform in the experimental group in terms of accuracy and stability in classifying coal and gangue using visible-near infrared spectroscopy technology?",
+        "input": "",
+        "Output": "In the experimental group, the XGBoost algorithm performed very well in terms of accuracy and stability in classifying coal and gangue using visible-near infrared spectroscopy technology. The average accuracy of 10-fold cross-validation (ACC,) was 0.9572, the classification accuracy (ACC) was 0.9705, and the AUC value was 0.9716. These results indicate strong stability and classification capabilities of the XGBoost algorithm in distinguishing between coal and gangue samples."
+    }
+]

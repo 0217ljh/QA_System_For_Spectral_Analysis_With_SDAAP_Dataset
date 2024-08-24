@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used for soybean yield prediction?",
+        "input": "",
+        "Output": "For soybean yield prediction,the researchers used visible spectrum."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used for soybean yield prediction?",
+        "input": "",
+        "Output": "The spectral feature processing methods used for soybean yield prediction were multiple regression values obtained at three different growth stages (R2, R4, and R5) in soybean, which provided the best yield prediction with an R2 value of 0.68."
+    },
+    {
+        "instruction": "What metric was chosen and how far can this metric go for soybean yield prediction?",
+        "input": "",
+        "Output": "The metric chosen for soybean yield prediction was the correlation coefficient, specifically the Spearman correlation coefficient. This metric was used to assess the level of association between the predictors (multispectral images and vegetation indices) and the response variable (soybean yield). The study found that the highest level of association was observed at the end of the vegetative stage (V6) of the soybean crop. \n\nIn terms of estimating soybean yield, the correlation coefficient can provide an indication of the strength and direction of the relationship between the predictors and the yield. In this study, the correlation coefficient values ranged from 0.70 to 0.92 for training/testing, indicating a moderate to strong positive correlation between the image-derived data and soybean yield. "
+    },
+    {
+        "instruction": "How was the performance of the Multi-Layer Perceptron (MLP) algorithm assessed in the related study on using RPAS embedded with multispectral sensors for soybean yield prediction?",
+        "input": "",
+        "Output": "The performance of the Multi-Layer Perceptron (MLP) algorithm was assessed in the related study through training and testing. The predictive model was adjusted using the MLP algorithm, and its performance was evaluated based on how well it performed in training and testing. Additionally, k-fold cross-validation was used to have independent measurements of the algorithm's performance. The results showed that the MLP models had a good adjustment and good generalization capability, indicating that they were effective in predicting soybean yield using the data obtained from RPAS embedded with multispectral sensors."
+    },
+    {
+        "instruction": "How did the study demonstrate the combining capacity between remote sensing via RPAS and machine learning in precision agriculture applications for soybean yield prediction?",
+        "input": "",
+        "Output": "The study demonstrated the combining capacity between remote sensing via RPAS (Remotely Piloted Aircraft System) and machine learning (ML) in precision agriculture applications for soybean yield prediction by using aerial images obtained by RPAS platforms embedded with multispectral sensors. The researchers investigated the potential of using RPAS to obtain data on a soybean irrigated field with a central pivot system. They identified the best stage of development of irrigated soybean for obtaining multispectral images aimed at yield prediction. Different vegetation indices (VIs) were tested for estimating the yield of soybean crop using artificial neural networks. The Multi-Layer Perceptron (MLP) algorithm was used to adjust the predictive model. The results showed that the MLP models had a good adjustment and good generalization capability. The correlation between the image-derived data and the soybean yield indicated that the ideal monitoring window for irrigated soybean was at the end of the vegetative stage (V6). The study emphasized the need to consider the phenological crop stage as a factor of analysis in the prediction of grain yield via remote sensing."
+    }
+]

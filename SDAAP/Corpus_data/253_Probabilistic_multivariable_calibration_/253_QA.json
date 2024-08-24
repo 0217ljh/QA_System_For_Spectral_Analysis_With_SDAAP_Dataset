@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to detect the component of the Mars Surface Composition?",
+        "input": "",
+        "Output": "The LIBS calibration of MarSCoDe used spectra from a ground spectral repository, which contained LIBS records of various reference samples. Additionally, LIBS spectra of onboard calibration targets from Mars were also used in the calibration process."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to detect the component of the Mars Surface Composition?",
+        "input": "",
+        "Output": "Wavelet denoising, asymmetric least square (ALS) baseline extraction and removal, and wavelength assignment according to a set of 2nd polynomial models were used for spectral feature processing to detect the component of the Mars Surface Composition."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the accuracy of the calibration models to detect the component of the Mars Surface Composition?",
+        "input": "",
+        "Output": "The metric used fto detect the component of the Mars Surface Composition was classification accuracy."
+    },
+    {
+        "instruction": "What is the significance of using the NGBoost ensemble learning method in the LIBS calibration of MarSCoDe?",
+        "input": "",
+        "Output": "The significance of using the NGBoost ensemble learning method in the LIBS calibration of MarSCoDe is that it addresses the previous issue of indirect uncertainty estimation on the calibrations of other Martian LIBS. The NGBoost method is a recently developed natural gradient boosting probabilistic prediction technique that allows for more accurate and reliable calibration of the LIBS component within MarSCoDe. By using NGBoost, the models can predict the concentrations of 8 major element oxides in the form of normal distributions, providing a probabilistic approach to estimating uncertainty. This improves the overall accuracy and reliability of the LIBS calibration, ensuring more precise analysis of the Martian surface composition."
+    },
+    {
+        "instruction": "How does the NGBoost-based calibration method compare to traditional methods in terms of accuracy and error significance for elemental analysis of Martian silicate soil and rock using laser-induced breakdown spectroscopy (LIBS)?",
+        "input": "",
+        "Output": "The NGBoost-based calibration method, used in the Mars Surface Composition Detector (MarSCoDe) for elemental analysis of Martian silicate soil and rock using laser-induced breakdown spectroscopy (LIBS), offers improved accuracy and error significance compared to traditional methods.\n\nThe NGBoost ensemble learning method, which utilizes a natural gradient boosting approach, was adopted to address the previous issue of indirect uncertainty estimation in the calibrations of other Martian LIBS. This method allows for probabilistic prediction and establishes Probabilistic Major Element Composition (PMEC) models based on NGBoost.\n\nThe PMEC models are capable of predicting the concentrations of 8 major element oxides (SiO2, TiO2, Al2O3, Fe2O3T, MgO, CaO, Na2O, K2O) in the form of normal distributions. These models were trained using a ground spectral repository from MarSCoDe LIBS records of various reference samples.\n\nTo optimize the robustness and performance of the models, tunable max-pooling feature extraction and cross-validation-controlled hyperparameter tuning were carried out. The models were then tested on an independent portion of the ground spectral repository and checked with LIBS spectra of onboard calibration targets from Mars.\n\nThe NGBoost-based calibration"
+    }
+]

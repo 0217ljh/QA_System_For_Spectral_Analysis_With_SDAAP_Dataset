@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used to discriminate between forchlorfenuron-treated kiwifruits and untreated kiwifruits?",
+        "input": "",
+        "Output": "The related study used visible and near infrared (Vis/NIR) diffuse transmittance spectra in the wavelength range of 400-1100 nm to discriminate between forchlorfenuron-treated kiwifruits and untreated kiwifruits."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to discriminate between forchlorfenuron-treated kiwifruits and untreated kiwifruits?",
+        "input": "",
+        "Output": "Successive Projection Algorithm (SPA) was used for spectral feature processing to discriminate between forchlorfenuron-treated kiwifruits and untreated kiwifruits."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the discrimination models to discriminate between forchlorfenuron-treated kiwifruits and untreated kiwifruits and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the discrimination models for forchlorfenuron-treated kiwifruits and untreated kiwifruits was the physical and quality indices, including vertical and transverse diameters, mass, soluble solids content, firmness, and moisture content. These metrics can provide significant differences between the treated and untreated kiwifruits."
+    },
+    {
+        "instruction": "How were the machine learning models utilized in the related study to discriminate between forchlorfenuron-treated kiwifruits and untreated kiwifruits using the Vis/NIR diffuse transmittance spectroscopy system?",
+        "input": "",
+        "Output": "In the related study, three machine learning models were utilized to discriminate between forchlorfenuron-treated kiwifruits and untreated kiwifruits using the Vis/NIR diffuse transmittance spectroscopy system. The models used were Support Vector Machine (SVM), Extreme Learning Machine (ELM), and Partial Least Squares Discriminant Analysis (PLS-DA).\n\nThe first step in the process was to select effective wavelengths (EWs) from the full range of wavelengths. The Successive Projections Algorithm (SPA) was used to select 40 EWs from the 2386 full wavelengths in the range of 500-950 nm.\n\nOnce the EWs were selected, the three machine learning models were used to build discrimination models. These models were trained using the acquired spectra from the forchlorfenuron-treated kiwifruits and untreated kiwifruits.\n\nThe calibration set, consisting of 120 kiwifruits (60 treated and 60 untreated), was used to train the models. The accuracy rates of each developed model were higher than 98.1% for the calibration set.\n\nAfter training the models, the prediction set, consisting of additional kiwifruits, was used to evaluate the performance of the models. The average accuracy rate for the prediction set"
+    },
+    {
+        "instruction": "How do the accuracy rates of the developed models using low-cost miniaturized spectrometers compare to traditional discrimination methods for forchlorfenuron-treated kiwifruits?",
+        "input": "",
+        "Output": "The accuracy rates of the developed models using low-cost miniaturized spectrometers are higher than traditional discrimination methods for forchlorfenuron-treated kiwifruits. The average accuracy rates of each developed model were higher than 98.1% and 88.8% for the calibration set and prediction set, respectively. This indicates that the models built using the low-cost miniaturized spectrometers are highly accurate in discriminating forchlorfenuron-treated kiwifruits from untreated ones."
+    }
+]

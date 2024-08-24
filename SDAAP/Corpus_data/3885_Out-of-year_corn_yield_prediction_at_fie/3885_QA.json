@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the related study on corn yield prediction?",
+        "input": "",
+        "Output": "The related study used remote sensing spectrum on corn yield prediction."
+    },
+    {
+        "instruction": "What spectral feature processing methods were employed on corn yield prediction?",
+        "input": "",
+        "Output": "Sentinel-2 derived spectral information, including bands and/or vegetation indices, were used in the study for corn yield prediction."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of the yield prediction models, and how far can this metric go in assessing accuracy?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the yield prediction models was R2, which estimates the proportion of the variation explained in the observed yield by the predicted yield. This metric can go as far as assessing the proportion of variation explained in the observed yield by the predicted yield."
+    },
+    {
+        "instruction": "What machine learning methods were employed in the related study on corn yield prediction using satellite and environmental data?",
+        "input": "",
+        "Output": "Nonlinear machine learning algorithms, Random Forest (RF), Support Vector Machines (SVM), XGBoost, Multi-Layer Perceptron (MLP), and Stacked Averaging Ensemble (STACK) were employed in the related study on corn yield prediction using satellite and environmental data."
+    },
+    {
+        "instruction": "How does the use of biophysical parameters estimates and resampling the annual time series on thermal time compare to other methods in predicting corn yield using satellite and environmental data?",
+        "input": "",
+        "Output": "The use of biophysical parameters estimates and resampling the annual time series on thermal time was found to be more effective in predicting corn yield compared to other methods using satellite and environmental data. The study found that when extrapolating to a different year from the ones covered by training samples, this approach increased the accuracy (measured by R2) on average by 0.25 to 0.42. In contrast, using calendar time and other information derived from the Sentinel-2 spectrum resulted in lower accuracy in yield prediction. Therefore, incorporating biophysical parameters estimates and resampling on thermal time proved to be a more reliable method for predicting corn yield using satellite and environmental data."
+    }
+]

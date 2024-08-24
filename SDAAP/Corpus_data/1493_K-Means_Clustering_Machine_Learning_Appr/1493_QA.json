@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the related study to measure brain function and cognitive load?",
+        "input": "",
+        "Output": "FNIRS spectra was used in the related study."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the related study to measure brain function and cognitive load?",
+        "input": "",
+        "Output": "The spectral feature processing methods used in the related study to measure brain function and cognitive load were evaluating the signal amplitude above or below a threshold of 10-15 standard deviations from the mean and a threshold of 0.4 within a 6-second time period, motion artifact correction using principal component analysis (PCA), and applying a bandpass filter (0.01 Hz to 0.2 Hz) to keep the low-frequency fNIRS signal."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate task performance in the related study to measure brain function and cognitive load and how far can this metric go in assessing cognitive load?",
+        "input": "",
+        "Output": "The metric chosen to evaluate task performance in the related study was the inverse efficiency score (IES). The IES is a commonly used metric that combines both accuracy and reaction time measures to provide a comprehensive assessment of task performance. It is calculated by dividing the reaction time by the proportion of correct responses. \n\nIn terms of assessing cognitive load, the IES can provide some insights. The study found that as the working memory (WM) load increased, the brain's hemodynamic response increased while task performance degraded. This suggests that the IES can capture the impact of cognitive load on task performance. However, the study also revealed that there were hidden characteristics and variations in the relationship between task performance and the brain's hemodynamic responses among different participant groups. This indicates that the IES alone may not fully capture the complexity of cognitive load and its effects on task performance. Further research and analysis are needed to better understand and assess cognitive load in a more comprehensive manner."
+    },
+    {
+        "instruction": "What machine learning approach was used to identify participant groups based on the task-induced hemodynamic responses in the upgraded portable wearable fNIRS system?",
+        "input": "",
+        "Output": "The machine learning approach used to identify participant groups based on the task-induced hemodynamic responses in the upgraded portable wearable fNIRS system was unsupervised k-means clustering."
+    },
+    {
+        "instruction": "Can the upgraded portable wearable fNIRS system be used to measure brain function and evaluate task performance in a naturalistic environment?",
+        "input": "",
+        "Output": "Yes, the upgraded portable wearable fNIRS system, known as WearLight, can be used to measure brain function and evaluate task performance in a naturalistic environment. The system was used in an experimental protocol to image the prefrontal cortex (PFC) area of the brain while participants performed n-back working memory tasks with varying difficulty levels. The raw fNIRS signals were processed to derive the brain's hemodynamic responses, which were then used as input variables for machine learning clustering analysis. The results showed that the system was able to capture the brain's hemodynamic responses and classify participants into distinct groups based on their task-induced responses. Additionally, task performance measures such as % correct, % missing, reaction time, and inverse efficiency score (IES) were extensively evaluated for each participant and the three groups. This demonstrates that the upgraded wearable fNIRS system can effectively measure brain function and evaluate task performance in a naturalistic environment."
+    }
+]

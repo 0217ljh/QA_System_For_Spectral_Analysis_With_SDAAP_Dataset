@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to automate the detection of areas of soil degradation development on arable land?",
+        "input": "",
+        "Output": "To automate the detection of areas of soil degradation development on arable land,the researchers used remote sensing spectrum."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to automate the detection of areas of soil degradation development on arable land?",
+        "input": "",
+        "Output": "Deep machine learning, specifically convolutional neural networks, was used for spectral feature processing methods to automate the detection of areas of soil degradation development on arable land."
+    },
+    {
+        "instruction": "What metric was chosen to automate the detection of areas of soil degradation development on arable land and how accurate is this metric?",
+        "input": "",
+        "Output": "The metric chosen to determine areas of soil degradation in the related study is the Normalized Difference Vegetation Index (NDVI). The accuracy of this metric is reported in the related study as having a 12.5% type I error rate (false positive) and a 3.8% type II error rate (false negative) during testing. Additionally, independent verification on six agricultural fields showed a 87.5% probability of detecting soil degradation within the predicted regions and a 3.8% probability of detecting soil degradation outside the predicted regions."
+    },
+    {
+        "instruction": "How did the researchers calculate areas of soil degradation based on the frequency of low NDVI values over 35 years?",
+        "input": "",
+        "Output": "The researchers calculated areas of soil degradation based on the frequency of low NDVI (Normalized Difference Vegetation Index) values over a period of 35 years. They analyzed Landsat data from 1984 to 2019 and manually created a dataset for each pair of Landsat scene and agricultural field. Within the boundaries of each agricultural field, they calculated low NDVI values separately for each suitable fragment of the satellite image. They considered NDVI values of one-third of the field area and lower than the other two-thirds as low. By assessing the frequency of occurrence of these low NDVI values over the 35-year period, they were able to determine the areas of soil degradation on the arable land."
+    },
+    {
+        "instruction": "Can the method using deep machine learning and vegetation indices calculation be used to automate the detection of areas of soil degradation on arable land, based on the findings of the related study?",
+        "input": "",
+        "Output": "Yes, based on the findings of the related study, the method using deep machine learning and vegetation indices calculation can be used to automate the detection of areas of soil degradation on arable land. The study developed a method that determines the location of degraded areas of soil cover on arable fields using multi-temporal remote sensing data. The method was tested on 530 agricultural fields and achieved a low rate of false positives (12.5%) and false negatives (3.8%). Independent verification on six agricultural fields also showed a high probability (87.5%) of detecting soil degradation in the identified areas. The results indicate that deep machine learning is feasible for remote sensing data selection and can automate the process of constructing soil degradation maps."
+    }
+]

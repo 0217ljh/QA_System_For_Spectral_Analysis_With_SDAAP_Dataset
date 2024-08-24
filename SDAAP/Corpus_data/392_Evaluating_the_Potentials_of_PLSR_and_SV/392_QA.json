@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the past study for the prediction of several soil properties?",
+        "input": "",
+        "Output": "In the past study, VNIR spectral was used for the prediction of soil properties."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used for the prediction of several soil properties ?",
+        "input": "",
+        "Output": "The spectral feature processing methods used for the prediction of several soil properties included the conversion of reflectance data into absorbance data, Savitzky-Golay smoothing filter, Gap-Segment-Derivative, and Detrend Normalization."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the prediction performance in the past study for the prediction of several soil properties u?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the prediction performance  for the prediction of several soil properties was the coefficient of determination (R-2) and the root mean square error (RMSE)."
+    },
+    {
+        "instruction": "How were the machine learning models (PLSR and SVR) trained and tested in this study that investigated machine learning models for the prediction of several soil properties using different combinations of VNIR spectra datasets?",
+        "input": "",
+        "Output": "In the past study, the machine learning models, Partial Least Squares Regression (PLSR) and Support Vector Regression (SVR), were trained and tested using different combinations of VNIR spectra datasets. The training dataset consisted of 80% of the collected soil samples (n= 248), while the validation dataset comprised 20% of the collected data (n= 61).\n\nFor each dataset combination, the PLSR and SVR models were trained using the training dataset. The models were then tested using the validation dataset to evaluate their performance in predicting several soil properties, including clay, sand, silt, organic matter, nitrate NO3-, and calcium carbonate CaCO3.\n\nThe performance of the models was assessed using two metrics: R-2 (coefficient of determination) and RMSE (root mean square error). The R-2 value indicates the proportion of the variance in the predicted soil property that can be explained by the model, while the RMSE represents the average difference between the predicted and actual values of the soil property.\n\nBased on the results, it was found that the SVR model outperformed the PLSR model for two dataset combinations: C1 (0% IS, 100% LS) and C5 (100% IS,"
+    },
+    {
+        "instruction": "Can the data fusion of VNIR spectra datasets be used to improve the prediction of soil properties in the past study that investigated machine learning models for the prediction of several soil properties using different combinations of VNIR spectra datasets?",
+        "input": "",
+        "Output": "Yes, the data fusion of VNIR spectra datasets can be used to improve the prediction of soil properties in the past study. The past study investigated machine learning models, namely Partial Least Squares Regression (PLSR) and Support Vector Regression (SVR), for the prediction of several soil properties using different combinations of VNIR spectra datasets. The results showed that the data fusion improved the prediction of soil properties, with the highest improvement observed for the Soil Organic Matter (SOM) property when using the SVR model and applying the second combination (C2) of 20% IS and 80% LS."
+    }
+]

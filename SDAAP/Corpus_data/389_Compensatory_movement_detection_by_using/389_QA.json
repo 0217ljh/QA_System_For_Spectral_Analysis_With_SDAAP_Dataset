@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the compensatory movement detection?",
+        "input": "",
+        "Output": "The compensatory movement detection used near-infrared spectroscopy (NIRS) technology."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the compensatory movement detection?",
+        "input": "",
+        "Output": "EMD decomposition was used to eliminate the baseline drift of the raw NIRS signal."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the performance of the NIRS signals in compensatory behavior detection, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the performance of the NIRS signals in compensatory behavior detection is accuracy rate. The accuracy rates achieved were 97.76% in healthy subjects and 97.95% in stroke survivors. After applying the DBSI method, the accuracy rates improved to 98.52% and 99.47%, respectively. Therefore, the accuracy metric shows that the NIRS signals have good performance in detecting compensatory movements."
+    },
+    {
+        "instruction": "How was the effect of the NIRS signal on compensatory behavior detection tested in the past study?",
+        "input": "",
+        "Output": "In the past study, the effect of the NIRS signal on compensatory behavior detection was tested using a Support Vector Machine (SVM) algorithm. The NIRS signals were preprocessed and then a differential-based signal improvement (DBSI) method was applied to enhance the signal quality. Two time-domain features, namely mean and variance, were extracted from the NIRS signals. The SVM algorithm was then used to classify and detect compensatory movements based on these features. The classification results were used to evaluate the performance of the NIRS signal in compensatory behavior detection."
+    },
+    {
+        "instruction": "How does the proposed compensatory movement detection method using NIRS technology compare to traditional methods in terms of accuracy and classification performance?",
+        "input": "",
+        "Output": "The proposed compensatory movement detection method using NIRS technology has better accuracy and classification performance compared to traditional methods. The NIRS signals achieved accuracy rates of 97.76% in healthy subjects and 97.95% in stroke survivors. After applying the differential-based signal improvement (DBSI) method to enhance the NIRS signals, the accuracy improved to 98.52% and 99.47% in healthy subjects and stroke survivors, respectively. This indicates that the NIRS technology-based method outperforms traditional methods in accurately detecting compensatory movements."
+    }
+]

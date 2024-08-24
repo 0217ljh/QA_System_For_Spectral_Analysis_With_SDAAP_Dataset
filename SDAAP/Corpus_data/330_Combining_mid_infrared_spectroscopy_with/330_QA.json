@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used to predict soil organic carbon (OC), available phosphorus (P), and available potassium (K)?",
+        "input": "",
+        "Output": "The past research used mid-infrared spectra (MIR spectra) to predict soil organic carbon (OC), available phosphorus (P), and available potassium (K)."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to predict soil organic carbon (OC), available phosphorus (P), and available potassium (K)?",
+        "input": "",
+        "Output": "The PFI method was used for variable importance analysis in predicting soil OC, P, and K."
+    },
+    {
+        "instruction": "What metric was chosen to predict soil organic carbon (OC), available phosphorus (P), and available potassium (K) and how far can this metric go ?",
+        "input": "",
+        "Output": "The metric chosen in this research is the coefficient of determination (R-2) and root mean square error (RMSE). The R-2 value measures the proportion of the variance in the dependent variable (soil attributes) that can be explained by the independent variable (MIR spectra). The RMSE value represents the average difference between the predicted and actual values of the soil attributes.\n\nThe research findings indicate that the SG-ML method using the chosen metrics achieved excellent predictive performance for soil organic carbon (OC), with an R-2 value of 0.88% and an RMSE value of 0.10%. For available potassium (K), the SG-ML method achieved a good performance with an R-2 value of 0.85 and an RMSE value of 4.53 mg 100 g(-1). However, for available phosphorus (P), the SG-ML method performed relatively poorer with an R-2 value of 0.84 and an RMSE value of 3.87 mg 100 g(-1).\n\nIn comparison, the deep learning (DL) method using the same metrics achieved good performance for OC (R-2 = 0.65, and RMSE = 0.17%)."
+    },
+    {
+        "instruction": "What machine learning models were compared in this research to predict soil attributes using mid-infrared spectroscopy?",
+        "input": "",
+        "Output": "In this research, the machine learning models that were compared to predict soil attributes using mid-infrared spectroscopy were the stacked generalisation machine learning (SG-ML) framework, which combined support vector machine (SVM), gradient boosted regression (GBR), and random forest (RF) models, and the multilayer perceptron (MLP) deep learning (DL) method."
+    },
+    {
+        "instruction": "How does the stacked generalisation machine learning (SG-ML) method compare to single machine learning and deep learning models in terms of predictive performance for soil attributes using mid-infrared spectroscopy (MIRS)?",
+        "input": "",
+        "Output": "The stacked generalisation machine learning (SG-ML) method outperforms the single machine learning (ML) and deep learning (DL) models in terms of predictive performance for soil attributes using mid-infrared spectroscopy (MIRS). The SG-ML method combines support vector machine (SVM), gradient boosted regression (GBR), and random forest (RF) models, with linear ridge regression as a meta learner. \n\nThe results of the past study showed that the SG-ML method had excellent predictive performance for the three soil attributes (organic carbon, available phosphorus, and available potassium), with coefficient of determination (R-2) values of 0.88%, 0.85, and 0.84, and root mean square error (RMSE) values of 0.10%, 4.53 mg 100 g(-1), and 3.87 mg 100 g(-1) respectively. \n\nOn the other hand, the deep learning (DL) models had good predictive performance for organic carbon (R-2 = 0.65, and RMSE = 0.17%), but poor performance for available potassium (R-2 = 0.58 and RMSE = 7.59 mg 100 g(-1))."
+    }
+]

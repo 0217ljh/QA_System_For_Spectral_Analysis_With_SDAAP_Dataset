@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kind of spectrum was used in the noninvasive monitoring of ICP using morphological analysis of microvascular cerebral blood flow (CBF) measured?",
+        "input": "",
+        "Output": "The diffuse correlation spectroscopy (DCS) was used in the noninvasive monitoring of ICP using morphological analysis of microvascular cerebral blood flow (CBF) measured."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the noninvasive monitoring of ICP using morphological analysis of microvascular cerebral blood flow (CBF) measured?",
+        "input": "",
+        "Output": "Signal processing methods were used to extract morphological features from the CBF pulses in the noninvasive monitoring of ICP."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the accuracy of the machine learning model in the noninvasive monitoring of ICP using morphological analysis of microvascular cerebral blood flow (CBF) measured, and how far can this metric go?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the accuracy of the machine learning model for estimating ICP (intracranial pressure) is the root mean square error (RMSE). The RMSE for the estimated ICP (ICPest) closely matched the invasive ICP (ICPinv), with a value of 1.01 mm Hg. The 95% limit of agreement for ICPinv was less than or equal to 1.99 mm Hg."
+    },
+    {
+        "instruction": "What features were used in the machine learning model for estimating ICP noninvasively using morphological analysis of microvascular cerebral blood flow (CBF) measured with diffuse correlation spectroscopy (DCS)?",
+        "input": "",
+        "Output": "The features used in the machine learning model for estimating ICP noninvasively were the CBF features, along with mean arterial pressure (MAP) and heart rate (HR) data."
+    },
+    {
+        "instruction": "Can the spectroscopic method used in this research be considered a superior alternative to traditional invasive methods for monitoring intracranial pressure (ICP) in pediatric patients?",
+        "input": "",
+        "Output": "No. The spectroscopic method used in this research shows promise as a noninvasive alternative for monitoring intracranial pressure (ICP) in pediatric patients. The study demonstrated that the method, which involved analyzing microvascular cerebral blood flow (CBF) using diffuse correlation spectroscopy (DCS), closely matched invasive ICP measurements. The root mean square error (RMSE) and limit of agreement between the estimated ICP (ICPest) and invasive ICP (ICPinv) were within an acceptable range. Additionally, when the ICP range was narrowed, the accuracy of the method improved.However, it is important to note that this study is described as a prospective observational study and further clinical validation is needed. Preliminary leave-one-out analysis showed some variability in the model accuracy, with an RMSE of 6 mm Hg and a limit of agreement of <= 7 mm Hg.Therefore, while the spectroscopic method shows promise as a noninvasive alternative, further research and validation are necessary before it can be considered a superior alternative to traditional invasive methods for monitoring ICP in pediatric patients."
+    }
+]

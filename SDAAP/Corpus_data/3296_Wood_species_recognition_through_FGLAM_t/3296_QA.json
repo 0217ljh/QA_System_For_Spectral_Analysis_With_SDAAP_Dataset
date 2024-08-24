@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used on improving the accuracy of wood species classification?",
+        "input": "",
+        "Output": "In the related study, the researchers used visible spectrum and nir spectrum on improving the accuracy of wood species classification."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used on improving the accuracy of wood species classification?",
+        "input": "",
+        "Output": "Principal component analysis-linear discriminant analysis (PCA-LDA) was used as the spectral feature processing method to improve the accuracy of wood species classification."
+    },
+    {
+        "instruction": "What metric was chosen to evaluate the classification accuracy and how far can this metric go in improving wood species classification?",
+        "input": "",
+        "Output": "The metric chosen to evaluate the classification accuracy was the overall accuracy. This metric can improve wood species classification by up to 38.67% against traditional methods and up to 28% against mainstream methods."
+    },
+    {
+        "instruction": "How does the proposed method of combining fuzzy gray level aura matrix (FGLAM) textural feature and spectral feature fusion improve the accuracy of wood species classification?",
+        "input": "",
+        "Output": "The proposed method improves the accuracy of wood species classification by combining the textural features obtained from fuzzy gray level aura matrix (FGLAM) with the spectral features acquired from a spectrometer. \n\nFirstly, the textural features are computed using FGLAM for gray level wood sample images. FGLAM is a method that captures the texture information of the wood samples by analyzing the gray level variations in the images. This allows for a more detailed and accurate representation of the wood species.\n\nSecondly, the spectral curves obtained from the spectrometer are processed to remove noise and enhance the quality of the data. These spectral features provide additional information about the wood samples, such as their reflectance properties across different wavelengths.\n\nThe textural features and spectral features are then combined and processed using an extreme learning machine, which is a type of machine learning algorithm. This decision-level fusion allows for the integration of both types of features and enhances the classification accuracy.\n\nThe experimental results demonstrate that the classification accuracy of the textural feature alone using FGLAM can reach 90%, which is better than traditional methods."
+    },
+    {
+        "instruction": "How does the proposed method of combining fuzzy gray level aura matrix (FGLAM) textural feature and spectral feature fusion compare to traditional methods in terms of wood species classification accuracy?",
+        "input": "",
+        "Output": "The proposed method of combining fuzzy gray level aura matrix (FGLAM) textural feature and spectral feature fusion outperforms traditional methods in terms of wood species classification accuracy. The experimental results show that the classification accuracy of the textural feature using FGLAM alone can reach 90%, which is better than traditional methods such as gray level co-occurrence matrix and local binary pattern. Furthermore, when the FGLAM textural feature is combined with spectral features, the classification accuracy reaches 100%. This indicates that the fusion of FGLAM textural feature and spectral feature improves the accuracy of wood species classification compared to traditional methods."
+    }
+]

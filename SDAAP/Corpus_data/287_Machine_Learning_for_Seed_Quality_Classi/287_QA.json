@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum was used to predict seed germination and vigor?",
+        "input": "",
+        "Output": "The past study used Fourier transform near-infrared (FT-NIR) spectroscopy to predict seed germination and vigor."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used to predict seed germination and vigor?",
+        "input": "",
+        "Output": "Signal pretreatment was performed using autoscaling and first-order derivative transformation with Savitzky\u2013Golay smoothing, followed by data binning."
+    },
+    {
+        "instruction": "What metric was chosen to predict seed germination and vigor and how far can this metric go?",
+        "input": "",
+        "Output": "The metric used to predict seed germination and vigor was classification accuracy. For germination prediction, the models reached an accuracy of 82% using FT-NIR data, 90% using X-ray data, and 85% when combining both data sources. For seed vigor, the models achieved 61% accuracy using FT-NIR data, 68% accuracy using X-ray data, and 62% accuracy when combining both data sources."
+    },
+    {
+        "instruction": "What machine learning algorithms were used to develop the classifier models for seed quality classification in the past study?",
+        "input": "",
+        "Output": "The machine learning algorithms used to develop the classifier models for seed quality classification in the past study were linear discriminant analysis (LDA), partial least squares discriminant analysis (PLS-DA), random forest (RF), naive Bayes (NB), and support vector machine with radial basis (SVM-r) kernel."
+    },
+    {
+        "instruction": "How does the accuracy of the models developed using FT-NIR spectra and X-ray imaging data compare to traditional methods for seed quality classification?",
+        "input": "",
+        "Output": "The accuracy of the models developed using FT-NIR spectra and X-ray imaging data is higher compared to traditional methods for seed quality classification."
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "instruction": "What kinds of spectrum were used in the related study to detect the content of three components of edible blend oil?",
+        "input": "",
+        "Output": "The study used Raman spectrum in combination with the least square support vector machine (LSSVM) based on particle swarm optimization (PSO) to detect the content of three components of edible blend oil."
+    },
+    {
+        "instruction": "What spectral feature processing methods were used in the related study to detect the content of three components of edible blend oil?",
+        "input": "",
+        "Output": "In the study, four pretreatments of the Raman spectra were used to extract the characteristic peak intensity,including dark current deduction, baseline correction, spectral smoothing and normalisation."
+    },
+    {
+        "instruction": "What metric was chosen to analyze the predictive ability of the model in the related study to detect the content of three components of edible blend oil?",
+        "input": "",
+        "Output": "The metric chosen to analyze the predictive ability of the model in the study was the correlation coefficient and mean square error. The best result can reach a correlation coefficient of 0.9972 and a mean square error of 0.0092."
+    },
+    {
+        "instruction": "How were the machine learning models used in the related study to detect the content of three components of edible blend oil that combines Raman spectrum and LSSVM based on PSO to detect the content of three components of edible blend oil?",
+        "input": "",
+        "Output": "In the study, two machine learning models were used: the least square support vector machine (LSSVM) and the particle swarm optimization (PSO)-LSSVM. \n\nFirst, the characteristic peak intensity of Raman spectra was extracted using four pretreatments of the spectra. Then, in the training samples, the characteristic peak intensity and the percentage of mixed oil samples were used as the input values and the output values of the regression analysis model.\n\nThe mathematical models of LSSVM and PSO-LSSVM were established after different pretreatments. The LSSVM algorithm is a traditional nonlinear modeling algorithm, but it has issues such as the kernel parameter sigma and the regularization parameter gamma having a significant influence on the learning model and generalization ability. \n\nTo overcome these issues, the PSO-LSSVM algorithm was used. The PSO algorithm has advantages of fast convergence and global search capability. It optimizes the kernel parameters a and gamma of the LSSVM algorithm using the global optimization ability and fast convergence characteristics of the PSO algorithm.\n\nThe predictive ability of the models was analyzed using the correlation coefficient and mean square error in the test samples."
+    },
+    {
+        "instruction": "How does the PSO-LSSVM model compare to the LSSVM algorithm in terms of prediction accuracy and convergence rate in detecting the content of three components of edible blend oil using Raman spectrum and spectroscopic methods?",
+        "input": "",
+        "Output": "The PSO-LSSVM model outperforms the LSSVM algorithm in terms of prediction accuracy and convergence rate in detecting the content of three components of edible blend oil using Raman spectrum and spectroscopic methods. The PSO-LSSVM model has been shown to have higher prediction accuracy and a faster convergence rate compared to the LSSVM algorithm, as verified by experiments. The validation set correlation coefficients for soybean oil, peanut oil, and sunflower kernel oil using the PSO-LSSVM model were 0.9677, 0.9972, and 0.9953, respectively. Additionally, the mean square errors for these components were 0.0549, 0.0092, and 0.0471, respectively. These results indicate that the PSO-LSSVM model accurately detects the content of the three components of edible oil."
+    }
+]
